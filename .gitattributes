@@ -1,0 +1,5 @@
+* text=auto
+
+*.xml text eol=crlf
+*.md text eol=lf
+*.png binary
