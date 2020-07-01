@@ -5,18 +5,18 @@
             <Main>
                 <!-- Main Menu Entries -->
                 <Entries>
-                    <Item menuId="file" name="&amp;File"/>
-                    <Item menuId="edit" name="&amp;Edit"/>
-                    <Item menuId="search" name="&amp;Search"/>
-                    <Item menuId="view" name="&amp;View"/>
-                    <Item menuId="encoding" name="E&amp;ncoding"/>
-                    <Item menuId="language" name="&amp;Language"/>
-                    <Item menuId="settings" name="Se&amp;ttings"/>
-                    <Item menuId="tools" name="To&amp;ols"/>
-                    <Item menuId="macro" name="&amp;Macro"/>
-                    <Item menuId="run" name="&amp;Run"/>
-                    <Item idName="Plugins" name="&amp;Plugins"/>
-                    <Item idName="Window" name="&amp;Window"/>
+                    <Item menuId="file" name="檔案(&amp;F)"/>
+                    <Item menuId="edit" name="編輯(&amp;E)"/>
+                    <Item menuId="search" name="搵(&amp;S)"/>
+                    <Item menuId="view" name="睇(&amp;V)"/>
+                    <Item menuId="encoding" name="編碼(&amp;N)"/>
+                    <Item menuId="language" name="語言(&amp;L)"/>
+                    <Item menuId="settings" name="設定(&amp;T)"/>
+                    <Item menuId="tools" name="架撐(&amp;O)"/>
+                    <Item menuId="macro" name="Macro(&amp;M)"/>
+                    <Item menuId="run" name="執行(&amp;R)"/>
+                    <Item idName="Plugins" name="外掛(&amp;P)"/>
+                    <Item idName="Window" name="視窗(&amp;W)"/>
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
