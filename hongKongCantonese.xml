@@ -20,51 +20,51 @@
                 </Entries>
                 <!-- Sub Menu Entries -->
                 <SubEntries>
-                    <Item subMenuId="file-openFolder" name="Open Containing Folder"/>
-                    <Item subMenuId="file-closeMore" name="Close More"/>
-                    <Item subMenuId="file-recentFiles" name="&amp;Recent Files"/>
-                    <Item subMenuId="edit-copyToClipboard"  name="Copy to Clipboard"/>
-                    <Item subMenuId="edit-indent" name="Indent"/>
-                    <Item subMenuId="edit-convertCaseTo" name="Convert Case to"/>
-                    <Item subMenuId="edit-lineOperations" name="Line Operations"/>
-                    <Item subMenuId="edit-comment" name="Comment/Uncomment"/>
-                    <Item subMenuId="edit-autoCompletion" name="Auto-Completion"/>
-                    <Item subMenuId="edit-eolConversion" name="EOL Conversion"/>
-                    <Item subMenuId="edit-blankOperations" name="Blank Operations"/>
-                    <Item subMenuId="edit-pasteSpecial" name="Paste Special"/>
-                    <Item subMenuId="edit-onSelection" name="On Selection"/>
-                    <Item subMenuId="search-markAll" name="Mark All"/>
-                    <Item subMenuId="search-unmarkAll" name="Unmark All"/>
-                    <Item subMenuId="search-jumpUp" name="Jump Up"/>
-                    <Item subMenuId="search-jumpDown" name="Jump Down"/>
-                    <Item subMenuId="search-bookmark" name="Bookmark"/>
-                    <Item subMenuId="view-currentFileIn" name="View Current File in"/>
-                    <Item subMenuId="view-showSymbol"  name="Show Symbol"/>
-                    <Item subMenuId="view-zoom"  name="Zoom"/>
-                    <Item subMenuId="view-moveCloneDocument"  name="Move/Clone Current Document"/>
-                    <Item subMenuId="view-tab"  name="Tab"/>
-                    <Item subMenuId="view-collapseLevel" name="Collapse Level"/>
-                    <Item subMenuId="view-uncollapseLevel" name="Uncollapse Level"/>
-                    <Item subMenuId="view-project" name="Project"/>
-                    <Item subMenuId="encoding-characterSets"  name="Character Set"/>
-                    <Item subMenuId="encoding-arabic"  name="Arabic"/>
-                    <Item subMenuId="encoding-baltic"  name="Baltic"/>
-                    <Item subMenuId="encoding-celtic"  name="Celtic"/>
-                    <Item subMenuId="encoding-cyrillic"  name="Cyrillic"/>
-                    <Item subMenuId="encoding-centralEuropean"  name="Central European"/>
-                    <Item subMenuId="encoding-chinese"  name="Chinese"/>
-                    <Item subMenuId="encoding-easternEuropean"  name="Eastern European"/>
-                    <Item subMenuId="encoding-greek"  name="Greek"/>
-                    <Item subMenuId="encoding-hebrew"  name="Hebrew"/>
-                    <Item subMenuId="encoding-japanese"  name="Japanese"/>
-                    <Item subMenuId="encoding-korean" name="Korean"/>
-                    <Item subMenuId="encoding-northEuropean" name="North European"/>
-                    <Item subMenuId="encoding-thai" name="Thai"/>
-                    <Item subMenuId="encoding-turkish" name="Turkish"/>
-                    <Item subMenuId="encoding-westernEuropean" name="Western European"/>
-                    <Item subMenuId="encoding-vietnamese" name="Vietnamese"/>
-                    <Item subMenuId="language-userDefinedLanguage" name="User Defined Language"/>
-                    <Item subMenuId="settings-import" name="Import"/>
+                    <Item subMenuId="file-openFolder" name="打開檔案嘅資料夾"/>
+                    <Item subMenuId="file-closeMore" name="閂某啲檔案"/>
+                    <Item subMenuId="file-recentFiles" name="最近用過嘅檔案"/>
+                    <Item subMenuId="edit-copyToClipboard" name="複製去剪貼簿"/>
+                    <Item subMenuId="edit-indent" name="縮排"/>
+                    <Item subMenuId="edit-convertCaseTo" name="轉換大細楷"/>
+                    <Item subMenuId="edit-lineOperations" name="處理呢行"/>
+                    <Item subMenuId="edit-comment" name="註解"/>
+                    <Item subMenuId="edit-autoCompletion" name="自動完成"/>
+                    <Item subMenuId="edit-eolConversion" name="行尾格式"/>
+                    <Item subMenuId="edit-blankOperations" name="空格處理"/>
+                    <Item subMenuId="edit-pasteSpecial" name="特殊貼上"/>
+                    <Item subMenuId="edit-onSelection" name="處理揀咗嘅字元"/>
+                    <Item subMenuId="search-markAll" name="全部標記"/>
+                    <Item subMenuId="search-unmarkAll" name="去除標記"/>
+                    <Item subMenuId="search-jumpUp" name="上個標記"/>
+                    <Item subMenuId="search-jumpDown" name="下個標記"/>
+                    <Item subMenuId="search-bookmark" name="書籤"/>
+                    <Item subMenuId="view-currentFileIn" name="响...睇檔案"/>
+                    <Item subMenuId="view-showSymbol" name="特殊字元"/>
+                    <Item subMenuId="view-zoom" name="Zoom"/>
+                    <Item subMenuId="view-moveCloneDocument" name="移動/複製呢個檔案"/>
+                    <Item subMenuId="view-tab"  name="Tabs"/>
+                    <Item subMenuId="view-collapseLevel" name="摺埋幾層"/>
+                    <Item subMenuId="view-uncollapseLevel" name="展開幾層"/>
+                    <Item subMenuId="view-project" name="專案"/>
+                    <Item subMenuId="encoding-characterSets"  name="字元集"/>
+                    <Item subMenuId="encoding-arabic"  name="阿拉伯文"/>
+                    <Item subMenuId="encoding-baltic"  name="波羅的海文"/>
+                    <Item subMenuId="encoding-celtic"  name="些路迪文"/>
+                    <Item subMenuId="encoding-cyrillic"  name="斯拉夫文"/>
+                    <Item subMenuId="encoding-centralEuropean"  name="中歐語系"/>
+                    <Item subMenuId="encoding-chinese"  name="中文"/>
+                    <Item subMenuId="encoding-easternEuropean"  name="東歐語系"/>
+                    <Item subMenuId="encoding-greek"  name="希臘文"/>
+                    <Item subMenuId="encoding-hebrew"  name="希伯來文"/>
+                    <Item subMenuId="encoding-japanese"  name="日文"/>
+                    <Item subMenuId="encoding-korean" name="韓文"/>
+                    <Item subMenuId="encoding-northEuropean" name="北歐語系"/>
+                    <Item subMenuId="encoding-thai" name="泰文"/>
+                    <Item subMenuId="encoding-turkish" name="土耳其文"/>
+                    <Item subMenuId="encoding-westernEuropean" name="西歐語系"/>
+                    <Item subMenuId="encoding-vietnamese" name="越南文"/>
+                    <Item subMenuId="language-userDefinedLanguage" name="自定義程式語言"/>
+                    <Item subMenuId="settings-import" name="匯入"/>
                     <Item subMenuId="tools-md5" name="MD5"/>
                     <Item subMenuId="tools-sha256" name="SHA-256"/>
                 </SubEntries>
