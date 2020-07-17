@@ -71,31 +71,34 @@
 
                 <!-- all menu item -->
                 <Commands>
-                    <Item id="41001" name="&amp;New"/>
-                    <Item id="41002" name="&amp;Open"/>
-                    <Item id="41019" name="Explorer"/>
-                    <Item id="41020" name="cmd"/>
-                    <Item id="41003" name="&amp;Close"/>
-                    <Item id="41004" name="Clos&amp;e All"/>
-                    <Item id="41005" name="Close All BUT Current Document"/>
-                    <Item id="41009" name="Close All to the Left"/>
-                    <Item id="41018" name="Close All to the Right"/>
-                    <Item id="41024" name="Close All Unchanged"/>
-                    <Item id="41006" name="&amp;Save"/>
-                    <Item id="41007" name="Sav&amp;e All"/>
-                    <Item id="41008" name="Save &amp;As..."/>
-                    <Item id="41010" name="Print..."/>
-                    <Item id="1001"  name="Print Now"/>
-                    <Item id="41011" name="E&amp;xit"/>
-                    <Item id="41012" name="Load Session..."/>
-                    <Item id="41013" name="Save Session..."/>
-                    <Item id="41014" name="Re&amp;load from Disk"/>
-                    <Item id="41015" name="Save a Copy As..."/>
-                    <Item id="41016" name="Move to Recycle Bin"/>
-                    <Item id="41017" name="Rename..."/>
-                    <Item id="41021" name="Restore Recent Closed File"/>
-                    <Item id="41022" name="Open Folder as Workspace..."/>
-                    <Item id="41023" name="Open in Default Viewer"/>
+                    <Item id="41001" name="開新(&amp;N)"/>
+                    <Item id="41002" name="打開舊檔(&amp;O)..."/>
+                    <Item id="41019" name="檔案總管"/>
+                    <Item id="41020" name="CMD"/>
+                    <Item id="41003" name="閂埋呢個檔案(&amp;C)"/>
+                    <Item id="41004" name="閂晒全部檔案(&amp;E)"/>
+                    <Item id="41005" name="除咗呢個檔案之外，閂晒其它呿"/>
+                    <Item id="41009" name="閂晒左邊所有檔案"/>
+                    <Item id="41018" name="閂晒右邊所有檔案"/>
+                    <Item id="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
+                    <Item id="41006" name="Save 呢個檔案(&amp;S)"/>
+                    <Item id="41007" name="Save 晒全部檔案(&amp;E)"/>
+                    <Item id="41008" name="Save 做新檔案(&amp;A)..."/>
+                    <Item id="41010" name="Print 嘢(&amp;P)..."/>
+                    <Item id="1001"  name="即刻 print 佢出嚟"/>
+                    <Item id="41011" name="散水(&amp;X)"/>
+                    <Item id="41012" name="開番個工作階段出嚟..."/>
+                    <Item id="41013" name="Save 低個工作階段..."/>
+                    <Item id="41014" name="响磁碟重新 load 過(&amp;L)"/>
+                    <Item id="41015" name="另抄一份..."/>
+                    <Item id="41016" name="掉去垃圾桶"/>
+                    <Item id="41017" name="改名..."/>
+                    <Item id="41021" name="重新打開閂咗嘅檔案"/>
+                    <Item id="41022" name="响工作區打開資料夾(&amp;W)..."/>
+                    <Item id="41023" name="响系統預設程式打開"/>
+
+                    <!-- #todo start here -->
+
                     <Item id="42001" name="Cu&amp;t"/>
                     <Item id="42002" name="&amp;Copy"/>
                     <Item id="42003" name="&amp;Undo"/>
@@ -324,8 +327,8 @@
                     <Item id="50005" name="Toggle macro record"/>
                     <Item id="50006" name="Path Completion"/>
                     <Item id="44042" name="Hide Lines"/>
-                    <Item id="42040" name="Open All Recent Files"/>
-                    <Item id="42041" name="Empty Recent Files List"/>
+                    <Item id="42040" name="打開所有近期嘅檔案"/>
+                    <Item id="42041" name="摌晒上面嗰啲近期檔案清單"/>
                     <Item id="48016" name="Modify Shortcut/Delete Macro..."/>
                     <Item id="48017" name="Modify Shortcut/Delete Command..."/>
                 </Commands>
