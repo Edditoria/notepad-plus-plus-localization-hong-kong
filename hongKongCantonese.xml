@@ -71,6 +71,8 @@
 
                 <!-- all menu item -->
                 <Commands>
+
+                    <!-- menu: File -->
                     <Item id="41001" name="開新(&amp;N)"/>
                     <Item id="41002" name="打開舊檔(&amp;O)..."/>
                     <Item id="41019" name="檔案總管"/>
@@ -97,44 +99,45 @@
                     <Item id="41022" name="响工作區打開資料夾(&amp;W)..."/>
                     <Item id="41023" name="响系統預設程式打開"/>
 
-                    <!-- #todo start here -->
+                    <!-- menu: Edit -->
+                    <Item id="42001" name="剪低(&amp;T)"/>
+                    <Item id="42002" name="複製(&amp;C)"/>
+                    <Item id="42003" name="還原(&amp;U)"/>
+                    <Item id="42004" name="重做(&amp;R)"/>
+                    <Item id="42005" name="貼上(&amp;P)"/>
+                    <Item id="42006" name="Delete (&amp;D)"/>
+                    <Item id="42007" name="揀晒全部(&amp;A)"/>
+                    <Item id="42020" name="開始揀/揀完"/>
+                    <Item id="42008" name="增加縮排"/>
+                    <Item id="42009" name="減少縮排"/>
+                    <Item id="42010" name="重複呢行"/>
+                    <Item id="42077" name="摌走連續又重複呢（幾）行"/>
+                    <Item id="42012" name="分割呢行"/>
+                    <Item id="42013" name="合併呢（幾）行"/>
+                    <Item id="42014" name="移呢行上去"/>
+                    <Item id="42015" name="移呢行落去"/>
+                    <Item id="42059" name="跟字母排"/>
+                    <Item id="42060" name="跟字母調轉咁排"/>
+                    <Item id="42061" name="跟整數排"/>
+                    <Item id="42062" name="跟整數調轉咁排"/>
+                    <Item id="42063" name="跟小數位排（「,」當做小數點）"/>
+                    <Item id="42064" name="跟小數位調轉咁排（「,」當做小數點）"/>
+                    <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
+                    <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
+                    <Item id="42016" name="轉大楷(&amp;U)"/>
+                    <Item id="42017" name="轉細楷(&amp;L)"/>
+                    <Item id="42067" name="每個單字字首大楷，其它細楷(&amp;P)"/>
+                    <Item id="42068" name="每個單字字首大楷，其它唔變"/>
+                    <Item id="42069" name="每句第一個字大楷，其它細楷(&amp;S)"/>
+                    <Item id="42070" name="每句第一個字大楷，其它唔變"/>
+                    <Item id="42071" name="調轉晒啲大細楷呿(&amp;I)"/>
+                    <Item id="42072" name="求其咁轉大細楷(&amp;R)"/>
+                    <Item id="42073" name="打開檔案"/>
+                    <Item id="42074" name="响檔案總管打開資料夾"/>
+                    <Item id="42075" name="上網搵吓"/>
+                    <Item id="42076" name="換嗰個搜尋器..."/>
 
-                    <Item id="42001" name="Cu&amp;t"/>
-                    <Item id="42002" name="&amp;Copy"/>
-                    <Item id="42003" name="&amp;Undo"/>
-                    <Item id="42004" name="&amp;Redo"/>
-                    <Item id="42005" name="&amp;Paste"/>
-                    <Item id="42006" name="&amp;Delete"/>
-                    <Item id="42007" name="Select A&amp;ll"/>
-                    <Item id="42020" name="Begin/End Select"/>
-                    <Item id="42008" name="Increase Line Indent"/>
-                    <Item id="42009" name="Decrease Line Indent"/>
-                    <Item id="42010" name="Duplicate Current Line"/>
-                    <Item id="42077" name="Remove Consecutive Duplicate Lines"/>
-                    <Item id="42012" name="Split Lines"/>
-                    <Item id="42013" name="Join Lines"/>
-                    <Item id="42014" name="Move Up Current Line"/>
-                    <Item id="42015" name="Move Down Current Line"/>
-                    <Item id="42059" name="Sort Lines Lexicographically Ascending"/>
-                    <Item id="42060" name="Sort Lines Lexicographically Descending"/>
-                    <Item id="42061" name="Sort Lines As Integers Ascending"/>
-                    <Item id="42062" name="Sort Lines As Integers Descending"/>
-                    <Item id="42063" name="Sort Lines As Decimals (Comma) Ascending"/>
-                    <Item id="42064" name="Sort Lines As Decimals (Comma) Descending"/>
-                    <Item id="42065" name="Sort Lines As Decimals (Dot) Ascending"/>
-                    <Item id="42066" name="Sort Lines As Decimals (Dot) Descending"/>
-                    <Item id="42016" name="&amp;UPPERCASE"/>
-                    <Item id="42017" name="&amp;lowercase"/>
-                    <Item id="42067" name="&amp;Proper Case"/>
-                    <Item id="42068" name="Proper Case (blend)"/>
-                    <Item id="42069" name="&amp;Sentence case"/>
-                    <Item id="42070" name="Sentence case (blend)"/>
-                    <Item id="42071" name="&amp;iNVERT cASE"/>
-                    <Item id="42072" name="&amp;ranDOm CasE"/>
-                    <Item id="42073" name="Open File"/>
-                    <Item id="42074" name="Open Containing Folder in Explorer"/>
-                    <Item id="42075" name="Search on Internet"/>
-                    <Item id="42076" name="Change Search Engine..."/>
+                    <!-- menu: Macro -->
                     <Item id="42018" name="Start Re&amp;cording"/>
                     <Item id="42019" name="S&amp;top Recording"/>
                     <Item id="42021" name="&amp;Playback"/>
