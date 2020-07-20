@@ -190,57 +190,57 @@
                     <Item id="42058" name="响下面加一行"/>
 
                     <!-- menu: Search -->
-                    <Item id="43001" name="&amp;Find..."/>
-                    <Item id="43002" name="Find &amp;Next"/>
-                    <Item id="43003" name="&amp;Replace..."/>
-                    <Item id="43004" name="&amp;Go to..."/>
-                    <Item id="43005" name="Toggle Bookmark"/>
-                    <Item id="43006" name="Next Bookmark"/>
-                    <Item id="43007" name="Previous Bookmark"/>
-                    <Item id="43008" name="Clear All Bookmarks"/>
-                    <Item id="43018" name="Cut Bookmarked Lines"/>
-                    <Item id="43019" name="Copy Bookmarked Lines"/>
-                    <Item id="43020" name="Paste to (Replace) Bookmarked Lines"/>
-                    <Item id="43021" name="Remove Bookmarked Lines"/>
-                    <Item id="43051" name="Remove Unmarked Lines"/>
-                    <Item id="43050" name="Inverse Bookmark"/>
-                    <Item id="43052" name="Find characters in range..."/>
-                    <Item id="43053" name="Select All Between Matching Braces"/>
-                    <Item id="43009" name="Go to Matching Brace"/>
-                    <Item id="43010" name="Find &amp;Previous"/>
-                    <Item id="43011" name="&amp;Incremental Search"/>
-                    <Item id="43013" name="Find in Files"/>
-                    <Item id="43014" name="Find (Volatile) Next"/>
-                    <Item id="43015" name="Find (Volatile) Previous"/>
-                    <Item id="43022" name="Using 1st Style"/>
-                    <Item id="43023" name="Clear 1st Style"/>
-                    <Item id="43024" name="Using 2nd Style"/>
-                    <Item id="43025" name="Clear 2nd Style"/>
-                    <Item id="43026" name="Using 3rd Style"/>
-                    <Item id="43027" name="Clear 3rd Style"/>
-                    <Item id="43028" name="Using 4th Style"/>
-                    <Item id="43029" name="Clear 4th Style"/>
-                    <Item id="43030" name="Using 5th Style"/>
-                    <Item id="43031" name="Clear 5th Style"/>
-                    <Item id="43032" name="Clear All Styles"/>
-                    <Item id="43033" name="1st style"/>
-                    <Item id="43034" name="2nd style"/>
-                    <Item id="43035" name="3rd style"/>
-                    <Item id="43036" name="4th style"/>
-                    <Item id="43037" name="5th style"/>
-                    <Item id="43038" name="Find style"/>
-                    <Item id="43039" name="1st style"/>
-                    <Item id="43040" name="2nd style"/>
-                    <Item id="43041" name="3rd style"/>
-                    <Item id="43042" name="4th style"/>
-                    <Item id="43043" name="5th style"/>
-                    <Item id="43044" name="Find style"/>
-                    <Item id="43045" name="Search Results Window"/>
-                    <Item id="43046" name="Next Search Result"/>
-                    <Item id="43047" name="Previous Search Result"/>
-                    <Item id="43048" name="Select and Find Next"/>
-                    <Item id="43049" name="Select and Find Previous"/>
-                    <Item id="43054" name="Mar&amp;k..."/>
+                    <Item id="43001" name="搵(&amp;F)..."/>
+                    <Item id="43002" name="搵下一個(&amp;N)"/>
+                    <Item id="43003" name="取代(&amp;R)..."/>
+                    <Item id="43004" name="跳去(&amp;G)..."/>
+                    <Item id="43005" name="加書籤/拎走書籤"/>
+                    <Item id="43006" name="下個書籤"/>
+                    <Item id="43007" name="上個書籤"/>
+                    <Item id="43008" name="清晒啲書籤呿"/>
+                    <Item id="43018" name="剪低書籤嗰幾行"/>
+                    <Item id="43019" name="抄低書籤嗰幾行"/>
+                    <Item id="43020" name="貼去兼取代書籤嗰幾行"/>
+                    <Item id="43021" name="摌走書籤嗰幾行"/>
+                    <Item id="43051" name="摌走冇書籤標記嗰幾行"/>
+                    <Item id="43050" name="反向標記書籤"/>
+                    <Item id="43052" name="以字元編號搵字元..."/>
+                    <Item id="43053" name="揀選括號之間所有嘅字元"/>
+                    <Item id="43009" name="跳去對應括號"/>
+                    <Item id="43010" name="搵上一個(&amp;P)"/>
+                    <Item id="43011" name="遞增式咁搵(&amp;I)..."/>
+                    <Item id="43013" name="响一乍檔案搵"/>
+                    <Item id="43014" name="㨂字然後搵下個（唔記錄關鍵字）"/>
+                    <Item id="43015" name="㨂字然後搵上個（唔記錄關鍵字）"/>
+                    <Item id="43022" name="使用格式一嘅顏色"/>
+                    <Item id="43023" name="清除格式一嘅顏色"/>
+                    <Item id="43024" name="使用格式二嘅顏色"/>
+                    <Item id="43025" name="清除格式二嘅顏色"/>
+                    <Item id="43026" name="使用格式三嘅顏色"/>
+                    <Item id="43027" name="清除格式三嘅顏色"/>
+                    <Item id="43028" name="使用格式四嘅顏色"/>
+                    <Item id="43029" name="清除格式四嘅顏色"/>
+                    <Item id="43030" name="使用格式五嘅顏色"/>
+                    <Item id="43031" name="清除格式五嘅顏色"/>
+                    <Item id="43032" name="清除所有格式嘅顏色"/>
+                    <Item id="43033" name="格式一"/>
+                    <Item id="43034" name="格式二"/>
+                    <Item id="43035" name="格式三"/>
+                    <Item id="43036" name="格式四"/>
+                    <Item id="43037" name="格式五"/>
+                    <Item id="43038" name="搵格式"/>
+                    <Item id="43039" name="格式一"/>
+                    <Item id="43040" name="格式二"/>
+                    <Item id="43041" name="格式三"/>
+                    <Item id="43042" name="格式四"/>
+                    <Item id="43043" name="格式五"/>
+                    <Item id="43044" name="搵格式"/>
+                    <Item id="43045" name="顯示搜尋結果視窗"/>
+                    <Item id="43046" name="下一個搜尋結果"/>
+                    <Item id="43047" name="上一個搜尋結果"/>
+                    <Item id="43048" name="揀字然後搵下個"/>
+                    <Item id="43049" name="揀字然後搵上個"/>
+                    <Item id="43054" name="標記(&amp;K)..."/>
                     <Item id="44009" name="Post-It"/>
                     <Item id="44010" name="Fold All"/>
                     <Item id="44019" name="Show All Characters"/>
