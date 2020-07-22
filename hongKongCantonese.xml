@@ -308,10 +308,10 @@
                     <Item id="45056" name="OEM 863: French"/>
 
                     <!-- menu: View (cont'd) -->
-                    <Item id="10001" name="Move to Other View"/>
-                    <Item id="10002" name="Clone to Other View"/>
-                    <Item id="10003" name="Move to New Instance"/>
-                    <Item id="10004" name="Open in New Instance"/>
+                    <Item id="10001" name="搬呢個檔案去另一邊視窗"/>
+                    <Item id="10002" name="抄呢個檔案去另一邊視窗"/>
+                    <Item id="10003" name="搬呢個檔案去新視窗"/>
+                    <Item id="10004" name="抄呢個檔案去新視窗"/>
 
                     <!-- menu: Settings -->
                     <Item id="46001" name="Style Configurator..."/>
@@ -369,7 +369,7 @@
                     <Item id="50006" name="自動完成文件路徑"/>
 
                     <!-- menu: View -->
-                    <Item id="44042" name="Hide Lines"/>
+                    <Item id="44042" name="隱藏呢（幾）行"/>
 
                     <!-- menu: File (cont'd) -->
                     <Item id="42040" name="打開所有近期嘅檔案"/>
