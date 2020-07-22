@@ -168,8 +168,8 @@
                     <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
 
                     <!-- menu: View -->
-                    <Item id="42026" name="Text Direction RTL"/>
-                    <Item id="42027" name="Text Direction LTR"/>
+                    <Item id="42026" name="文字方向：右至左"/>
+                    <Item id="42027" name="文字方向：左至右"/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="42028" name="將檔案 set 做唯讀"/>
@@ -242,47 +242,47 @@
                     <Item id="43049" name="揀字然後搵上個"/>
                     <Item id="43054" name="標記(&amp;K)..."/>
 
-                    <!-- menu: View -->
-                    <Item id="44009" name="Post-It"/>
-                    <Item id="44010" name="Fold All"/>
-                    <Item id="44019" name="Show All Characters"/>
-                    <Item id="44020" name="Show Indent Guide"/>
-                    <Item id="44022" name="Word wrap"/>
-                    <Item id="44023" name="Zoom &amp;In (Ctrl+Mouse Wheel Up)"/>
-                    <Item id="44024" name="Zoom &amp;Out (Ctrl+Mouse Wheel Down)"/>
-                    <Item id="44025" name="Show White Space and TAB"/>
-                    <Item id="44026" name="Show End of Line"/>
-                    <Item id="44029" name="Unfold All"/>
-                    <Item id="44030" name="Collapse Current Level"/>
-                    <Item id="44031" name="Uncollapse Current Level"/>
-                    <Item id="44049" name="Summary..."/>
-                    <Item id="44080" name="Document Map"/>
-                    <Item id="44084" name="Function List"/>
-                    <Item id="44085" name="Folder as Workspace"/>
-                    <Item id="44086" name="1st Tab"/>
-                    <Item id="44087" name="2nd Tab"/>
-                    <Item id="44088" name="3rd Tab"/>
-                    <Item id="44089" name="4th Tab"/>
-                    <Item id="44090" name="5th Tab"/>
-                    <Item id="44091" name="6th Tab"/>
-                    <Item id="44092" name="7th Tab"/>
-                    <Item id="44093" name="8th Tab"/>
-                    <Item id="44094" name="9th Tab"/>
-                    <Item id="44095" name="Next Tab"/>
-                    <Item id="44096" name="Previous Tab"/>
-                    <Item id="44097" name="Monitoring (tail -f)"/>
-                    <Item id="44098" name="Move Tab Forward"/>
-                    <Item id="44099" name="Move Tab Backward"/>
-                    <Item id="44032" name="Toggle Full Screen Mode"/>
-                    <Item id="44033" name="Restore Default Zoom"/>
-                    <Item id="44034" name="Always on Top"/>
-                    <Item id="44035" name="Synchronise Vertical Scrolling"/>
-                    <Item id="44036" name="Synchronise Horizontal Scrolling"/>
-                    <Item id="44041" name="Show Wrap Symbol"/>
-                    <Item id="44072" name="Focus on Another View"/>
-                    <Item id="44081" name="Project Panel 1"/>
-                    <Item id="44082" name="Project Panel 2"/>
-                    <Item id="44083" name="Project Panel 3"/>
+                    <!-- menu: View (cont'd) -->
+                    <Item id="44009" name="Post-It 便利貼模式"/>
+                    <Item id="44010" name="摺𠹺所有層級"/>
+                    <Item id="44019" name="顯示所有字元"/>
+                    <Item id="44020" name="顯示縮排輔助線"/>
+                    <Item id="44022" name="自動換行"/>
+                    <Item id="44023" name="放大(&amp;I)"/>
+                    <Item id="44024" name="縮細(&amp;O)"/>
+                    <Item id="44025" name="顯示空格同 tab"/>
+                    <Item id="44026" name="顯示 EOL 字元 (End of Line)"/>
+                    <Item id="44029" name="摺開所有層級"/>
+                    <Item id="44030" name="摺𠹺呢層"/>
+                    <Item id="44031" name="摺開呢層"/>
+                    <Item id="44049" name="統計資料..."/>
+                    <Item id="44080" name="文件地圖"/>
+                    <Item id="44084" name="函式清單"/>
+                    <Item id="44085" name="資料夾工作區"/>
+                    <Item id="44086" name="1st"/>
+                    <Item id="44087" name="2nd"/>
+                    <Item id="44088" name="3rd"/>
+                    <Item id="44089" name="4th"/>
+                    <Item id="44090" name="5th"/>
+                    <Item id="44091" name="6th"/>
+                    <Item id="44092" name="7th"/>
+                    <Item id="44093" name="8th"/>
+                    <Item id="44094" name="9th"/>
+                    <Item id="44095" name="下個 tab"/>
+                    <Item id="44096" name="上個 tab"/>
+                    <Item id="44097" name="監視模式 (tail --follow)"/>
+                    <Item id="44098" name="向前移個 tab"/>
+                    <Item id="44099" name="向後移個 tab"/>
+                    <Item id="44032" name="全螢幕模式"/>
+                    <Item id="44033" name="回復預設 zoom 大細"/>
+                    <Item id="44034" name="保持最上層"/>
+                    <Item id="44035" name="同步轆兩邊檔案：垂直轆"/>
+                    <Item id="44036" name="同步轆兩邊檔案：打橫轆"/>
+                    <Item id="44041" name="顯示換行符號"/>
+                    <Item id="44072" name="主副視窗切換"/>
+                    <Item id="44081" name="Project 面版 1"/>
+                    <Item id="44082" name="Project 面版 2"/>
+                    <Item id="44083" name="Project 面版 3"/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="45001" name="Windows (CR LF)"/>
