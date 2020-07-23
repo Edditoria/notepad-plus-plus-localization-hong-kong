@@ -291,21 +291,21 @@
 
                     <!-- menu: Encoding -->
                     <Item id="45004" name="ANSI"/>
-                    <Item id="45005" name="UTF-8-BOM"/>
-                    <Item id="45006" name="UCS-2 BE BOM"/>
-                    <Item id="45007" name="UCS-2 LE BOM"/>
+                    <Item id="45005" name="UTF-8 with BOM"/>
+                    <Item id="45006" name="UCS-2BE"/>
+                    <Item id="45007" name="UCS-2LE"/>
                     <Item id="45008" name="UTF-8"/>
-                    <Item id="45009" name="Convert to ANSI"/>
-                    <Item id="45010" name="Convert to UTF-8"/>
-                    <Item id="45011" name="Convert to UTF-8-BOM"/>
-                    <Item id="45012" name="Convert to UCS-2 BE BOM"/>
-                    <Item id="45013" name="Convert to UCS-2 LE BOM"/>
-                    <Item id="45060" name="Big5 (Traditional)"/>
-                    <Item id="45061" name="GB2312 (Simplified)"/>
-                    <Item id="45054" name="OEM 861: Icelandic"/>
-                    <Item id="45057" name="OEM 865: Nordic"/>
-                    <Item id="45053" name="OEM 860: Portuguese"/>
-                    <Item id="45056" name="OEM 863: French"/>
+                    <Item id="45009" name="轉換成 ANSI"/>
+                    <Item id="45010" name="轉換成 UTF-8"/>
+                    <Item id="45011" name="轉換成 UTF-8 (with BOM)"/>
+                    <Item id="45012" name="轉換成 UCS-2 BE"/>
+                    <Item id="45013" name="轉換成 UCS-2 LE"/>
+                    <Item id="45060" name="Big5（正體中文）"/>
+                    <Item id="45061" name="GB2312（簡體中文）"/>
+                    <Item id="45054" name="OEM 861: 冰島文"/>
+                    <Item id="45057" name="OEM 865: 北歐語系"/>
+                    <Item id="45053" name="OEM 860: 葡萄牙文"/>
+                    <Item id="45056" name="OEM 863: 法文"/>
 
                     <!-- menu: View (cont'd) -->
                     <Item id="10001" name="搬呢個檔案去另一邊視窗"/>
