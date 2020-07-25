@@ -317,9 +317,9 @@
                     <Item id="46001" name="Style Configurator..."/>
 
                     <!-- menu: Language -->
-                    <Item id="46250" name="Define your language..."/>
-                    <Item id="46300" name="Open User Defined Language folder..."/>
-                    <Item id="46180" name="User-Defined"/>
+                    <Item id="46250" name="定義你嘅程式語言..."/>
+                    <Item id="46300" name="打開自定義程式語言嘅資料夾..."/>
+                    <Item id="46180" name="通用自定義設定"/>
 
                     <!-- menu: Help -->
                     <Item id="47000" name="About Notepad++"/>
