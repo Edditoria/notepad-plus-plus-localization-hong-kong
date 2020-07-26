@@ -314,7 +314,7 @@
                     <Item id="10004" name="抄呢個檔案去新視窗"/>
 
                     <!-- menu: Settings -->
-                    <Item id="46001" name="Style Configurator..."/>
+                    <Item id="46001" name="主題風格設定..."/>
 
                     <!-- menu: Language -->
                     <Item id="46250" name="定義你嘅程式語言..."/>
@@ -338,11 +338,11 @@
                     <Item id="47009" name="Set Updater Proxy..."/>
 
                     <!-- menu: Settings (cont'd) -->
-                    <Item id="48005" name="Import plugin(s)..."/>
-                    <Item id="48006" name="Import style theme(s)..."/>
-                    <Item id="48018" name="Edit Popup ContextMenu"/>
-                    <Item id="48009" name="Shortcut Mapper..."/>
-                    <Item id="48011" name="Preferences..."/>
+                    <Item id="48005" name="匯入外掛..."/>
+                    <Item id="48006" name="匯入主題風格..."/>
+                    <Item id="48018" name="俢改快顯功能表"/>
+                    <Item id="48009" name="管理快捷鍵..."/>
+                    <Item id="48011" name="偏好設定..."/>
 
                     <!-- menu: Plugins -->
                     <Item id="48014" name="Open Plugins Folder..."/>
