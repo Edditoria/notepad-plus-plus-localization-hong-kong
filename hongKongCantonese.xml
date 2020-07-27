@@ -357,7 +357,7 @@
                     <Item id="48506" name="運算揀咗嘅字再抄去剪貼簿"/>
 
                     <!-- menu: Run -->
-                    <Item id="49000" name="&amp;Run..."/>
+                    <Item id="49000" name="執行(&amp;R)..."/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="50000" name="自動完成函數"/>
@@ -382,7 +382,7 @@
                     <Item id="48016" name="修改快捷鍵或者摌走 Macro..."/>
 
                     <!-- menu: Run (cont'd) -->
-                    <Item id="48017" name="Modify Shortcut/Delete Command..."/>
+                    <Item id="48017" name="修改快捷鍵或者摌走執行指令..."/>
                 </Commands>
             </Main>
             <Splitter>
