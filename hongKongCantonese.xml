@@ -348,12 +348,15 @@
                     <Item id="48014" name="Open Plugins Folder..."/>
                     <Item id="48015" name="Plugins Admin..."/>
 
-                    <Item id="48501" name="Generate..."/>
-                    <Item id="48502" name="Generate from files..."/>
-                    <Item id="48503" name="Generate from selection into clipboard"/>
-                    <Item id="48504" name="Generate..."/>
-                    <Item id="48505" name="Generate from files..."/>
-                    <Item id="48506" name="Generate from selection into clipboard"/>
+                    <!-- menu: Tools -->
+                    <Item id="48501" name="運算..."/>
+                    <Item id="48502" name="運算檔案..."/>
+                    <Item id="48503" name="運算揀咗嘅字再抄去剪貼簿"/>
+                    <Item id="48504" name="運算..."/>
+                    <Item id="48505" name="運算檔案..."/>
+                    <Item id="48506" name="運算揀咗嘅字再抄去剪貼簿"/>
+
+                    <!-- menu: Run -->
                     <Item id="49000" name="&amp;Run..."/>
 
                     <!-- menu: Edit (cont'd) -->
