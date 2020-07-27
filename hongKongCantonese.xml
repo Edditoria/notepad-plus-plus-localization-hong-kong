@@ -138,9 +138,9 @@
                     <Item id="42076" name="換嗰個搜尋器..."/>
 
                     <!-- menu: Macro -->
-                    <Item id="42018" name="Start Re&amp;cording"/>
-                    <Item id="42019" name="S&amp;top Recording"/>
-                    <Item id="42021" name="&amp;Playback"/>
+                    <Item id="42018" name="開始錄影(&amp;C)"/>
+                    <Item id="42019" name="停止錄影(&amp;T)"/>
+                    <Item id="42021" name="執行(&amp;P)"/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="42022" name="轉做/取消單行式註解"/>
@@ -165,7 +165,7 @@
                     <Item id="42052" name="打開面板：剪貼簿記錄"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="42025" name="&amp;Save Currently Recorded Macro..."/>
+                    <Item id="42025" name="Save 低啱啱錄影嘅 Macro (&amp;S)..."/>
 
                     <!-- menu: View -->
                     <Item id="42026" name="文字方向：右至左"/>
@@ -178,7 +178,7 @@
                     <Item id="42031" name="資料夾路徑 -> 剪貼簿"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="42032" name="&amp;Run a Macro Multiple Times..."/>
+                    <Item id="42032" name="喺咁執行 Macro (&amp;R)..."/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="42033" name="取消唯讀屬性"/>
@@ -379,7 +379,7 @@
                     <Item id="42041" name="摌晒上面嗰啲近期檔案清單"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="48016" name="Modify Shortcut/Delete Macro..."/>
+                    <Item id="48016" name="修改快捷鍵或者摌走 Macro..."/>
 
                     <!-- menu: Run (cont'd) -->
                     <Item id="48017" name="Modify Shortcut/Delete Command..."/>
