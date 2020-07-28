@@ -322,20 +322,20 @@
                     <Item id="46180" name="通用自定義設定"/>
 
                     <!-- menu: Help -->
-                    <Item id="47000" name="About Notepad++"/>
-                    <Item id="47010" name="Command Line Arguments..."/>
-                    <Item id="47001" name="Notepad++ Home"/>
-                    <Item id="47002" name="Notepad++ Project Page"/>
-                    <Item id="47003" name="Online Documentation"/>
-                    <Item id="47004" name="Notepad++ Community (Forum)"/>
-                    <Item id="47011" name="Live Support"/>
-                    <Item id="47012" name="Debug Info..."/>
+                    <Item id="47000" name="關於 Notepad++"/>
+                    <Item id="47010" name="Command line 參數..."/>
+                    <Item id="47001" name="Notepad++ 官方網站"/>
+                    <Item id="47002" name="Notepad++ 開發源碼網站"/>
+                    <Item id="47003" name="線上文件"/>
+                    <Item id="47004" name="Notepad++ 社群論壇"/>
+                    <Item id="47011" name="技術支援聊天室"/>
+                    <Item id="47012" name="除錯資訊 (debug info)..."/>
 
                     <Item id="47005" name="Get More Plugins"/>
 
                     <!-- menu: Help (cont'd) -->
-                    <Item id="47006" name="Update Notepad++"/>
-                    <Item id="47009" name="Set Updater Proxy..."/>
+                    <Item id="47006" name="更新 Notepad++"/>
+                    <Item id="47009" name="設定更新程式嘅代理伺服器..."/>
 
                     <!-- menu: Settings (cont'd) -->
                     <Item id="48005" name="匯入外掛..."/>
