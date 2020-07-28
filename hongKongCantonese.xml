@@ -345,8 +345,8 @@
                     <Item id="48011" name="偏好設定..."/>
 
                     <!-- menu: Plugins -->
-                    <Item id="48014" name="Open Plugins Folder..."/>
-                    <Item id="48015" name="Plugins Admin..."/>
+                    <Item id="48014" name="打開外掛資料夾..."/>
+                    <Item id="48015" name="外掛管理..."/>
 
                     <!-- menu: Tools -->
                     <Item id="48501" name="運算..."/>
