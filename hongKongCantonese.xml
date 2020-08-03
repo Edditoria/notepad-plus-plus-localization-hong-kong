@@ -457,16 +457,16 @@
                 <Item id="1723" name="▼ 搵下一個"/>
             </Find>
 
-            <FindCharsInRange title="Find Characters in Range...">
-                <Item id="2" name="Close"/>
-                <Item id="2901" name="Non-ASCII Characters (128-255)"/>
-                <Item id="2902" name="ASCII Characters (0-127)"/>
-                <Item id="2903" name="My range:"/>
-                <Item id="2906" name="&amp;Up"/>
-                <Item id="2907" name="&amp;Down"/>
-                <Item id="2908" name="Direction"/>
-                <Item id="2909" name="Wra&amp;p around"/>
-                <Item id="2910" name="Find"/>
+            <FindCharsInRange title="以字元編號搵字元...">
+                <Item id="2" name="閂"/>
+                <Item id="2901" name="非 ASCII 字元 (128-255)"/>
+                <Item id="2902" name="ASCII 字元 (0-127)"/>
+                <Item id="2903" name="自定義範圍："/>
+                <Item id="2906" name="向上(&amp;U)"/>
+                <Item id="2907" name="向下(&amp;D)"/>
+                <Item id="2908" name="方向"/>
+                <Item id="2909" name="循環(&amp;D)"/>
+                <Item id="2910" name="搵"/>
             </FindCharsInRange>
 
             <GoToLine title="Go to...">
