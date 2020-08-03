@@ -479,11 +479,11 @@
                 <Item id="2006" name="去到盡喺呢度："/>
             </GoToLine>
 
-            <Run title="Run...">
-                <Item id="1903" name="The Program to Run"/>
-                <Item id="1"    name="Run"/>
-                <Item id="2"    name="Cancel"/>
-                <Item id="1904" name="Save..."/>
+            <Run title="執行...">
+                <Item id="1903" name="行乜嘢程式"/>
+                <Item id="1"    name="執行"/>
+                <Item id="2"    name="取消"/>
+                <Item id="1904" name="儲存..."/>
             </Run>
 
             <MD5FromFilesDlg title="Generate MD5 digest from files">
