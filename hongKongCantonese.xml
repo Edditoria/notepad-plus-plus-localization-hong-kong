@@ -469,14 +469,14 @@
                 <Item id="2910" name="搵"/>
             </FindCharsInRange>
 
-            <GoToLine title="Go to...">
-                <Item id="2007" name="&amp;Line"/>
-                <Item id="2008" name="&amp;Offset"/>
-                <Item id="1"    name="Go"/>
-                <Item id="2"    name="I'm going nowhere"/>
-                <Item id="2004" name="You are here:"/>
-                <Item id="2005" name="You want to go to:"/>
-                <Item id="2006" name="You can't go further than:"/>
+            <GoToLine title="跳去'...">
+                <Item id="2007" name="行號(&amp;L)"/>
+                <Item id="2008" name="字元位置(&amp;O)"/>
+                <Item id="1"    name="過去"/>
+                <Item id="2"    name="邊度都唔去"/>
+                <Item id="2004" name="你响呢度："/>
+                <Item id="2005" name="你想去："/>
+                <Item id="2006" name="去到盡喺呢度："/>
             </GoToLine>
 
             <Run title="Run...">
