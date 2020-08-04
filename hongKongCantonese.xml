@@ -486,28 +486,28 @@
                 <Item id="1904" name="儲存..."/>
             </Run>
 
-            <MD5FromFilesDlg title="Generate MD5 digest from files">
-                <Item id="1922" name="Choose files to generate MD5..."/>
-                <Item id="1924" name="Copy to Clipboard"/>
-                <Item id="2"    name="Close"/>
+            <MD5FromFilesDlg title="運算檔案嘅 MD5">
+                <Item id="1922" name="揀一個／一乍檔案..."/>
+                <Item id="1924" name="抄去剪貼簿"/>
+                <Item id="2"    name="閂"/>
             </MD5FromFilesDlg>
 
-            <MD5FromTextDlg title="Generate MD5 digest">
-                <Item id="1932" name="Treat each line as a separate string"/>
-                <Item id="1934" name="Copy to Clipboard"/>
-                <Item id="2"    name="Close"/>
+            <MD5FromTextDlg title="運算 MD5">
+                <Item id="1932" name="每一行都係獨立嘅字串"/>
+                <Item id="1934" name="抄去剪貼簿"/>
+                <Item id="2"    name="閂"/>
             </MD5FromTextDlg>
-            
-            <SHA256FromFilesDlg title="Generate SHA-256 digest from files">
-                <Item id="1922" name="Choose files to generate SHA-256..."/>
-                <Item id="1924" name="Copy to Clipboard"/>
-                <Item id="2"    name="Close"/>
+
+            <SHA256FromFilesDlg title="運算檔案嘅 SHA-256">
+                <Item id="1922" name="揀一個／一乍檔案..."/>
+                <Item id="1924" name="抄去剪貼簿"/>
+                <Item id="2"    name="閂"/>
             </SHA256FromFilesDlg>
 
-            <SHA256FromTextDlg title="Generate SHA-256 digest">
-                <Item id="1932" name="Treat each line as a separate string"/>
-                <Item id="1934" name="Copy to Clipboard"/>
-                <Item id="2"    name="Close"/>
+            <SHA256FromTextDlg title="運算 SHA-256">
+                <Item id="1932" name="每一行都係獨立嘅字串"/>
+                <Item id="1934" name="抄去剪貼簿"/>
+                <Item id="2"    name="閂"/>
             </SHA256FromTextDlg>
             
             <PluginsAdminDlg title="Plugins Admin" titleAvailable = "Available" titleUpdates = "Updates" titleInstalled = "Installed">
