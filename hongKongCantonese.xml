@@ -509,16 +509,16 @@
                 <Item id="1934" name="抄去剪貼簿"/>
                 <Item id="2"    name="閂"/>
             </SHA256FromTextDlg>
-            
-            <PluginsAdminDlg title="Plugins Admin" titleAvailable = "Available" titleUpdates = "Updates" titleInstalled = "Installed">
-                <ColumnPlugin   name="Plugin"/>
-                <ColumnVersion  name="Version"/>
-                <Item id="5501" name="Search:"/>
-                <Item id="5503" name="Install"/>
-                <Item id="5504" name="Update"/>
-                <Item id="5505" name="Remove"/>
-                <Item id="5508" name="Next"/>
-                <Item id="2"    name="Close"/>
+
+            <PluginsAdminDlg title="外掛管理員" titleAvailable = "可安裝" titleUpdates = "更新" titleInstalled = "已安裝">
+                <ColumnPlugin   name="外掛"/>
+                <ColumnVersion  name="版本"/>
+                <Item id="5501" name="搵："/>
+                <Item id="5503" name="安裝"/>
+                <Item id="5504" name="更新"/>
+                <Item id="5505" name="摌走"/>
+                <Item id="5508" name="下一個"/>
+                <Item id="2"    name="閂"/>
             </PluginsAdminDlg>
 
             <StyleConfig title="Style Configurator">
