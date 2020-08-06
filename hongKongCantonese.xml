@@ -521,34 +521,34 @@
                 <Item id="2"    name="閂"/>
             </PluginsAdminDlg>
 
-            <StyleConfig title="Style Configurator">
-                <Item id="2"    name="Cancel"/>
-                <Item id="2301" name="Save &amp;&amp; Close"/>
-                <Item id="2303" name="Transparency"/>
-                <Item id="2306" name="Select theme: "/>
+            <StyleConfig title="主題風格設定">
+                <Item id="2"    name="取消"/>
+                <Item id="2301" name="儲存然後閂𠹺佢"/>
+                <Item id="2303" name="透明度"/>
+                <Item id="2306" name="揀主題："/>
                 <SubDialog>
-                    <Item id="2204" name="Bold"/>
-                    <Item id="2205" name="Italic"/>
-                    <Item id="2206" name="Foreground colour"/>
-                    <Item id="2207" name="Background colour"/>
-                    <Item id="2208" name="Font name:"/>
-                    <Item id="2209" name="Font size:"/>
-                    <Item id="2211" name="Style:"/>
-                    <Item id="2212" name="Colour Style"/>
-                    <Item id="2213" name="Font Style"/>
-                    <Item id="2214" name="Default ext.:"/>
-                    <Item id="2216" name="User ext.:"/>
-                    <Item id="2218" name="Underline"/>
-                    <Item id="2219" name="Default keywords"/>
-                    <Item id="2221" name="User-defined keywords"/>
-                    <Item id="2225" name="Language:"/>
-                    <Item id="2226" name="Enable global foreground colour"/>
-                    <Item id="2227" name="Enable global background colour"/>
-                    <Item id="2228" name="Enable global font"/>
-                    <Item id="2229" name="Enable global font size"/>
-                    <Item id="2230" name="Enable global bold font style"/>
-                    <Item id="2231" name="Enable global italic font style"/>
-                    <Item id="2232" name="Enable global underline font style"/>
+                    <Item id="2204" name="粗體"/>
+                    <Item id="2205" name="斜體"/>
+                    <Item id="2206" name="前景顏色"/>
+                    <Item id="2207" name="背景顏色"/>
+                    <Item id="2208" name="字型名："/>
+                    <Item id="2209" name="字體大細："/>
+                    <Item id="2211" name="樣式："/>
+                    <Item id="2212" name="顏色樣式"/>
+                    <Item id="2213" name="字型樣式"/>
+                    <Item id="2214" name="預設副檔名："/>
+                    <Item id="2216" name="自定義副檔名："/>
+                    <Item id="2218" name="底褲"/>
+                    <Item id="2219" name="預設關鍵字"/>
+                    <Item id="2221" name="自定義關鍵字"/>
+                    <Item id="2225" name="程式語言："/>
+                    <Item id="2226" name="啟用全域前景色彩"/>
+                    <Item id="2227" name="啟用全域背景色彩"/>
+                    <Item id="2228" name="啟用全域字型"/>
+                    <Item id="2229" name="啟用全域字體大細"/>
+                    <Item id="2230" name="啟用全域粗體"/>
+                    <Item id="2231" name="啟用全域斜體"/>
+                    <Item id="2232" name="啟用全域底線"/>
                 </SubDialog>
             </StyleConfig>
 
