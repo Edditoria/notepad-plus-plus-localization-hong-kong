@@ -552,34 +552,35 @@
                 </SubDialog>
             </StyleConfig>
 
-            <ShortcutMapper title="Shortcut Mapper">
-                <Item id="2602" name="Modify"/>
-                <Item id="2603" name="Delete"/>
-                <Item id="2606" name="Clear"/>
-                <Item id="2607" name="Filter: "/>
-                <Item id="1" name="Close"/>
-                <ColumnName name="Name"/>
-                <ColumnShortcut name="Shortcut"/>
-                <ColumnCategory name="Category"/>
-                <ColumnPlugin name="Plugin"/>
-                <MainMenuTab name="Main menu"/>
+            <ShortcutMapper title="管理快捷鍵">
+                <Item id="2602" name="修改"/>
+                <Item id="2603" name="摌走"/>
+                <Item id="2606" name="清除"/>
+                <Item id="2607" name="過濾："/>
+                <Item id="1" name="閂"/>
+                <ColumnName name="名稱"/>
+                <ColumnShortcut name="快捷鍵"/>
+                <ColumnCategory name="類別"/>
+                <ColumnPlugin name="外掛"/>
+                <MainMenuTab name="主 Menu"/>
                 <MacrosTab name="Macros"/>
-                <RunCommandsTab name="Run commands"/>
-                <PluginCommandsTab name="Plugin commands"/>
-                <ScintillaCommandsTab name="Scintilla commands"/>
-                <ConflictInfoOk name="No shortcut conflicts for this item."/>
-                <ConflictInfoEditing name="No conflicts . . ."/>
+                <RunCommandsTab name="執行指令"/>
+                <PluginCommandsTab name="外掛指令"/>
+                <ScintillaCommandsTab name="Scintilla 指令"/>
+                <ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
+                <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
             </ShortcutMapper>
             <ShortcutMapperSubDialg title="Shortcut">
                 <Item id="1" name="OK"/>
-                <Item id="2" name="Cancel"/>
-                <Item id="5006" name="Name"/>
-                <Item id="5008" name="Add"/>
-                <Item id="5009" name="Remove"/>
-                <Item id="5010" name="Apply"/>
-                <Item id="5007" name="This will remove shortcut from this command"/>
-                <Item id="5012" name="CONFLICT FOUND!"/>
+                <Item id="2" name="取消"/>
+                <Item id="5006" name="名稱"/>
+                <Item id="5008" name="增加"/>
+                <Item id="5009" name="摌走"/>
+                <Item id="5010" name="套用"/>
+                <Item id="5007" name="咁會摌走快捷鍵"/>
+                <Item id="5012" name="有衝突啊喂！"/>
             </ShortcutMapperSubDialg>
+
             <UserDefine title="User-Defined">
                 <Item id="20001" name="Dock"/>
                 <Item id="20002" name="Rename"/>
