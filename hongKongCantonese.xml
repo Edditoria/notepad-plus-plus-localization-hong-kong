@@ -63,7 +63,7 @@
                     <Item subMenuId="encoding-turkish" name="土耳其文"/>
                     <Item subMenuId="encoding-westernEuropean" name="西歐語系"/>
                     <Item subMenuId="encoding-vietnamese" name="越南文"/>
-                    <Item subMenuId="language-userDefinedLanguage" name="自定義程式語言"/>
+                    <Item subMenuId="language-userDefinedLanguage" name="自訂程式語言"/>
                     <Item subMenuId="settings-import" name="匯入"/>
                     <Item subMenuId="tools-md5" name="MD5"/>
                     <Item subMenuId="tools-sha256" name="SHA-256"/>
@@ -318,8 +318,8 @@
 
                     <!-- menu: Language -->
                     <Item id="46250" name="定義你嘅程式語言..."/>
-                    <Item id="46300" name="打開自定義程式語言嘅資料夾..."/>
-                    <Item id="46180" name="通用自定義設定"/>
+                    <Item id="46300" name="打開自訂程式語言嘅資料夾..."/>
+                    <Item id="46180" name="通用使用者設定"/>
 
                     <!-- menu: Help -->
                     <Item id="47000" name="關於 Notepad++"/>
@@ -461,7 +461,7 @@
                 <Item id="2" name="閂"/>
                 <Item id="2901" name="非 ASCII 字元 (128-255)"/>
                 <Item id="2902" name="ASCII 字元 (0-127)"/>
-                <Item id="2903" name="自定義範圍："/>
+                <Item id="2903" name="自訂範圍："/>
                 <Item id="2906" name="向上(&amp;U)"/>
                 <Item id="2907" name="向下(&amp;D)"/>
                 <Item id="2908" name="方向"/>
@@ -537,10 +537,10 @@
                     <Item id="2212" name="顏色樣式"/>
                     <Item id="2213" name="字型樣式"/>
                     <Item id="2214" name="預設副檔名："/>
-                    <Item id="2216" name="自定義副檔名："/>
+                    <Item id="2216" name="自訂副檔名："/>
                     <Item id="2218" name="底褲"/>
                     <Item id="2219" name="預設關鍵字"/>
-                    <Item id="2221" name="自定義關鍵字"/>
+                    <Item id="2221" name="自訂關鍵字"/>
                     <Item id="2225" name="程式語言："/>
                     <Item id="2226" name="啟用全域前景色彩"/>
                     <Item id="2227" name="啟用全域背景色彩"/>
