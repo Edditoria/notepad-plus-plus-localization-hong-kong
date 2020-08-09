@@ -581,18 +581,18 @@
                 <Item id="5012" name="有衝突啊喂！"/>
             </ShortcutMapperSubDialg>
 
-            <UserDefine title="User-Defined">
-                <Item id="20001" name="Dock"/>
-                <Item id="20002" name="Rename"/>
-                <Item id="20003" name="Create New..."/>
-                <Item id="20004" name="Remove"/>
-                <Item id="20005" name="Save As..."/>
-                <Item id="20007" name="User language: "/>
-                <Item id="20009" name="Ext.:"/>
-                <Item id="20012" name="Ignore case"/>
-                <Item id="20011" name="Transparency"/>
-                <Item id="20015" name="Import..."/>
-                <Item id="20016" name="Export..."/>
+            <UserDefine title="自訂程式語言">
+                <Item id="20001" name="靠邊"/>
+                <Item id="20002" name="改名"/>
+                <Item id="20003" name="開新..."/>
+                <Item id="20004" name="摌除"/>
+                <Item id="20005" name="Save 做新..."/>
+                <Item id="20007" name="自訂程式語言："/>
+                <Item id="20009" name="副檔名："/>
+                <Item id="20012" name="唔分大細楷"/>
+                <Item id="20011" name="透明度"/>
+                <Item id="20015" name="匯入..."/>
+                <Item id="20016" name="匯出..."/>
                 <StylerDialog title="Styler Dialog">
                     <Item id="25030" name="Font options:"/>
                     <Item id="25006" name="Foreground colour"/>
