@@ -593,39 +593,39 @@
                 <Item id="20011" name="透明度"/>
                 <Item id="20015" name="匯入..."/>
                 <Item id="20016" name="匯出..."/>
-                <StylerDialog title="Styler Dialog">
-                    <Item id="25030" name="Font options:"/>
-                    <Item id="25006" name="Foreground colour"/>
-                    <Item id="25007" name="Background colour"/>
-                    <Item id="25031" name="Name:"/>
-                    <Item id="25032" name="Size:"/>
-                    <Item id="25001" name="Bold"/>
-                    <Item id="25002" name="Italic"/>
-                    <Item id="25003" name="Underline"/>
-                    <Item id="25029" name="Nesting:"/>
-                    <Item id="25008" name="Delimiter 1"/>
-                    <Item id="25009" name="Delimiter 2"/>
-                    <Item id="25010" name="Delimiter 3"/>
-                    <Item id="25011" name="Delimiter 4"/>
-                    <Item id="25012" name="Delimiter 5"/>
-                    <Item id="25013" name="Delimiter 6"/>
-                    <Item id="25014" name="Delimiter 7"/>
-                    <Item id="25015" name="Delimiter 8"/>
-                    <Item id="25018" name="Keyword 1"/>
-                    <Item id="25019" name="Keyword 2"/>
-                    <Item id="25020" name="Keyword 3"/>
-                    <Item id="25021" name="Keyword 4"/>
-                    <Item id="25022" name="Keyword 5"/>
-                    <Item id="25023" name="Keyword 6"/>
-                    <Item id="25024" name="Keyword 7"/>
-                    <Item id="25025" name="Keyword 8"/>
-                    <Item id="25016" name="Comment"/>
-                    <Item id="25017" name="Comment line"/>
-                    <Item id="25026" name="Operator 1"/>
-                    <Item id="25027" name="Operator 2"/>
-                    <Item id="25028" name="Numbers"/>
+                <StylerDialog title="樣式設定">
+                    <Item id="25030" name="字型選項："/>
+                    <Item id="25006" name="前景顏色"/>
+                    <Item id="25007" name="背景顏色"/>
+                    <Item id="25031" name="名稱："/>
+                    <Item id="25032" name="大細："/>
+                    <Item id="25001" name="粗體"/>
+                    <Item id="25002" name="斜體"/>
+                    <Item id="25003" name="底線"/>
+                    <Item id="25029" name="巢狀繼承："/>
+                    <Item id="25008" name="分隔符號 1"/>
+                    <Item id="25009" name="分隔符號 2"/>
+                    <Item id="25010" name="分隔符號 3"/>
+                    <Item id="25011" name="分隔符號 4"/>
+                    <Item id="25012" name="分隔符號 5"/>
+                    <Item id="25013" name="分隔符號 6"/>
+                    <Item id="25014" name="分隔符號 7"/>
+                    <Item id="25015" name="分隔符號 8"/>
+                    <Item id="25018" name="關鍵字 1"/>
+                    <Item id="25019" name="關鍵字 2"/>
+                    <Item id="25020" name="關鍵字 3"/>
+                    <Item id="25021" name="關鍵字 4"/>
+                    <Item id="25022" name="關鍵字 5"/>
+                    <Item id="25023" name="關鍵字 6"/>
+                    <Item id="25024" name="關鍵字 7"/>
+                    <Item id="25025" name="關鍵字 8"/>
+                    <Item id="25016" name="區塊式註解"/>
+                    <Item id="25017" name="單行式註解"/>
+                    <Item id="25026" name="運算子 1"/>
+                    <Item id="25027" name="運算子 2"/>
+                    <Item id="25028" name="數字"/>
                     <Item id="1" name="OK"/>
-                    <Item id="2" name="Cancel"/>
+                    <Item id="2" name="取消"/>
                 </StylerDialog>
                 <Folder title="Folder &amp;&amp; Default">
                     <Item id="21101" name="Default style"/>
