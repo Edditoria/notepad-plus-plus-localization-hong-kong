@@ -675,34 +675,34 @@
                     <Item id="22572" name="樣式"/>
                     <Item id="22622" name="樣式"/>
                 </Keywords>
-                <Comment title="Comment &amp;&amp; Number">
-                    <Item id="23003" name="Line comment position"/>
-                    <Item id="23004" name="Allow anywhere"/>
-                    <Item id="23005" name="Force at beginning of line"/>
-                    <Item id="23006" name="Allow preceding whitespace"/>
-                    <Item id="23001" name="Allow folding of comments"/>
-                    <Item id="23326" name="Styler"/>
-                    <Item id="23323" name="Open"/>
-                    <Item id="23324" name="Continue character"/>
-                    <Item id="23325" name="Close"/>
-                    <Item id="23301" name="Comment line style"/>
-                    <Item id="23124" name="Styler"/>
-                    <Item id="23122" name="Open"/>
-                    <Item id="23123" name="Close"/>
-                    <Item id="23101" name="Comment style"/>
-                    <Item id="23201" name="Number style"/>
-                    <Item id="23220" name="Styler"/>
-                    <Item id="23230" name="Prefix 1"/>
-                    <Item id="23232" name="Prefix 2"/>
-                    <Item id="23234" name="Extras 1"/>
-                    <Item id="23236" name="Extras 2"/>
-                    <Item id="23238" name="Suffix 1"/>
-                    <Item id="23240" name="Suffix 2"/>
-                    <Item id="23242" name="Range:"/>
-                    <Item id="23244" name="Decimal separator"/>
-                    <Item id="23245" name="Dot"/>
-                    <Item id="23246" name="Comma"/>
-                    <Item id="23247" name="Both"/>
+                <Comment title="註解同𠹺數字">
+                    <Item id="23003" name="單行註解定位"/>
+                    <Item id="23004" name="邊到都得"/>
+                    <Item id="23005" name="一定要响一行嘅開始"/>
+                    <Item id="23006" name="可以畀註解字眼前面有空格"/>
+                    <Item id="23001" name="可以畀註解摺疊"/>
+                    <Item id="23326" name="樣式"/>
+                    <Item id="23323" name="起始："/>
+                    <Item id="23324" name="接續："/>
+                    <Item id="23325" name="結束："/>
+                    <Item id="23301" name="單行式註解樣式"/>
+                    <Item id="23124" name="樣式"/>
+                    <Item id="23122" name="起始："/>
+                    <Item id="23123" name="結束："/>
+                    <Item id="23101" name="註解樣式"/>
+                    <Item id="23201" name="數字樣式"/>
+                    <Item id="23220" name="樣式"/>
+                    <Item id="23230" name="前置 1："/>
+                    <Item id="23232" name="前置 2："/>
+                    <Item id="23234" name="額外 1："/>
+                    <Item id="23236" name="額外 2："/>
+                    <Item id="23238" name="後置 1："/>
+                    <Item id="23240" name="後置 2："/>
+                    <Item id="23242" name="範圍："/>
+                    <Item id="23244" name="小數點分隔字元"/>
+                    <Item id="23245" name="英文句號「.」"/>
+                    <Item id="23246" name="逗號「,」"/>
+                    <Item id="23247" name="哼，我要晒"/>
                 </Comment>
                 <Operator title="Operators &amp;&amp; Delimiter">
                     <Item id="24101" name="Operators style"/>
