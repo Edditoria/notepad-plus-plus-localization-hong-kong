@@ -649,31 +649,31 @@
                     <Item id="21426" name="結束："/>
                     <Item id="21427" name="樣式"/>
                 </Folder>
-                <Keywords title="Keywords Lists">
-                    <Item id="22101" name="1st Group"/>
-                    <Item id="22201" name="2nd Group"/>
-                    <Item id="22301" name="3rd Group"/>
-                    <Item id="22401" name="4th Group"/>
-                    <Item id="22451" name="5th Group"/>
-                    <Item id="22501" name="6th Group"/>
-                    <Item id="22551" name="7th Group"/>
-                    <Item id="22601" name="8th Group"/>
-                    <Item id="22121" name="Prefix mode"/>
-                    <Item id="22221" name="Prefix mode"/>
-                    <Item id="22321" name="Prefix mode"/>
-                    <Item id="22421" name="Prefix mode"/>
-                    <Item id="22471" name="Prefix mode"/>
-                    <Item id="22521" name="Prefix mode"/>
-                    <Item id="22571" name="Prefix mode"/>
-                    <Item id="22621" name="Prefix mode"/>
-                    <Item id="22122" name="Styler"/>
-                    <Item id="22222" name="Styler"/>
-                    <Item id="22322" name="Styler"/>
-                    <Item id="22422" name="Styler"/>
-                    <Item id="22472" name="Styler"/>
-                    <Item id="22522" name="Styler"/>
-                    <Item id="22572" name="Styler"/>
-                    <Item id="22622" name="Styler"/>
+                <Keywords title="關鍵字清單">
+                    <Item id="22101" name="群組 1"/>
+                    <Item id="22201" name="群組 2"/>
+                    <Item id="22301" name="群組 3"/>
+                    <Item id="22401" name="群組 4"/>
+                    <Item id="22451" name="群組 5"/>
+                    <Item id="22501" name="群組 6"/>
+                    <Item id="22551" name="群組 7"/>
+                    <Item id="22601" name="群組 8"/>
+                    <Item id="22121" name="前置模式"/>
+                    <Item id="22221" name="前置模式"/>
+                    <Item id="22321" name="前置模式"/>
+                    <Item id="22421" name="前置模式"/>
+                    <Item id="22471" name="前置模式"/>
+                    <Item id="22521" name="前置模式"/>
+                    <Item id="22571" name="前置模式"/>
+                    <Item id="22621" name="前置模式"/>
+                    <Item id="22122" name="樣式"/>
+                    <Item id="22222" name="樣式"/>
+                    <Item id="22322" name="樣式"/>
+                    <Item id="22422" name="樣式"/>
+                    <Item id="22472" name="樣式"/>
+                    <Item id="22522" name="樣式"/>
+                    <Item id="22572" name="樣式"/>
+                    <Item id="22622" name="樣式"/>
                 </Keywords>
                 <Comment title="Comment &amp;&amp; Number">
                     <Item id="23003" name="Line comment position"/>
