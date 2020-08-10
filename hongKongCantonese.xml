@@ -704,53 +704,54 @@
                     <Item id="23246" name="逗號「,」"/>
                     <Item id="23247" name="哼，我要晒"/>
                 </Comment>
-                <Operator title="Operators &amp;&amp; Delimiter">
-                    <Item id="24101" name="Operators style"/>
-                    <Item id="24113" name="Styler"/>
-                    <Item id="24116" name="Operators 1"/>
-                    <Item id="24117" name="Operators 2 (separators required)"/>
-                    <Item id="24201" name="Delimiter 1 style"/>
-                    <Item id="24220" name="Open:"/>
+                <Operator title="運算子與分隔符號">
+                    <Item id="24101" name="運算子樣式"/>
+                    <Item id="24113" name="樣式"/>
+                    <Item id="24116" name="運算子 1（有冇空格分隔都包）"/>
+                    <Item id="24117" name="運算子 2（完整或者以空格分隔）"/>
+                    <Item id="24201" name="分隔符號 1 樣式"/>
+                    <Item id="24220" name="起始："/>
                     <Item id="24221" name="Escape:"/>
-                    <Item id="24222" name="Close:"/>
-                    <Item id="24223" name="Styler"/>
-                    <Item id="24301" name="Delimiter 2 style"/>
-                    <Item id="24320" name="Open:"/>
+                    <Item id="24222" name="結束："/>
+                    <Item id="24223" name="樣式"/>
+                    <Item id="24301" name="分隔符號 2 樣式"/>
+                    <Item id="24320" name="起始："/>
                     <Item id="24321" name="Escape:"/>
-                    <Item id="24322" name="Close:"/>
-                    <Item id="24323" name="Styler"/>
-                    <Item id="24401" name="Delimiter 3 style"/>
-                    <Item id="24420" name="Open:"/>
+                    <Item id="24322" name="結束："/>
+                    <Item id="24323" name="樣式"/>
+                    <Item id="24401" name="分隔符號 3 樣式"/>
+                    <Item id="24420" name="起始："/>
                     <Item id="24421" name="Escape:"/>
-                    <Item id="24422" name="Close:"/>
-                    <Item id="24423" name="Styler"/>
-                    <Item id="24451" name="Delimiter 4 style"/>
-                    <Item id="24470" name="Open:"/>
+                    <Item id="24422" name="結束："/>
+                    <Item id="24423" name="樣式"/>
+                    <Item id="24451" name="分隔符號 4 樣式"/>
+                    <Item id="24470" name="起始："/>
                     <Item id="24471" name="Escape:"/>
-                    <Item id="24472" name="Close:"/>
-                    <Item id="24473" name="Styler"/>
-                    <Item id="24501" name="Delimiter 5 style"/>
-                    <Item id="24520" name="Open:"/>
+                    <Item id="24472" name="結束："/>
+                    <Item id="24473" name="樣式"/>
+                    <Item id="24501" name="分隔符號 5 樣式"/>
+                    <Item id="24520" name="起始："/>
                     <Item id="24521" name="Escape:"/>
-                    <Item id="24522" name="Close:"/>
-                    <Item id="24523" name="Styler"/>
-                    <Item id="24551" name="Delimiter 6 style"/>
-                    <Item id="24570" name="Open:"/>
+                    <Item id="24522" name="結束："/>
+                    <Item id="24523" name="樣式"/>
+                    <Item id="24551" name="分隔符號 6 樣式"/>
+                    <Item id="24570" name="起始："/>
                     <Item id="24571" name="Escape:"/>
-                    <Item id="24572" name="Close:"/>
-                    <Item id="24573" name="Styler"/>
-                    <Item id="24601" name="Delimiter 7 style"/>
-                    <Item id="24620" name="Open:"/>
+                    <Item id="24572" name="結束："/>
+                    <Item id="24573" name="樣式"/>
+                    <Item id="24601" name="分隔符號 7 樣式"/>
+                    <Item id="24620" name="起始："/>
                     <Item id="24621" name="Escape:"/>
-                    <Item id="24622" name="Close:"/>
-                    <Item id="24623" name="Styler"/>
-                    <Item id="24651" name="Delimiter 8 style"/>
-                    <Item id="24670" name="Open:"/>
+                    <Item id="24622" name="結束："/>
+                    <Item id="24623" name="樣式"/>
+                    <Item id="24651" name="分隔符號 8 樣式"/>
+                    <Item id="24670" name="起始："/>
                     <Item id="24671" name="Escape:"/>
-                    <Item id="24672" name="Close:"/>
-                    <Item id="24673" name="Styler"/>
+                    <Item id="24672" name="結束："/>
+                    <Item id="24673" name="樣式"/>
                 </Operator>
             </UserDefine>
+
             <Preference title="Preferences">
                 <Item id="6001" name="Close"/>
                 <Global title="General">
