@@ -391,29 +391,29 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                    <Item CMID="0" name="閂𠹺呢個檔案"/>
-                    <Item CMID="1" name="除咗呢個檔案，閂晒其它去"/>
-                    <Item CMID="2" name="Save 呢個檔案"/>
-                    <Item CMID="3" name="Save 做新檔案..."/>
-                    <Item CMID="4" name="Print 出嚟"/>
-                    <Item CMID="5" name="搬呢個檔案去另一邊視窗"/>
-                    <Item CMID="6" name="抄呢個檔案去另一邊視窗"/>
-                    <Item CMID="7" name="將檔案路徑抄去剪貼簿"/>
-                    <Item CMID="8" name="將檔名抄去剪貼簿"/>
-                    <Item CMID="9" name="將資料夾路徑抄去剪貼簿"/>
-                    <Item CMID="10" name="改名"/>
-                    <Item CMID="11" name="掉去垃圾桶"/>
-                    <Item CMID="12" name="將檔案 set 做唯讀"/>
-                    <Item CMID="13" name="取消唯讀屬性"/>
-                    <Item CMID="14" name="搬呢個檔案去新視窗"/>
-                    <Item CMID="15" name="抄呢個檔案去新視窗"/>
-                    <Item CMID="16" name="响磁碟重新 load 過"/>
-                    <Item CMID="17" name="閂晒左邊所有檔案"/>
-                    <Item CMID="18" name="閂晒右邊所有檔案"/>
-                    <Item CMID="19" name="响檔案總管打開檔案嘅資料夾"/>
-                    <Item CMID="20" name="响 CMD 打開檔案嘅資料夾"/>
-                    <Item CMID="21" name="响系統預設程式打開"/>
-                    <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
+                <Item CMID="0" name="閂𠹺呢個檔案"/>
+                <Item CMID="1" name="除咗呢個檔案，閂晒其它去"/>
+                <Item CMID="2" name="Save 呢個檔案"/>
+                <Item CMID="3" name="Save 做新檔案..."/>
+                <Item CMID="4" name="Print 出嚟"/>
+                <Item CMID="5" name="搬呢個檔案去另一邊視窗"/>
+                <Item CMID="6" name="抄呢個檔案去另一邊視窗"/>
+                <Item CMID="7" name="將檔案路徑抄去剪貼簿"/>
+                <Item CMID="8" name="將檔名抄去剪貼簿"/>
+                <Item CMID="9" name="將資料夾路徑抄去剪貼簿"/>
+                <Item CMID="10" name="改名"/>
+                <Item CMID="11" name="掉去垃圾桶"/>
+                <Item CMID="12" name="將檔案 set 做唯讀"/>
+                <Item CMID="13" name="取消唯讀屬性"/>
+                <Item CMID="14" name="搬呢個檔案去新視窗"/>
+                <Item CMID="15" name="抄呢個檔案去新視窗"/>
+                <Item CMID="16" name="响磁碟重新 load 過"/>
+                <Item CMID="17" name="閂晒左邊所有檔案"/>
+                <Item CMID="18" name="閂晒右邊所有檔案"/>
+                <Item CMID="19" name="响檔案總管打開檔案嘅資料夾"/>
+                <Item CMID="20" name="响 CMD 打開檔案嘅資料夾"/>
+                <Item CMID="21" name="响系統預設程式打開"/>
+                <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
             </TabBar>
         </Menu>
 
@@ -570,6 +570,7 @@
                 <ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
                 <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
             </ShortcutMapper>
+
             <ShortcutMapperSubDialg title="Shortcut">
                 <Item id="1" name="OK"/>
                 <Item id="2" name="取消"/>
@@ -593,6 +594,7 @@
                 <Item id="20011" name="透明度"/>
                 <Item id="20015" name="匯入..."/>
                 <Item id="20016" name="匯出..."/>
+
                 <StylerDialog title="樣式設定">
                     <Item id="25030" name="字型選項："/>
                     <Item id="25006" name="前景顏色"/>
@@ -627,6 +629,7 @@
                     <Item id="1" name="OK"/>
                     <Item id="2" name="取消"/>
                 </StylerDialog>
+
                 <Folder title="摺疊同𠹺預設樣式">
                     <Item id="21101" name="預設樣式"/>
                     <Item id="21102" name="樣式"/>
@@ -649,6 +652,7 @@
                     <Item id="21426" name="結束："/>
                     <Item id="21427" name="樣式"/>
                 </Folder>
+
                 <Keywords title="關鍵字清單">
                     <Item id="22101" name="群組 1"/>
                     <Item id="22201" name="群組 2"/>
@@ -675,6 +679,7 @@
                     <Item id="22572" name="樣式"/>
                     <Item id="22622" name="樣式"/>
                 </Keywords>
+
                 <Comment title="註解同𠹺數字">
                     <Item id="23003" name="單行註解定位"/>
                     <Item id="23004" name="邊到都得"/>
@@ -704,6 +709,7 @@
                     <Item id="23246" name="逗號「,」"/>
                     <Item id="23247" name="哼，我要晒"/>
                 </Comment>
+
                 <Operator title="運算子與分隔符號">
                     <Item id="24101" name="運算子樣式"/>
                     <Item id="24113" name="樣式"/>
@@ -754,19 +760,18 @@
 
             <Preference title="Preferences">
                 <Item id="6001" name="Close"/>
+
                 <Global title="General">
                     <Item id="6101" name="Toolbar"/>
                     <Item id="6102" name="Hide"/>
                     <Item id="6103" name="Small icons"/>
                     <Item id="6104" name="Big icons"/>
                     <Item id="6105" name="Standard icons"/>
-
                     <Item id="6106" name="Tab Bar"/>
                     <Item id="6107" name="Reduce"/>
                     <Item id="6108" name="Lock (no drag and drop)"/>
                     <Item id="6109" name="Darken inactive tabs"/>
                     <Item id="6110" name="Draw a coloured bar on active tab"/>
-
                     <Item id="6111" name="Show status bar"/>
                     <Item id="6112" name="Show close button on each tab"/>
                     <Item id="6113" name="Double click to close document"/>
@@ -774,14 +779,13 @@
                     <Item id="6119" name="Multi-line"/>
                     <Item id="6120" name="Vertical"/>
                     <Item id="6121" name="Exit on close the last tab"/>
-
                     <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
                     <Item id="6123" name="Localization"/>
-
                     <Item id="6125" name="Document List Panel"/>
                     <Item id="6126" name="Show"/>
                     <Item id="6127" name="Disable extension column"/>
                 </Global>
+
                 <Scintillas title="Editing">
                     <Item id="6216" name="Caret Settings"/>
                     <Item id="6217" name="Width :"/>
@@ -796,12 +800,10 @@
                     <Item id="6204" name="Circle tree"/>
                     <Item id="6205" name="Box tree"/>
                     <Item id="6226" name="None"/>
-
                     <Item id="6227" name="Line Wrap"/>
                     <Item id="6228" name="Default"/>
                     <Item id="6229" name="Aligned"/>
                     <Item id="6230" name="Indent"/>
-
                     <Item id="6206" name="Display line number"/>
                     <Item id="6207" name="Display bookmark"/>
                     <Item id="6208" name="Show vertical edge"/>
@@ -847,6 +849,7 @@ You can define several column markers by using white space to separate the diffe
                     <Item id="4009" name="Supported extensions:"/>
                     <Item id="4010" name="Registered extensions:"/>
                 </FileAssoc>
+
                 <Language title="Language">
                     <Item id="6505" name="Available items"/>
                     <Item id="6506" name="Disabled items"/>
@@ -1014,6 +1017,7 @@ You can define several column markers by using white space to separate the diffe
                     <Item id="6348" name="Don't fill find field in Find dialog with selected word"/>
                 </MISC>
             </Preference>
+
             <MultiMacro title="Run a Macro Multiple Times">
                 <Item id="1" name="&amp;Run"/>
                 <Item id="2" name="&amp;Cancel"/>
@@ -1022,6 +1026,7 @@ You can define several column markers by using white space to separate the diffe
                 <Item id="8005" name="times"/>
                 <Item id="8002" name="Run until the &amp;end of file"/>
             </MultiMacro>
+
             <Window title="Windows">
                 <Item id="1" name="&amp;Activate"/>
                 <Item id="2" name="&amp;OK"/>
@@ -1029,6 +1034,7 @@ You can define several column markers by using white space to separate the diffe
                 <Item id="7003" name="&amp;Close window(s)"/>
                 <Item id="7004" name="Sort &amp;tabs"/>
             </Window>
+
             <ColumnEditor title="Column Editor">
                 <Item id="2023" name="Text to Insert"/>
                 <Item id="2033" name="Number to Insert"/>
@@ -1044,6 +1050,7 @@ You can define several column markers by using white space to separate the diffe
                 <Item id="1" name="OK"/>
                 <Item id="2" name="Cancel"/>
             </ColumnEditor>
+
             <FindInFinder title="Find in finder">
                 <Item id="1"    name="Find All"/>
                 <Item id="2"    name="Close"/>
@@ -1057,6 +1064,7 @@ You can define several column markers by using white space to separate the diffe
                 <Item id="1718" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
                 <Item id="1720" name="&amp;. matches newline"/>
             </FindInFinder>
+
             <DoSaveOrNot title="Save"> 
                 <Item id="1761" name="Save file &quot;$STR_REPLACE$&quot; ?"/>
                 <Item id="6" name="&amp;Yes"/>
@@ -1066,6 +1074,7 @@ You can define several column markers by using white space to separate the diffe
                 <Item id="5" name="N&amp;o to all"/>
             </DoSaveOrNot>
         </Dialog>
+
         <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
             <ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu.
 You have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
