@@ -758,8 +758,8 @@
                 </Operator>
             </UserDefine>
 
-            <Preference title="Preferences">
-                <Item id="6001" name="Close"/>
+            <Preference title="偏好設定">
+                <Item id="6001" name="閂"/>
 
                 <Global title="General">
                     <Item id="6101" name="Toolbar"/>
