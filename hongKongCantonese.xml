@@ -761,29 +761,29 @@
             <Preference title="偏好設定">
                 <Item id="6001" name="閂"/>
 
-                <Global title="General">
-                    <Item id="6101" name="Toolbar"/>
-                    <Item id="6102" name="Hide"/>
-                    <Item id="6103" name="Small icons"/>
-                    <Item id="6104" name="Big icons"/>
-                    <Item id="6105" name="Standard icons"/>
+                <Global title="一般">
+                    <Item id="6101" name="工具列"/>
+                    <Item id="6102" name="隱藏"/>
+                    <Item id="6103" name="細圖示"/>
+                    <Item id="6104" name="大圖示"/>
+                    <Item id="6105" name="標準圖示"/>
                     <Item id="6106" name="Tab Bar"/>
-                    <Item id="6107" name="Reduce"/>
-                    <Item id="6108" name="Lock (no drag and drop)"/>
-                    <Item id="6109" name="Darken inactive tabs"/>
-                    <Item id="6110" name="Draw a coloured bar on active tab"/>
-                    <Item id="6111" name="Show status bar"/>
-                    <Item id="6112" name="Show close button on each tab"/>
-                    <Item id="6113" name="Double click to close document"/>
-                    <Item id="6118" name="Hide"/>
-                    <Item id="6119" name="Multi-line"/>
-                    <Item id="6120" name="Vertical"/>
-                    <Item id="6121" name="Exit on close the last tab"/>
-                    <Item id="6122" name="Hide menu bar (use Alt or F10 key to toggle)"/>
-                    <Item id="6123" name="Localization"/>
-                    <Item id="6125" name="Document List Panel"/>
-                    <Item id="6126" name="Show"/>
-                    <Item id="6127" name="Disable extension column"/>
+                    <Item id="6107" name="縮細"/>
+                    <Item id="6108" name="鎖定（唔畀 drag-and-drop）"/>
+                    <Item id="6109" name="整暗啲唔係用緊嘅 tabs"/>
+                    <Item id="6110" name="响用緊嘅 tab 上面加條顏色 bar"/>
+                    <Item id="6111" name="顯示狀態列"/>
+                    <Item id="6112" name="响每個 tab 顯示交叉掣"/>
+                    <Item id="6113" name="㩒兩吓滑鼠掣去閂文件"/>
+                    <Item id="6118" name="隱藏"/>
+                    <Item id="6119" name="多行"/>
+                    <Item id="6120" name="打直"/>
+                    <Item id="6121" name="閂最後份文件嗰陣順便閂𠹺個程式"/>
+                    <Item id="6122" name="隱藏 menu bar（㩒 Alt 或者 F10 切換）"/>
+                    <Item id="6123" name="本土化"/>
+                    <Item id="6125" name="文件切換面板"/>
+                    <Item id="6126" name="顯示"/>
+                    <Item id="6127" name="停用副檔名欄"/>
                 </Global>
 
                 <Scintillas title="Editing">
