@@ -786,38 +786,38 @@
                     <Item id="6127" name="停用副檔名欄"/>
                 </Global>
 
-                <Scintillas title="Editing">
-                    <Item id="6216" name="Caret Settings"/>
-                    <Item id="6217" name="Width :"/>
-                    <Item id="6219" name="Blink rate :"/>
-                    <Item id="6221" name="F"/>
-                    <Item id="6222" name="S"/>
-                    <Item id="6224" name="Multi-Editing Settings"/>
-                    <Item id="6225" name="Enable (Ctrl+Mouse click/selection)"/>
-                    <Item id="6201" name="Folder Margin Style"/>
-                    <Item id="6202" name="Simple"/>
-                    <Item id="6203" name="Arrow"/>
-                    <Item id="6204" name="Circle tree"/>
-                    <Item id="6205" name="Box tree"/>
-                    <Item id="6226" name="None"/>
-                    <Item id="6227" name="Line Wrap"/>
-                    <Item id="6228" name="Default"/>
-                    <Item id="6229" name="Aligned"/>
-                    <Item id="6230" name="Indent"/>
-                    <Item id="6206" name="Display line number"/>
-                    <Item id="6207" name="Display bookmark"/>
-                    <Item id="6208" name="Show vertical edge"/>
-                    <Item id="6234" name="Disable advanced scrolling feature
-(if you have touchpad problem)"/>
-                    <Item id="6211" name="Vertical Edge Settings"/>
-                    <Item id="6213" name="Background mode"/>
-                    <Item id="6237" name="Add your column marker by indicating its position with a decimal number.
-You can define several column markers by using white space to separate the different numbers."/>
-                    <Item id="6214" name="Enable current line highlighting"/>
-                    <Item id="6215" name="Enable smooth font"/>
-                    <Item id="6231" name="Border Width"/>
-                    <Item id="6235" name="No edge"/>
-                    <Item id="6236" name="Enable scrolling beyond last line"/>
+                <Scintillas title="編輯">
+                    <Item id="6216" name="滑鼠浮標設定"/>
+                    <Item id="6217" name="闊度："/>
+                    <Item id="6219" name="眨嘅頻率："/>
+                    <Item id="6221" name="快"/>
+                    <Item id="6222" name="慢"/>
+                    <Item id="6224" name="幾個位置同時改嘢"/>
+                    <Item id="6225" name="啟用（Ctrl + 㩒／㩒著滑鼠掣）"/>
+                    <Item id="6201" name="摺疊符號風格"/>
+                    <Item id="6202" name="精簡"/>
+                    <Item id="6203" name="箭嘴"/>
+                    <Item id="6204" name="圓形"/>
+                    <Item id="6205" name="方形"/>
+                    <Item id="6226" name="冇"/>
+                    <Item id="6227" name="自動換行"/>
+                    <Item id="6228" name="預設"/>
+                    <Item id="6229" name="對齊"/>
+                    <Item id="6230" name="縮排"/>
+                    <Item id="6206" name="顯示行數號碼"/>
+                    <Item id="6207" name="顯示書籤"/>
+                    <Item id="6208" name="Show vertical edge"/> <!-- unknown item -->
+                    <Item id="6234" name="熄咗進階上下轆功能
+（可能解決一啲觸控板問題）"/>
+                    <Item id="6211" name="垂直邊緣線設定"/>
+                    <Item id="6213" name="背景色模式"/>
+                    <Item id="6237" name="條線用嚟參考每行字數嘅上限，輸入十進制數字去決定條線嘅位置。
+想劃多啲線嘅話，用空格分隔多組數字就得。"/>
+                    <Item id="6214" name="突顯改緊嘢嗰行嘅顏色"/>
+                    <Item id="6215" name="啟用順滑字體"/>
+                    <Item id="6231" name="邊框闊度"/>
+                    <Item id="6235" name="無邊框"/>
+                    <Item id="6236" name="轆到超出至最後一行"/>
                 </Scintillas>
 
                 <NewDoc title="New Document">
