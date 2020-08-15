@@ -844,10 +844,10 @@
                     <Item id="6431" name="拖放資料夾去視窗嗰陣，會打開資料夾裡面所有檔案，而唔係放入去資料夾工作區"/>
                 </DefaultDir>
 
-                <FileAssoc title="File Association">
-                    <Item id="4008" name="Please exit Notepad++ and relaunch Notepad++ in Administrator mode to use this feature."/>
-                    <Item id="4009" name="Supported extensions:"/>
-                    <Item id="4010" name="Registered extensions:"/>
+                <FileAssoc title="檔案關聯">
+                    <Item id="4008" name="想改下面啲設定，麻煩你閂咗 Notepad++ 去，然後「以系統管理員身份執行」重新打開 Notepad++。"/>
+                    <Item id="4009" name="支援嘅副檔名："/>
+                    <Item id="4010" name="登記咗嘅副檔名："/>
                 </FileAssoc>
 
                 <Language title="Language">
