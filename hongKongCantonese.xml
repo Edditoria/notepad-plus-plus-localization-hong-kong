@@ -820,20 +820,20 @@
                     <Item id="6236" name="轆到超出至最後一行"/>
                 </Scintillas>
 
-                <NewDoc title="New Document">
-                    <Item id="6401" name="Format (Line ending)"/>
+                <NewDoc title="新文件">
+                    <Item id="6401" name="行尾格式（EOL）"/>
                     <Item id="6402" name="Windows (CR LF)"/>
                     <Item id="6403" name="Unix (LF)"/>
                     <Item id="6404" name="Macintosh (CR)"/>
-                    <Item id="6405" name="Encoding"/>
+                    <Item id="6405" name="編碼"/>
                     <Item id="6406" name="ANSI"/>
                     <Item id="6407" name="UTF-8"/>
                     <Item id="6408" name="UTF-8 with BOM"/>
                     <Item id="6409" name="UCS-2 Big Endian with BOM"/>
                     <Item id="6410" name="UCS-2 Little Endian with BOM"/>
-                    <Item id="6411" name="Default language :"/>
-                    <Item id="6419" name="New Document"/>
-                    <Item id="6420" name="Apply to opened ANSI files"/>
+                    <Item id="6411" name="預設程式語言："/>
+                    <Item id="6419" name="新文件"/>
+                    <Item id="6420" name="套用到打開咗嗰啲 ANSI 檔案"/>
                 </NewDoc>
 
                 <DefaultDir title="Default Directory">
