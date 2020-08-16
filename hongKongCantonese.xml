@@ -850,16 +850,16 @@
                     <Item id="4010" name="登記咗嘅副檔名："/>
                 </FileAssoc>
 
-                <Language title="Language">
-                    <Item id="6505" name="Available items"/>
-                    <Item id="6506" name="Disabled items"/>
-                    <Item id="6507" name="Make language menu compact"/>
-                    <Item id="6508" name="Language Menu"/>
-                    <Item id="6301" name="Tab Settings"/>
-                    <Item id="6302" name="Replace by space"/>
-                    <Item id="6303" name="Tab size: "/>
-                    <Item id="6510" name="Use default value"/>
-                    <Item id="6335" name="Treat backslash as escape character for SQL"/>
+                <Language title="程式語言">
+                    <Item id="6505" name="用得嘅項目"/>
+                    <Item id="6506" name="停用咗嘅項目"/>
+                    <Item id="6507" name="簡化程式語言 menu"/>
+                    <Item id="6508" name="程式語言 Menu"/>
+                    <Item id="6301" name="縮排設定"/>
+                    <Item id="6302" name="以空格做 tab"/>
+                    <Item id="6303" name="縮排大細："/>
+                    <Item id="6510" name="使用預設值"/>
+                    <Item id="6335" name="响 SQL 將 backslash「\」睇成 escape character"/>
                 </Language>
 
                 <Highlighting title="Highlighting">
