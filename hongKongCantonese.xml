@@ -905,15 +905,15 @@
                     <Item id="6728" name="Header and Footer"/>
                 </Print>
 
-                <RecentFilesHistory title="Recent Files History">
-                    <Item id="6304" name="Recent Files History"/>
-                    <Item id="6306" name="Max. number of entries :"/>
-                    <Item id="6305" name="Don't check at launch time"/>
-                    <Item id="6429" name="Display"/>
-                    <Item id="6424" name="In Submenu"/>
-                    <Item id="6425" name="Only File Name"/>
-                    <Item id="6426" name="Full File Name Path"/>
-                    <Item id="6427" name="Customize Maximum Length:"/>
+                <RecentFilesHistory title="最近用過檔案嘅記錄">
+                    <Item id="6304" name="最近用過檔案嘅記錄"/>
+                    <Item id="6306" name="上限項目數量："/>
+                    <Item id="6305" name="啟動程式嗰陣唔做檢查"/>
+                    <Item id="6429" name="顯示"/>
+                    <Item id="6424" name="以 submenu 方式顯示"/>
+                    <Item id="6425" name="淨係顯示檔案名稱"/>
+                    <Item id="6426" name="顯示檔案名同𠹺路徑"/>
+                    <Item id="6427" name="自訂最大長度："/>
                 </RecentFilesHistory>
 
                 <Backup title="Backup">
