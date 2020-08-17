@@ -875,34 +875,34 @@
                     <Item id="6330" name="套用响 comment/PHP/ASP 區域"/>
                 </Highlighting>
 
-                <Print title="Print">
-                    <Item id="6601" name="Print line number"/>
-                    <Item id="6602" name="Colour Options"/>
-                    <Item id="6603" name="WYSIWYG"/>
-                    <Item id="6604" name="Invert"/>
-                    <Item id="6605" name="Black on white"/>
-                    <Item id="6606" name="No background colour"/>
-                    <Item id="6607" name="Margin Settings (Unit:mm)"/>
-                    <Item id="6612" name="Left"/>
-                    <Item id="6613" name="Top"/>
-                    <Item id="6614" name="Right"/>
-                    <Item id="6615" name="Bottom"/>
-                    <Item id="6706" name="Bold"/>
-                    <Item id="6707" name="Italic"/>
-                    <Item id="6708" name="Header"/>
-                    <Item id="6709" name="Left part"/>
-                    <Item id="6710" name="Middle part"/>
-                    <Item id="6711" name="Right part"/>
-                    <Item id="6717" name="Bold"/>
-                    <Item id="6718" name="Italic"/>
-                    <Item id="6719" name="Footer"/>
-                    <Item id="6720" name="Left part"/>
-                    <Item id="6721" name="Middle part"/>
-                    <Item id="6722" name="Right part"/>
-                    <Item id="6723" name="Add"/>
-                    <Item id="6725" name="Variable:"/>
-                    <Item id="6727" name="Here display your variable settings"/>
-                    <Item id="6728" name="Header and Footer"/>
+                <Print title="Print 嘢">
+                    <Item id="6601" name="Print 𠹺行數號碼"/>
+                    <Item id="6602" name="色彩選項"/>
+                    <Item id="6603" name="所見即所得"/>
+                    <Item id="6604" name="反白"/>
+                    <Item id="6605" name="白底黑字"/>
+                    <Item id="6606" name="冇底色"/>
+                    <Item id="6607" name="邊界設定（毫米）"/>
+                    <Item id="6612" name="左"/>
+                    <Item id="6613" name="上"/>
+                    <Item id="6614" name="右"/>
+                    <Item id="6615" name="下"/>
+                    <Item id="6706" name="粗體"/>
+                    <Item id="6707" name="斜體"/>
+                    <Item id="6708" name="頁首"/>
+                    <Item id="6709" name="左邊"/>
+                    <Item id="6710" name="中間"/>
+                    <Item id="6711" name="右邊"/>
+                    <Item id="6717" name="粗體"/>
+                    <Item id="6718" name="斜體"/>
+                    <Item id="6719" name="頁尾"/>
+                    <Item id="6720" name="左邊"/>
+                    <Item id="6721" name="中間"/>
+                    <Item id="6722" name="右邊"/>
+                    <Item id="6723" name="加入"/>
+                    <Item id="6725" name="變數："/>
+                    <Item id="6727" name="哩度會顯示你啲變數設定"/>
+                    <Item id="6728" name="頁首同𠹺頁尾"/>
                 </Print>
 
                 <RecentFilesHistory title="最近用過檔案嘅記錄">
