@@ -952,12 +952,12 @@
                     <Item id="6866" name="配對 3："/>
                 </AutoCompletion>
 
-                <MultiInstance title="Multi-Instance">
-                    <Item id="6151" name="Multi-instance settings"/>
-                    <Item id="6152" name="Open session in a new instance of Notepad++"/>
-                    <Item id="6153" name="Always in multi-instance mode"/>
-                    <Item id="6154" name="Default (mono-instance)"/>
-                    <Item id="6155" name="* The modification of this setting needs to restart Notepad++"/>
+                <MultiInstance title="多重程式個體">
+                    <Item id="6151" name="多重程式個體設定 (multi-instance)"/>
+                    <Item id="6152" name="打開工作階段嗰陣時，開新嘅 Notepad++ 個體"/>
+                    <Item id="6153" name="幾時都以多重程式個體模式運作"/>
+                    <Item id="6154" name="預設（單一程式個體）"/>
+                    <Item id="6155" name="* 改過上面啲設定，要重開 Notepad++ 先至會生效"/>
                 </MultiInstance>
 
                 <Delimiter title="Delimiter">
