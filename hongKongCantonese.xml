@@ -931,25 +931,25 @@
                     <Item id="6803" name="資料夾："/>
                 </Backup>
 
-                <AutoCompletion title="Auto-Completion">
-                    <Item id="6115" name="Auto-indent"/>
-                    <Item id="6807" name="Auto-Completion"/>
-                    <Item id="6808" name="Enable auto-completion on each input"/>
-                    <Item id="6809" name="Function completion"/>
-                    <Item id="6810" name="Word completion"/>
-                    <Item id="6816" name="Function and word completion"/>
-                    <Item id="6824" name="Ignore numbers"/>
-                    <Item id="6811" name="From"/>
-                    <Item id="6813" name="th character"/>
-                    <Item id="6814" name="Valid value : 1 - 9"/>
-                    <Item id="6815" name="Function parameters hint on input"/>
-                    <Item id="6851" name="Auto-Insert"/>
-                    <Item id="6857" name=" html/xml close tag"/>
-                    <Item id="6858" name="Open"/>
-                    <Item id="6859" name="Close"/>
-                    <Item id="6860" name="Matched pair 1:"/>
-                    <Item id="6863" name="Matched pair 2:"/>
-                    <Item id="6866" name="Matched pair 3:"/>
+                <AutoCompletion title="自動完成">
+                    <Item id="6115" name="自動縮排"/>
+                    <Item id="6807" name="自動完成"/>
+                    <Item id="6808" name="打每隻字都行自動完成"/>
+                    <Item id="6809" name="函式自動完成"/>
+                    <Item id="6810" name="字詞自動完成"/>
+                    <Item id="6816" name="函式同𠹺字詞自動完成"/>
+                    <Item id="6824" name="唔理數字"/>
+                    <Item id="6811" name="由第"/>
+                    <Item id="6813" name="個字元開始"/>
+                    <Item id="6814" name="有效值：1 - 9"/>
+                    <Item id="6815" name="打字嗰陣顯示函式參數提示"/>
+                    <Item id="6851" name="自動加插"/>
+                    <Item id="6857" name="HTML/XML 結束 tag"/>
+                    <Item id="6858" name="起始"/>
+                    <Item id="6859" name="結束"/>
+                    <Item id="6860" name="配對 1："/>
+                    <Item id="6863" name="配對 2："/>
+                    <Item id="6866" name="配對 3："/>
                 </AutoCompletion>
 
                 <MultiInstance title="Multi-Instance">
