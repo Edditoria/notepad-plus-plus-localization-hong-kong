@@ -916,19 +916,19 @@
                     <Item id="6427" name="自訂最大長度："/>
                 </RecentFilesHistory>
 
-                <Backup title="Backup">
-                    <Item id="6817" name="Session snapshot and periodic backup"/>
-                    <Item id="6818" name="Enable session snapshot and periodic backup"/>
-                    <Item id="6819" name="Backup in every"/>
-                    <Item id="6821" name="seconds"/>
-                    <Item id="6822" name="Backup path:"/>
-                    <Item id="6309" name="Remember current session for next launch"/>
-                    <Item id="6801" name="Backup on save"/>
-                    <Item id="6315" name="None"/>
-                    <Item id="6316" name="Simple backup"/>
-                    <Item id="6317" name="Verbose backup"/>
-                    <Item id="6804" name="Custom Backup Directory"/>
-                    <Item id="6803" name="Directory :"/>
+                <Backup title="備份">
+                    <Item id="6817" name="工作階段快照同𠹺定期備份"/>
+                    <Item id="6818" name="啟用工作階段快照同𠹺定期備份"/>
+                    <Item id="6819" name="每"/>
+                    <Item id="6821" name="秒備份一次"/>
+                    <Item id="6822" name="備份路徑："/>
+                    <Item id="6309" name="記著工作階段，下次開程式嗰陣繼續用"/>
+                    <Item id="6801" name="Save 嗰陣備份"/>
+                    <Item id="6315" name="唔做"/>
+                    <Item id="6316" name="簡易備份"/>
+                    <Item id="6317" name="詳細備份"/>
+                    <Item id="6804" name="自訂備份資料夾"/>
+                    <Item id="6803" name="資料夾："/>
                 </Backup>
 
                 <AutoCompletion title="Auto-Completion">
