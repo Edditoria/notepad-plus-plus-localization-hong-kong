@@ -960,15 +960,15 @@
                     <Item id="6155" name="* 改過上面啲設定，要重開 Notepad++ 先至會生效"/>
                 </MultiInstance>
 
-                <Delimiter title="Delimiter">
-                    <Item id="6251" name="Delimiter selection settings (Ctrl + Mouse double click)"/>
-                    <Item id="6252" name="Open"/>
-                    <Item id="6255" name="Close"/>
-                    <Item id="6256" name="Allow on several lines"/>
-                    <Item id="6161" name="Word character list"/>
-                    <Item id="6162" name="Use default Word character list as it is"/>
-                    <Item id="6163" name="Add your character as part of word
-(don't choose it unless you know what you're doing)"/>
+                <Delimiter title="分隔符號">
+                    <Item id="6251" name="分隔符號揀選設定（Ctrl + 撳兩吓滑鼠掣）"/>
+                    <Item id="6252" name="起始"/>
+                    <Item id="6255" name="結束"/>
+                    <Item id="6256" name="可以橫跨幾行"/>
+                    <Item id="6161" name="單字字元清單"/>
+                    <Item id="6162" name="用預設嘅單字字元清單"/>
+                    <Item id="6163" name="加啲字作為單字嘅一部分
+（唔好揀呢項，除非你知道搞緊咩啦）"/>
                 </Delimiter>
 
                 <Cloud title="Cloud">
