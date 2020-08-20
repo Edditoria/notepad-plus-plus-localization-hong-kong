@@ -971,10 +971,10 @@
 （唔好揀呢項，除非你知道搞緊咩啦）"/>
                 </Delimiter>
 
-                <Cloud title="Cloud">
-                    <Item id="6262" name="Settings on cloud"/>
-                    <Item id="6263" name="No Cloud"/>
-                    <Item id="6267" name="Set your cloud location path here:"/>
+                <Cloud title="雲端">
+                    <Item id="6262" name="雲端設定"/>
+                    <Item id="6263" name="唔搞"/>
+                    <Item id="6267" name="雲端路徑："/>
                 </Cloud>
 
                 <SearchEngine title="Search Engine">
