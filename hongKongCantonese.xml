@@ -977,15 +977,15 @@
                     <Item id="6267" name="雲端路徑："/>
                 </Cloud>
 
-                <SearchEngine title="Search Engine">
-                    <Item id="6271" name="Search Engine (for command &quot;Search on Internet&quot;)"/>
+                <SearchEngine title="搜尋器">
+                    <Item id="6271" name="搜尋器（用响「上網搵吓」指令嗰度）"/>
                     <Item id="6272" name="DuckDuckGo"/>
                     <Item id="6273" name="Google"/>
                     <Item id="6274" name="Bing"/>
                     <Item id="6275" name="Yahoo!"/>
-                    <Item id="6276" name="Set your search engine here:"/>
-                    <!-- Don't change anything after Example: -->
-                    <Item id="6278" name="Example: https://www.google.com/search?q=$(CURRENT_WORD)"/>
+                    <Item id="6276" name="Set 你想要嘅搜尋器："/>
+                    <!-- 嗱！咪撚搞「例子：」後面啲字呀嗱 -->
+                    <Item id="6278" name="例子： https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
 
                 <MISC title="MISC.">
