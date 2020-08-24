@@ -1018,13 +1018,13 @@
                 </MISC>
             </Preference>
 
-            <MultiMacro title="Run a Macro Multiple Times">
-                <Item id="1" name="&amp;Run"/>
-                <Item id="2" name="&amp;Cancel"/>
-                <Item id="8006" name="Macro to run :"/>
-                <Item id="8001" name="Run"/>
-                <Item id="8005" name="times"/>
-                <Item id="8002" name="Run until the &amp;end of file"/>
+            <MultiMacro title="係咁執行 Macro">
+                <Item id="1" name="執行 (&amp;R)"/>
+                <Item id="2" name="取消 (&amp;C)"/>
+                <Item id="8006" name="要行嘅 Macro："/>
+                <Item id="8001" name="執行"/>
+                <Item id="8005" name="次"/>
+                <Item id="8002" name="執行到檔案結尾 (&amp;E)"/>
             </MultiMacro>
 
             <Window title="Windows">
