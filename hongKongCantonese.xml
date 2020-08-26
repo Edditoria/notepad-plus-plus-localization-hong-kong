@@ -1035,20 +1035,20 @@
                 <Item id="7004" name="Tabs 排次序 (&amp;T)"/>
             </Window>
 
-            <ColumnEditor title="Column Editor">
-                <Item id="2023" name="Text to Insert"/>
-                <Item id="2033" name="Number to Insert"/>
-                <Item id="2030" name="Initial number :"/>
-                <Item id="2031" name="Increase by :"/>
-                <Item id="2035" name="Leading zeros"/>
-                <Item id="2036" name="Repeat :"/>
-                <Item id="2032" name="Format"/>
-                <Item id="2024" name="Dec"/>
-                <Item id="2025" name="Oct"/>
-                <Item id="2026" name="Hex"/>
-                <Item id="2027" name="Bin"/>
+            <ColumnEditor title="欄位編輯器">
+                <Item id="2023" name="插入文字"/>
+                <Item id="2033" name="插入數字"/>
+                <Item id="2030" name="起始數值："/>
+                <Item id="2031" name="增量："/>
+                <Item id="2035" name="齊頭補零"/>
+                <Item id="2036" name="重複："/>
+                <Item id="2032" name="格式"/>
+                <Item id="2024" name="十進位"/>
+                <Item id="2025" name="八進位"/>
+                <Item id="2026" name="十六進位"/>
+                <Item id="2027" name="二進位"/>
                 <Item id="1" name="OK"/>
-                <Item id="2" name="Cancel"/>
+                <Item id="2" name="取消"/>
             </ColumnEditor>
 
             <FindInFinder title="Find in finder">
