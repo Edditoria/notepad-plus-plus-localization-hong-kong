@@ -1019,20 +1019,20 @@
             </Preference>
 
             <MultiMacro title="係咁執行 Macro">
-                <Item id="1" name="執行 (&amp;R)"/>
-                <Item id="2" name="取消 (&amp;C)"/>
+                <Item id="1" name="執行(&amp;R)"/>
+                <Item id="2" name="取消(&amp;C)"/>
                 <Item id="8006" name="要行嘅 Macro："/>
                 <Item id="8001" name="執行"/>
                 <Item id="8005" name="次"/>
-                <Item id="8002" name="執行到檔案結尾 (&amp;E)"/>
+                <Item id="8002" name="執行到檔案結尾(&amp;E)"/>
             </MultiMacro>
 
             <Window title="視窗">
-                <Item id="1" name="啟用 (&amp;A)"/>
+                <Item id="1" name="啟用(&amp;A)"/>
                 <Item id="2" name="OK (&amp;O)"/>
                 <Item id="7002" name="Save (&amp;S)"/>
-                <Item id="7003" name="閂視窗 (&amp;C)"/>
-                <Item id="7004" name="Tabs 排次序 (&amp;T)"/>
+                <Item id="7003" name="閂視窗(&amp;C)"/>
+                <Item id="7004" name="Tabs 排次序(&amp;T)"/>
             </Window>
 
             <ColumnEditor title="欄位編輯器">
