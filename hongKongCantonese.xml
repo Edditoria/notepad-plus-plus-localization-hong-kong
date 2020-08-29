@@ -1066,12 +1066,12 @@
             </FindInFinder>
 
             <DoSaveOrNot title="Save"> 
-                <Item id="1761" name="Save file &quot;$STR_REPLACE$&quot; ?"/>
-                <Item id="6" name="&amp;Yes"/>
-                <Item id="7" name="&amp;No"/>
-                <Item id="2" name="&amp;Cancel"/>
-                <Item id="4" name="Yes to &amp;all"/>
-                <Item id="5" name="N&amp;o to all"/>
+                <Item id="1761" name="使唔使 save 檔案「$STR_REPLACE$」？"/>
+                <Item id="6" name="好(&amp;Y)"/>
+                <Item id="7" name="唔使(&amp;N)"/>
+                <Item id="2" name="取消(&amp;C)"/>
+                <Item id="4" name="全部都要(&amp;A)"/>
+                <Item id="5" name="全部唔使(&amp;O)"/>
             </DoSaveOrNot>
         </Dialog>
 
