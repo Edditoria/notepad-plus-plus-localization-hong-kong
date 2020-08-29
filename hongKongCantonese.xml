@@ -1051,18 +1051,18 @@
                 <Item id="2" name="取消"/>
             </ColumnEditor>
 
-            <FindInFinder title="Find in finder">
-                <Item id="1"    name="Find All"/>
-                <Item id="2"    name="Close"/>
-                <Item id="1711" name="&amp;Find what :"/>
-                <Item id="1713" name="Search only in found lines"/>
-                <Item id="1714" name="Match &amp;whole word only"/>
-                <Item id="1715" name="Match &amp;case"/>
-                <Item id="1716" name="Search Mode"/>
-                <Item id="1717" name="&amp;Normal"/>
-                <Item id="1719" name="Re&amp;gular expression"/>
-                <Item id="1718" name="E&amp;xtended (\n, \r, \t, \0, \x...)"/>
-                <Item id="1720" name="&amp;. matches newline"/>
+            <FindInFinder title="响搜尋結果再搵">
+                <Item id="1"    name="搵晒出嚟"/>
+                <Item id="2"    name="閂"/>
+                <Item id="1711" name="搵乜嘢(&amp;F)："/>
+                <Item id="1713" name="限制响啲搵咗嘅行數再搵"/>
+                <Item id="1714" name="符合成個單字(&amp;W)"/>
+                <Item id="1715" name="符合大細楷(&amp;C)"/>
+                <Item id="1716" name="模式"/>
+                <Item id="1717" name="一般(&amp;N)"/>
+                <Item id="1719" name="規則運算式(&amp;G)"/>
+                <Item id="1718" name="加強（例如 \n, \r, \t, \0, \x...）(&amp;X)"/>
+                <Item id="1720" name="包含換行(&amp;.)"/>
             </FindInFinder>
 
             <DoSaveOrNot title="Save"> 
