@@ -1075,27 +1075,27 @@
             </DoSaveOrNot>
         </Dialog>
 
-        <MessageBox> <!-- $INT_REPLACE$ is a place holder, don't translate it -->
-            <ContextMenuXmlEditWarning title="Editing contextMenu" message="Editing contextMenu.xml allows you to modify your Notepad++ popup context menu.
-You have to restart your Notepad++ to take effect after modifying contextMenu.xml."/>
-            <NppHelpAbsentWarning title="File does not exist" message="
-doesn't exist. Please download it on Notepad++ site."/>
-            <SaveCurrentModifWarning title="Save Current Modification" message="You should save the current modification.
-All the saved modifications can not be undone.
+        <MessageBox> <!-- $INT_REPLACE$ 係 place holder 嚟，唔好改啊嗱 -->
+            <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 Notepad++ 嘅快顯功能表。
+改完記得重新啟動 Notepad++，咁先至會生效。"/>
+            <NppHelpAbsentWarning title="檔案唔存在" message="
+冇响度，去 Notepad++ 網站下載番啦。"/>
+            <SaveCurrentModifWarning title="Save 而家嘅改動" message="您必須要 save 低而家嘅改動。
+留意番，save 咗就冇得復原。
 
-Continue?"/>
-            <LoseUndoAbilityWarning title="Lose Undo Ability Warning" message="You should save the current modification.
-All the saved modifications can not be undone.
+仲繼唔繼續？"/>
+            <LoseUndoAbilityWarning title="警告：冇得復原" message="您必須要 save 低而家嘅改動。
+留意番，save 咗就冇得復原。
 
-Continue?"/>
-            <CannotMoveDoc title="Move to new Notepad++ Instance" message="Document is modified, save it then try again."/>
-            <DocReloadWarning title="Reload" message="Are you sure you want to reload the current file and lose the changes made in Notepad++?"/>
-            <FileLockedWarning title="Save failed" message="Please check whether if this file is opened in another program"/>
-            <FileAlreadyOpenedInNpp title="" message="The file is already opened in Notepad++."/>
-            <DeleteFileFailed title="Delete File" message="Delete File failed"/>
+仲繼唔繼續？"/>
+            <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有改過嘢，save 咗佢再試吓。"/>
+            <DocReloadWarning title="响磁碟重新 load 過" message="留意番！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
+            <FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
+            <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/>
+            <DeleteFileFailed title="掉去垃圾桶" message="摌唔走個檔案。"/>
 
-            <NbFileToOpenImportantWarning title="Amount of files to open is too large" message="$INT_REPLACE$ files are about to be opened.
-Are you sure you want to open them?"/>
+            <NbFileToOpenImportantWarning title="太多檔案" message="成 $INT_REPLACE$ 個檔案咁多，
+係咪真係要開晒先？"/>
             <SettingsOnCloudError title="Settings on Cloud" message="It seems the path of settings on cloud is set on a read only drive,
 or on a folder needed privilege right for writing access.
 Your settings on cloud will be canceled. Please reset a coherent value via Preference dialog."/>
