@@ -1114,18 +1114,18 @@
             <NoBackupDoSaveFile title="Save" message="檔案嘅備份已經畀另一個程式摌走咗。
 如果唔想遺失數據就 save 低佢啦。
 您想唔想 save「$STR_REPLACE$」呢？"/> <!-- #todo reproduce -->
-            <DoReloadOrNot title="Reload" message="&quot;$STR_REPLACE$&quot;
+            <DoReloadOrNot title="Reload" message="「$STR_REPLACE$」
 
-This file has been modified by another program.
-Do you want to reload it?"/>
-            <DoReloadOrNotAndLooseChange title="Reload" message="&quot;$STR_REPLACE$&quot;
+已經畀另一個程式改過嘢。
+仲使唔使 reload 呢？"/> <!-- #todo reproduce -->
+            <DoReloadOrNotAndLooseChange title="Reload" message="「$STR_REPLACE$」
 
-This file has been modified by another program.
-Do you want to reload it and lose the changes made in Notepad++?"/>
-            <PrehistoricSystemDetected title="Prehistoric system detected" message="It seems you still use a prehistoric system. This feature works only on a modern system, sorry."/>
-            <XpUpdaterProblem title="Notepad++ Updater" message="Notepad++ updater is not compatible with XP due to the obsolete security layer under XP.
-Do you want to go to Notepad++ page to download the latest version?"/>
-            <GUpProxyConfNeedAdminMode title="Proxy Settings" message="Please relaunch Notepad++ in Admin mode to configure proxy."/>
+已經畀另一個程式改過嘢。
+Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!-- #todo reproduce -->
+            <PrehistoricSystemDetected title="系統太舊" message="似乎你個系統太舊啦喂，呢個功能唔 work，唔好意思。"/> <!-- #todo reproduce -->
+            <XpUpdaterProblem title="更新 Notepad++" message="由於 Windows XP 嘅安全機制太過舊，更新程式唔再兼容 XP 系統啦。
+要唔要去 Notepad++ 網站，下載最新嘅版本呢？"/> <!-- #todo reproduce -->
+            <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩用系統管理員模式打開 Notepad++，再設定代理伺服器。"/> <!-- #todo reproduce -->
             <DocTooDirtyToMonitor title="Monitoring problem" message="The document is dirty. Please save the modification before monitoring it."/>
             <DocNoExistToMonitor title="Monitoring problem" message="The file should exist to be monitored."/>
             <FileTooBigToOpen title="File size problem" message="File is too big to be opened by Notepad++"/>
