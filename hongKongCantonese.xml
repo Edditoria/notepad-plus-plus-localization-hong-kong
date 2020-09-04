@@ -1077,25 +1077,25 @@
 
         <MessageBox> <!-- $INT_REPLACE$ 係 place holder 嚟，唔好改啊嗱 -->
             <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 Notepad++ 嘅快顯功能表。
-改完記得重新啟動 Notepad++，咁先至會生效。"/>
+改完記得重新啟動 Notepad++，咁先至會生效。"/> <!-- #todo reproduce -->
             <NppHelpAbsentWarning title="檔案唔存在" message="
-冇响度，去 Notepad++ 網站下載番啦。"/>
+冇响度，去 Notepad++ 網站下載番啦。"/> <!-- #todo reproduce -->
             <SaveCurrentModifWarning title="Save 而家嘅改動" message="您必須要 save 低而家嘅改動。
 留意番，save 咗就冇得復原。
 
-仲繼唔繼續？"/>
+仲繼唔繼續？"/> <!-- #todo reproduce -->
             <LoseUndoAbilityWarning title="警告：冇得復原" message="您必須要 save 低而家嘅改動。
 留意番，save 咗就冇得復原。
 
-仲繼唔繼續？"/>
-            <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有改過嘢，save 咗佢再試吓。"/>
-            <DocReloadWarning title="响磁碟重新 load 過" message="留意番！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
-            <FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
-            <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/>
-            <DeleteFileFailed title="掉去垃圾桶" message="摌唔走個檔案。"/>
+仲繼唔繼續？"/> <!-- #todo reproduce -->
+            <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有改過嘢，save 咗佢再試吓。"/> <!-- #todo reproduce -->
+            <DocReloadWarning title="响磁碟重新 load 過" message="留意番！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/> <!-- #todo reproduce -->
+            <FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/> <!-- #todo reproduce -->
+            <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/> <!-- #todo reproduce -->
+            <DeleteFileFailed title="掉去垃圾桶" message="摌唔走個檔案。"/> <!-- #todo reproduce -->
 
             <NbFileToOpenImportantWarning title="太多檔案" message="成 $INT_REPLACE$ 個檔案咁多，
-係咪真係要開晒先？"/>
+係咪真係要開晒先？"/> <!-- #todo reproduce -->
             <SettingsOnCloudError title="雲端設定" message="條雲端路徑似乎 set 咗响唯讀磁碟，又或者
 資料夾冇足夠嘅寫入權限，而家清除您嘅雲端設定，
 麻煩去「偏好設定」重新 set 過。"/> <!-- #todo reproduce -->
