@@ -1126,11 +1126,11 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <XpUpdaterProblem title="更新 Notepad++" message="由於 Windows XP 嘅安全機制太過舊，更新程式唔再兼容 XP 系統啦。
 要唔要去 Notepad++ 網站，下載最新嘅版本呢？"/> <!-- #todo reproduce -->
             <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩用系統管理員模式打開 Notepad++，再設定代理伺服器。"/> <!-- #todo reproduce -->
-            <DocTooDirtyToMonitor title="Monitoring problem" message="The document is dirty. Please save the modification before monitoring it."/>
-            <DocNoExistToMonitor title="Monitoring problem" message="The file should exist to be monitored."/>
-            <FileTooBigToOpen title="File size problem" message="File is too big to be opened by Notepad++"/>
-            <CreateNewFileOrNot title="Create new file" message="&quot;$STR_REPLACE$&quot; doesn't exist. Create it?"/>
-            <CreateNewFileError title="Create new file" message="Cannot create the file &quot;$STR_REPLACE$&quot;."/>
+            <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/> <!-- #todo reproduce -->
+            <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/> <!-- #todo reproduce -->
+            <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/> <!-- #todo reproduce -->
+            <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/> <!-- #todo reproduce -->
+            <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
             <OpenFileError title="ERROR" message="Can not open file &quot;$STR_REPLACE$&quot;."/>
             <FileBackupFailed title="File Backup Failed" message="The previous version of the file could not be saved into the backup directory at &quot;$STR_REPLACE$&quot;.
 
