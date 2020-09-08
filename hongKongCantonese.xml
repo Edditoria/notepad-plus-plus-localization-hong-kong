@@ -1131,16 +1131,16 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/> <!-- #todo reproduce -->
             <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/> <!-- #todo reproduce -->
             <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
-            <OpenFileError title="ERROR" message="Can not open file &quot;$STR_REPLACE$&quot;."/>
-            <FileBackupFailed title="File Backup Failed" message="The previous version of the file could not be saved into the backup directory at &quot;$STR_REPLACE$&quot;.
+            <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/> <!-- #todo reproduce -->
+            <FileBackupFailed title="檔案備份失敗" message="備份資料夾「$STR_REPLACE$」存唔到個檔案嘅過往版本。
 
-Do you want to save the current file anyways?"/>
-            <LoadStylersFailed title="Load stylers.xml failed" message="Load &quot;$STR_REPLACE$&quot; failed!"/>
-            <LoadLangsFailed title="Configurator" message="Load langs.xml failed!
-Do you want to recover your langs.xml?"/>
-            <LoadLangsFailedFinal title="Configurator" message="Load langs.xml failed!"/>
-            <FolderAsWorspaceSubfolderExists title="Folder as Workspace adding folder problem" message="A sub-folder of the folder you want to add exists.
-Please remove its root from the panel before you add folder &quot;$STR_REPLACE$&quot;."/>
+仲使唔使 save 呢個檔案呢？"/> <!-- #todo reproduce -->
+            <LoadStylersFailed title="Load 唔到 stylers.xml" message="Load 唔到「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
+            <LoadLangsFailed title="設定" message="Load 唔到「langs.xml」。
+使唔使回復個檔案？"/> <!-- #todo reproduce -->
+            <LoadLangsFailedFinal title="設定" message="Load 唔到「langs.xml」。"/> <!-- #todo reproduce -->
+            <FolderAsWorspaceSubfolderExists title="資料夾工作區問題" message="您要加入嘅資料夾「$STR_REPLACE$」，已經以子資料夾嘅形式出現响工作區裏面。
+如果您仍然想咁做，唯有响工作區摌走包含佢嘅資料夾，先至可以加番上去。"/> <!-- #todo reproduce -->
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="The workspace was modified. Do you want to save it?"/>
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Your workspace has not been saved."/>
