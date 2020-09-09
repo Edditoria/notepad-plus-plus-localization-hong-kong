@@ -1142,12 +1142,12 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <FolderAsWorspaceSubfolderExists title="資料夾工作區問題" message="您要加入嘅資料夾「$STR_REPLACE$」，已經以子資料夾嘅形式出現响工作區裏面。
 如果您仍然想咁做，唯有响工作區摌走包含佢嘅資料夾，先至可以加番上去。"/> <!-- #todo reproduce -->
 
-            <ProjectPanelChanged title="$STR_REPLACE$" message="The workspace was modified. Do you want to save it?"/>
-            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Your workspace has not been saved."/>
-            <ProjectPanelOpenDoSaveDirtyWsOrNot title="Open Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
-            <ProjectPanelNewDoSaveDirtyWsOrNot title="New Workspace" message="The current workspace was modified. Do you want to save the current project?"/>
-            <ProjectPanelOpenFailed title="Open Workspace" message="The workspace could not be opened.
-It seems the file to open is not a valid project file."/>
+            <ProjectPanelChanged title="$STR_REPLACE$" message="Project 面板被修改過。使唔使 save？"/> <!-- #todo reproduce -->
+            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 面板 save 唔到。"/> <!-- #todo reproduce -->
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開 Project 面板" message="您用𡁵呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="新 Project 面板" message="您用𡁵呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
+            <ProjectPanelOpenFailed title="打開 Project 面板" message="打唔開個 Project 面板。
+似乎係個工作區檔案無效或者損毀咗。"/> <!-- #todo reproduce -->
             <ProjectPanelRemoveFolderFromProject title="Remove folder from project" message="All the sub-items will be removed.
 Are you sure you want to remove this folder from the project?"/>
             <ProjectPanelRemoveFileFromProject title="Remove file from project" message="Are you sure you want to remove this file from the project?"/>
