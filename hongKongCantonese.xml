@@ -1148,12 +1148,12 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <ProjectPanelNewDoSaveDirtyWsOrNot title="新 Project 面板" message="您用𡁵呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
             <ProjectPanelOpenFailed title="打開 Project 面板" message="打唔開個 Project 面板。
 似乎係個工作區檔案無效或者損毀咗。"/> <!-- #todo reproduce -->
-            <ProjectPanelRemoveFolderFromProject title="Remove folder from project" message="All the sub-items will be removed.
-Are you sure you want to remove this folder from the project?"/>
-            <ProjectPanelRemoveFileFromProject title="Remove file from project" message="Are you sure you want to remove this file from the project?"/>
-            <ProjectPanelReloadError title="Reload Workspace" message="Cannot find the file to reload."/>
-            <ProjectPanelReloadDirty title="Reload Workspace" message="The current workspace was modified. Reloading will discard all modifications.
-Do you want to continue?"/>
+            <ProjectPanelRemoveFolderFromProject title="响 project 度摌走資料夾" message="咁樣會摌走收𠹺啲子資料夾。
+係咪真係要响 project 度摌走資料夾？"/> <!-- #todo reproduce -->
+            <ProjectPanelRemoveFileFromProject title="响 project 度摌走檔案" message="係咪真係要响 project 度摌走呢個檔案？"/> <!-- #todo reproduce -->
+            <ProjectPanelReloadError title="Reload 工作區" message="搵唔到要 reload 嘅檔案。"/> <!-- #todo reproduce -->
+            <ProjectPanelReloadDirty title="Reload 工作區" message="呢個工作區已經改過嘢。Reload 捨棄啲改動。
+仲繼唔繼續？"/> <!-- #todo reproduce -->
             <UDLNewNameError title="UDL Error" message="This name is used by another language,
 please give another one."/>
             <UDLRemoveCurrentLang title="Remove the current language" message="Are you sure?"/>
