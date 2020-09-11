@@ -1154,11 +1154,11 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <ProjectPanelReloadError title="Reload 工作區" message="搵唔到要 reload 嘅檔案。"/> <!-- #todo reproduce -->
             <ProjectPanelReloadDirty title="Reload 工作區" message="呢個工作區已經改過嘢。Reload 捨棄啲改動。
 仲繼唔繼續？"/> <!-- #todo reproduce -->
-            <UDLNewNameError title="UDL Error" message="This name is used by another language,
-please give another one."/>
-            <UDLRemoveCurrentLang title="Remove the current language" message="Are you sure?"/>
-            <SCMapperDoDeleteOrNot title="Are you sure?" message="Are you sure you want to delete this shortcut?"/>
-            <FindCharRangeValueError title="Range Value problem" message="You should type between 0 and 255."/>
+            <UDLNewNameError title="自訂程式語言錯誤" message="呢個名已經畀另一個程式語言用咗。
+麻煩改過個名。"/> <!-- #todo reproduce -->
+            <UDLRemoveCurrentLang title="摌除程式語言" message="係咪真係要咁做？"/> <!-- #todo reproduce -->
+            <SCMapperDoDeleteOrNot title="摌除快捷鍵" message="係咪真係要咁做"/> <!-- #todo reproduce -->
+            <FindCharRangeValueError title="輸入值範圍錯誤" message="您輸入嘅數值應該要介乎 0 到 255 之間先至啱。"/> <!-- #todo reproduce -->
             <OpenInAdminMode title="Save failed" message="The file cannot be saved and it may be protected.
 Do you want to launch Notepad++ in Administrator mode?"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save failed" message="The file cannot be saved and it may be protected.
