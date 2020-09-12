@@ -1159,16 +1159,16 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <UDLRemoveCurrentLang title="摌除程式語言" message="係咪真係要咁做？"/> <!-- #todo reproduce -->
             <SCMapperDoDeleteOrNot title="摌除快捷鍵" message="係咪真係要咁做"/> <!-- #todo reproduce -->
             <FindCharRangeValueError title="輸入值範圍錯誤" message="您輸入嘅數值應該要介乎 0 到 255 之間先至啱。"/> <!-- #todo reproduce -->
-            <OpenInAdminMode title="Save failed" message="The file cannot be saved and it may be protected.
-Do you want to launch Notepad++ in Administrator mode?"/>
-            <OpenInAdminModeWithoutCloseCurrent title="Save failed" message="The file cannot be saved and it may be protected.
-Do you want to launch Notepad++ in Administrator mode?"/>
-            <OpenInAdminModeFailed title="Open in Administrator mode failed" message="Notepad++ cannot be opened in Administrator mode."/>
-            <ViewInBrowser title="View Current File in Browser" message="Application cannot be found in your system."/>
-            <ExitToUpdatePlugins title="Notepad++ is about to exit" message="If you click YES, you will quit Notepad++ to continue the operations.
-Notepad++ will be restarted after all the operations are terminated.
-Continue?"/>
-            <NeedToRestartToLoadPlugins title="Notepad++ need to be relaunched" message="You have to restart Notepad++ to load plugins you installed."/>
+            <OpenInAdminMode title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
+想唔想用系統管理員權限重新打開 Notepad++？"/> <!-- #todo reproduce -->
+            <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
+想唔想用系統管理員模式重新打開 Notepad++？"/> <!-- #todo reproduce -->
+            <OpenInAdminModeFailed title="系統管理員模式都開唔到" message="Notepad++ 冇法子用系統管理員模式打開"/> <!-- #todo reproduce -->
+            <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/> <!-- #todo reproduce -->
+            <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺𠹺，然後安裝更新。
+搞掂晒安裝程序，Notepad++ 就會重新啟動。
+係咪繼續？"/> <!-- #todo reproduce -->
+            <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="Clipboard History"/>
