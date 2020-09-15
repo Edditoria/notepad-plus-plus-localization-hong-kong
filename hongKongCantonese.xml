@@ -1171,25 +1171,25 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
         </MessageBox>
         <ClipboardHistory>
-            <PanelTitle name="Clipboard History"/>
+            <PanelTitle name="剪貼簿記錄"/>
         </ClipboardHistory>
         <DocSwitcher>
-            <PanelTitle name="Doc Switcher"/>
-            <ColumnName name="Name"/>
-            <ColumnExt name="Ext."/>
+            <PanelTitle name="文件切換"/>
+            <ColumnName name="檔名"/>
+            <ColumnExt name="副檔名"/>
         </DocSwitcher>
         <WindowsDlg>
-            <ColumnName name="Name"/>
-            <ColumnPath name="Path"/>
-            <ColumnType name="Type"/>
+            <ColumnName name="檔名"/>
+            <ColumnPath name="路徑"/>
+            <ColumnType name="類型"/>
             <ColumnSize name="Size"/>
         </WindowsDlg>
         <AsciiInsertion>
-            <PanelTitle name="ASCII Codes Insertion Panel"/>
-            <ColumnVal name="Value"/>
+            <PanelTitle name="ASCII 字元表"/>
+            <ColumnVal name="Dec"/>
             <ColumnHex name="Hex"/>
-            <ColumnChar name="Character"/>
-            <ColumnHtmlNumber name="HTML Number"/>
+            <ColumnChar name="字元縮寫"/>
+            <ColumnHtmlNumber name="HTML 編號"/>
             <ColumnHtmlName name="HTML Code"/>
         </AsciiInsertion>
         <DocumentMap>
