@@ -1193,27 +1193,27 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <ColumnHtmlName name="HTML Code"/>
         </AsciiInsertion>
         <DocumentMap>
-            <PanelTitle name="Document Map"/>
+            <PanelTitle name="文件地圖"/>
         </DocumentMap>
         <FunctionList>
-            <PanelTitle name="Function List"/>
-            <SortTip name="Sort"/>
+            <PanelTitle name="函式清單"/>
+            <SortTip name="排次序"/>
             <ReloadTip name="Reload"/>
         </FunctionList>
         <FolderAsWorkspace>
-            <PanelTitle name="Folder as Workspace"/>
-            <SelectFolderFromBrowserString name="Select a folder to add in Folder as Workspace panel"/>
+            <PanelTitle name="資料夾工作區"/>
+            <SelectFolderFromBrowserString name="揀個資料夾嚟加入去資料夾工作區"/>
             <Menus>
-                <Item id="3511" name="Remove"/>
-                <Item id="3512" name="Remove All"/>
-                <Item id="3513" name="Add"/>
-                <Item id="3514" name="Run by system"/>
-                <Item id="3515" name="Open"/>
-                <Item id="3516" name="Copy path"/>
-                <Item id="3517" name="Find in Files..."/>
-                <Item id="3518" name="Explorer here"/>
-                <Item id="3519" name="CMD here"/>
-                <Item id="3520" name="Copy file name"/>
+                <Item id="3511" name="摌走"/>
+                <Item id="3512" name="摌晒去"/>
+                <Item id="3513" name="加料"/>
+                <Item id="3514" name="响系統預設程式打開"/>
+                <Item id="3515" name="打開"/>
+                <Item id="3516" name="將路徑抄去剪貼簿"/>
+                <Item id="3517" name="响呢啲檔案度搵..."/>
+                <Item id="3518" name="响檔案總管打開資料夾"/>
+                <Item id="3519" name="响 CMD 打開資料夾"/>
+                <Item id="3520" name="將檔名抄去剪貼簿"/>
             </Menus>
         </FolderAsWorkspace>
         <ProjectManager>
