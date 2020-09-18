@@ -1218,47 +1218,47 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
         </FolderAsWorkspace>
         <ProjectManager>
             <PanelTitle name="Project"/>
-            <WorkspaceRootName name="Workspace"/>
-            <NewProjectName name="Project Name"/>
-            <NewFolderName name="Folder Name"/>
+            <WorkspaceRootName name="工作區"/>
+            <NewProjectName name="Project 名"/>
+            <NewFolderName name="資料夾名"/>
             <Menus>
                 <Entries>
-                    <Item id="0" name="Workspace"/>
-                    <Item id="1" name="Edit"/>
+                    <Item id="0" name="工作區"/>
+                    <Item id="1" name="編輯"/>
                 </Entries>
                 <WorkspaceMenu>
-                    <Item id="3122" name="New Workspace"/>
-                    <Item id="3123" name="Open Workspace"/>
-                    <Item id="3124" name="Reload Workspace"/>
+                    <Item id="3122" name="新工作區"/>
+                    <Item id="3123" name="打開工作區"/>
+                    <Item id="3124" name="Reload 工作區"/>
                     <Item id="3125" name="Save"/>
-                    <Item id="3126" name="Save As..."/>
-                    <Item id="3127" name="Save a Copy As..."/>
-                    <Item id="3121" name="Add New Project"/>
+                    <Item id="3126" name="Save 做新..."/>
+                    <Item id="3127" name="另抄一份..."/>
+                    <Item id="3121" name="開新 project"/>
                 </WorkspaceMenu>
                 <ProjectMenu>
-                    <Item id="3111" name="Rename"/>
-                    <Item id="3112" name="Add Folder"/>
-                    <Item id="3113" name="Add Files..."/>
-                    <Item id="3117" name="Add Files from Directory..."/>
-                    <Item id="3114" name="Remove"/>
-                    <Item id="3118" name="Move Up"/>
-                    <Item id="3119" name="Move Down"/>
+                    <Item id="3111" name="改名"/>
+                    <Item id="3112" name="加資料夾"/>
+                    <Item id="3113" name="加檔案..."/>
+                    <Item id="3117" name="加資料夾入面啲檔案..."/>
+                    <Item id="3114" name="摌"/>
+                    <Item id="3118" name="移上"/>
+                    <Item id="3119" name="移落"/>
                 </ProjectMenu>
                 <FolderMenu>
-                    <Item id="3111" name="Rename"/>
-                    <Item id="3112" name="Add Folder"/>
-                    <Item id="3113" name="Add Files..."/>
-                    <Item id="3117" name="Add Files from Directory..."/>
-                    <Item id="3114" name="Remove"/>
-                    <Item id="3118" name="Move Up"/>
-                    <Item id="3119" name="Move Down"/>
+                    <Item id="3111" name="改名"/>
+                    <Item id="3112" name="加資料夾"/>
+                    <Item id="3113" name="加檔案..."/>
+                    <Item id="3117" name="加資料夾入面啲檔案..."/>
+                    <Item id="3114" name="摌"/>
+                    <Item id="3118" name="移上"/>
+                    <Item id="3119" name="移落"/>
                 </FolderMenu>
                 <FileMenu>
-                    <Item id="3111" name="Rename"/>
-                    <Item id="3115" name="Remove"/>
-                    <Item id="3116" name="Modify File Path"/>
-                    <Item id="3118" name="Move Up"/>
-                    <Item id="3119" name="Move Down"/>
+                    <Item id="3111" name="改名"/>
+                    <Item id="3115" name="摌"/>
+                    <Item id="3116" name="改檔案路徑"/>
+                    <Item id="3118" name="移上"/>
+                    <Item id="3119" name="移落"/>
                 </FileMenu>
             </Menus>
         </ProjectManager>
