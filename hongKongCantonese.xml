@@ -1263,12 +1263,12 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             </Menus>
         </ProjectManager>
         <MiscStrings>
-            <!-- $INT_REPLACE$  and $STR_REPLACE$ are a place holders, don't translate these place holders -->
-            <word-chars-list-tip value="This allows you to include additional character into current word characters while double clicking for selection or searching with &quot;Match whole word only&quot; option checked."/>
-            <word-chars-list-warning-begin value="Be aware: "/>
-            <word-chars-list-space-warning value="$INT_REPLACE$ space(s)"/>
-            <word-chars-list-tab-warning value="$INT_REPLACE$ TAB(s)"/>
-            <word-chars-list-warning-end value="  in your character list."/>
+            <!-- $INT_REPLACE$ 同𠹺 $STR_REPLACE$ 係 place holders 嚟，唔好改啊嗱 -->
+            <word-chars-list-tip value="呢度要嚟响現時嘅單字字元清單附加字元，double-click 揀字又或者剔咗「符合完整單字」嚟搵嘢就會包𠹺。"/> <!-- #todo reproduce -->
+            <word-chars-list-warning-begin value="留意番："/> <!-- #todo reproduce -->
+            <word-chars-list-space-warning value="$INT_REPLACE$ 有空格"/> <!-- #todo reproduce -->
+            <word-chars-list-tab-warning value="$INT_REPLACE$ 有 tab"/> <!-- #todo reproduce -->
+            <word-chars-list-warning-end value=" 出現响您嘅單字字元清單裏頭。"/> <!-- #todo reproduce -->
             <cloud-invalid-warning value="Invalid path."/>
             <cloud-restart-warning value="Please restart Notepad++ to take effect."/>
             <cloud-select-folder value="Select a folder from/to where Notepad++ reads/writes its settings"/>
