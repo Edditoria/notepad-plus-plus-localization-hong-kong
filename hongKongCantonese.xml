@@ -1269,9 +1269,9 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <word-chars-list-space-warning value="$INT_REPLACE$ 有空格"/> <!-- #todo reproduce -->
             <word-chars-list-tab-warning value="$INT_REPLACE$ 有 tab"/> <!-- #todo reproduce -->
             <word-chars-list-warning-end value=" 出現响您嘅單字字元清單裏頭。"/> <!-- #todo reproduce -->
-            <cloud-invalid-warning value="Invalid path."/>
-            <cloud-restart-warning value="Please restart Notepad++ to take effect."/>
-            <cloud-select-folder value="Select a folder from/to where Notepad++ reads/writes its settings"/>
+            <cloud-invalid-warning value="路徑無效。"/> <!-- #todo reproduce -->
+            <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/> <!-- #todo reproduce -->
+            <cloud-select-folder value="揀番個資料夾，畀 Notepad++ 讀取/寫入設定。"/> <!-- #todo reproduce -->
             <shift-change-direction-tip value="Use Shift+Enter to search in the opposite direction"/>
             <two-find-buttons-tip value="2 find buttons mode"/>
             <find-in-files-filter-tip value="Find in cpp, cxx, h, hxx &amp;&amp; hpp:
