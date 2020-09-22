@@ -1272,15 +1272,15 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <cloud-invalid-warning value="路徑無效。"/> <!-- #todo reproduce -->
             <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/> <!-- #todo reproduce -->
             <cloud-select-folder value="揀番個資料夾，畀 Notepad++ 讀取/寫入設定。"/> <!-- #todo reproduce -->
-            <shift-change-direction-tip value="Use Shift+Enter to search in the opposite direction"/>
-            <two-find-buttons-tip value="2 find buttons mode"/>
-            <find-in-files-filter-tip value="Find in cpp, cxx, h, hxx &amp;&amp; hpp:
+            <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/> <!-- #todo reproduce -->
+            <two-find-buttons-tip value="用上丶落兩個掣代替「搵下一個」"/> <!-- #todo reproduce -->
+            <find-in-files-filter-tip value="只係响 cpp, cxx, h, hxx &amp;&amp; hpp 裏面搵：
 *.cpp *.cxx *.h *.hxx *.hpp
 
-Find in all files except exe, obj &amp;&amp; log:
-*.* !*.exe !*.obj !*.log"/>
-            <find-status-top-reached value="Find: Found the 1st occurrence from the bottom. The beginning of the document has been reached."/>
-            <find-status-end-reached value="Find: Found the 1st occurrence from the top. The end of the document has been reached."/>
+所有檔案，除咗 exe, obj &amp;&amp; log：
+*.* !*.exe !*.obj !*.log"/> <!-- #todo reproduce -->
+            <find-status-top-reached value="搵嘢：已經過咗文件開端，而家响底部第一個相符嘅字串。"/> <!-- #todo reproduce -->
+            <find-status-end-reached value="搵嘢：已經過咗文件結尾，而家响頂部第一個相符嘅字串。"/> <!-- #todo reproduce -->
             <find-status-replaceinfiles-1-replaced value="Replace in Files: 1 occurrence was replaced"/>
             <find-status-replaceinfiles-nb-replaced value="Replace in Files: $INT_REPLACE$ occurrences were replaced"/>
             <find-status-replaceinfiles-re-malformed value="Replace in Opened Files: The regular expression is malformed"/>
