@@ -1281,11 +1281,11 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
 *.* !*.exe !*.obj !*.log"/> <!-- #todo reproduce -->
             <find-status-top-reached value="搵嘢：已經過咗文件開端，而家响底部第一個相符嘅字串。"/> <!-- #todo reproduce -->
             <find-status-end-reached value="搵嘢：已經過咗文件結尾，而家响頂部第一個相符嘅字串。"/> <!-- #todo reproduce -->
-            <find-status-replaceinfiles-1-replaced value="Replace in Files: 1 occurrence was replaced"/>
-            <find-status-replaceinfiles-nb-replaced value="Replace in Files: $INT_REPLACE$ occurrences were replaced"/>
-            <find-status-replaceinfiles-re-malformed value="Replace in Opened Files: The regular expression is malformed"/>
-            <find-status-replaceinopenedfiles-1-replaced value="Replace in Opened Files: 1 occurrence was replaced"/>
-            <find-status-replaceinopenedfiles-nb-replaced value="Replace in Opened Files: $INT_REPLACE$ occurrences were replaced"/>
+            <find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/> <!-- #todo reproduce -->
+            <find-status-replaceinfiles-nb-replaced value="檔案中執行取代：取代咗 $INT_REPLACE$ 次。"/> <!-- #todo reproduce -->
+            <find-status-replaceinfiles-re-malformed value="檔案中執行取代：規則運算式無效。"/> <!-- #todo reproduce -->
+            <find-status-replaceinopenedfiles-1-replaced value="响所有打開咗嘅文件執行取代：取代咗 1 次。"/> <!-- #todo reproduce -->
+            <find-status-replaceinopenedfiles-nb-replaced value="响所有打開咗嘅文件執行取代：取代咗 $INT_REPLACE$ 次。"/> <!-- #todo reproduce -->
             <find-status-mark-re-malformed value="Mark: The regular expression to search is malformed"/>
             <find-status-invalid-re value="Find: Invalid regular expression"/>
             <find-status-mark-1-match value="Mark: 1 match"/>
