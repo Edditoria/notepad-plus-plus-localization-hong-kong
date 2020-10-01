@@ -1342,11 +1342,11 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <replace-in-open-docs-confirm-message value="係咪真係要响所有打開咗嘅文件度執行取代？"/> <!-- #todo reproduce -->
             <find-result-caption value="搵到嘅結果"/> <!-- #todo reproduce -->
             <find-result-title value="搵"/> <!-- #todo reproduce -->
-            <find-result-title-info value="($INT_REPLACE1$ hits in $INT_REPLACE2$ files of $INT_REPLACE3$ searched)"/>
-            <find-result-title-info-selections value="($INT_REPLACE1$ hits in $INT_REPLACE2$ selections of $INT_REPLACE3$ searched)"/>
-            <find-result-title-info-extra value=" - Line Filter Mode: only display the filtered results"/>
-            <find-result-hits value="($INT_REPLACE$ hits)"/>
-            <find-regex-zero-length-match value="zero length match" />
+            <find-result-title-info value="（响 $INT_REPLACE2$ 個檔案搵到 $INT_REPLACE1$ 個結果，當中搵咗 $INT_REPLACE3$ 次）"/> <!-- #todo reproduce -->
+            <find-result-title-info-selections value="（响 $INT_REPLACE2$ 個揀選範圍搵到 $INT_REPLACE1$ 個結果，當中搵咗 $INT_REPLACE3$ 次）"/> <!-- #todo reproduce -->
+            <find-result-title-info-extra value=" - Line Filter Mode: only display the filtered results"/> <!-- #todo unknown item -->
+            <find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/> <!-- #todo reproduce -->
+            <find-regex-zero-length-match value="zero length match" /> <!-- #todo unknown item -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
