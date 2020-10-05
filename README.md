@@ -10,4 +10,28 @@ All translations are done by human base on:
 
 :heart: Notepad++. :heart: Hong Kong. :heart: Hongkonger.
 
-The translation is done base on Notepad++ v7.8.9 Stand With Hong Kong Edition. Welcome issues and pull requests.
+The translation is done based on Notepad++ v7.8.9 Stand With Hong Kong Edition. Welcome issues and pull requests.
+
+
+# Need Your Help
+
+I want to catch up for Hacktoberfest 2020. There are many things you can fix. For example:
+
+- Typo, grammer, wrong words.
+- Inconsistant phrase and words across menu, descriptions, etc.
+- Unable to display the whole item (sentense) on screen/window.
+
+
+# Contribution Guild (Short version)
+
+- Keep PR small. e.g. 1 PR for 1 character error across the whole file, 1 PR for 1 inconsistant phrase.
+- Only accept words and phrases that Hongkongers would speak in daily life.
+- Only accept PR that the contents will benefit the localization.
+- No spam.
+
+
+# Todo
+
+- [ ] Philisophy session (in Cantonese)
+- [ ] Better tools experience
+- [ ] Other files for Github community
