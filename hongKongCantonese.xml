@@ -774,12 +774,12 @@
                     <Item id="6110" name="响用緊嘅 tab 上面加條顏色 bar"/>
                     <Item id="6111" name="顯示狀態列"/>
                     <Item id="6112" name="响每個 tab 顯示交叉掣"/>
-                    <Item id="6113" name="㩒兩吓滑鼠掣去閂文件"/>
+                    <Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
                     <Item id="6118" name="隱藏"/>
                     <Item id="6119" name="多行"/>
                     <Item id="6120" name="打直"/>
                     <Item id="6121" name="閂最後份文件嗰陣順便閂𠹺個程式"/>
-                    <Item id="6122" name="隱藏 menu bar（㩒 Alt 或者 F10 切換）"/>
+                    <Item id="6122" name="隱藏 menu bar（撳 Alt 或者 F10 切換）"/>
                     <Item id="6123" name="本土化"/>
                     <Item id="6125" name="文件切換面板"/>
                     <Item id="6126" name="顯示"/>
@@ -793,7 +793,7 @@
                     <Item id="6221" name="快"/>
                     <Item id="6222" name="慢"/>
                     <Item id="6224" name="幾個位置同時改嘢"/>
-                    <Item id="6225" name="啟用（Ctrl + 㩒／㩒著滑鼠掣）"/>
+                    <Item id="6225" name="啟用（Ctrl + 撳／撳著滑鼠掣）"/>
                     <Item id="6201" name="摺疊符號風格"/>
                     <Item id="6202" name="精簡"/>
                     <Item id="6203" name="箭嘴"/>
