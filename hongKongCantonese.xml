@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
     <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.8.7">
+        <!--//
+        Welcome issues or pull requests in Github repo:
+
+        https://github.com/Edditoria/notepad-plus-plus-localization-hong-kong
+
+        I'm a real Hongkonger, a native Hong Kong Cantonese speaker, to review things and update this localization.
+        //-->
         <Menu>
             <Main>
                 <!-- Main Menu Entries -->
