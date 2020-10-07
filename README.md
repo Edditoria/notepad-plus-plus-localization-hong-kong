@@ -12,8 +12,12 @@ All translations are done by human base on:
 
 The translation is done based on Notepad++ v7.8.9 Stand With Hong Kong Edition. Welcome issues and pull requests.
 
+---
 
-# 本地化嘅宗旨
+The above information is written for Notepad\+\+ developers and international users. From now on, I would write in Hong Kong Cantonese.
+
+
+## 本地化嘅宗旨
 
 Notepad\+\+ 轉介面語言嘅講法係叫 localization 而唔係 translation，所謂本地化，唔係一味轉晒啲字做中文就算，而係要真實咁反映我哋嘅文化，要貼近日常生活。所以，我係以呢啲方針嚟寫嘅：
 
@@ -27,25 +31,27 @@ Notepad\+\+ 轉介面語言嘅講法係叫 localization 而唔係 translation，
 每一句我都重複想像，嗰句嘢**兜口兜面點樣講出嚟**，譯嘅嘢要配合生活情景，文化傳承要貼地丶本土，唔求優雅唔怕庸俗。
 
 
-# Need Your Help
+## 呢個 Repo 嘅 Status
 
-I want to catch up for Hacktoberfest 2020. There are many things you can fix. For example:
+本來都係龜速咁慢慢寫，但係 Notepad\+\+ Stand With Hong Kong Edition 出咗兩版，又適逢 Github 嘅 Hacktoberfest 2020，我就 push 個 repo 出嚟，大家一齊玩玩丶一齊 fix。個 `<hongKongCantonese.xml>`
 
-- Typo, grammer, wrong words.
-- Inconsistant phrase and words across menu, descriptions, etc.
-- Unable to display the whole item (sentense) on screen/window.
-
-
-# Contribution Guild (Short version)
-
-- Keep PR small. e.g. 1 PR for 1 character error across the whole file, 1 PR for 1 inconsistant phrase.
-- Only accept words and phrases that Hongkongers would speak in daily life.
-- Only accept PR that the contents will benefit the localization.
-- No spam.
+- 呢個 repo 名應該叫「香港廣東話」丶「香港粵語」定係叫「香港語」。 **（重要）**
+- Typo丶錯別字丶文法。
+- 整體嚟講啲字詞丶語法等嘅用字，有冇一致性嘅問題。
+- 實際畫面上有冇 overflow 嘅問題，搞到啲字顯示唔到响個 mon 到。
 
 
-# Todo
+## 社群貢獻指引（簡潔版）
 
-- [ ] Philisophy session (in Cantonese)
-- [ ] Better tools experience
-- [ ] Other files for Github community
+- 麻煩跟番上面「宗旨」嗰段嘅精神。
+- PR (Pull Requests) 盡量細分，容易 review，例如成個 repo 所有 files 出現一個錯字/詞語，一口氣一個 PR，而另一個錯字/詞語，另開一個 PR。
+- 如果唔肯定，歡迎開個 issue 傾傾。
+- 只會 accept 對 localization 內容有幫助嘅 PR。
+- No spam. 鐵定嚴格執行。
+
+
+## Todo
+
+- [ ] `<hongKongCantonese.xml>` 裏面仲有好多錯處，歡迎大家參與。
+- [ ] 改善 `<tools\>` 啲 scripts 嘅體驗。
+- [ ] 一啲 Github 建議嘅社群文件，例如 `<CONTRIBUTING.md>` 。
