@@ -12,6 +12,46 @@ All translations are done by human base on:
 
 The translation is done based on Notepad++ v7.8.9 Stand With Hong Kong Edition. Welcome issues and pull requests.
 
+
+## Install and Test
+
+### In Windows UI
+
+For common users to install and test it in Notepad++:
+
+1. You can download this repo directly.
+1. Unzip the downloaded file, properly called `<notepad-plus-plus-localization-hong-kong-master>`.
+1. Copy and replace the XML file `<nativeLang.xml>` in your user settings with the file `<hongKongCantonese.xml>` in this repo.
+
+	|           | Source                    | Target             |
+	| --------- | ------                    | ------             |
+	| File name | `<hongKongCantonese.xml>` | `<nativeLang.xml>` |
+	| Directory | Root of this repo         | `<%USERPROFILE%\AppData\Roaming\Notepad++\>` |
+
+1. Restart Notepad++ to apply the change.
+
+To revert the localization: On Notepad++ menu, click 設定 (Settings) ▶︎ 偏好設定 (Preference) ▶︎ choose an option in 本地化 (Localization).
+
+
+### Via Command Prompt
+
+For better experience, you can use Command Prompt to help a little bit:
+
+```cmd
+:: Clone from my repo or yours
+git clone https://github.com/Edditoia/notepad-plus-plus-localization-hong-kong.git
+cd notepad-plus-plus-localization-hong-kong
+
+:: Get submodule
+git submodule init
+git submodule update
+
+:: Inject (Copy) to Notepad++
+.\tools\inject.cmd .\hongKongCantonese.xml
+```
+
+Every time you make some changes, you can use the above "inject" command to update. Restart Notepad++ to take effect.
+
 ---
 
 The above information is written for Notepad\+\+ developers and international users. From now on, I would write in Hong Kong Cantonese.
