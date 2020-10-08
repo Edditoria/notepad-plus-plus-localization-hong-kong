@@ -4,13 +4,13 @@ This repo is created for **Hong Kong Cantonese** localization for Notepad++.
 
 All translations are done by human base on:
 
-- **All about Hong Kong**: Not Macau Cantonese, not Guangzhou Cantonese, but Hong Kong Cantonese! This localization contains some words only used by Hongkongers.
-- **How we communicate in daily life**: Hong Kong culture is unique mixture of Chinese, British and Western culture in general. We speak Cantonese with some English together. Especially for some technology terms, I would like to retain some English words.
-- **A little bit Taiwan**: We'd got lots of benefit from Taiwan software and books - Eten (倚天中文系統), PC Home, BBS, and more. Remember the old days? I would adapt some terms from Taiwanese Mandarin, if they are not available in Hong Kong.
+- **All about Hong Kong:** Not Macau Cantonese, not Guangzhou Cantonese, but Hong Kong Cantonese! This localization contains some words only used by Hongkongers.
+- **How we communicate in daily life:** Hong Kong culture is unique mixture of Chinese, British and Western culture in general. We speak Cantonese with some English together. Especially for some technology terms, I would like to retain some English words.
+- **A little bit Taiwan:** We'd got lots of benefit from Taiwan software and books - Eten (倚天中文系統), PC Home, BBS, and more. Remember the old days? I would adapt some terms from Taiwanese Mandarin, if they are not available in Hong Kong.
 
-:heart: Notepad++. :heart: Hong Kong. :heart: Hongkonger.
+The localization is done based on Notepad++ v7.8.9 Stand With Hong Kong Edition. Welcome issues and pull requests.
 
-The translation is done based on Notepad++ v7.8.9 Stand With Hong Kong Edition. Welcome issues and pull requests.
+:heart: Notepad++. :heart: Hong Kong. :heart: Hongkongers.
 
 
 ## Install and Test
@@ -54,12 +54,12 @@ Every time you make some changes, you can use the above "inject" command to upda
 
 ---
 
-The above information is written for Notepad\+\+ developers and international users. From now on, I would write in Hong Kong Cantonese.
+The above information is written for Notepad++ developers and international users. From now on, I would write in Hong Kong Cantonese.
 
 
 ## 本地化嘅宗旨
 
-Notepad\+\+ 轉介面語言嘅講法係叫 localization 而唔係 translation，所謂本地化，唔係一味轉晒啲字做中文就算，而係要真實咁反映我哋嘅文化，要貼近日常生活。所以，我係以呢啲方針嚟寫嘅：
+Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，所謂本地化，唔係一味轉晒啲字做中文就算，而係要真實咁反映我哋嘅文化，要貼近日常生活。所以，我係以呢啲方針嚟寫嘅：
 
 - 我地香港人平日點講野，入面就用番咩字眼。否則既話大家用番所謂既「書面語」，用台灣中文版咪得囉，駛乜搞咁多野。
 - 盡量尊重番英文版既精神同埋用字，例如file vs document，就跟番寫做檔案同文件。
@@ -73,7 +73,7 @@ Notepad\+\+ 轉介面語言嘅講法係叫 localization 而唔係 translation，
 
 ## 呢個 Repo 嘅 Status
 
-本來都係龜速咁慢慢寫，但係 Notepad\+\+ Stand With Hong Kong Edition 出咗兩版，又適逢 Github 嘅 Hacktoberfest 2020，我就 push 個 repo 出嚟，大家一齊玩玩丶一齊 fix。個 `<hongKongCantonese.xml>`
+本來都係龜速咁慢慢寫，但係 Notepad++ Stand With Hong Kong Edition 出咗兩版，又適逢 Github 嘅 Hacktoberfest 2020，我就 push 個 repo 出嚟，大家一齊玩玩丶一齊 fix。
 
 - 呢個 repo 名應該叫「香港廣東話」丶「香港粵語」定係叫「香港語」。 **（重要）**
 - Typo丶錯別字丶文法。
