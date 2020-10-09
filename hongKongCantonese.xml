@@ -185,7 +185,7 @@
                     <Item id="42031" name="資料夾路徑 -> 剪貼簿"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="42032" name="喺咁執行 Macro (&amp;R)..."/>
+                    <Item id="42032" name="係咁執行 Macro (&amp;R)..."/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="42033" name="取消唯讀屬性"/>
