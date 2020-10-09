@@ -348,7 +348,7 @@
                     <!-- menu: Settings (cont'd) -->
                     <Item id="48005" name="匯入外掛..."/>
                     <Item id="48006" name="匯入主題風格..."/>
-                    <Item id="48018" name="俢改快顯功能表"/>
+                    <Item id="48018" name="編輯快顯功能表"/>
                     <Item id="48009" name="管理快捷鍵..."/>
                     <Item id="48011" name="偏好設定..."/>
 
@@ -1084,7 +1084,7 @@
 
         <MessageBox> <!-- $INT_REPLACE$ 係 place holder 嚟，唔好改啊嗱 -->
             <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 Notepad++ 嘅快顯功能表。
-改完記得重新啟動 Notepad++，咁先至會生效。"/> <!-- #todo reproduce -->
+改完記得重新啟動 Notepad++，咁先至會生效。"/>
             <NppHelpAbsentWarning title="檔案唔存在" message="
 冇响度，去 Notepad++ 網站下載番啦。"/> <!-- #todo reproduce -->
             <SaveCurrentModifWarning title="Save 而家嘅改動" message="您必須要 save 低而家嘅改動。
