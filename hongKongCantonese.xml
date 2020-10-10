@@ -251,7 +251,7 @@
 
                     <!-- menu: View (cont'd) -->
                     <Item id="44009" name="Post-It 便利貼模式"/>
-                    <Item id="44010" name="摺𠹺所有層級"/>
+                    <Item id="44010" name="摺埋所有層級"/>
                     <Item id="44019" name="顯示所有字元"/>
                     <Item id="44020" name="顯示縮排輔助線"/>
                     <Item id="44022" name="自動換行"/>
@@ -259,9 +259,9 @@
                     <Item id="44024" name="縮細(&amp;O)"/>
                     <Item id="44025" name="顯示空格同 tab"/>
                     <Item id="44026" name="顯示 EOL 字元 (End of Line)"/>
-                    <Item id="44029" name="摺開所有層級"/>
-                    <Item id="44030" name="摺𠹺呢層"/>
-                    <Item id="44031" name="摺開呢層"/>
+                    <Item id="44029" name="展開所有層級"/>
+                    <Item id="44030" name="摺埋呢層"/>
+                    <Item id="44031" name="展開呢層"/>
                     <Item id="44049" name="統計資料..."/>
                     <Item id="44080" name="文件地圖"/>
                     <Item id="44084" name="函式清單"/>
@@ -1313,8 +1313,8 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
             <finder-find-in-finder value="响搜尋結果再搵..."/> <!-- #todo reproduce -->
             <finder-close-this value="閂咗呢個搜尋結果去"/> <!-- #todo reproduce -->
-            <finder-collapse-all value="摺𠹺全部層級"/> <!-- #todo reproduce -->
-            <finder-uncollapse-all value="摺開全部層級"/> <!-- #todo reproduce -->
+            <finder-collapse-all value="摺埋全部層級"/> <!-- #todo reproduce -->
+            <finder-uncollapse-all value="展開全部層級"/> <!-- #todo reproduce -->
             <finder-copy value="複製"/> <!-- #todo reproduce -->
             <finder-select-all value="揀晒全部"/> <!-- #todo reproduce -->
             <finder-clear-all value="清除全部"/> <!-- #todo reproduce -->
