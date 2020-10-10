@@ -102,7 +102,7 @@
                     <Item id="41015" name="Save 多份 copy..."/>
                     <Item id="41016" name="掉去垃圾桶"/>
                     <Item id="41017" name="改名..."/>
-                    <Item id="41021" name="打返開閂咗嘅檔案"/>
+                    <Item id="41021" name="重新打開閂咗嘅檔案"/>
                     <Item id="41022" name="响工作區打開資料夾(&amp;W)..."/>
                     <Item id="41023" name="响系統預設程式打開"/>
 
@@ -251,7 +251,7 @@
 
                     <!-- menu: View (cont'd) -->
                     <Item id="44009" name="Post-It 便利貼模式"/>
-                    <Item id="44010" name="摺𠹺所有層級"/>
+                    <Item id="44010" name="摺埋所有層級"/>
                     <Item id="44019" name="顯示所有字元"/>
                     <Item id="44020" name="顯示縮排輔助線"/>
                     <Item id="44022" name="自動換行"/>
@@ -259,9 +259,9 @@
                     <Item id="44024" name="縮細(&amp;O)"/>
                     <Item id="44025" name="顯示空格同 tab"/>
                     <Item id="44026" name="顯示 EOL 字元 (End of Line)"/>
-                    <Item id="44029" name="摺開所有層級"/>
-                    <Item id="44030" name="摺𠹺呢層"/>
-                    <Item id="44031" name="摺開呢層"/>
+                    <Item id="44029" name="展開所有層級"/>
+                    <Item id="44030" name="摺埋呢層"/>
+                    <Item id="44031" name="展開呢層"/>
                     <Item id="44049" name="統計資料..."/>
                     <Item id="44080" name="文件地圖"/>
                     <Item id="44084" name="函式清單"/>
@@ -384,8 +384,8 @@
                     <Item id="44042" name="隱藏呢（幾）行"/>
 
                     <!-- menu: File (cont'd) -->
-                    <Item id="42040" name="打開所有最近用過嘅檔案"/>
-                    <Item id="42041" name="摌晒最近用過嘅檔案記錄"/>
+                    <Item id="42040" name="打開所有近期嘅檔案"/>
+                    <Item id="42041" name="摌晒上面嗰啲近期檔案清單"/>
 
                     <!-- menu: Macro (cont'd) -->
                     <Item id="48016" name="修改快捷鍵或者摌走 Macro..."/>
@@ -637,7 +637,7 @@
                     <Item id="2" name="取消"/>
                 </StylerDialog>
 
-                <Folder title="摺疊同𠹺預設樣式">
+                <Folder title="摺疊同埋預設樣式">
                     <Item id="21101" name="預設樣式"/>
                     <Item id="21102" name="樣式"/>
                     <Item id="21105" name="文件資訊："/>
@@ -912,8 +912,8 @@
                     <Item id="6728" name="頁首同𠹺頁尾"/>
                 </Print>
 
-                <RecentFilesHistory title="最近用過嘅檔案記錄">
-                    <Item id="6304" name="最近用過嘅檔案記錄"/>
+                <RecentFilesHistory title="最近用過檔案嘅記錄">
+                    <Item id="6304" name="最近用過檔案嘅記錄"/>
                     <Item id="6306" name="上限項目數量："/>
                     <Item id="6305" name="啟動程式嗰陣唔做檢查"/>
                     <Item id="6429" name="顯示"/>
@@ -1172,7 +1172,7 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
 想唔想用系統管理員模式重新打開 Notepad++？"/> <!-- #todo reproduce -->
             <OpenInAdminModeFailed title="系統管理員模式都開唔到" message="Notepad++ 冇法子用系統管理員模式打開"/> <!-- #todo reproduce -->
             <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/> <!-- #todo reproduce -->
-            <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺𠹺，然後安裝更新。
+            <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/> <!-- #todo reproduce -->
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
@@ -1313,8 +1313,8 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
             <finder-find-in-finder value="响搜尋結果再搵..."/> <!-- #todo reproduce -->
             <finder-close-this value="閂咗呢個搜尋結果去"/> <!-- #todo reproduce -->
-            <finder-collapse-all value="摺𠹺全部層級"/> <!-- #todo reproduce -->
-            <finder-uncollapse-all value="摺開全部層級"/> <!-- #todo reproduce -->
+            <finder-collapse-all value="摺埋全部層級"/> <!-- #todo reproduce -->
+            <finder-uncollapse-all value="展開全部層級"/> <!-- #todo reproduce -->
             <finder-copy value="複製"/> <!-- #todo reproduce -->
             <finder-select-all value="揀晒全部"/> <!-- #todo reproduce -->
             <finder-clear-all value="清除全部"/> <!-- #todo reproduce -->
