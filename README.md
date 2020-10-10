@@ -39,7 +39,7 @@ For better experience, you can use Command Prompt to help a little bit:
 
 ```cmd
 :: Clone from my repo or yours
-git clone https://github.com/Edditoia/notepad-plus-plus-localization-hong-kong.git
+git clone https://github.com/Edditoria/notepad-plus-plus-localization-hong-kong.git
 cd notepad-plus-plus-localization-hong-kong
 
 :: Get submodule
