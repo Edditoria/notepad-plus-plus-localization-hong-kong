@@ -33,10 +33,10 @@
                     <Item subMenuId="edit-copyToClipboard" name="複製去剪貼簿"/>
                     <Item subMenuId="edit-indent" name="縮排"/>
                     <Item subMenuId="edit-convertCaseTo" name="轉換大細楷"/>
-                    <Item subMenuId="edit-lineOperations" name="處理呢行"/>
+                    <Item subMenuId="edit-lineOperations" name="處理呢（幾）行"/>
                     <Item subMenuId="edit-comment" name="註解"/>
                     <Item subMenuId="edit-autoCompletion" name="自動完成"/>
-                    <Item subMenuId="edit-eolConversion" name="行尾格式"/>
+                    <Item subMenuId="edit-eolConversion" name="行尾格式（EOL）"/>
                     <Item subMenuId="edit-blankOperations" name="空格處理"/>
                     <Item subMenuId="edit-pasteSpecial" name="特殊貼上"/>
                     <Item subMenuId="edit-onSelection" name="處理揀咗嘅字元"/>
@@ -324,7 +324,7 @@
                     <Item id="46001" name="主題風格設定..."/>
 
                     <!-- menu: Language -->
-                    <Item id="46250" name="定義你嘅程式語言..."/>
+                    <Item id="46250" name="定義您嘅程式語言..."/>
                     <Item id="46300" name="打開自訂程式語言嘅資料夾..."/>
                     <Item id="46180" name="通用使用者設定"/>
 
@@ -349,12 +349,12 @@
                     <Item id="48005" name="匯入外掛..."/>
                     <Item id="48006" name="匯入主題風格..."/>
                     <Item id="48018" name="編輯快顯功能表"/>
-                    <Item id="48009" name="管理快捷鍵..."/>
+                    <Item id="48009" name="快捷鍵配對..."/>
                     <Item id="48011" name="偏好設定..."/>
 
                     <!-- menu: Plugins -->
                     <Item id="48014" name="打開外掛資料夾..."/>
-                    <Item id="48015" name="外掛管理..."/>
+                    <Item id="48015" name="外掛管理員..."/>
 
                     <!-- menu: Tools -->
                     <Item id="48501" name="運算..."/>
@@ -481,8 +481,8 @@
                 <Item id="2008" name="字元位置(&amp;O)"/>
                 <Item id="1"    name="過去"/>
                 <Item id="2"    name="邊度都唔去"/>
-                <Item id="2004" name="你响呢度："/>
-                <Item id="2005" name="你想去："/>
+                <Item id="2004" name="您响呢度："/>
+                <Item id="2005" name="您想去："/>
                 <Item id="2006" name="去到盡喺呢度："/>
             </GoToLine>
 
@@ -559,7 +559,7 @@
                 </SubDialog>
             </StyleConfig>
 
-            <ShortcutMapper title="管理快捷鍵">
+            <ShortcutMapper title="快捷鍵配對">
                 <Item id="2602" name="修改"/>
                 <Item id="2603" name="摌走"/>
                 <Item id="2606" name="清除"/>
@@ -578,7 +578,7 @@
                 <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
             </ShortcutMapper>
 
-            <ShortcutMapperSubDialg title="Shortcut">
+            <ShortcutMapperSubDialg title="快捷鍵">
                 <Item id="1" name="OK"/>
                 <Item id="2" name="取消"/>
                 <Item id="5006" name="名稱"/>
@@ -602,7 +602,7 @@
                 <Item id="20015" name="匯入..."/>
                 <Item id="20016" name="匯出..."/>
 
-                <StylerDialog title="樣式設定">
+                <StylerDialog title="樣式對話框">
                     <Item id="25030" name="字型選項："/>
                     <Item id="25006" name="前景顏色"/>
                     <Item id="25007" name="背景顏色"/>
@@ -847,12 +847,12 @@
                     <Item id="6413" name="預設資料夾（打開／Save 嗰陣）"/>
                     <Item id="6414" name="跟著而家份文件嘅資料夾"/>
                     <Item id="6415" name="記住上次用過嘅資料夾"/>
-                    <Item id="6430" name="用新式檔案對話視窗（不過會認唔到 Unix 路徑）"/>
-                    <Item id="6431" name="拖放資料夾去視窗嗰陣，會打開資料夾裡面所有檔案，而唔係放入去資料夾工作區"/>
+                    <Item id="6430" name="用新式檔案對話框（不過會認唔到 Unix 路徑）"/>
+                    <Item id="6431" name="拖放資料夾去視窗嗰陣，會打開資料夾裏面所有檔案，而唔係放入去資料夾工作區"/>
                 </DefaultDir>
 
                 <FileAssoc title="檔案關聯">
-                    <Item id="4008" name="想改下面啲設定，麻煩你閂咗 Notepad++ 去，然後「以系統管理員身份執行」重新打開 Notepad++。"/>
+                    <Item id="4008" name="想改下面啲設定，麻煩您閂咗 Notepad++ 去，然後「以系統管理員身份執行」重新打開 Notepad++。"/>
                     <Item id="4009" name="支援嘅副檔名："/>
                     <Item id="4010" name="登記咗嘅副檔名："/>
                 </FileAssoc>
@@ -872,9 +872,9 @@
                 <Highlighting title="醒目提示">
                     <Item id="6333" name="醒目提示"/>
                     <Item id="6326" name="啟動"/>
-                    <Item id="6332" name="區分大細楷"/>
-                    <Item id="6338" name="符合成個單字"/>
-                    <Item id="6339" name="套用搵同取代功能視窗嘅設定"/>
+                    <Item id="6332" name="符合大細楷"/>
+                    <Item id="6338" name="符合完整單字"/>
+                    <Item id="6339" name="套用搵同取代功能對話框嘅設定"/>
                     <Item id="6340" name="同時响另一邊文件顯示醒目提示"/>
                     <Item id="6329" name="醒目提示對應 Tags"/>
                     <Item id="6327" name="啟動"/>
@@ -908,7 +908,7 @@
                     <Item id="6722" name="右邊"/>
                     <Item id="6723" name="加入"/>
                     <Item id="6725" name="變數："/>
-                    <Item id="6727" name="呢度會顯示你啲變數設定"/>
+                    <Item id="6727" name="呢度會顯示您啲變數設定"/>
                     <Item id="6728" name="頁首同𠹺頁尾"/>
                 </Print>
 
@@ -975,7 +975,7 @@
                     <Item id="6161" name="單字字元清單"/>
                     <Item id="6162" name="用預設嘅單字字元清單"/>
                     <Item id="6163" name="加啲字作為單字嘅一部分
-（唔好揀呢項，除非你知道搞緊咩啦）"/>
+（唔好揀呢項，除非您知道搞緊咩啦）"/>
                 </Delimiter>
 
                 <Cloud title="雲端">
@@ -990,7 +990,7 @@
                     <Item id="6273" name="Google"/>
                     <Item id="6274" name="Bing"/>
                     <Item id="6275" name="Yahoo!"/>
-                    <Item id="6276" name="Set 你想要嘅搜尋器："/>
+                    <Item id="6276" name="Set 您想要嘅搜尋器："/>
                     <!-- 嗱！咪撚搞「例子：」後面啲字呀嗱 -->
                     <Item id="6278" name="例子： https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
@@ -1063,7 +1063,7 @@
                 <Item id="2"    name="閂"/>
                 <Item id="1711" name="搵乜嘢(&amp;F)："/>
                 <Item id="1713" name="限制响啲搵咗嘅行數再搵"/>
-                <Item id="1714" name="符合成個單字(&amp;W)"/>
+                <Item id="1714" name="符合完整單字(&amp;W)"/>
                 <Item id="1715" name="符合大細楷(&amp;C)"/>
                 <Item id="1716" name="模式"/>
                 <Item id="1717" name="一般(&amp;N)"/>
@@ -1097,7 +1097,7 @@
 仲繼唔繼續？"/> <!-- #todo reproduce -->
             <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有改過嘢，save 咗佢再試吓。"/> <!-- #todo reproduce -->
             <DocReloadWarning title="响磁碟重新 load 過" message="留意番！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/> <!-- #todo reproduce -->
-            <FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/> <!-- #todo reproduce -->
+            <FileLockedWarning title="儲存失敗" message="麻煩您檢查吓，係咪有其它應用程式開咗呢個檔案。"/> <!-- #todo reproduce -->
             <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/> <!-- #todo reproduce -->
             <DeleteFileFailed title="掉去垃圾桶" message="摌唔走個檔案。"/> <!-- #todo reproduce -->
 
@@ -1108,7 +1108,7 @@
 麻煩去「偏好設定」重新 set 過。"/> <!-- #todo reproduce -->
             <FilePathNotFoundWarning title="打開檔案" message="搵唔到您想打開嘅檔案。"/> <!-- #todo reproduce -->
             <SessionFileInvalidError title="Load 唔到個工作階段" message="個工作階段檔案損毀咗或者無效。"/> <!-- #todo reproduce -->
-            <DroppingFolderAsProjectModeWarning title="操作無效" message="由於您响「偏好設定：預設資料夾」閂咗「拖放資料夾去視窗嗰陣，會打開資料夾裡面所有檔案，而唔係放入去資料夾工作區」呢個選項，您只能夠拖放文件或者資料夾其中一種。
+            <DroppingFolderAsProjectModeWarning title="操作無效" message="由於您响「偏好設定：預設資料夾」閂咗「拖放資料夾去視窗嗰陣，會打開資料夾裏面所有檔案，而唔係放入去資料夾工作區」呢個選項，您只能夠拖放文件或者資料夾其中一種。
 麻煩您啟用呢個選項，然後再試一次。"/> <!-- #todo reproduce -->
             <SortingError title="排次序出錯" message="第 $INT_REPLACE$ 行出問題，無法子以整數排次序。"/> <!-- #todo reproduce -->
             <ColumnModeTip title="欄位模式" message="貼士：用「Alt + 滑鼠掣選擇」或者「Alt + Shift + keyboard 方向掣」嚟切換去欄位模式。"/> <!-- #todo reproduce -->
@@ -1128,8 +1128,8 @@
             <DoReloadOrNotAndLooseChange title="Reload" message="「$STR_REPLACE$」
 
 已經畀另一個程式改過嘢。
-Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!-- #todo reproduce -->
-            <PrehistoricSystemDetected title="系統太舊" message="似乎你個系統太舊啦喂，呢個功能唔 work，唔好意思。"/> <!-- #todo reproduce -->
+Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!-- #todo reproduce -->
+            <PrehistoricSystemDetected title="系統太舊" message="似乎您個系統太舊啦喂，呢個功能唔 work，唔好意思。"/> <!-- #todo reproduce -->
             <XpUpdaterProblem title="更新 Notepad++" message="由於 Windows XP 嘅安全機制太過舊，更新程式唔再兼容 XP 系統啦。
 要唔要去 Notepad++ 網站，下載最新嘅版本呢？"/> <!-- #todo reproduce -->
             <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩用系統管理員模式打開 Notepad++，再設定代理伺服器。"/> <!-- #todo reproduce -->
@@ -1308,7 +1308,7 @@ Reload 會放棄你响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <find-status-replace-top-reached value="取代：由下而上取代咗 1 次，已經過咗文件開端。"/> <!-- #todo reproduce -->
             <find-status-replaced-next-found value="取代：取代咗 1 次，搵到下一個。"/> <!-- #todo reproduce -->
             <find-status-replaced-next-not-found value="取代：取代咗 1 次，再搵唔到下一個喇。"/> <!-- #todo reproduce -->
-            <find-status-replace-not-found value="取代：搵唔到你要嘅嘢。"/> <!-- #todo reproduce -->
+            <find-status-replace-not-found value="取代：搵唔到您要嘅嘢。"/> <!-- #todo reproduce -->
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/> <!-- #todo reproduce -->
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
             <finder-find-in-finder value="响搜尋結果再搵..."/> <!-- #todo reproduce -->
