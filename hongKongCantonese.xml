@@ -153,19 +153,19 @@
                     <Item id="42022" name="轉做/取消單行式註解"/>
                     <Item id="42023" name="轉做區塊式註解"/>
                     <Item id="42047" name="取消區塊式註解"/>
-                    <Item id="42024" name="剔走行尾啲空格同𠹺 tab"/>
-                    <Item id="42042" name="剔走行前啲空格同𠹺 tab"/>
-                    <Item id="42043" name="剔走呢行頭尾啲空格同𠹺 tab"/>
+                    <Item id="42024" name="剔走行尾啲空格同埋 tab"/>
+                    <Item id="42042" name="剔走行前啲空格同埋 tab"/>
+                    <Item id="42043" name="剔走呢行頭尾啲空格同埋 tab"/>
                     <Item id="42044" name="EOL -> 空格"/>
-                    <Item id="42045" name="摌走冇用嘅空格同𠹺 EOL"/>
+                    <Item id="42045" name="摌走冇用嘅空格同埋 EOL"/>
                     <Item id="42046" name="Tab -> 空格"/>
                     <Item id="42054" name="空格 -> tab（成份檔案）"/>
                     <Item id="42053" name="空格 -> tab（淨係行首）"/>
                     <Item id="42038" name="貼上 HTML 內容"/>
                     <Item id="42039" name="貼上 RTF 內容"/>
-                    <Item id="42048" name="抄低 binary 內容（包𠹺 NULL 字元）"/>
-                    <Item id="42049" name="剪低 binary 內容（包𠹺 NULL 字元）"/>
-                    <Item id="42050" name="貼上 binary 內容（包𠹺 NULL 字元）"/>
+                    <Item id="42048" name="抄低 binary 內容（包埋 NULL 字元）"/>
+                    <Item id="42049" name="剪低 binary 內容（包埋 NULL 字元）"/>
+                    <Item id="42050" name="貼上 binary 內容（包埋 NULL 字元）"/>
                     <Item id="42037" name="欄位模式..."/>
                     <Item id="42034" name="欄位編輯器..."/>
                     <Item id="42051" name="打開面板：ASCII 字元表"/>
@@ -398,7 +398,7 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                <Item CMID="0" name="閂𠹺呢個檔案"/>
+                <Item CMID="0" name="閂埋呢個檔案"/>
                 <Item CMID="1" name="除咗呢個檔案，閂晒其它去"/>
                 <Item CMID="2" name="Save 呢個檔案"/>
                 <Item CMID="3" name="Save 做新檔案..."/>
@@ -530,7 +530,7 @@
 
             <StyleConfig title="主題風格設定">
                 <Item id="2"    name="取消"/>
-                <Item id="2301" name="儲存然後閂𠹺佢"/>
+                <Item id="2301" name="儲存然後閂埋佢"/>
                 <Item id="2303" name="透明度"/>
                 <Item id="2306" name="揀主題："/>
                 <SubDialog>
@@ -637,7 +637,7 @@
                     <Item id="2" name="取消"/>
                 </StylerDialog>
 
-                <Folder title="摺疊同𠹺預設樣式">
+                <Folder title="摺疊同埋預設樣式">
                     <Item id="21101" name="預設樣式"/>
                     <Item id="21102" name="樣式"/>
                     <Item id="21105" name="文件資訊："/>
@@ -687,7 +687,7 @@
                     <Item id="22622" name="樣式"/>
                 </Keywords>
 
-                <Comment title="註解同𠹺數字">
+                <Comment title="註解同埋數字">
                     <Item id="23003" name="單行註解定位"/>
                     <Item id="23004" name="邊到都得"/>
                     <Item id="23005" name="一定要响一行嘅開始"/>
@@ -785,7 +785,7 @@
                     <Item id="6118" name="隱藏"/>
                     <Item id="6119" name="多行"/>
                     <Item id="6120" name="打直"/>
-                    <Item id="6121" name="閂最後份文件嗰陣順便閂𠹺個程式"/>
+                    <Item id="6121" name="閂最後份文件嗰陣順便閂埋個程式"/>
                     <Item id="6122" name="隱藏 menu bar（撳 Alt 或者 F10 切換）"/>
                     <Item id="6123" name="本土化"/>
                     <Item id="6125" name="文件切換面板"/>
@@ -883,7 +883,7 @@
                 </Highlighting>
 
                 <Print title="Print 嘢">
-                    <Item id="6601" name="Print 𠹺行數號碼"/>
+                    <Item id="6601" name="Print 埋行數號碼"/>
                     <Item id="6602" name="色彩選項"/>
                     <Item id="6603" name="所見即所得"/>
                     <Item id="6604" name="反白"/>
@@ -909,7 +909,7 @@
                     <Item id="6723" name="加入"/>
                     <Item id="6725" name="變數："/>
                     <Item id="6727" name="呢度會顯示您啲變數設定"/>
-                    <Item id="6728" name="頁首同𠹺頁尾"/>
+                    <Item id="6728" name="頁首同埋頁尾"/>
                 </Print>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -919,13 +919,13 @@
                     <Item id="6429" name="顯示"/>
                     <Item id="6424" name="以 submenu 方式顯示"/>
                     <Item id="6425" name="淨係顯示檔案名稱"/>
-                    <Item id="6426" name="顯示檔案名同𠹺路徑"/>
+                    <Item id="6426" name="顯示檔案名同埋路徑"/>
                     <Item id="6427" name="自訂最大長度："/>
                 </RecentFilesHistory>
 
                 <Backup title="備份">
-                    <Item id="6817" name="工作階段快照同𠹺定期備份"/>
-                    <Item id="6818" name="啟用工作階段快照同𠹺定期備份"/>
+                    <Item id="6817" name="工作階段快照同埋定期備份"/>
+                    <Item id="6818" name="啟用工作階段快照同埋定期備份"/>
                     <Item id="6819" name="每"/>
                     <Item id="6821" name="秒備份一次"/>
                     <Item id="6822" name="備份路徑："/>
@@ -944,7 +944,7 @@
                     <Item id="6808" name="打每隻字都行自動完成"/>
                     <Item id="6809" name="函式自動完成"/>
                     <Item id="6810" name="字詞自動完成"/>
-                    <Item id="6816" name="函式同𠹺字詞自動完成"/>
+                    <Item id="6816" name="函式同埋字詞自動完成"/>
                     <Item id="6824" name="唔理數字"/>
                     <Item id="6811" name="由第"/>
                     <Item id="6813" name="個字元開始"/>
@@ -1151,11 +1151,11 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="Project 面板被修改過。使唔使 save？"/> <!-- #todo reproduce -->
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 面板 save 唔到。"/> <!-- #todo reproduce -->
-            <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開 Project 面板" message="您用𡁵呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
-            <ProjectPanelNewDoSaveDirtyWsOrNot title="新 Project 面板" message="您用𡁵呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開 Project 面板" message="您用緊呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="新 Project 面板" message="您用緊呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
             <ProjectPanelOpenFailed title="打開 Project 面板" message="打唔開個 Project 面板。
 似乎係個工作區檔案無效或者損毀咗。"/> <!-- #todo reproduce -->
-            <ProjectPanelRemoveFolderFromProject title="响 project 度摌走資料夾" message="咁樣會摌走收𠹺啲子資料夾。
+            <ProjectPanelRemoveFolderFromProject title="响 project 度摌走資料夾" message="咁樣會摌走收埋啲子資料夾。
 係咪真係要响 project 度摌走資料夾？"/> <!-- #todo reproduce -->
             <ProjectPanelRemoveFileFromProject title="响 project 度摌走檔案" message="係咪真係要响 project 度摌走呢個檔案？"/> <!-- #todo reproduce -->
             <ProjectPanelReloadError title="Reload 工作區" message="搵唔到要 reload 嘅檔案。"/> <!-- #todo reproduce -->
@@ -1172,7 +1172,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
 想唔想用系統管理員模式重新打開 Notepad++？"/> <!-- #todo reproduce -->
             <OpenInAdminModeFailed title="系統管理員模式都開唔到" message="Notepad++ 冇法子用系統管理員模式打開"/> <!-- #todo reproduce -->
             <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/> <!-- #todo reproduce -->
-            <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺𠹺，然後安裝更新。
+            <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/> <!-- #todo reproduce -->
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
@@ -1270,8 +1270,8 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             </Menus>
         </ProjectManager>
         <MiscStrings>
-            <!-- $INT_REPLACE$ 同𠹺 $STR_REPLACE$ 係 place holders 嚟，唔好改啊嗱 -->
-            <word-chars-list-tip value="呢度要嚟响現時嘅單字字元清單附加字元，double-click 揀字又或者剔咗「符合完整單字」嚟搵嘢就會包𠹺。"/> <!-- #todo reproduce -->
+            <!-- $INT_REPLACE$ 同埋 $STR_REPLACE$ 係 place holders 嚟，唔好改啊嗱 -->
+            <word-chars-list-tip value="呢度要嚟响現時嘅單字字元清單附加字元，double-click 揀字又或者剔咗「符合完整單字」嚟搵嘢就會包埋。"/> <!-- #todo reproduce -->
             <word-chars-list-warning-begin value="留意番："/> <!-- #todo reproduce -->
             <word-chars-list-space-warning value="$INT_REPLACE$ 有空格"/> <!-- #todo reproduce -->
             <word-chars-list-tab-warning value="$INT_REPLACE$ 有 tab"/> <!-- #todo reproduce -->
