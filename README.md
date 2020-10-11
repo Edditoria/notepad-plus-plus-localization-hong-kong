@@ -30,7 +30,7 @@ For common users to install and test it in Notepad++:
 
 1. Restart Notepad++ to apply the change.
 
-To revert the localization: On Notepad++ menu, click 設定 (Settings) ▶︎ 偏好設定 (Preference) ▶︎ choose an option in 本地化 (Localization).
+To revert the localization: On Notepad++ menu, click 設定 (Settings) ▶︎ 偏好設定 (Preferences) ▶︎ choose an option in 本地化 (Localization).
 
 
 ### Via Command Prompt
@@ -42,8 +42,9 @@ For better experience, you can use Command Prompt to help a little bit:
 git clone https://github.com/Edditoria/notepad-plus-plus-localization-hong-kong.git
 cd notepad-plus-plus-localization-hong-kong
 
-:: Get submodule
+:: Initiate submodule at the first time
 git submodule init
+:: Update submodule after git pull
 git submodule update
 
 :: Inject (Copy) to Notepad++
@@ -94,11 +95,22 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 - 如果唔肯定，歡迎開個 issue 傾傾。
 - 只會 accept 對 localization 內容有幫助嘅 PR。
 - No spam. 鐵定嚴格執行。
-- 麻煩參考 `<.editorconfig>`，跟番 EOL 字元丶tab/space，盡量啦唔該。 🙏
+- 麻煩參考 `<.editorconfig>`，跟番 EOL 字元丶tab/space，盡量啦唔該。 :pray:
 
 
 ## Todo
 
 - [ ] `<hongKongCantonese.xml>` 裏面仲有好多錯處，歡迎大家參與。
 - [ ] 改善 `<tools\>` 啲 scripts 嘅體驗。
-- [ ] 一啲 Github 建議嘅社群文件，例如 `<CONTRIBUTING.md>` 。
+- [ ] 打星、分享，吸引更多開源貢獻者。一個 project 需要好多測試、修改，提升質素。
+
+
+## Copyright and License
+
+Copyright (c) 2020 Edditoria. All rights reserved. Code released under the [MIT License](LICENSE.txt). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
+
+As human-readable summary (but not a substitute for the license):
+
+You can use it, share it, modify the codes and distribute your work for private and commercial uses. If you like, please share your work with me. :pizza:
+
+> Notepad++ is a free (free as in both "free speech" and "free beer") source code editor and Notepad replacement that supports several programming languages and natural languages. Running in the MS Windows environment, its use is governed by [GPL License](https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/LICENSE).
