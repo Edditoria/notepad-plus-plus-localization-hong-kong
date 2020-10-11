@@ -217,8 +217,8 @@
                     <Item id="43010" name="搵上一個(&amp;P)"/>
                     <Item id="43011" name="遞增式咁搵(&amp;I)..."/>
                     <Item id="43013" name="响一乍檔案搵"/>
-                    <Item id="43014" name="㨂字然後搵下個（唔記錄關鍵字）"/>
-                    <Item id="43015" name="㨂字然後搵上個（唔記錄關鍵字）"/>
+                    <Item id="43014" name="揀字然後搵下個（唔記錄關鍵字）"/>
+                    <Item id="43015" name="揀字然後搵上個（唔記錄關鍵字）"/>
                     <Item id="43022" name="使用格式一嘅顏色"/>
                     <Item id="43023" name="清除格式一嘅顏色"/>
                     <Item id="43024" name="使用格式二嘅顏色"/>
@@ -443,7 +443,7 @@
                 <Item id="1609" name="全部取代(&amp;A)"/>
                 <Item id="1687" name="冇用呢個視窗嗰陣時"/>
                 <Item id="1688" name="一直保持"/>
-                <Item id="1632" name="限選取範圍(&amp;I)"/>
+                <Item id="1632" name="限揀選範圍(&amp;I)"/>
                 <Item id="1633" name="清晒啲標記"/>
                 <Item id="1635" name="响所有打開咗嘅文件執行取代(&amp;O)"/>
                 <Item id="1636" name="响所有打開咗嘅文件度搵晒出嚟(&amp;O)"/>
