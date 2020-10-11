@@ -86,7 +86,7 @@
                     <Item id="41020" name="CMD"/>
                     <Item id="41003" name="閂埋呢個檔案(&amp;C)"/>
                     <Item id="41004" name="閂晒全部檔案(&amp;E)"/>
-                    <Item id="41005" name="除咗呢個檔案之外，閂晒其它呿"/>
+                    <Item id="41005" name="除咗呢個檔案之外，閂晒其它佢"/>
                     <Item id="41009" name="閂晒左邊所有檔案"/>
                     <Item id="41018" name="閂晒右邊所有檔案"/>
                     <Item id="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
@@ -137,7 +137,7 @@
                     <Item id="42068" name="每個單字字首大楷，其它唔變"/>
                     <Item id="42069" name="每句第一個字大楷，其它細楷(&amp;S)"/>
                     <Item id="42070" name="每句第一個字大楷，其它唔變"/>
-                    <Item id="42071" name="調轉晒啲大細楷呿(&amp;I)"/>
+                    <Item id="42071" name="調轉晒啲大細楷佢(&amp;I)"/>
                     <Item id="42072" name="求其咁轉大細楷(&amp;R)"/>
                     <Item id="42073" name="打開檔案"/>
                     <Item id="42074" name="响檔案總管打開資料夾"/>
@@ -204,7 +204,7 @@
                     <Item id="43005" name="加書籤/拎走書籤"/>
                     <Item id="43006" name="下個書籤"/>
                     <Item id="43007" name="上個書籤"/>
-                    <Item id="43008" name="清晒啲書籤呿"/>
+                    <Item id="43008" name="清晒啲書籤佢"/>
                     <Item id="43018" name="剪低書籤嗰幾行"/>
                     <Item id="43019" name="抄低書籤嗰幾行"/>
                     <Item id="43020" name="貼去兼取代書籤嗰幾行"/>
