@@ -1096,7 +1096,7 @@
 
 仲繼唔繼續？"/> <!-- #todo reproduce -->
             <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有改過嘢，save 咗佢再試吓。"/> <!-- #todo reproduce -->
-            <DocReloadWarning title="响磁碟重新 load 過" message="留意番！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/> <!-- #todo reproduce -->
+            <DocReloadWarning title="响磁碟重新 load 過" message="留意返！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
             <FileLockedWarning title="儲存失敗" message="麻煩您檢查吓，係咪有其它應用程式開咗呢個檔案。"/> <!-- #todo reproduce -->
             <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/> <!-- #todo reproduce -->
             <DeleteFileFailed title="掉去垃圾桶" message="摌唔走個檔案。"/> <!-- #todo reproduce -->
@@ -1114,29 +1114,29 @@
             <ColumnModeTip title="欄位模式" message="貼士：用「Alt + 滑鼠掣選擇」或者「Alt + Shift + keyboard 方向掣」嚟切換去欄位模式。"/> <!-- #todo reproduce -->
             <BufferInvalidWarning title="Save 失敗" message="Save 唔到：緩衝區無效。"/> <!-- #todo reproduce -->
             <DoCloseOrNot title="保留唔存在嘅文件" message="個檔案「$STR_REPLACE$」已經唔存在喇。
-仲使唔使 keep 著呢個檔案呢？"/> <!-- #todo reproduce -->
-            <DoDeleteOrNot title="刪檔案" message="咁做會掉去垃圾桶仲會閂咗呢個檔案
-「$STR_REPLACE$」，
-係咪真係要摌先？"/> <!-- #todo reproduce -->
+仲使唔使 keep 著呢個檔案呢？"/>
+            <DoDeleteOrNot title="掉去垃圾桶" message="咁做會掉去垃圾桶仲會閂咗呢個檔案「
+$STR_REPLACE$
+」，係咪真係要摌先？"/>
             <NoBackupDoSaveFile title="Save" message="檔案嘅備份已經畀另一個程式摌走咗。
 如果唔想遺失數據就 save 低佢啦。
-您想唔想 save「$STR_REPLACE$」呢？"/> <!-- #todo reproduce -->
+您想唔想 save「$STR_REPLACE$」呢？"/>
             <DoReloadOrNot title="Reload" message="「$STR_REPLACE$」
 
 已經畀另一個程式改過嘢。
-仲使唔使 reload 呢？"/> <!-- #todo reproduce -->
+仲使唔使 reload 呢？"/>
             <DoReloadOrNotAndLooseChange title="Reload" message="「$STR_REPLACE$」
 
 已經畀另一個程式改過嘢。
-Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!-- #todo reproduce -->
+Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <PrehistoricSystemDetected title="系統太舊" message="似乎您個系統太舊啦喂，呢個功能唔 work，唔好意思。"/> <!-- #todo reproduce -->
             <XpUpdaterProblem title="更新 Notepad++" message="由於 Windows XP 嘅安全機制太過舊，更新程式唔再兼容 XP 系統啦。
 要唔要去 Notepad++ 網站，下載最新嘅版本呢？"/> <!-- #todo reproduce -->
-            <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩用系統管理員模式打開 Notepad++，再設定代理伺服器。"/> <!-- #todo reproduce -->
-            <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/> <!-- #todo reproduce -->
-            <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/> <!-- #todo reproduce -->
+            <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩用系統管理員模式打開 Notepad++，再設定代理伺服器。"/>
+            <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/>
+            <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/>
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/> <!-- #todo reproduce -->
-            <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/> <!-- #todo reproduce -->
+            <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/>
             <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
             <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/> <!-- #todo reproduce -->
             <FileBackupFailed title="檔案備份失敗" message="備份資料夾「$STR_REPLACE$」存唔到個檔案嘅過往版本。
@@ -1162,14 +1162,14 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <ProjectPanelReloadDirty title="Reload 工作區" message="呢個工作區已經改過嘢。Reload 捨棄啲改動。
 仲繼唔繼續？"/> <!-- #todo reproduce -->
             <UDLNewNameError title="自訂程式語言錯誤" message="呢個名已經畀另一個程式語言用咗。
-麻煩改過個名。"/> <!-- #todo reproduce -->
-            <UDLRemoveCurrentLang title="摌除程式語言" message="係咪真係要咁做？"/> <!-- #todo reproduce -->
+唔該改另一個名啦。"/>
+            <UDLRemoveCurrentLang title="摌除程式語言" message="係咪真係要咁做？"/>
             <SCMapperDoDeleteOrNot title="摌除快捷鍵" message="係咪真係要咁做"/> <!-- #todo reproduce -->
             <FindCharRangeValueError title="輸入值範圍錯誤" message="您輸入嘅數值應該要介乎 0 到 255 之間先至啱。"/> <!-- #todo reproduce -->
             <OpenInAdminMode title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
-想唔想用系統管理員權限重新打開 Notepad++？"/> <!-- #todo reproduce -->
+想唔想用系統管理員權限重新打開 Notepad++？"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
-想唔想用系統管理員模式重新打開 Notepad++？"/> <!-- #todo reproduce -->
+想唔想用系統管理員模式重新打開 Notepad++？"/>
             <OpenInAdminModeFailed title="系統管理員模式都開唔到" message="Notepad++ 冇法子用系統管理員模式打開"/> <!-- #todo reproduce -->
             <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/> <!-- #todo reproduce -->
             <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
@@ -1280,14 +1280,14 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/> <!-- #todo reproduce -->
             <cloud-select-folder value="揀番個資料夾，畀 Notepad++ 讀取/寫入設定。"/> <!-- #todo reproduce -->
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/> <!-- #todo reproduce -->
-            <two-find-buttons-tip value="用上丶落兩個掣代替「搵下一個」"/> <!-- #todo reproduce -->
+            <two-find-buttons-tip value="用上丶落兩個掣代替「搵下一個」"/>
             <find-in-files-filter-tip value="只係响 cpp, cxx, h, hxx &amp;&amp; hpp 裏面搵：
 *.cpp *.cxx *.h *.hxx *.hpp
 
 所有檔案，除咗 exe, obj &amp;&amp; log：
 *.* !*.exe !*.obj !*.log"/> <!-- #todo reproduce -->
-            <find-status-top-reached value="搵嘢：已經過咗文件開端，而家响底部第一個相符嘅字串。"/> <!-- #todo reproduce -->
-            <find-status-end-reached value="搵嘢：已經過咗文件結尾，而家响頂部第一個相符嘅字串。"/> <!-- #todo reproduce -->
+            <find-status-top-reached value="搵嘢：已經過咗文件開端，而家响底部第一個相符嘅字串。"/>
+            <find-status-end-reached value="搵嘢：已經過咗文件結尾，而家响頂部第一個相符嘅字串。"/>
             <find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/> <!-- #todo reproduce -->
             <find-status-replaceinfiles-nb-replaced value="檔案中執行取代：取代咗 $INT_REPLACE$ 次。"/> <!-- #todo reproduce -->
             <find-status-replaceinfiles-re-malformed value="檔案中執行取代：規則運算式無效。"/> <!-- #todo reproduce -->
@@ -1298,19 +1298,19 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <find-status-mark-1-match value="標記： 1 個符合結果。"/> <!-- #todo reproduce -->
             <find-status-mark-nb-matches value="標記： $INT_REPLACE$ 個符合結果。"/> <!-- #todo reproduce -->
             <find-status-count-re-malformed value="數量：規則運算式無效。"/> <!-- #todo reproduce -->
-            <find-status-count-1-match value="數量： 1 個符合結果。"/> <!-- #todo reproduce -->
-            <find-status-count-nb-matches value="數量： $INT_REPLACE$ 個符合結果。"/> <!-- #todo reproduce -->
+            <find-status-count-1-match value="數量： 1 個符合結果。"/>
+            <find-status-count-nb-matches value="數量： $INT_REPLACE$ 個符合結果。"/>
             <find-status-replaceall-re-malformed value="全部取代：規則運算式無效。"/> <!-- #todo reproduce -->
-            <find-status-replaceall-1-replaced value="全部取代：取代咗 1 次。"/> <!-- #todo reproduce -->
-            <find-status-replaceall-nb-replaced value="全部取代：取代咗 $INT_REPLACE$ 次。"/> <!-- #todo reproduce -->
-            <find-status-replaceall-readonly value="全部取代：無法取代，因為檔案屬性係唯讀。"/> <!-- #todo reproduce -->
-            <find-status-replace-end-reached value="取代：由上而下取代咗 1 次，已經過咗文件結尾。"/> <!-- #todo reproduce -->
+            <find-status-replaceall-1-replaced value="全部取代：取代咗 1 次。"/>
+            <find-status-replaceall-nb-replaced value="全部取代：取代咗 $INT_REPLACE$ 次。"/>
+            <find-status-replaceall-readonly value="全部取代：無法取代，因為檔案屬性係唯讀。"/>
+            <find-status-replace-end-reached value="取代：由上而下取代咗 1 次，已經過咗文件結尾。"/>
             <find-status-replace-top-reached value="取代：由下而上取代咗 1 次，已經過咗文件開端。"/> <!-- #todo reproduce -->
-            <find-status-replaced-next-found value="取代：取代咗 1 次，搵到下一個。"/> <!-- #todo reproduce -->
-            <find-status-replaced-next-not-found value="取代：取代咗 1 次，再搵唔到下一個喇。"/> <!-- #todo reproduce -->
-            <find-status-replace-not-found value="取代：搵唔到您要嘅嘢。"/> <!-- #todo reproduce -->
-            <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/> <!-- #todo reproduce -->
-            <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
+            <find-status-replaced-next-found value="取代：取代咗 1 次，搵到下一個。"/>
+            <find-status-replaced-next-not-found value="取代：取代咗 1 次，再搵唔到下一個喇。"/>
+            <find-status-replace-not-found value="取代：搵唔到您要嘅嘢。"/>
+            <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
+            <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/>
             <finder-find-in-finder value="响搜尋結果再搵..."/> <!-- #todo reproduce -->
             <finder-close-this value="閂咗呢個搜尋結果去"/> <!-- #todo reproduce -->
             <finder-collapse-all value="摺埋全部層級"/> <!-- #todo reproduce -->
@@ -1327,8 +1327,8 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/> <!--
             <recent-file-history-maxfile value="最多檔案數量："/> <!-- #todo reproduce -->
             <language-tabsize value="Tab 闊度："/> <!-- #todo reproduce -->
             <userdefined-title-new value="開新語言..."/> <!-- #todo reproduce -->
-            <userdefined-title-save value="另 Save 而家個語言名..."/> <!-- #todo reproduce -->
-            <userdefined-title-rename value="改而家個語言名"/> <!-- #todo reproduce -->
+            <userdefined-title-save value="另 Save 而家個語言名..."/>
+            <userdefined-title-rename value="改而家個語言名"/>
             <autocomplete-nb-char value="激活自動完成嘅字元數："/> <!-- #todo reproduce -->
             <edit-verticaledge-nb-col value="邊框闊度："/> <!-- #todo reproduce -->
             <summary value="統計資料"/>
