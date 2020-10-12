@@ -102,7 +102,7 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 
 - [ ] `<hongKongCantonese.xml>` 裏面仲有好多錯處，歡迎大家參與。
 - [ ] 改善 `<tools\>` 啲 scripts 嘅體驗。
-- [ ] 打星、分享，吸引更多開源貢獻者。一個 project 需要好多測試、修改，提升質素。
+- [ ] 開心 share，吸引更多開源貢獻者。一個 project 需要好多測試、修改，提升質素。
 
 
 ## Copyright and License
