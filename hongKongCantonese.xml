@@ -565,7 +565,7 @@
                 <Item id="2606" name="清除"/>
                 <Item id="2607" name="過濾："/>
                 <Item id="1" name="閂"/>
-                <ColumnName name="名稱"/>
+                <ColumnName name="名"/>
                 <ColumnShortcut name="快捷鍵"/>
                 <ColumnCategory name="類別"/>
                 <ColumnPlugin name="外掛"/>
@@ -581,7 +581,7 @@
             <ShortcutMapperSubDialg title="快捷鍵">
                 <Item id="1" name="OK"/>
                 <Item id="2" name="取消"/>
-                <Item id="5006" name="名稱"/>
+                <Item id="5006" name="名"/>
                 <Item id="5008" name="增加"/>
                 <Item id="5009" name="摌走"/>
                 <Item id="5010" name="套用"/>
@@ -606,7 +606,7 @@
                     <Item id="25030" name="字型選項："/>
                     <Item id="25006" name="前景顏色"/>
                     <Item id="25007" name="背景顏色"/>
-                    <Item id="25031" name="名稱："/>
+                    <Item id="25031" name="名："/>
                     <Item id="25032" name="大細："/>
                     <Item id="25001" name="粗體"/>
                     <Item id="25002" name="斜體"/>
@@ -918,7 +918,7 @@
                     <Item id="6305" name="啟動程式嗰陣唔做檢查"/>
                     <Item id="6429" name="顯示"/>
                     <Item id="6424" name="以 submenu 方式顯示"/>
-                    <Item id="6425" name="淨係顯示檔案名稱"/>
+                    <Item id="6425" name="淨係顯示檔案名"/>
                     <Item id="6426" name="顯示檔案名同埋路徑"/>
                     <Item id="6427" name="自訂最大長度："/>
                 </RecentFilesHistory>
