@@ -52,7 +52,7 @@
                     <Item subMenuId="view-tab"  name="Tabs"/>
                     <Item subMenuId="view-collapseLevel" name="摺埋幾層"/>
                     <Item subMenuId="view-uncollapseLevel" name="展開幾層"/>
-                    <Item subMenuId="view-project" name="專案"/>
+                    <Item subMenuId="view-project" name="Project"/>
                     <Item subMenuId="encoding-characterSets"  name="字元集"/>
                     <Item subMenuId="encoding-arabic"  name="阿拉伯文"/>
                     <Item subMenuId="encoding-baltic"  name="波羅的海文"/>
@@ -287,9 +287,9 @@
                     <Item id="44036" name="同步轆兩邊檔案：打橫轆"/>
                     <Item id="44041" name="顯示換行符號"/>
                     <Item id="44072" name="主副視窗切換"/>
-                    <Item id="44081" name="Project 面版 1"/>
-                    <Item id="44082" name="Project 面版 2"/>
-                    <Item id="44083" name="Project 面版 3"/>
+                    <Item id="44081" name="Project Panel 1"/>
+                    <Item id="44082" name="Project Panel 2"/>
+                    <Item id="44083" name="Project Panel 3"/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="45001" name="Windows (CR LF)"/>
@@ -1149,14 +1149,14 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <FolderAsWorspaceSubfolderExists title="資料夾工作區問題" message="您要加入嘅資料夾「$STR_REPLACE$」，已經以子資料夾嘅形式出現响工作區裏面。
 如果您仍然想咁做，唯有响工作區摌走包含佢嘅資料夾，先至可以加番上去。"/> <!-- #todo reproduce -->
 
-            <ProjectPanelChanged title="$STR_REPLACE$" message="Project 面板被修改過。使唔使 save？"/> <!-- #todo reproduce -->
-            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 面板 save 唔到。"/> <!-- #todo reproduce -->
-            <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開 Project 面板" message="您用緊呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
-            <ProjectPanelNewDoSaveDirtyWsOrNot title="新 Project 面板" message="您用緊呢個 Project 面板改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
-            <ProjectPanelOpenFailed title="打開 Project 面板" message="打唔開個 Project 面板。
+            <ProjectPanelChanged title="$STR_REPLACE$" message="Project 工作區有嘢改動過，使唔使 save？"/> <!-- #todo reproduce -->
+            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 工作區冇 save 到。"/> <!-- #todo reproduce -->
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="新工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
+            <ProjectPanelOpenFailed title="打開工作區" message="打唔開個工作區。
 似乎係個工作區檔案無效或者損毀咗。"/> <!-- #todo reproduce -->
-            <ProjectPanelRemoveFolderFromProject title="响 project 度摌走資料夾" message="咁樣會摌走收埋啲子資料夾。
-係咪真係要响 project 度摌走資料夾？"/> <!-- #todo reproduce -->
+            <ProjectPanelRemoveFolderFromProject title="响 project 度摌走資料夾" message="咁樣會摌走埋佢啲子項目。
+係咪真係要响 project 度摌走呢個資料夾？"/> <!-- #todo reproduce -->
             <ProjectPanelRemoveFileFromProject title="响 project 度摌走檔案" message="係咪真係要响 project 度摌走呢個檔案？"/> <!-- #todo reproduce -->
             <ProjectPanelReloadError title="Reload 工作區" message="搵唔到要 reload 嘅檔案。"/> <!-- #todo reproduce -->
             <ProjectPanelReloadDirty title="Reload 工作區" message="呢個工作區已經改過嘢。Reload 捨棄啲改動。
