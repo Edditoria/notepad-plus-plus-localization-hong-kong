@@ -1142,7 +1142,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <FileBackupFailed title="檔案備份失敗" message="備份資料夾「$STR_REPLACE$」存唔到個檔案嘅過往版本。
 
 仲使唔使 save 呢個檔案呢？"/> <!-- #todo reproduce -->
-            <LoadStylersFailed title="Load 唔到 stylers.xml" message="Load 唔到「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
+            <LoadStylersFailed title="Load 唔到 stylers.xml" message="Load 唔到「$STR_REPLACE$」。"/>
             <LoadLangsFailed title="設定" message="Load 唔到「langs.xml」。
 使唔使回復個檔案？"/> <!-- #todo reproduce -->
             <LoadLangsFailedFinal title="設定" message="Load 唔到「langs.xml」。"/> <!-- #todo reproduce -->
@@ -1174,7 +1174,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <ViewInBrowser title="响瀏覽器度睇呢個檔案" message="响系統裏面搵唔到應用程式"/>
             <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
-係咪繼續？"/> <!-- #todo reproduce -->
+係咪繼續？"/>
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
         </MessageBox>
         <ClipboardHistory>
@@ -1322,14 +1322,14 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
             <common-name value="名："/>
-            <tabrename-title value="幫個 tab 改名"/> <!-- #todo reproduce -->
-            <tabrename-newname value="新名："/> <!-- #todo reproduce -->
-            <recent-file-history-maxfile value="檔案數量："/> <!-- #todo reproduce -->
-            <language-tabsize value="縮排大細："/> <!-- #todo reproduce -->
-            <userdefined-title-new value="開新語言..."/> <!-- #todo reproduce -->
+            <tabrename-title value="幫個 tab 改名"/>
+            <tabrename-newname value="新名："/>
+            <recent-file-history-maxfile value="檔案數量："/>
+            <language-tabsize value="縮排大細："/>
+            <userdefined-title-new value="開新語言..."/>
             <userdefined-title-save value="另 Save 而家個語言名..."/>
             <userdefined-title-rename value="改而家個語言名"/>
-            <autocomplete-nb-char value="字元數："/> <!-- #todo reproduce -->
+            <autocomplete-nb-char value="字元數："/>
             <edit-verticaledge-nb-col value="邊框闊度："/> <!-- #todo reproduce -->
             <summary value="統計資料"/>
             <summary-filepath value="完整檔案路徑： "/>
