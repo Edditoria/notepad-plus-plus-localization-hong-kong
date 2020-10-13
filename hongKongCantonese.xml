@@ -1097,7 +1097,7 @@
 仲繼唔繼續？"/> <!-- #todo reproduce -->
             <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有改過嘢，save 咗佢再試吓。"/> <!-- #todo reproduce -->
             <DocReloadWarning title="响磁碟重新 load 過" message="留意返！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
-            <FileLockedWarning title="儲存失敗" message="麻煩您檢查吓，係咪有其它應用程式開咗呢個檔案。"/> <!-- #todo reproduce -->
+            <FileLockedWarning title="儲存失敗" message="麻煩您檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
             <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/> <!-- #todo reproduce -->
             <DeleteFileFailed title="掉去垃圾桶" message="摌唔走個檔案。"/> <!-- #todo reproduce -->
 
@@ -1138,7 +1138,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/> <!-- #todo reproduce -->
             <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/>
             <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/> <!-- #todo reproduce -->
-            <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/> <!-- #todo reproduce -->
+            <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/>
             <FileBackupFailed title="檔案備份失敗" message="備份資料夾「$STR_REPLACE$」存唔到個檔案嘅過往版本。
 
 仲使唔使 save 呢個檔案呢？"/> <!-- #todo reproduce -->
@@ -1149,23 +1149,23 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <FolderAsWorspaceSubfolderExists title="資料夾工作區問題" message="您要加入嘅資料夾「$STR_REPLACE$」，已經以子資料夾嘅形式出現响工作區裏面。
 如果您仍然想咁做，唯有响工作區摌走包含佢嘅資料夾，先至可以加番上去。"/> <!-- #todo reproduce -->
 
-            <ProjectPanelChanged title="$STR_REPLACE$" message="Project 工作區有嘢改動過，使唔使 save？"/> <!-- #todo reproduce -->
+            <ProjectPanelChanged title="$STR_REPLACE$" message="Project 工作區有嘢改動過，使唔使 save？"/>
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 工作區冇 save 到。"/> <!-- #todo reproduce -->
-            <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
-            <ProjectPanelNewDoSaveDirtyWsOrNot title="新工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/> <!-- #todo reproduce -->
+            <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
+            <ProjectPanelNewDoSaveDirtyWsOrNot title="新工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
             <ProjectPanelOpenFailed title="打開工作區" message="打唔開個工作區。
-似乎係個工作區檔案無效或者損毀咗。"/> <!-- #todo reproduce -->
+似乎係個工作區檔案無效又或者損毀咗。"/>
             <ProjectPanelRemoveFolderFromProject title="响 project 度摌走資料夾" message="咁樣會摌走埋佢啲子項目。
-係咪真係要响 project 度摌走呢個資料夾？"/> <!-- #todo reproduce -->
-            <ProjectPanelRemoveFileFromProject title="响 project 度摌走檔案" message="係咪真係要响 project 度摌走呢個檔案？"/> <!-- #todo reproduce -->
-            <ProjectPanelReloadError title="Reload 工作區" message="搵唔到要 reload 嘅檔案。"/> <!-- #todo reproduce -->
-            <ProjectPanelReloadDirty title="Reload 工作區" message="呢個工作區已經改過嘢。Reload 捨棄啲改動。
-仲繼唔繼續？"/> <!-- #todo reproduce -->
+係咪真係要响 project 度摌走呢個資料夾？"/>
+            <ProjectPanelRemoveFileFromProject title="响 project 度摌走檔案" message="係咪真係要响 project 度摌走呢個檔案？"/>
+            <ProjectPanelReloadError title="Reload 工作區" message="搵唔到要 reload 嘅檔案。"/>
+            <ProjectPanelReloadDirty title="Reload 工作區" message="呢個工作區已經改過嘢。Reload 會捨棄啲改動。
+仲繼唔繼續？"/>
             <UDLNewNameError title="自訂程式語言錯誤" message="呢個名已經畀另一個程式語言用咗。
 唔該改另一個名啦。"/>
             <UDLRemoveCurrentLang title="摌除程式語言" message="係咪真係要咁做？"/>
-            <SCMapperDoDeleteOrNot title="摌除快捷鍵" message="係咪真係要咁做"/> <!-- #todo reproduce -->
-            <FindCharRangeValueError title="輸入值範圍錯誤" message="您輸入嘅數值應該要介乎 0 到 255 之間先至啱。"/> <!-- #todo reproduce -->
+            <SCMapperDoDeleteOrNot title="摌除快捷鍵" message="係咪真係要咁做"/>
+            <FindCharRangeValueError title="輸入值範圍錯誤" message="您輸入嘅數值應該要介乎 0 到 255 之間先至啱。"/>
             <OpenInAdminMode title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
 想唔想用系統管理員權限重新打開 Notepad++？"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
@@ -1279,7 +1279,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <cloud-invalid-warning value="路徑無效。"/> <!-- #todo reproduce -->
             <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/> <!-- #todo reproduce -->
             <cloud-select-folder value="揀番個資料夾，畀 Notepad++ 讀取/寫入設定。"/> <!-- #todo reproduce -->
-            <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/> <!-- #todo reproduce -->
+            <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
             <two-find-buttons-tip value="用上丶落兩個掣代替「搵下一個」"/>
             <find-in-files-filter-tip value="只係响 cpp, cxx, h, hxx &amp;&amp; hpp 裏面搵：
 *.cpp *.cxx *.h *.hxx *.hpp
