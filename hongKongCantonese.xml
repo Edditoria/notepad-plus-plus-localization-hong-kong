@@ -1132,7 +1132,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <PrehistoricSystemDetected title="系統太舊" message="似乎您個系統太舊啦喂，呢個功能唔 work，唔好意思。"/> <!-- #todo reproduce -->
             <XpUpdaterProblem title="更新 Notepad++" message="由於 Windows XP 嘅安全機制太過舊，更新程式唔再兼容 XP 系統啦。
 要唔要去 Notepad++ 網站，下載最新嘅版本呢？"/> <!-- #todo reproduce -->
-            <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩用系統管理員模式打開 Notepad++，再設定代理伺服器。"/>
+            <GUpProxyConfNeedAdminMode title="設定更新程式嘅代理伺服器" message="麻煩「以系統管理員身份執行」Notepad++，再設定代理伺服器。"/>
             <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/>
             <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/>
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/> <!-- #todo reproduce -->
@@ -1167,10 +1167,10 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <SCMapperDoDeleteOrNot title="摌除快捷鍵" message="係咪真係要咁做"/>
             <FindCharRangeValueError title="輸入值範圍錯誤" message="您輸入嘅數值應該要介乎 0 到 255 之間先至啱。"/>
             <OpenInAdminMode title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
-想唔想用系統管理員權限重新打開 Notepad++？"/>
+想唔想用系統管理員身份重新打開 Notepad++？"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
-想唔想用系統管理員模式重新打開 Notepad++？"/>
-            <OpenInAdminModeFailed title="系統管理員模式都開唔到" message="Notepad++ 冇法子用系統管理員模式打開"/> <!-- #todo reproduce -->
+想唔想用系統管理員身份重新打開 Notepad++？"/>
+            <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/> <!-- #todo reproduce -->
             <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/> <!-- #todo reproduce -->
             <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
