@@ -45,7 +45,7 @@
                     <Item subMenuId="search-jumpUp" name="上個標記"/>
                     <Item subMenuId="search-jumpDown" name="下個標記"/>
                     <Item subMenuId="search-bookmark" name="書籤"/>
-                    <Item subMenuId="view-currentFileIn" name="响...睇檔案"/>
+                    <Item subMenuId="view-currentFileIn" name="响...睇呢個檔案"/>
                     <Item subMenuId="view-showSymbol" name="特殊字元"/>
                     <Item subMenuId="view-zoom" name="Zoom"/>
                     <Item subMenuId="view-moveCloneDocument" name="移動/複製呢個檔案"/>
@@ -86,7 +86,7 @@
                     <Item id="41020" name="CMD"/>
                     <Item id="41003" name="閂埋呢個檔案(&amp;C)"/>
                     <Item id="41004" name="閂晒全部檔案(&amp;E)"/>
-                    <Item id="41005" name="除咗呢個檔案之外，閂晒其它佢"/>
+                    <Item id="41005" name="除咗呢個檔案，閂晒其它佢"/>
                     <Item id="41009" name="閂晒左邊所有檔案"/>
                     <Item id="41018" name="閂晒右邊所有檔案"/>
                     <Item id="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
@@ -476,8 +476,8 @@
                 <Item id="2910" name="搵"/>
             </FindCharsInRange>
 
-            <GoToLine title="跳去'...">
-                <Item id="2007" name="行號(&amp;L)"/>
+            <GoToLine title="跳去...">
+                <Item id="2007" name="行數號碼(&amp;L)"/>
                 <Item id="2008" name="字元位置(&amp;O)"/>
                 <Item id="1"    name="過去"/>
                 <Item id="2"    name="邊度都唔去"/>
@@ -950,7 +950,7 @@
                     <Item id="6813" name="個字元開始"/>
                     <Item id="6814" name="有效值：1 - 9"/>
                     <Item id="6815" name="打字嗰陣顯示函式參數提示"/>
-                    <Item id="6851" name="自動加插"/>
+                    <Item id="6851" name="自動補齊"/>
                     <Item id="6857" name="HTML/XML 結束 tag"/>
                     <Item id="6858" name="起始"/>
                     <Item id="6859" name="結束"/>
@@ -1111,7 +1111,7 @@
             <DroppingFolderAsProjectModeWarning title="操作無效" message="由於您响「偏好設定：預設資料夾」閂咗「拖放資料夾去視窗嗰陣，會打開資料夾裏面所有檔案，而唔係放入去資料夾工作區」呢個選項，您只能夠拖放文件或者資料夾其中一種。
 麻煩您啟用呢個選項，然後再試一次。"/>
             <SortingError title="排次序出錯" message="第 $INT_REPLACE$ 行出問題，無法子以整數排次序。"/> <!-- #todo reproduce -->
-            <ColumnModeTip title="欄位模式" message="貼士：用「Alt + 滑鼠掣選擇」或者「Alt + Shift + keyboard 方向掣」嚟切換去欄位模式。"/>
+            <ColumnModeTip title="欄位模式" message="貼士：用「Alt + 滑鼠拖拉揀選」或者「Alt + Shift + keyboard 方向掣」嚟切換去欄位模式。"/>
             <BufferInvalidWarning title="Save 失敗" message="Save 唔到：緩衝區無效。"/> <!-- #todo reproduce -->
             <DoCloseOrNot title="保留唔存在嘅文件" message="個檔案「$STR_REPLACE$」已經唔存在喇。
 仲使唔使 keep 著呢個檔案呢？"/>
@@ -1171,7 +1171,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
 想唔想用系統管理員身份重新打開 Notepad++？"/>
             <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/> <!-- #todo reproduce -->
-            <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/>
+            <ViewInBrowser title="响瀏覽器度睇呢個檔案" message="响系統裏面搵唔到應用程式"/>
             <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/> <!-- #todo reproduce -->
@@ -1324,12 +1324,12 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <common-name value="名："/>
             <tabrename-title value="幫個 tab 改名"/> <!-- #todo reproduce -->
             <tabrename-newname value="新名："/> <!-- #todo reproduce -->
-            <recent-file-history-maxfile value="最多檔案數量："/> <!-- #todo reproduce -->
-            <language-tabsize value="Tab 闊度："/> <!-- #todo reproduce -->
+            <recent-file-history-maxfile value="檔案數量："/> <!-- #todo reproduce -->
+            <language-tabsize value="縮排大細："/> <!-- #todo reproduce -->
             <userdefined-title-new value="開新語言..."/> <!-- #todo reproduce -->
             <userdefined-title-save value="另 Save 而家個語言名..."/>
             <userdefined-title-rename value="改而家個語言名"/>
-            <autocomplete-nb-char value="激活自動完成嘅字元數："/> <!-- #todo reproduce -->
+            <autocomplete-nb-char value="字元數："/> <!-- #todo reproduce -->
             <edit-verticaledge-nb-col value="邊框闊度："/> <!-- #todo reproduce -->
             <summary value="統計資料"/>
             <summary-filepath value="完整檔案路徑： "/>
