@@ -1105,13 +1105,13 @@
 係咪真係要開晒先？"/> <!-- #todo reproduce -->
             <SettingsOnCloudError title="雲端設定" message="條雲端路徑似乎 set 咗响唯讀磁碟，又或者
 資料夾冇足夠嘅寫入權限，而家清除您嘅雲端設定，
-麻煩去「偏好設定」重新 set 過。"/> <!-- #todo reproduce -->
+麻煩去「偏好設定」重新 set 過。"/>
             <FilePathNotFoundWarning title="打開檔案" message="搵唔到您想打開嘅檔案。"/> <!-- #todo reproduce -->
             <SessionFileInvalidError title="Load 唔到個工作階段" message="個工作階段檔案損毀咗或者無效。"/> <!-- #todo reproduce -->
             <DroppingFolderAsProjectModeWarning title="操作無效" message="由於您响「偏好設定：預設資料夾」閂咗「拖放資料夾去視窗嗰陣，會打開資料夾裏面所有檔案，而唔係放入去資料夾工作區」呢個選項，您只能夠拖放文件或者資料夾其中一種。
-麻煩您啟用呢個選項，然後再試一次。"/> <!-- #todo reproduce -->
+麻煩您啟用呢個選項，然後再試一次。"/>
             <SortingError title="排次序出錯" message="第 $INT_REPLACE$ 行出問題，無法子以整數排次序。"/> <!-- #todo reproduce -->
-            <ColumnModeTip title="欄位模式" message="貼士：用「Alt + 滑鼠掣選擇」或者「Alt + Shift + keyboard 方向掣」嚟切換去欄位模式。"/> <!-- #todo reproduce -->
+            <ColumnModeTip title="欄位模式" message="貼士：用「Alt + 滑鼠掣選擇」或者「Alt + Shift + keyboard 方向掣」嚟切換去欄位模式。"/>
             <BufferInvalidWarning title="Save 失敗" message="Save 唔到：緩衝區無效。"/> <!-- #todo reproduce -->
             <DoCloseOrNot title="保留唔存在嘅文件" message="個檔案「$STR_REPLACE$」已經唔存在喇。
 仲使唔使 keep 著呢個檔案呢？"/>
@@ -1171,7 +1171,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
 想唔想用系統管理員身份重新打開 Notepad++？"/>
             <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/> <!-- #todo reproduce -->
-            <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/> <!-- #todo reproduce -->
+            <ViewInBrowser title="响瀏覽器睇呢個檔案" message="响系統裏面搵唔到應用程式"/>
             <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/> <!-- #todo reproduce -->
@@ -1276,8 +1276,8 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <word-chars-list-space-warning value="$INT_REPLACE$ 有空格"/> <!-- #todo reproduce -->
             <word-chars-list-tab-warning value="$INT_REPLACE$ 有 tab"/> <!-- #todo reproduce -->
             <word-chars-list-warning-end value=" 出現响您嘅單字字元清單裏頭。"/> <!-- #todo reproduce -->
-            <cloud-invalid-warning value="路徑無效。"/> <!-- #todo reproduce -->
-            <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/> <!-- #todo reproduce -->
+            <cloud-invalid-warning value="路徑無效。"/>
+            <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/>
             <cloud-select-folder value="揀番個資料夾，畀 Notepad++ 讀取/寫入設定。"/> <!-- #todo reproduce -->
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
             <two-find-buttons-tip value="用上丶落兩個掣代替「搵下一個」"/>
@@ -1311,14 +1311,14 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replace-not-found value="取代：搵唔到您要嘅嘢。"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/>
-            <finder-find-in-finder value="响搜尋結果再搵..."/> <!-- #todo reproduce -->
-            <finder-close-this value="閂咗呢個搜尋結果去"/> <!-- #todo reproduce -->
-            <finder-collapse-all value="摺埋全部層級"/> <!-- #todo reproduce -->
-            <finder-uncollapse-all value="展開全部層級"/> <!-- #todo reproduce -->
-            <finder-copy value="複製"/> <!-- #todo reproduce -->
-            <finder-select-all value="揀晒全部"/> <!-- #todo reproduce -->
-            <finder-clear-all value="清除全部"/> <!-- #todo reproduce -->
-            <finder-open-all value="打開全部"/> <!-- #todo reproduce -->
+            <finder-find-in-finder value="响搜尋結果再搵..."/>
+            <finder-close-this value="閂咗呢個搜尋結果去"/>
+            <finder-collapse-all value="摺埋全部層級"/>
+            <finder-uncollapse-all value="展開全部層級"/>
+            <finder-copy value="複製"/>
+            <finder-select-all value="揀晒全部"/>
+            <finder-clear-all value="清除全部"/>
+            <finder-open-all value="打開全部"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
             <common-name value="名："/>
