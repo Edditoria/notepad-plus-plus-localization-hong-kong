@@ -102,7 +102,7 @@
                     <Item id="41015" name="Save 多份 copy..."/>
                     <Item id="41016" name="掉去垃圾桶"/>
                     <Item id="41017" name="改名..."/>
-                    <Item id="41021" name="打返開閂咗嘅檔案"/>
+                    <Item id="41021" name="開返閂咗嘅檔案"/>
                     <Item id="41022" name="响工作區打開資料夾(&amp;W)..."/>
                     <Item id="41023" name="响系統預設程式打開"/>
 
@@ -137,7 +137,7 @@
                     <Item id="42068" name="每個單字字首大楷，其它唔變"/>
                     <Item id="42069" name="每句第一個字大楷，其它細楷(&amp;S)"/>
                     <Item id="42070" name="每句第一個字大楷，其它唔變"/>
-                    <Item id="42071" name="調轉晒啲大細楷佢(&amp;I)"/>
+                    <Item id="42071" name="將啲大細楷調轉晒佢(&amp;I)"/>
                     <Item id="42072" name="求其咁轉大細楷(&amp;R)"/>
                     <Item id="42073" name="打開檔案"/>
                     <Item id="42074" name="响檔案總管打開資料夾"/>
@@ -444,7 +444,7 @@
                 <Item id="1687" name="冇用呢個視窗嗰陣時"/>
                 <Item id="1688" name="一直保持"/>
                 <Item id="1632" name="限揀選範圍(&amp;I)"/>
-                <Item id="1633" name="清晒啲標記"/>
+                <Item id="1633" name="清晒啲標記佢"/>
                 <Item id="1635" name="响所有打開咗嘅文件執行取代(&amp;O)"/>
                 <Item id="1636" name="响所有打開咗嘅文件度搵晒出嚟(&amp;O)"/>
                 <Item id="1654" name="過濾(&amp;S)："/>
@@ -814,7 +814,7 @@
                     <Item id="6206" name="顯示行數號碼"/>
                     <Item id="6207" name="顯示書籤"/>
                     <Item id="6208" name="Show vertical edge"/> <!-- unknown item -->
-                    <Item id="6234" name="熄咗進階上下轆功能
+                    <Item id="6234" name="將進階上下轆功能熄咗佢
 （可能解決一啲觸控板問題）"/>
                     <Item id="6211" name="垂直邊緣線設定"/>
                     <Item id="6213" name="背景色模式"/>
@@ -852,7 +852,7 @@
                 </DefaultDir>
 
                 <FileAssoc title="檔案關聯">
-                    <Item id="4008" name="想改下面啲設定，麻煩您閂咗 Notepad++ 去，然後「以系統管理員身份執行」重新打開 Notepad++。"/>
+                    <Item id="4008" name="想改下面啲設定，麻煩您閂咗個 Notepad++，然後「以系統管理員身份執行」重新打開 Notepad++。"/>
                     <Item id="4009" name="支援嘅副檔名："/>
                     <Item id="4010" name="登記咗嘅副檔名："/>
                 </FileAssoc>
@@ -1172,7 +1172,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 想唔想用系統管理員身份重新打開 Notepad++？"/>
             <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/> <!-- #todo reproduce -->
             <ViewInBrowser title="响瀏覽器度睇呢個檔案" message="响系統裏面搵唔到應用程式"/>
-            <ExitToUpdatePlugins title="即將會閂咗 Notepad++ 去" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
+            <ExitToUpdatePlugins title="即將會閂 Notepad++" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/>
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
@@ -1212,7 +1212,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <SelectFolderFromBrowserString name="揀個資料夾嚟加入去資料夾工作區"/>
             <Menus>
                 <Item id="3511" name="摌走"/>
-                <Item id="3512" name="摌晒去"/>
+                <Item id="3512" name="摌走晒佢"/>
                 <Item id="3513" name="加料"/>
                 <Item id="3514" name="响系統預設程式打開"/>
                 <Item id="3515" name="打開"/>
@@ -1312,7 +1312,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/>
             <finder-find-in-finder value="响搜尋結果再搵..."/>
-            <finder-close-this value="閂咗呢個搜尋結果去"/>
+            <finder-close-this value="閂埋呢個搜尋結果"/>
             <finder-collapse-all value="摺埋所有層級"/>
             <finder-uncollapse-all value="展開所有層級"/>
             <finder-copy value="抄"/>
