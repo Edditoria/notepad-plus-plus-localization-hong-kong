@@ -30,7 +30,7 @@
                     <Item subMenuId="file-openFolder" name="打開檔案嘅資料夾"/>
                     <Item subMenuId="file-closeMore" name="閂咁啲檔案"/>
                     <Item subMenuId="file-recentFiles" name="最近用過嘅檔案"/>
-                    <Item subMenuId="edit-copyToClipboard" name="複製去剪貼簿"/>
+                    <Item subMenuId="edit-copyToClipboard" name="抄去剪貼簿"/>
                     <Item subMenuId="edit-indent" name="縮排"/>
                     <Item subMenuId="edit-convertCaseTo" name="轉換大細楷"/>
                     <Item subMenuId="edit-lineOperations" name="處理呢（幾）行"/>
@@ -48,7 +48,7 @@
                     <Item subMenuId="view-currentFileIn" name="响...睇呢個檔案"/>
                     <Item subMenuId="view-showSymbol" name="特殊字元"/>
                     <Item subMenuId="view-zoom" name="Zoom"/>
-                    <Item subMenuId="view-moveCloneDocument" name="移動/複製呢個檔案"/>
+                    <Item subMenuId="view-moveCloneDocument" name="搬/抄呢個檔案"/>
                     <Item subMenuId="view-tab"  name="Tabs"/>
                     <Item subMenuId="view-collapseLevel" name="摺埋幾層"/>
                     <Item subMenuId="view-uncollapseLevel" name="展開幾層"/>
@@ -1315,7 +1315,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-close-this value="閂咗呢個搜尋結果去"/>
             <finder-collapse-all value="摺埋所有層級"/>
             <finder-uncollapse-all value="展開所有層級"/>
-            <finder-copy value="複製"/>
+            <finder-copy value="抄"/>
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
