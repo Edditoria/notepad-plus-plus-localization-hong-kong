@@ -212,7 +212,7 @@
                     <Item id="43051" name="摌走冇書籤標記嗰幾行"/>
                     <Item id="43050" name="反向標記書籤"/>
                     <Item id="43052" name="以字元編號搵字元..."/>
-                    <Item id="43053" name="揀選括號之間所有嘅字元"/>
+                    <Item id="43053" name="揀選括號之間全部字元"/>
                     <Item id="43009" name="跳去對應括號"/>
                     <Item id="43010" name="搵上一個(&amp;P)"/>
                     <Item id="43011" name="遞增式咁搵(&amp;I)..."/>
