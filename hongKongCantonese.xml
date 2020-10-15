@@ -1287,15 +1287,15 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 *.* !*.exe !*.obj !*.log"/> <!-- #todo reproduce -->
             <find-status-top-reached value="搵嘢：已經過咗文件開端，而家响底部第一個相符嘅字串。"/>
             <find-status-end-reached value="搵嘢：已經過咗文件結尾，而家响頂部第一個相符嘅字串。"/>
-            <find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/> <!-- #todo reproduce -->
-            <find-status-replaceinfiles-nb-replaced value="檔案中執行取代：取代咗 $INT_REPLACE$ 次。"/> <!-- #todo reproduce -->
+            <find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/>
+            <find-status-replaceinfiles-nb-replaced value="檔案中執行取代：取代咗 $INT_REPLACE$ 次。"/>
             <find-status-replaceinfiles-re-malformed value="檔案中執行取代：規則運算式無效。"/> <!-- #todo reproduce -->
-            <find-status-replaceinopenedfiles-1-replaced value="响所有打開咗嘅文件執行取代：取代咗 1 次。"/> <!-- #todo reproduce -->
-            <find-status-replaceinopenedfiles-nb-replaced value="响所有打開咗嘅文件執行取代：取代咗 $INT_REPLACE$ 次。"/> <!-- #todo reproduce -->
+            <find-status-replaceinopenedfiles-1-replaced value="响所有打開咗嘅文件執行取代：取代咗 1 次。"/>
+            <find-status-replaceinopenedfiles-nb-replaced value="响所有打開咗嘅文件執行取代：取代咗 $INT_REPLACE$ 次。"/>
             <find-status-mark-re-malformed value="標記：規則運算式無效。"/> <!-- #todo reproduce -->
             <find-status-invalid-re value="搵嘢：規則運算式無效。"/> <!-- #todo reproduce -->
-            <find-status-mark-1-match value="標記： 1 個符合結果。"/> <!-- #todo reproduce -->
-            <find-status-mark-nb-matches value="標記： $INT_REPLACE$ 個符合結果。"/> <!-- #todo reproduce -->
+            <find-status-mark-1-match value="標記： 1 個符合結果。"/>
+            <find-status-mark-nb-matches value="標記： $INT_REPLACE$ 個符合結果。"/>
             <find-status-count-re-malformed value="數量：規則運算式無效。"/> <!-- #todo reproduce -->
             <find-status-count-1-match value="數量： 1 個符合結果。"/>
             <find-status-count-nb-matches value="數量： $INT_REPLACE$ 個符合結果。"/>
@@ -1341,17 +1341,17 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <summary-nbsel1 value=" 個揀咗嘅字元（"/>
             <summary-nbsel2 value=" bytes），揀咗 "/>
             <summary-nbrange value=" 個範圍數"/>
-            <replace-in-files-confirm-title value="係咪真係先？"/> <!-- #todo reproduce -->
-            <replace-in-files-confirm-directory value="係咪真係要响呢度執行取代："/> <!-- #todo reproduce -->
-            <replace-in-files-confirm-filetype value="包含副檔名嘅檔案："/> <!-- #todo reproduce -->
-            <replace-in-open-docs-confirm-title value="係咪真係先？"/> <!-- #todo reproduce -->
-            <replace-in-open-docs-confirm-message value="係咪真係要响所有打開咗嘅文件度執行取代？"/> <!-- #todo reproduce -->
-            <find-result-caption value="搵到嘅結果"/> <!-- #todo reproduce -->
-            <find-result-title value="搵"/> <!-- #todo reproduce -->
+            <replace-in-files-confirm-title value="係咪真係先？"/>
+            <replace-in-files-confirm-directory value="係咪真係要响呢度執行取代："/>
+            <replace-in-files-confirm-filetype value="檔案類型："/>
+            <replace-in-open-docs-confirm-title value="係咪真係先？"/>
+            <replace-in-open-docs-confirm-message value="係咪真係要响所有打開咗嘅文件度執行取代？"/>
+            <find-result-caption value="搵到嘅結果"/>
+            <find-result-title value="搵"/>
             <find-result-title-info value="（响 $INT_REPLACE2$ 個檔案搵到 $INT_REPLACE1$ 個結果，當中搵咗 $INT_REPLACE3$ 次）"/> <!-- #todo reproduce -->
             <find-result-title-info-selections value="（响 $INT_REPLACE2$ 個揀選範圍搵到 $INT_REPLACE1$ 個結果，當中搵咗 $INT_REPLACE3$ 次）"/> <!-- #todo reproduce -->
-            <find-result-title-info-extra value=" - Line Filter Mode: only display the filtered results"/> <!-- #todo unknown item -->
-            <find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/> <!-- #todo reproduce -->
+            <find-result-title-info-extra value=" - 搵中搵模式：只顯示「响搜尋結果再搵」嘅篩選結果"/>
+            <find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/>
             <find-regex-zero-length-match value="zero length match" /> <!-- #todo unknown item -->
         </MiscStrings>
     </Native-Langue>
