@@ -398,7 +398,7 @@
             </Splitter>
             <TabBar>
                 <Item CMID="0" name="閂埋呢個檔案"/>
-                <Item CMID="1" name="除咗呢個檔案，閂晒其它去"/>
+                <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/>
                 <Item CMID="2" name="Save 呢個檔案"/>
                 <Item CMID="3" name="Save 做新檔案..."/>
                 <Item CMID="4" name="Print 出嚟"/>
@@ -478,7 +478,7 @@
             <GoToLine title="跳去...">
                 <Item id="2007" name="行數號碼(&amp;L)"/>
                 <Item id="2008" name="字元位置(&amp;O)"/>
-                <Item id="1"    name="過去"/>
+                <Item id="1"    name="跳過去"/>
                 <Item id="2"    name="邊度都唔去"/>
                 <Item id="2004" name="您响呢度："/>
                 <Item id="2005" name="您想去："/>
