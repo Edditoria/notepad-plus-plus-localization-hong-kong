@@ -84,7 +84,7 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 - 呢個 repo 名應該叫「香港廣東話」丶「香港粵語」定係叫「香港語」，注意要能夠配合番譯做英文要睇得明，仲有跟 Notepad++ 選擇語言嘅一致性。 **（希望盡早決定）**
 - Typo丶錯別字丶文法。
 - 整體嚟講啲字詞丶語法等嘅用字，有冇一致性嘅問題。
-- 實際畫面上有冇 overflow 嘅問題，搞到啲字顯示唔到响個 mon 到，歡迎搵搵 XML comment 咗 `<-- #todo reproduce -->` 嘅 line。冇顯示問題嘅話，大可以開 PR 摌走個 comment；有顯示問題，就開個 issue。
+- 實際畫面上有冇 overflow 嘅問題，搞到啲字顯示唔到响個 mon 到，歡迎搵搵 XML comment 咗 `<-- #todo reproduce -->` 嘅 line。冇顯示問題嘅話，大可以開 PR 剷走個 comment；有顯示問題，就開個 issue。
 - 用字上，正字丶異體字同埋約定俗成點樣拿捏（例如「d」vs「啲」），仲有 Windows 字型顯示（例如「𠹺」丶「𡁵」），需要大家討論。
 
 
