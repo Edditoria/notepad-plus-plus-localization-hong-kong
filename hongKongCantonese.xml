@@ -336,11 +336,7 @@
                     <Item id="47004" name="Notepad++ 社群論壇"/>
                     <Item id="47011" name="技術支援聊天室"/>
                     <Item id="47012" name="除錯資訊 (debug info)..."/>
-
-                    <!-- menu: unknown item -->
-                    <Item id="47005" name="Get More Plugins"/>
-
-                    <!-- menu: Help (cont'd) -->
+                    <Item id="47005" name="搵外掛"/>
                     <Item id="47006" name="更新 Notepad++"/>
                     <Item id="47009" name="設定更新程式嘅代理伺服器..."/>
 
@@ -371,10 +367,10 @@
                     <Item id="50001" name="自動完成字詞"/>
                     <Item id="50002" name="功能參數提示"/>
 
-                    <!-- menu: unknown item -->
-                    <Item id="50003" name="Switch to previous document"/>
-                    <Item id="50004" name="Switch to next document"/>
-                    <Item id="50005" name="Toggle macro record"/>
+                    <!-- menu: items in Shortcut Mapper dialog -->
+                    <Item id="50003" name="跳去上一份文件"/>
+                    <Item id="50004" name="跳去下一份文件"/>
+                    <Item id="50005" name="開始/停止 macro 錄影"/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="50006" name="自動完成文件路徑"/>
