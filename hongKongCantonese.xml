@@ -95,7 +95,7 @@
                     <Item id="41010" name="Print 嘢(&amp;P)..."/>
                     <Item id="1001"  name="即刻 print 佢出嚟"/>
                     <Item id="41011" name="散水(&amp;X)"/>
-                    <Item id="41012" name="開番個工作階段出嚟..."/>
+                    <Item id="41012" name="開返個工作階段出嚟..."/>
                     <Item id="41013" name="Save 低個工作階段..."/>
                     <Item id="41014" name="响磁碟重新 load 過(&amp;L)"/>
                     <Item id="41015" name="Save 多份 copy..."/>
@@ -1081,13 +1081,13 @@
             <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 Notepad++ 嘅快顯功能表。
 改完記得重新啟動 Notepad++，咁先至會生效。"/>
             <NppHelpAbsentWarning title="檔案唔存在" message="
-冇响度，去 Notepad++ 網站下載番啦。"/> <!-- #todo reproduce -->
+冇响度，去 Notepad++ 網站下載返啦。"/> <!-- #todo reproduce -->
             <SaveCurrentModifWarning title="Save 而家嘅改動" message="您必須要 save 低而家嘅改動。
-留意番，save 咗就冇得復原。
+留意返，save 咗就冇得復原。
 
 仲繼唔繼續？"/> <!-- #todo reproduce -->
             <LoseUndoAbilityWarning title="警告：冇得復原" message="您必須要 save 低而家嘅改動。
-留意番，save 咗就冇得復原。
+留意返，save 咗就冇得復原。
 
 仲繼唔繼續？"/> <!-- #todo reproduce -->
             <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有改過嘢，save 咗佢再試吓。"/> <!-- #todo reproduce -->
@@ -1142,7 +1142,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 使唔使回復個檔案？"/> <!-- #todo reproduce -->
             <LoadLangsFailedFinal title="設定" message="Load 唔到「langs.xml」。"/> <!-- #todo reproduce -->
             <FolderAsWorspaceSubfolderExists title="資料夾工作區問題" message="您要加入嘅資料夾「$STR_REPLACE$」，已經以子資料夾嘅形式出現响工作區裏面。
-如果您仍然想咁做，唯有响工作區剷走包含佢嘅資料夾，先至可以加番上去。"/> <!-- #todo reproduce -->
+如果您仍然想咁做，唯有响工作區剷走包含佢嘅資料夾，先至可以加返上去。"/> <!-- #todo reproduce -->
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="Project 工作區有嘢改動過，使唔使 save？"/>
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 工作區冇 save 到。"/> <!-- #todo reproduce -->
@@ -1267,13 +1267,13 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
         <MiscStrings>
             <!-- $INT_REPLACE$ 同埋 $STR_REPLACE$ 係 placeholders 嚟，唔好改啊嗱 -->
             <word-chars-list-tip value="呢度要嚟响現時嘅單字字元清單附加字元，double-click 揀字又或者剔咗「符合完整單字」嚟搵嘢就會包埋。"/> <!-- #todo reproduce -->
-            <word-chars-list-warning-begin value="留意番："/> <!-- #todo reproduce -->
+            <word-chars-list-warning-begin value="留意返："/> <!-- #todo reproduce -->
             <word-chars-list-space-warning value="$INT_REPLACE$ 有空格"/> <!-- #todo reproduce -->
             <word-chars-list-tab-warning value="$INT_REPLACE$ 有 tab"/> <!-- #todo reproduce -->
             <word-chars-list-warning-end value=" 出現响您嘅單字字元清單裏頭。"/> <!-- #todo reproduce -->
             <cloud-invalid-warning value="路徑無效。"/>
             <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/>
-            <cloud-select-folder value="揀番個資料夾，畀 Notepad++ 讀取/寫入設定。"/> <!-- #todo reproduce -->
+            <cloud-select-folder value="揀返個資料夾，畀 Notepad++ 讀取/寫入設定。"/> <!-- #todo reproduce -->
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
             <two-find-buttons-tip value="用上丶落兩個掣代替「搵下一個」"/>
             <find-in-files-filter-tip value="只係响 cpp, cxx, h, hxx &amp;&amp; hpp 裏面搵：
