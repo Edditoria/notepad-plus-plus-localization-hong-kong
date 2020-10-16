@@ -167,8 +167,8 @@
                     <Item id="42050" name="貼上 binary 內容（包埋 NULL 字元）"/>
                     <Item id="42037" name="欄位模式..."/>
                     <Item id="42034" name="欄位編輯器..."/>
-                    <Item id="42051" name="打開面板：ASCII 字元表"/>
-                    <Item id="42052" name="打開面板：剪貼簿記錄"/>
+                    <Item id="42051" name="打開 panel：ASCII 字元表"/>
+                    <Item id="42052" name="打開 panel：剪貼簿記錄"/>
 
                     <!-- menu: Macro (cont'd) -->
                     <Item id="42025" name="Save 低啱啱錄影嘅 macro (&amp;S)..."/>
@@ -783,7 +783,7 @@
                     <Item id="6121" name="閂最後份文件嗰陣順便閂埋個程式"/>
                     <Item id="6122" name="隱藏 menu bar（撳 Alt 或者 F10 切換）"/>
                     <Item id="6123" name="本土化"/>
-                    <Item id="6125" name="文件切換面板"/>
+                    <Item id="6125" name="文件切換 Panel"/>
                     <Item id="6126" name="顯示"/>
                     <Item id="6127" name="停用副檔名欄"/>
                 </Global>
