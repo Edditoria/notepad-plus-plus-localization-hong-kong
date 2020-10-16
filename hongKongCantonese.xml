@@ -812,7 +812,7 @@
                     <Item id="6230" name="縮排"/>
                     <Item id="6206" name="顯示行數號碼"/>
                     <Item id="6207" name="顯示書籤"/>
-                    <Item id="6208" name="Show vertical edge"/> <!-- #todo unknown item -->
+                    <Item id="6208" name="顯示垂直邊緣線"/>
                     <Item id="6234" name="將進階上下轆功能熄咗佢
 （可能解決一啲觸控板問題）"/>
                     <Item id="6211" name="垂直邊緣線設定"/>
@@ -1329,7 +1329,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <userdefined-title-save value="另 Save 而家個語言名..."/>
             <userdefined-title-rename value="改而家個語言名"/>
             <autocomplete-nb-char value="字元數："/>
-            <edit-verticaledge-nb-col value="邊框闊度："/> <!-- #todo reproduce -->
+            <edit-verticaledge-nb-col value="參考字元數："/>
             <summary value="統計資料"/>
             <summary-filepath value="完整檔案路徑： "/>
             <summary-filecreatetime value="建立： "/>
