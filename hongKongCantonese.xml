@@ -1167,7 +1167,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 想唔想用系統管理員身份重新打開 Notepad++？"/>
             <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/> <!-- #todo reproduce -->
             <ViewInBrowser title="响瀏覽器度睇呢個檔案" message="响系統裏面搵唔到應用程式"/>
-            <ExitToUpdatePlugins title="即將會閂 Notepad++" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新。
+            <ExitToUpdatePlugins title="即將會閂 Notepad++" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新或者剷走 plugin(s)。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/>
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
