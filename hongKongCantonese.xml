@@ -215,7 +215,7 @@
                     <Item id="43009" name="跳去對應括號"/>
                     <Item id="43010" name="搵上一個(&amp;P)"/>
                     <Item id="43011" name="遞增式咁搵(&amp;I)..."/>
-                    <Item id="43013" name="响一乍檔案搵"/>
+                    <Item id="43013" name="响一咋檔案搵"/>
                     <Item id="43014" name="揀字然後搵下個（唔記錄關鍵字）"/>
                     <Item id="43015" name="揀字然後搵上個（唔記錄關鍵字）"/>
                     <Item id="43022" name="使用格式一嘅顏色"/>
@@ -420,7 +420,7 @@
         </Menu>
 
         <Dialog>
-            <Find title="" titleFind="搵" titleReplace="取代" titleFindInFiles="响一乍檔案搵" titleMark="標記">
+            <Find title="" titleFind="搵" titleReplace="取代" titleFindInFiles="响一咋檔案搵" titleMark="標記">
                 <Item id="1"    name="搵下一個"/>
                 <Item id="1722" name="向上搵"/>
                 <Item id="2"    name="閂"/>
@@ -489,7 +489,7 @@
             </Run>
 
             <MD5FromFilesDlg title="運算檔案嘅 MD5">
-                <Item id="1922" name="揀一個／一乍檔案..."/>
+                <Item id="1922" name="揀一個／一咋檔案..."/>
                 <Item id="1924" name="抄去剪貼簿"/>
                 <Item id="2"    name="閂"/>
             </MD5FromFilesDlg>
@@ -501,7 +501,7 @@
             </MD5FromTextDlg>
 
             <SHA256FromFilesDlg title="運算檔案嘅 SHA-256">
-                <Item id="1922" name="揀一個／一乍檔案..."/>
+                <Item id="1922" name="揀一個／一咋檔案..."/>
                 <Item id="1924" name="抄去剪貼簿"/>
                 <Item id="2"    name="閂"/>
             </SHA256FromFilesDlg>
