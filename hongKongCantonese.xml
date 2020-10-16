@@ -171,7 +171,7 @@
                     <Item id="42052" name="打開面板：剪貼簿記錄"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="42025" name="Save 低啱啱錄影嘅 Macro (&amp;S)..."/>
+                    <Item id="42025" name="Save 低啱啱錄影嘅 macro (&amp;S)..."/>
 
                     <!-- menu: View -->
                     <Item id="42026" name="文字方向：右至左"/>
@@ -184,7 +184,7 @@
                     <Item id="42031" name="資料夾路徑 → 剪貼簿"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="42032" name="係咁執行 Macro (&amp;R)..."/>
+                    <Item id="42032" name="係咁執行 macro (&amp;R)..."/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="42033" name="取消唯讀屬性"/>
@@ -383,7 +383,7 @@
                     <Item id="42041" name="剷晒最近用過嘅檔案記錄"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="48016" name="修改快捷鍵或者剷走 Macro..."/>
+                    <Item id="48016" name="修改快捷鍵或者剷走 macro..."/>
 
                     <!-- menu: Run (cont'd) -->
                     <Item id="48017" name="修改快捷鍵或者剷走執行指令..."/>
@@ -1023,7 +1023,7 @@
             <MultiMacro title="係咁執行 Macro">
                 <Item id="1" name="執行(&amp;R)"/>
                 <Item id="2" name="取消(&amp;C)"/>
-                <Item id="8006" name="要行嘅 Macro："/>
+                <Item id="8006" name="要行嘅 macro："/>
                 <Item id="8001" name="執行"/>
                 <Item id="8005" name="次"/>
                 <Item id="8002" name="執行到檔案結尾(&amp;E)"/>
