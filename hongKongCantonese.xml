@@ -886,7 +886,7 @@
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
                     <Item id="6236" name="轆到超出至最後一行"/>
-                    <Item id="6239" name="Keep selection when right-click outside of selection"/>
+                    <Item id="6239" name="响揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #todo reproduce -->
                 </Scintillas>
 
                 <NewDoc title="新文件">
@@ -974,11 +974,11 @@
                     <Item id="6728" name="頁首同埋頁尾"/>
                 </Print>
 
-                <Searching title="Searching">
-                    <Item id="6901" name="Don't fill find field in Find dialog with selected word"/>
-                    <Item id="6902" name="Use monospaced font in Find dialog (Need to restart Notepad++)"/>
-                    <Item id="6903" name="Find dialog remains open after search that outputs to results window"/>
-                    <Item id="6904" name="Confirm Replace All in All Opened Documents"/>
+                <Searching title="搵嘢">
+                    <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- #todo reproduce -->
+                    <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- #todo reproduce -->
+                    <Item id="6903" name="搵完嘢，保持開著個對話框"/> <!-- #todo reproduce -->
+                    <Item id="6904" name="响所有打開咗嘅文件執行取代之前，要再次確認"/> <!-- #todo reproduce -->
                 </Searching>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1084,7 +1084,7 @@
                     <Item id="6334" name="自動偵測檔案編碼"/>
                     <Item id="6314" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- #todo remove in v7.9 -->
                     <Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
-                    <Item id="6350" name="Enable fullbox mode"/>
+                    <Item id="6350" name="啟用 fullbox 模式（反白顯示網址同埋檔案連結）"/> <!-- #todo reproduce -->
                     <Item id="6337" name="資料夾工作區檔案副檔名："/>
                     <Item id="6114" name="啟用"/>
                     <Item id="6117" name="啟用 MRU 行為功能"/>
@@ -1381,10 +1381,10 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replace-not-found value="取代：搵唔到您要嘅嘢。"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/>
-            <find-status-scope-selection value="in selected text"/>
-            <find-status-scope-all value="in entire file"/>
-            <find-status-scope-backward value="from start-of-file to caret"/>
-            <find-status-scope-forward value="from caret to end-of-file"/>
+            <find-status-scope-selection value="（揀咗嘅字）"/> <!-- #todo reproduce -->
+            <find-status-scope-all value="（成份檔案）"/> <!-- #todo reproduce -->
+            <find-status-scope-backward value="（由頭到滑鼠浮標位置）"/> <!-- #todo reproduce -->
+            <find-status-scope-forward value="（由滑鼠浮標位置到檔尾）"/> <!-- #todo reproduce -->
             <finder-find-in-finder value="响搜尋結果再搵..."/>
             <finder-close-this value="閂埋呢個搜尋結果"/>
             <finder-collapse-all value="摺埋所有層級"/>
@@ -1393,7 +1393,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
-            <finder-wrap-long-lines value="Word wrap long lines"/>
+            <finder-wrap-long-lines value="自動換行"/> <!-- #todo reproduce -->
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
             <common-name value="名："/>
