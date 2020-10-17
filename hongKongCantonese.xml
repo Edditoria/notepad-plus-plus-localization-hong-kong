@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.8.7">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -130,6 +130,7 @@
                     <Item id="42064" name="跟小數位調轉咁排（「,」當做小數點）"/>
                     <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
                     <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
+                    <Item id="42078" name="Sort Lines Randomly"/>
                     <Item id="42016" name="轉大楷(&amp;U)"/>
                     <Item id="42017" name="轉細楷(&amp;L)"/>
                     <Item id="42067" name="每個單字字首大楷，其它細楷(&amp;P)"/>
@@ -368,8 +369,8 @@
                     <Item id="50002" name="功能參數提示"/>
 
                     <!-- menu: items in Shortcut Mapper dialog -->
-                    <Item id="50003" name="跳去上一份文件"/>
-                    <Item id="50004" name="跳去下一份文件"/>
+                    <Item id="50003" name="跳去上一份文件"/> <!-- #todo remove in v7.9 -->
+                    <Item id="50004" name="跳去下一份文件"/> <!-- #todo remove in v7.9 -->
                     <Item id="50005" name="開始/停止 macro 錄影"/>
 
                     <!-- menu: Edit (cont'd) -->
@@ -450,7 +451,7 @@
                 <Item id="1624" name="模式"/>
                 <Item id="1625" name="一般(&amp;N)"/>
                 <Item id="1626" name="加強（例如 \n, \r, \t, \0, \x...）(&amp;X)"/>
-                <Item id="1660" name="所有檔案全部取代(&amp;R)"/>
+                <Item id="1660" name="所有檔案全部取代"/>
                 <Item id="1661" name="使用目前文件嘅資料夾"/>
                 <Item id="1641" name="响目前文件搵晒出嚟"/>
                 <Item id="1686" name="透明度(&amp;Y)"/>
@@ -571,6 +572,71 @@
                 <ScintillaCommandsTab name="Scintilla 指令"/>
                 <ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
                 <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
+                <MainCommandNames>
+                    <Item id="41019" name="Open containing folder in Explorer"/>
+                    <Item id="41020" name="Open containing folder in Command Prompt"/>
+                    <Item id="41021" name="Restore Recent Closed File"/>
+                    <Item id="45001" name="EOL Conversion to Windows (CR LF)"/>
+                    <Item id="45002" name="EOL Conversion to Unix (LF)"/>
+                    <Item id="45003" name="EOL Conversion to Macintosh (CR)"/>
+                    <Item id="43022" name="Mark search results using 1st style"/>
+                    <Item id="43024" name="Mark search results using 2nd style"/>
+                    <Item id="43026" name="Mark search results using 3rd style"/>
+                    <Item id="43028" name="Mark search results using 4th style"/>
+                    <Item id="43030" name="Mark search results using 5th style"/>
+                    <Item id="43023" name="Clear marks using 1st style"/>
+                    <Item id="43025" name="Clear marks using 2nd style"/>
+                    <Item id="43027" name="Clear marks using 3rd style"/>
+                    <Item id="43029" name="Clear marks using 4th style"/>
+                    <Item id="43031" name="Clear marks using 5th style"/>
+                    <Item id="43032" name="Clear marks using any style"/>
+                    <Item id="43033" name="Previous mark using 1st style"/>
+                    <Item id="43034" name="Previous mark using 2nd style"/>
+                    <Item id="43035" name="Previous mark using 3rd style"/>
+                    <Item id="43036" name="Previous mark using 4th style"/>
+                    <Item id="43037" name="Previous mark using 5th style"/>
+                    <Item id="43038" name="Previous mark created with Mark"/>
+                    <Item id="43039" name="Next mark using 1st style"/>
+                    <Item id="43040" name="Next mark using 2nd style"/>
+                    <Item id="43041" name="Next mark using 3rd style"/>
+                    <Item id="43042" name="Next mark using 4th style"/>
+                    <Item id="43043" name="Next mark using 5th style"/>
+                    <Item id="43044" name="Next mark created with Mark"/>
+                    <Item id="44100" name="View current file in Firefox"/>
+                    <Item id="44101" name="View current file in Chrome"/>
+                    <Item id="44103" name="View current file in IE"/>
+                    <Item id="44102" name="View current file in Edge"/>
+                    <Item id="50003" name="Switch to previous document"/>
+                    <Item id="50004" name="Switch to next document"/>
+                    <Item id="44051" name="Collapse Level 1"/>
+                    <Item id="44052" name="Collapse Level 2"/>
+                    <Item id="44053" name="Collapse Level 3"/>
+                    <Item id="44054" name="Collapse Level 4"/>
+                    <Item id="44055" name="Collapse Level 5"/>
+                    <Item id="44056" name="Collapse Level 6"/>
+                    <Item id="44057" name="Collapse Level 7"/>
+                    <Item id="44058" name="Collapse Level 8"/>
+                    <Item id="44061" name="Uncollapse Level 1"/>
+                    <Item id="44062" name="Uncollapse Level 2"/>
+                    <Item id="44063" name="Uncollapse Level 3"/>
+                    <Item id="44064" name="Uncollapse Level 4"/>
+                    <Item id="44065" name="Uncollapse Level 5"/>
+                    <Item id="44066" name="Uncollapse Level 6"/>
+                    <Item id="44067" name="Uncollapse Level 7"/>
+                    <Item id="44068" name="Uncollapse Level 8"/>
+                    <Item id="44081" name="Toggle Project Panel 1"/>
+                    <Item id="44082" name="Toggle Project Panel 2"/>
+                    <Item id="44083" name="Toggle Project Panel 3"/>
+                    <Item id="44085" name="Toggle Folder as Workspace"/>
+                    <Item id="44080" name="Toggle Document Map"/>
+                    <Item id="44084" name="Toggle Function List"/>
+                    <Item id="50005" name="Toggle macro recording"/>
+                    <Item id="44104" name="Switch to Project Panel 1"/>
+                    <Item id="44105" name="Switch to Project Panel 2"/>
+                    <Item id="44106" name="Switch to Project Panel 3"/>
+                    <Item id="44107" name="Switch to Folder as Workspace"/>
+                    <Item id="44108" name="Switch to Function List"/>
+                </MainCommandNames>
             </ShortcutMapper>
 
             <ShortcutMapperSubDialg title="快捷鍵">
@@ -820,6 +886,7 @@
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
                     <Item id="6236" name="轆到超出至最後一行"/>
+                    <Item id="6239" name="Keep selection when right-click outside of selection"/>
                 </Scintillas>
 
                 <NewDoc title="新文件">
@@ -906,6 +973,13 @@
                     <Item id="6727" name="呢度會顯示您啲變數設定"/>
                     <Item id="6728" name="頁首同埋頁尾"/>
                 </Print>
+
+                <Searching title="Searching">
+                    <Item id="6901" name="Don't fill find field in Find dialog with selected word"/>
+                    <Item id="6902" name="Use monospaced font in Find dialog (Need to restart Notepad++)"/>
+                    <Item id="6903" name="Find dialog remains open after search that outputs to results window"/>
+                    <Item id="6904" name="Confirm Replace All in All Opened Documents"/>
+                </Searching>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
                     <Item id="6304" name="最近用過嘅檔案記錄"/>
@@ -1008,15 +1082,16 @@
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
                     <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
-                    <Item id="6314" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
+                    <Item id="6314" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- #todo remove in v7.9 -->
                     <Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
+                    <Item id="6350" name="Enable fullbox mode"/>
                     <Item id="6337" name="資料夾工作區檔案副檔名："/>
                     <Item id="6114" name="啟用"/>
                     <Item id="6117" name="啟用 MRU 行為功能"/>
                     <Item id="6344" name="文件偷睇功能（Mouse 指著 tab 嗰陣時）"/>
                     <Item id="6345" name="响 tab 度偷睇"/>
                     <Item id="6346" name="响文件地圖度偷睇"/>
-                    <Item id="6348" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/>
+                    <Item id="6348" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- #todo remove in v7.9 -->
                 </MISC>
             </Preference>
 
@@ -1038,17 +1113,17 @@
             </Window>
 
             <ColumnEditor title="欄位編輯器">
-                <Item id="2023" name="插入文字"/>
-                <Item id="2033" name="插入數字"/>
-                <Item id="2030" name="起始數值："/>
-                <Item id="2031" name="增量："/>
-                <Item id="2035" name="齊頭補零"/>
-                <Item id="2036" name="重複："/>
+                <Item id="2023" name="插入文字(&amp;T)"/>
+                <Item id="2033" name="插入數字(&amp;N)"/>
+                <Item id="2030" name="起始數值(&amp;I)："/>
+                <Item id="2031" name="增量(&amp;Y)："/>
+                <Item id="2035" name="齊頭補零(&amp;Z)"/>
+                <Item id="2036" name="重複(&amp;R)："/>
                 <Item id="2032" name="格式"/>
-                <Item id="2024" name="十進位"/>
-                <Item id="2025" name="八進位"/>
-                <Item id="2026" name="十六進位"/>
-                <Item id="2027" name="二進位"/>
+                <Item id="2024" name="十進位(&amp;D)"/>
+                <Item id="2025" name="八進位(&amp;O)"/>
+                <Item id="2026" name="十六進位(&amp;H)"/>
+                <Item id="2027" name="二進位(&amp;B)"/>
                 <Item id="1" name="OK"/>
                 <Item id="2" name="取消"/>
             </ColumnEditor>
@@ -1067,7 +1142,7 @@
                 <Item id="1720" name="包含換行(&amp;.)"/>
             </FindInFinder>
 
-            <DoSaveOrNot title="Save"> 
+            <DoSaveOrNot title="Save">
                 <Item id="1761" name="使唔使 save 檔案「$STR_REPLACE$」？"/>
                 <Item id="6" name="好(&amp;Y)"/>
                 <Item id="7" name="唔使(&amp;N)"/>
@@ -1306,6 +1381,10 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replace-not-found value="取代：搵唔到您要嘅嘢。"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/>
+            <find-status-scope-selection value="in selected text"/>
+            <find-status-scope-all value="in entire file"/>
+            <find-status-scope-backward value="from start-of-file to caret"/>
+            <find-status-scope-forward value="from caret to end-of-file"/>
             <finder-find-in-finder value="响搜尋結果再搵..."/>
             <finder-close-this value="閂埋呢個搜尋結果"/>
             <finder-collapse-all value="摺埋所有層級"/>
@@ -1314,6 +1393,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
+            <finder-wrap-long-lines value="Word wrap long lines"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
             <common-name value="名："/>
