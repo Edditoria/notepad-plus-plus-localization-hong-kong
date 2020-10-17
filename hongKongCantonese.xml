@@ -1081,7 +1081,7 @@
             <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 Notepad++ 嘅快顯功能表。
 改完記得重新啟動 Notepad++，咁先至會生效。"/>
             <NppHelpAbsentWarning title="檔案唔存在" message="
-冇响度，去 Notepad++ 網站下載返啦。"/> <!-- #todo reproduce -->
+冇响度，去 Notepad++ 網站下載返啦。"/>
             <SaveCurrentModifWarning title="Save 而家嘅改動" message="您必須要 save 低而家嘅改動。
 留意返，save 咗就冇得復原。
 
@@ -1093,7 +1093,7 @@
             <CannotMoveDoc title="搬去新嘅 Notepad++ 個體" message="份文件有嘢改過，save 咗佢再試吓啦。"/>
             <DocReloadWarning title="响磁碟重新 load 過" message="留意返！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
             <FileLockedWarning title="儲存失敗" message="麻煩您檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
-            <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/> <!-- #todo reproduce -->
+            <FileAlreadyOpenedInNpp title="" message="已經响 Notepad++ 度開咗呢個檔案。"/>
             <DeleteFileFailed title="掉去垃圾桶" message="剷唔走個檔案。"/>
 
             <NbFileToOpenImportantWarning title="太多檔案" message="成 $INT_REPLACE$ 個檔案咁多，
@@ -1102,7 +1102,7 @@
 資料夾冇足夠嘅寫入權限，而家清除您嘅雲端設定，
 麻煩去「偏好設定」重新 set 過。"/>
             <FilePathNotFoundWarning title="打開檔案" message="您想打開嘅檔案唔存在。"/>
-            <SessionFileInvalidError title="Load 唔到個工作階段" message="個工作階段檔案損毀咗或者無效。"/> <!-- #todo reproduce -->
+            <SessionFileInvalidError title="Load 唔到個工作階段" message="個工作階段檔案損毀咗或者無效。"/>
             <DroppingFolderAsProjectModeWarning title="操作無效" message="由於您响「偏好設定：預設資料夾」閂咗「拖放資料夾去視窗嗰陣，會打開資料夾裏面所有檔案，而唔係放入去資料夾工作區」呢個選項，您只能夠拖放文件或者資料夾其中一種。
 有需要就啟用呢個選項，然後再試一次。"/>
             <SortingError title="排次序出錯" message="第 $INT_REPLACE$ 行出問題，無法子以整數排次序。"/>
@@ -1139,8 +1139,8 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 仲使唔使 save 呢個檔案呢？"/>
             <LoadStylersFailed title="Load 唔到 stylers.xml" message="Load 唔到「$STR_REPLACE$」。"/>
             <LoadLangsFailed title="設定" message="Load 唔到「langs.xml」。
-使唔使回復個檔案？"/> <!-- #todo reproduce -->
-            <LoadLangsFailedFinal title="設定" message="Load 唔到「langs.xml」。"/> <!-- #todo reproduce -->
+使唔使回復個檔案？"/>
+            <LoadLangsFailedFinal title="設定" message="Load 唔到「langs.xml」。"/>
             <FolderAsWorspaceSubfolderExists title="資料夾工作區問題" message="您要加入嘅資料夾「$STR_REPLACE$」，已經以子資料夾嘅形式出現响工作區裏面。
 如果您仍然想咁做，唯有响工作區剷走包含佢嘅資料夾，先至可以加返上去。"/>
 
@@ -1165,12 +1165,12 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 想唔想用系統管理員身份重新打開 Notepad++？"/>
             <OpenInAdminModeWithoutCloseCurrent title="Save 唔到" message="Save 唔到，可能係因為個檔案响保護狀態。
 想唔想用系統管理員身份重新打開 Notepad++？"/>
-            <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/> <!-- #todo reproduce -->
+            <OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/>
             <ViewInBrowser title="响瀏覽器度睇呢個檔案" message="响系統裏面搵唔到應用程式"/>
             <ExitToUpdatePlugins title="即將會閂 Notepad++" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新或者剷走 plugin(s)。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/>
-            <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/> <!-- #todo reproduce -->
+            <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="您必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/>
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
