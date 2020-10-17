@@ -602,40 +602,40 @@
                     <Item id="43042" name="標記下個搜尋結果：使用格式四嘅顏色"/> <!-- #todo reproduce -->
                     <Item id="43043" name="標記下個搜尋結果：使用格式五嘅顏色"/> <!-- #todo reproduce -->
                     <Item id="43044" name="標記下個搜尋結果：搵格式"/> <!-- #todo reproduce -->
-                    <Item id="44100" name="View current file in Firefox"/>
-                    <Item id="44101" name="View current file in Chrome"/>
-                    <Item id="44103" name="View current file in IE"/>
-                    <Item id="44102" name="View current file in Edge"/>
-                    <Item id="50003" name="Switch to previous document"/>
-                    <Item id="50004" name="Switch to next document"/>
-                    <Item id="44051" name="Collapse Level 1"/>
-                    <Item id="44052" name="Collapse Level 2"/>
-                    <Item id="44053" name="Collapse Level 3"/>
-                    <Item id="44054" name="Collapse Level 4"/>
-                    <Item id="44055" name="Collapse Level 5"/>
-                    <Item id="44056" name="Collapse Level 6"/>
-                    <Item id="44057" name="Collapse Level 7"/>
-                    <Item id="44058" name="Collapse Level 8"/>
-                    <Item id="44061" name="Uncollapse Level 1"/>
-                    <Item id="44062" name="Uncollapse Level 2"/>
-                    <Item id="44063" name="Uncollapse Level 3"/>
-                    <Item id="44064" name="Uncollapse Level 4"/>
-                    <Item id="44065" name="Uncollapse Level 5"/>
-                    <Item id="44066" name="Uncollapse Level 6"/>
-                    <Item id="44067" name="Uncollapse Level 7"/>
-                    <Item id="44068" name="Uncollapse Level 8"/>
-                    <Item id="44081" name="Toggle Project Panel 1"/>
-                    <Item id="44082" name="Toggle Project Panel 2"/>
-                    <Item id="44083" name="Toggle Project Panel 3"/>
-                    <Item id="44085" name="Toggle Folder as Workspace"/>
-                    <Item id="44080" name="Toggle Document Map"/>
-                    <Item id="44084" name="Toggle Function List"/>
-                    <Item id="50005" name="Toggle macro recording"/>
-                    <Item id="44104" name="Switch to Project Panel 1"/>
-                    <Item id="44105" name="Switch to Project Panel 2"/>
-                    <Item id="44106" name="Switch to Project Panel 3"/>
-                    <Item id="44107" name="Switch to Folder as Workspace"/>
-                    <Item id="44108" name="Switch to Function List"/>
+                    <Item id="44100" name="响 Firefox 度睇呢個檔案"/> <!-- #todo reproduce -->
+                    <Item id="44101" name="响 Chrome 度睇呢個檔案"/> <!-- #todo reproduce -->
+                    <Item id="44103" name="响 IE 度睇呢個檔案"/> <!-- #todo reproduce -->
+                    <Item id="44102" name="响 Edge 度睇呢個檔案"/> <!-- #todo reproduce -->
+                    <Item id="50003" name="跳去上一份文件"/> <!-- #todo reproduce -->
+                    <Item id="50004" name="跳去下一份文件"/> <!-- #todo reproduce -->
+                    <Item id="44051" name="摺埋第 1 層"/> <!-- #todo reproduce -->
+                    <Item id="44052" name="摺埋第 2 層"/> <!-- #todo reproduce -->
+                    <Item id="44053" name="摺埋第 3 層"/> <!-- #todo reproduce -->
+                    <Item id="44054" name="摺埋第 4 層"/> <!-- #todo reproduce -->
+                    <Item id="44055" name="摺埋第 5 層"/> <!-- #todo reproduce -->
+                    <Item id="44056" name="摺埋第 6 層"/> <!-- #todo reproduce -->
+                    <Item id="44057" name="摺埋第 7 層"/> <!-- #todo reproduce -->
+                    <Item id="44058" name="摺埋第 8 層"/> <!-- #todo reproduce -->
+                    <Item id="44061" name="展開第 1 層"/> <!-- #todo reproduce -->
+                    <Item id="44062" name="展開第 2 層"/> <!-- #todo reproduce -->
+                    <Item id="44063" name="展開第 3 層"/> <!-- #todo reproduce -->
+                    <Item id="44064" name="展開第 4 層"/> <!-- #todo reproduce -->
+                    <Item id="44065" name="展開第 5 層"/> <!-- #todo reproduce -->
+                    <Item id="44066" name="展開第 6 層"/> <!-- #todo reproduce -->
+                    <Item id="44067" name="展開第 7 層"/> <!-- #todo reproduce -->
+                    <Item id="44068" name="展開第 8 層"/> <!-- #todo reproduce -->
+                    <Item id="44081" name="開/閂 Project Panel 1"/> <!-- #todo reproduce -->
+                    <Item id="44082" name="開/閂 Project Panel 2"/> <!-- #todo reproduce -->
+                    <Item id="44083" name="開/閂 Project Panel 3"/> <!-- #todo reproduce -->
+                    <Item id="44085" name="開/閂資料夾工作區"/> <!-- #todo reproduce -->
+                    <Item id="44080" name="開/閂文件地圖"/> <!-- #todo reproduce -->
+                    <Item id="44084" name="開/閂函式清單"/> <!-- #todo reproduce -->
+                    <Item id="50005" name="開始/停止 macro 錄影"/> <!-- #todo reproduce -->
+                    <Item id="44104" name="跳去 Project Panel 1"/> <!-- #todo reproduce -->
+                    <Item id="44105" name="跳去 Project Panel 2"/> <!-- #todo reproduce -->
+                    <Item id="44106" name="跳去 Project Panel 3"/> <!-- #todo reproduce -->
+                    <Item id="44107" name="跳去資料夾工作區"/> <!-- #todo reproduce -->
+                    <Item id="44108" name="跳去函式清單"/> <!-- #todo reproduce -->
                 </MainCommandNames>
             </ShortcutMapper>
 
