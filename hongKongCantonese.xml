@@ -130,7 +130,7 @@
                     <Item id="42064" name="跟小數位調轉咁排（「,」當做小數點）"/>
                     <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
                     <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
-                    <Item id="42078" name="Sort Lines Randomly"/>
+                    <Item id="42078" name="求其咁排"/> <!-- #todo reproduce -->
                     <Item id="42016" name="轉大楷(&amp;U)"/>
                     <Item id="42017" name="轉細楷(&amp;L)"/>
                     <Item id="42067" name="每個單字字首大楷，其它細楷(&amp;P)"/>
@@ -573,35 +573,35 @@
                 <ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
                 <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
                 <MainCommandNames>
-                    <Item id="41019" name="Open containing folder in Explorer"/>
-                    <Item id="41020" name="Open containing folder in Command Prompt"/>
-                    <Item id="41021" name="Restore Recent Closed File"/>
-                    <Item id="45001" name="EOL Conversion to Windows (CR LF)"/>
-                    <Item id="45002" name="EOL Conversion to Unix (LF)"/>
-                    <Item id="45003" name="EOL Conversion to Macintosh (CR)"/>
-                    <Item id="43022" name="Mark search results using 1st style"/>
-                    <Item id="43024" name="Mark search results using 2nd style"/>
-                    <Item id="43026" name="Mark search results using 3rd style"/>
-                    <Item id="43028" name="Mark search results using 4th style"/>
-                    <Item id="43030" name="Mark search results using 5th style"/>
-                    <Item id="43023" name="Clear marks using 1st style"/>
-                    <Item id="43025" name="Clear marks using 2nd style"/>
-                    <Item id="43027" name="Clear marks using 3rd style"/>
-                    <Item id="43029" name="Clear marks using 4th style"/>
-                    <Item id="43031" name="Clear marks using 5th style"/>
-                    <Item id="43032" name="Clear marks using any style"/>
-                    <Item id="43033" name="Previous mark using 1st style"/>
-                    <Item id="43034" name="Previous mark using 2nd style"/>
-                    <Item id="43035" name="Previous mark using 3rd style"/>
-                    <Item id="43036" name="Previous mark using 4th style"/>
-                    <Item id="43037" name="Previous mark using 5th style"/>
-                    <Item id="43038" name="Previous mark created with Mark"/>
-                    <Item id="43039" name="Next mark using 1st style"/>
-                    <Item id="43040" name="Next mark using 2nd style"/>
-                    <Item id="43041" name="Next mark using 3rd style"/>
-                    <Item id="43042" name="Next mark using 4th style"/>
-                    <Item id="43043" name="Next mark using 5th style"/>
-                    <Item id="43044" name="Next mark created with Mark"/>
+                    <Item id="41019" name="响檔案總管打開檔案嘅資料夾"/> <!-- #todo reproduce -->
+                    <Item id="41020" name="响 CMD 打開檔案嘅資料夾"/> <!-- #todo reproduce -->
+                    <Item id="41021" name="開返閂咗嘅檔案"/> <!-- #todo reproduce -->
+                    <Item id="45001" name="將 EOL 轉換去 Windows (CR LF) 格式"/> <!-- #todo reproduce -->
+                    <Item id="45002" name="將 EOL 轉換去 Unix (LF) 格式"/> <!-- #todo reproduce -->
+                    <Item id="45003" name="將 EOL 轉換去 Macintosh (CR) 格式"/> <!-- #todo reproduce -->
+                    <Item id="43022" name="標記搜尋結果：使用格式一嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43024" name="標記搜尋結果：使用格式二嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43026" name="標記搜尋結果：使用格式三嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43028" name="標記搜尋結果：使用格式四嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43030" name="標記搜尋結果：使用格式五嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43023" name="抹走標記：格式一嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43025" name="抹走標記：格式二嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43027" name="抹走標記：格式三嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43029" name="抹走標記：格式四嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43031" name="抹走標記：格式五嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43032" name="抹走標記：所有格式嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43033" name="標記上個搜尋結果：使用格式一嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43034" name="標記上個搜尋結果：使用格式二嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43035" name="標記上個搜尋結果：使用格式三嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43036" name="標記上個搜尋結果：使用格式四嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43037" name="標記上個搜尋結果：使用格式五嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43038" name="標記上個搜尋結果：搵格式"/> <!-- #todo reproduce -->
+                    <Item id="43039" name="標記下個搜尋結果：使用格式一嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43040" name="標記下個搜尋結果：使用格式二嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43041" name="標記下個搜尋結果：使用格式三嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43042" name="標記下個搜尋結果：使用格式四嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43043" name="標記下個搜尋結果：使用格式五嘅顏色"/> <!-- #todo reproduce -->
+                    <Item id="43044" name="標記下個搜尋結果：搵格式"/> <!-- #todo reproduce -->
                     <Item id="44100" name="View current file in Firefox"/>
                     <Item id="44101" name="View current file in Chrome"/>
                     <Item id="44103" name="View current file in IE"/>
