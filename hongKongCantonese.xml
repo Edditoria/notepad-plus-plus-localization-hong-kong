@@ -130,7 +130,7 @@
                     <Item id="42064" name="跟小數位調轉咁排（「,」當做小數點）"/>
                     <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
                     <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
-                    <Item id="42078" name="求其咁排"/> <!-- #todo reproduce -->
+                    <Item id="42078" name="求其咁排"/>
                     <Item id="42016" name="轉大楷(&amp;U)"/>
                     <Item id="42017" name="轉細楷(&amp;L)"/>
                     <Item id="42067" name="每個單字字首大楷，其它細楷(&amp;P)"/>
@@ -573,69 +573,69 @@
                 <ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
                 <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
                 <MainCommandNames>
-                    <Item id="41019" name="响檔案總管打開檔案嘅資料夾"/> <!-- #todo reproduce -->
-                    <Item id="41020" name="响 CMD 打開檔案嘅資料夾"/> <!-- #todo reproduce -->
-                    <Item id="41021" name="開返閂咗嘅檔案"/> <!-- #todo reproduce -->
-                    <Item id="45001" name="將 EOL 轉換去 Windows (CR LF) 格式"/> <!-- #todo reproduce -->
-                    <Item id="45002" name="將 EOL 轉換去 Unix (LF) 格式"/> <!-- #todo reproduce -->
-                    <Item id="45003" name="將 EOL 轉換去 Macintosh (CR) 格式"/> <!-- #todo reproduce -->
-                    <Item id="43022" name="標記搜尋結果：使用格式一嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43024" name="標記搜尋結果：使用格式二嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43026" name="標記搜尋結果：使用格式三嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43028" name="標記搜尋結果：使用格式四嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43030" name="標記搜尋結果：使用格式五嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43023" name="抹走標記：格式一嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43025" name="抹走標記：格式二嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43027" name="抹走標記：格式三嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43029" name="抹走標記：格式四嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43031" name="抹走標記：格式五嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43032" name="抹走標記：所有格式嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43033" name="標記上個搜尋結果：使用格式一嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43034" name="標記上個搜尋結果：使用格式二嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43035" name="標記上個搜尋結果：使用格式三嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43036" name="標記上個搜尋結果：使用格式四嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43037" name="標記上個搜尋結果：使用格式五嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43038" name="標記上個搜尋結果：搵格式"/> <!-- #todo reproduce -->
-                    <Item id="43039" name="標記下個搜尋結果：使用格式一嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43040" name="標記下個搜尋結果：使用格式二嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43041" name="標記下個搜尋結果：使用格式三嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43042" name="標記下個搜尋結果：使用格式四嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43043" name="標記下個搜尋結果：使用格式五嘅顏色"/> <!-- #todo reproduce -->
-                    <Item id="43044" name="標記下個搜尋結果：搵格式"/> <!-- #todo reproduce -->
-                    <Item id="44100" name="响 Firefox 度睇呢個檔案"/> <!-- #todo reproduce -->
-                    <Item id="44101" name="响 Chrome 度睇呢個檔案"/> <!-- #todo reproduce -->
-                    <Item id="44103" name="响 IE 度睇呢個檔案"/> <!-- #todo reproduce -->
-                    <Item id="44102" name="响 Edge 度睇呢個檔案"/> <!-- #todo reproduce -->
-                    <Item id="50003" name="跳去上一份文件"/> <!-- #todo reproduce -->
-                    <Item id="50004" name="跳去下一份文件"/> <!-- #todo reproduce -->
-                    <Item id="44051" name="摺埋第 1 層"/> <!-- #todo reproduce -->
-                    <Item id="44052" name="摺埋第 2 層"/> <!-- #todo reproduce -->
-                    <Item id="44053" name="摺埋第 3 層"/> <!-- #todo reproduce -->
-                    <Item id="44054" name="摺埋第 4 層"/> <!-- #todo reproduce -->
-                    <Item id="44055" name="摺埋第 5 層"/> <!-- #todo reproduce -->
-                    <Item id="44056" name="摺埋第 6 層"/> <!-- #todo reproduce -->
-                    <Item id="44057" name="摺埋第 7 層"/> <!-- #todo reproduce -->
-                    <Item id="44058" name="摺埋第 8 層"/> <!-- #todo reproduce -->
-                    <Item id="44061" name="展開第 1 層"/> <!-- #todo reproduce -->
-                    <Item id="44062" name="展開第 2 層"/> <!-- #todo reproduce -->
-                    <Item id="44063" name="展開第 3 層"/> <!-- #todo reproduce -->
-                    <Item id="44064" name="展開第 4 層"/> <!-- #todo reproduce -->
-                    <Item id="44065" name="展開第 5 層"/> <!-- #todo reproduce -->
-                    <Item id="44066" name="展開第 6 層"/> <!-- #todo reproduce -->
-                    <Item id="44067" name="展開第 7 層"/> <!-- #todo reproduce -->
-                    <Item id="44068" name="展開第 8 層"/> <!-- #todo reproduce -->
-                    <Item id="44081" name="開/閂 Project Panel 1"/> <!-- #todo reproduce -->
-                    <Item id="44082" name="開/閂 Project Panel 2"/> <!-- #todo reproduce -->
-                    <Item id="44083" name="開/閂 Project Panel 3"/> <!-- #todo reproduce -->
-                    <Item id="44085" name="開/閂資料夾工作區"/> <!-- #todo reproduce -->
-                    <Item id="44080" name="開/閂文件地圖"/> <!-- #todo reproduce -->
-                    <Item id="44084" name="開/閂函式清單"/> <!-- #todo reproduce -->
-                    <Item id="50005" name="開始/停止 macro 錄影"/> <!-- #todo reproduce -->
-                    <Item id="44104" name="跳去 Project Panel 1"/> <!-- #todo reproduce -->
-                    <Item id="44105" name="跳去 Project Panel 2"/> <!-- #todo reproduce -->
-                    <Item id="44106" name="跳去 Project Panel 3"/> <!-- #todo reproduce -->
-                    <Item id="44107" name="跳去資料夾工作區"/> <!-- #todo reproduce -->
-                    <Item id="44108" name="跳去函式清單"/> <!-- #todo reproduce -->
+                    <Item id="41019" name="响檔案總管打開檔案嘅資料夾"/>
+                    <Item id="41020" name="响 CMD 打開檔案嘅資料夾"/>
+                    <Item id="41021" name="開返閂咗嘅檔案"/>
+                    <Item id="45001" name="將 EOL 轉換去 Windows (CR LF) 格式"/>
+                    <Item id="45002" name="將 EOL 轉換去 Unix (LF) 格式"/>
+                    <Item id="45003" name="將 EOL 轉換去 Macintosh (CR) 格式"/>
+                    <Item id="43022" name="全部標記：使用格式一嘅顏色"/>
+                    <Item id="43024" name="全部標記：使用格式二嘅顏色"/>
+                    <Item id="43026" name="全部標記：使用格式三嘅顏色"/>
+                    <Item id="43028" name="全部標記：使用格式四嘅顏色"/>
+                    <Item id="43030" name="全部標記：使用格式五嘅顏色"/>
+                    <Item id="43023" name="去除標記：清除格式一嘅顏色"/>
+                    <Item id="43025" name="去除標記：清除格式二嘅顏色"/>
+                    <Item id="43027" name="去除標記：清除格式三嘅顏色"/>
+                    <Item id="43029" name="去除標記：清除格式四嘅顏色"/>
+                    <Item id="43031" name="去除標記：清除格式五嘅顏色"/>
+                    <Item id="43032" name="去除標記：清除所有格式嘅顏色"/>
+                    <Item id="43033" name="搵上個標記：格式一"/>
+                    <Item id="43034" name="搵上個標記：格式二"/>
+                    <Item id="43035" name="搵上個標記：格式三"/>
+                    <Item id="43036" name="搵上個標記：格式四"/>
+                    <Item id="43037" name="搵上個標記：格式五"/>
+                    <Item id="43038" name="搵上個標記：搵格式"/>
+                    <Item id="43039" name="搵下個標記：格式一"/>
+                    <Item id="43040" name="搵下個標記：格式二"/>
+                    <Item id="43041" name="搵下個標記：格式三"/>
+                    <Item id="43042" name="搵下個標記：格式四"/>
+                    <Item id="43043" name="搵下個標記：格式五"/>
+                    <Item id="43044" name="搵下個標記：搵格式"/>
+                    <Item id="44100" name="响 Firefox 度睇呢個檔案"/>
+                    <Item id="44101" name="响 Chrome 度睇呢個檔案"/>
+                    <Item id="44103" name="响 IE 度睇呢個檔案"/>
+                    <Item id="44102" name="响 Edge 度睇呢個檔案"/>
+                    <Item id="50003" name="跳去上一份文件"/>
+                    <Item id="50004" name="跳去下一份文件"/>
+                    <Item id="44051" name="摺埋第 1 層"/>
+                    <Item id="44052" name="摺埋第 2 層"/>
+                    <Item id="44053" name="摺埋第 3 層"/>
+                    <Item id="44054" name="摺埋第 4 層"/>
+                    <Item id="44055" name="摺埋第 5 層"/>
+                    <Item id="44056" name="摺埋第 6 層"/>
+                    <Item id="44057" name="摺埋第 7 層"/>
+                    <Item id="44058" name="摺埋第 8 層"/>
+                    <Item id="44061" name="展開第 1 層"/>
+                    <Item id="44062" name="展開第 2 層"/>
+                    <Item id="44063" name="展開第 3 層"/>
+                    <Item id="44064" name="展開第 4 層"/>
+                    <Item id="44065" name="展開第 5 層"/>
+                    <Item id="44066" name="展開第 6 層"/>
+                    <Item id="44067" name="展開第 7 層"/>
+                    <Item id="44068" name="展開第 8 層"/>
+                    <Item id="44081" name="開/閂 Project Panel 1"/>
+                    <Item id="44082" name="開/閂 Project Panel 2"/>
+                    <Item id="44083" name="開/閂 Project Panel 3"/>
+                    <Item id="44085" name="開/閂資料夾工作區"/>
+                    <Item id="44080" name="開/閂文件地圖"/>
+                    <Item id="44084" name="開/閂函式清單"/>
+                    <Item id="50005" name="開始/停止 macro 錄影"/>
+                    <Item id="44104" name="跳去 Project Panel 1"/>
+                    <Item id="44105" name="跳去 Project Panel 2"/>
+                    <Item id="44106" name="跳去 Project Panel 3"/>
+                    <Item id="44107" name="跳去資料夾工作區"/>
+                    <Item id="44108" name="跳去函式清單"/>
                 </MainCommandNames>
             </ShortcutMapper>
 
@@ -886,7 +886,7 @@
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
                     <Item id="6236" name="轆到超出至最後一行"/>
-                    <Item id="6239" name="响揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #todo reproduce -->
+                    <Item id="6239" name="响揀選範圍以外撳滑鼠右掣，保留揀選範圍"/>
                 </Scintillas>
 
                 <NewDoc title="新文件">
@@ -975,10 +975,10 @@
                 </Print>
 
                 <Searching title="搵嘢">
-                    <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- #todo reproduce -->
-                    <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- #todo reproduce -->
-                    <Item id="6903" name="搵完嘢，保持開著個對話框"/> <!-- #todo reproduce -->
-                    <Item id="6904" name="响所有打開咗嘅文件執行取代之前，要再次確認"/> <!-- #todo reproduce -->
+                    <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/>
+                    <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
+                    <Item id="6903" name="搵完嘢，保持開著個對話框"/>
+                    <Item id="6904" name="响所有打開咗嘅文件執行取代之前，要再次確認"/>
                 </Searching>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1084,7 +1084,7 @@
                     <Item id="6334" name="自動偵測檔案編碼"/>
                     <Item id="6314" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- #todo remove in v7.9 -->
                     <Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
-                    <Item id="6350" name="啟用 fullbox 模式（反白顯示網址同埋檔案連結）"/> <!-- #todo reproduce -->
+                    <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/>
                     <Item id="6337" name="資料夾工作區檔案副檔名："/>
                     <Item id="6114" name="啟用"/>
                     <Item id="6117" name="啟用 MRU 行為功能"/>
@@ -1381,10 +1381,10 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replace-not-found value="取代：搵唔到您要嘅嘢。"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
             <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/>
-            <find-status-scope-selection value="（揀咗嘅字）"/> <!-- #todo reproduce -->
-            <find-status-scope-all value="（成份檔案）"/> <!-- #todo reproduce -->
-            <find-status-scope-backward value="（由頭到滑鼠浮標位置）"/> <!-- #todo reproduce -->
-            <find-status-scope-forward value="（由滑鼠浮標位置到檔尾）"/> <!-- #todo reproduce -->
+            <find-status-scope-selection value="（限揀選範圍）"/>
+            <find-status-scope-all value="（成份檔案）"/>
+            <find-status-scope-backward value="（由頭到滑鼠浮標位置）"/>
+            <find-status-scope-forward value="（由滑鼠浮標位置到檔尾）"/>
             <finder-find-in-finder value="响搜尋結果再搵..."/>
             <finder-close-this value="閂埋呢個搜尋結果"/>
             <finder-collapse-all value="摺埋所有層級"/>
@@ -1393,7 +1393,7 @@ Reload 會放棄您响 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
-            <finder-wrap-long-lines value="自動換行"/> <!-- #todo reproduce -->
+            <finder-wrap-long-lines value="自動換行"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
             <common-name value="名："/>
