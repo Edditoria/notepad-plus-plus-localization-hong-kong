@@ -49,8 +49,8 @@
                     <Item subMenuId="view-zoom" name="Zoom"/>
                     <Item subMenuId="view-moveCloneDocument" name="搬/抄呢個檔案"/>
                     <Item subMenuId="view-tab"  name="Tabs"/>
-                    <Item subMenuId="view-collapseLevel" name="摺埋幾層"/>
-                    <Item subMenuId="view-uncollapseLevel" name="展開幾層"/>
+                    <Item subMenuId="view-collapseLevel" name="摺埋第 X 層"/>
+                    <Item subMenuId="view-uncollapseLevel" name="展開第 X 層"/>
                     <Item subMenuId="view-project" name="Project"/>
                     <Item subMenuId="encoding-characterSets"  name="字元集"/>
                     <Item subMenuId="encoding-arabic"  name="阿拉伯文"/>
