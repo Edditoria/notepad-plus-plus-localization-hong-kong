@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.1">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -43,6 +43,7 @@
                     <Item subMenuId="search-unmarkAll" name="去除標記"/>
                     <Item subMenuId="search-jumpUp" name="上個標記"/>
                     <Item subMenuId="search-jumpDown" name="下個標記"/>
+                    <Item subMenuId="search-copyStyledText" name="Copy Styled Text"/>
                     <Item subMenuId="search-bookmark" name="書籤"/>
                     <Item subMenuId="view-currentFileIn" name="响...睇呢個檔案"/>
                     <Item subMenuId="view-showSymbol" name="特殊字元"/>
@@ -83,6 +84,7 @@
                     <Item id="41002" name="打開舊檔(&amp;O)..."/>
                     <Item id="41019" name="檔案總管"/>
                     <Item id="41020" name="CMD"/>
+                    <Item id="41025" name="Folder as Workspace"/>
                     <Item id="41003" name="閂埋呢個檔案(&amp;C)"/>
                     <Item id="41004" name="閂晒所有檔案(&amp;E)"/>
                     <Item id="41005" name="除咗呢個檔案，閂晒其它佢"/>
@@ -124,6 +126,8 @@
                     <Item id="42015" name="移呢行落去"/>
                     <Item id="42059" name="跟字母排"/>
                     <Item id="42060" name="跟字母調轉咁排"/>
+                    <Item id="42080" name="Sort Lines Lex. Ascending Ignoring Case"/>
+                    <Item id="42081" name="Sort Lines Lex. Descending Ignoring Case"/>
                     <Item id="42061" name="跟整數排"/>
                     <Item id="42062" name="跟整數調轉咁排"/>
                     <Item id="42063" name="跟小數位排（「,」當做小數點）"/>
@@ -242,6 +246,13 @@
                     <Item id="43042" name="格式四"/>
                     <Item id="43043" name="格式五"/>
                     <Item id="43044" name="搵嘢標記"/>
+                    <Item id="43055" name="1st Style"/>
+                    <Item id="43056" name="2nd Style"/>
+                    <Item id="43057" name="3rd Style"/>
+                    <Item id="43058" name="4th Style"/>
+                    <Item id="43059" name="5th Style"/>
+                    <Item id="43060" name="All Styles"/>
+                    <Item id="43061" name="Find Style (Marked)"/>
                     <Item id="43045" name="顯示搜尋結果視窗"/>
                     <Item id="43046" name="下一個搜尋結果"/>
                     <Item id="43047" name="上一個搜尋結果"/>
@@ -417,6 +428,7 @@
                 <Item CMID="20" name="响 CMD 打開檔案嘅資料夾"/>
                 <Item CMID="21" name="响系統預設程式打開"/>
                 <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
+                <Item CMID="23" name="Open Containing Folder as Workspace"/>
             </TabBar>
         </Menu>
 
@@ -458,6 +470,7 @@
                 <Item id="1703" name="包含換行(&amp;.)"/>
                 <Item id="1721" name="▲"/>
                 <Item id="1723" name="▼ 搵下一個"/>
+                <Item id="1725" name="Copy Marked Text"/>
             </Find>
 
             <FindCharsInRange title="以字元編號搵字元...">
@@ -602,6 +615,13 @@
                     <Item id="43042" name="搵下個標記：格式四"/>
                     <Item id="43043" name="搵下個標記：格式五"/>
                     <Item id="43044" name="搵下個標記：搵嘢標記"/>
+                    <Item id="43055" name="Copy Styled Text - 1st Style"/>
+                    <Item id="43056" name="Copy Styled Text - 2nd Style"/>
+                    <Item id="43057" name="Copy Styled Text - 3rd Style"/>
+                    <Item id="43058" name="Copy Styled Text - 4th Style"/>
+                    <Item id="43059" name="Copy Styled Text - 5th Style"/>
+                    <Item id="43060" name="Copy Styled Text - All Styles"/>
+                    <Item id="43061" name="Copy Styled Text - Find Style (Marked)"/>
                     <Item id="44100" name="响 Firefox 度睇呢個檔案"/>
                     <Item id="44101" name="响 Chrome 度睇呢個檔案"/>
                     <Item id="44103" name="响 IE 度睇呢個檔案"/>
@@ -852,6 +872,7 @@
                     <Item id="6125" name="文件切換 Panel"/>
                     <Item id="6126" name="顯示"/>
                     <Item id="6127" name="停用副檔名欄"/>
+                    <Item id="6128" name="Alternate icons"/>
                 </Global>
 
                 <Scintillas title="編輯">
@@ -1079,6 +1100,7 @@
                     <Item id="6320" name="唔顯示連結底線"/>
                     <Item id="6322" name="工作階段檔案副檔名："/>
                     <Item id="6323" name="自動更新 Notepad++"/>
+                    <Item id="6351" name="Set Save dialog file extension filter to .* instead of .txt for Normal Text"/>
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
                     <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
