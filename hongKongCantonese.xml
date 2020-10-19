@@ -369,8 +369,8 @@
                     <Item id="50002" name="功能參數提示"/>
 
                     <!-- menu: items in Shortcut Mapper dialog -->
-                    <Item id="50003" name="跳去上一份文件"/> <!-- #todo remove in v7.9 -->
-                    <Item id="50004" name="跳去下一份文件"/> <!-- #todo remove in v7.9 -->
+                    <Item id="50003" name="跳去上一份文件"/> <!-- legacy command <= v7.8.9 -->
+                    <Item id="50004" name="跳去下一份文件"/> <!-- legacy command <= v7.8.9 -->
                     <Item id="50005" name="開始/停止 macro 錄影"/>
 
                     <!-- menu: Edit (cont'd) -->
@@ -1082,7 +1082,7 @@
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
                     <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
-                    <Item id="6314" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- #todo remove in v7.9 -->
+                    <Item id="6314" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- legacy command <= v7.8.9 -->
                     <Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
                     <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/>
                     <Item id="6337" name="資料夾工作區檔案副檔名："/>
@@ -1091,7 +1091,7 @@
                     <Item id="6344" name="文件偷睇功能（Mouse 指著 tab 嗰陣時）"/>
                     <Item id="6345" name="响 tab 度偷睇"/>
                     <Item id="6346" name="响文件地圖度偷睇"/>
-                    <Item id="6348" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- #todo remove in v7.9 -->
+                    <Item id="6348" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- legacy command <= v7.8.9 -->
                 </MISC>
             </Preference>
 
