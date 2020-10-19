@@ -235,13 +235,13 @@
                     <Item id="43035" name="格式三"/>
                     <Item id="43036" name="格式四"/>
                     <Item id="43037" name="格式五"/>
-                    <Item id="43038" name="搵格式"/>
+                    <Item id="43038" name="搵嘢標記"/>
                     <Item id="43039" name="格式一"/>
                     <Item id="43040" name="格式二"/>
                     <Item id="43041" name="格式三"/>
                     <Item id="43042" name="格式四"/>
                     <Item id="43043" name="格式五"/>
-                    <Item id="43044" name="搵格式"/>
+                    <Item id="43044" name="搵嘢標記"/>
                     <Item id="43045" name="顯示搜尋結果視窗"/>
                     <Item id="43046" name="下一個搜尋結果"/>
                     <Item id="43047" name="上一個搜尋結果"/>
@@ -595,13 +595,13 @@
                     <Item id="43035" name="搵上個標記：格式三"/>
                     <Item id="43036" name="搵上個標記：格式四"/>
                     <Item id="43037" name="搵上個標記：格式五"/>
-                    <Item id="43038" name="搵上個標記：搵格式"/>
+                    <Item id="43038" name="搵上個標記：搵嘢標記"/>
                     <Item id="43039" name="搵下個標記：格式一"/>
                     <Item id="43040" name="搵下個標記：格式二"/>
                     <Item id="43041" name="搵下個標記：格式三"/>
                     <Item id="43042" name="搵下個標記：格式四"/>
                     <Item id="43043" name="搵下個標記：格式五"/>
-                    <Item id="43044" name="搵下個標記：搵格式"/>
+                    <Item id="43044" name="搵下個標記：搵嘢標記"/>
                     <Item id="44100" name="响 Firefox 度睇呢個檔案"/>
                     <Item id="44101" name="响 Chrome 度睇呢個檔案"/>
                     <Item id="44103" name="响 IE 度睇呢個檔案"/>
