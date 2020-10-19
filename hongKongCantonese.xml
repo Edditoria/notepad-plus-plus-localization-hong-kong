@@ -1178,7 +1178,7 @@
             <ContextMenuXmlEditWarning title="編輯快顯功能表" message="編輯 contextMenu.xml 可以修改 Notepad++ 嘅快顯功能表。
 改完記得重新啟動 Notepad++，咁先至會生效。"/>
             <NppHelpAbsentWarning title="檔案唔存在" message="
-冇响度，去 Notepad++ 網站下載返啦。"/>
+冇响度，去 Notepad++ 網站下載返啦。"/> <!-- legacy command <= v7.9 -->
             <SaveCurrentModifWarning title="Save 而家嘅改動" message="您必須要 save 低而家嘅改動。
 留意返，save 咗就冇得復原。
 
