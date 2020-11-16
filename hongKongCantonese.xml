@@ -310,15 +310,15 @@
 
                     <!-- menu: Encoding -->
                     <Item id="45004" name="ANSI"/>
-                    <Item id="45005" name="UTF-8 (有 BOM)"/>
-                    <Item id="45006" name="UCS-2 (用 BE)"/>
-                    <Item id="45007" name="UCS-2 (用 LE)"/>
-                    <Item id="45008" name="UTF-8 (冇 BOM)"/>
+                    <Item id="45005" name="UTF-8 with BOM"/>
+                    <Item id="45006" name="UCS-2BE with BOM"/>
+                    <Item id="45007" name="UCS-2LE with BOM"/>
+                    <Item id="45008" name="UTF-8"/>
                     <Item id="45009" name="轉做 ANSI"/>
-                    <Item id="45010" name="轉做 UTF-8 (冇 BOM)"/>
-                    <Item id="45011" name="轉做 UTF-8 (有 BOM)"/>
-                    <Item id="45012" name="轉做 UCS-2 (用 BE)"/>
-                    <Item id="45013" name="轉做 UCS-2 (用 LE)"/>
+                    <Item id="45010" name="轉做 UTF-8"/>
+                    <Item id="45011" name="轉做 UTF-8 with BOM"/>
+                    <Item id="45012" name="轉做 UCS-2BE with BOM"/>
+                    <Item id="45013" name="轉做 UCS-2LE with BOM"/>
                     <Item id="45060" name="Big5（正體中文）"/>
                     <Item id="45061" name="GB2312（簡體中文）"/>
                     <Item id="45054" name="OEM 861: 冰島文"/>
@@ -918,10 +918,10 @@
                     <Item id="6404" name="Macintosh (CR)"/>
                     <Item id="6405" name="編碼"/>
                     <Item id="6406" name="ANSI"/>
-                    <Item id="6407" name="UTF-8 (冇 BOM)"/>
-                    <Item id="6408" name="UTF-8 (有 BOM)"/>
-                    <Item id="6409" name="UCS-2 (用 BE)"/>
-                    <Item id="6410" name="UCS-2 (用 LE)"/>
+                    <Item id="6407" name="UTF-8"/>
+                    <Item id="6408" name="UTF-8 with BOM"/>
+                    <Item id="6409" name="UCS-2 Big Endian with BOM"/>
+                    <Item id="6410" name="UCS-2 Little Endian with BOM"/>
                     <Item id="6411" name="預設程式語言："/>
                     <Item id="6419" name="新文件"/>
                     <Item id="6420" name="套用落開咗嗰啲 ANSI 檔案"/>
