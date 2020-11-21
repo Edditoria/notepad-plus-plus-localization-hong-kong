@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.1">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.2">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -171,6 +171,7 @@
                     <Item id="42048" name="抄低 binary 內容（包埋 NULL 字元）"/>
                     <Item id="42049" name="剪低 binary 內容（包埋 NULL 字元）"/>
                     <Item id="42050" name="貼上 binary 內容（包埋 NULL 字元）"/>
+                    <Item id="42082" name="Copy link"/> <!-- #new v7.9.2 -->
                     <Item id="42037" name="欄位模式..."/>
                     <Item id="42034" name="欄位編輯器..."/>
                     <Item id="42051" name="打開 panel：ASCII 字元表"/>
@@ -410,13 +411,13 @@
                 <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/>
                 <Item CMID="2" name="Save 呢個檔案"/>
                 <Item CMID="3" name="Save 做新檔案..."/>
-                <Item CMID="4" name="Print 出嚟"/>
+                <Item CMID="4" name="Print 出嚟"/> <!-- #todo require attention/edit -->
                 <Item CMID="5" name="搬呢個檔案去另一邊視窗"/>
                 <Item CMID="6" name="抄呢個檔案去另一邊視窗"/>
                 <Item CMID="7" name="將檔案路徑抄去剪貼簿"/>
                 <Item CMID="8" name="將檔名抄去剪貼簿"/>
                 <Item CMID="9" name="將資料夾路徑抄去剪貼簿"/>
-                <Item CMID="10" name="改名"/>
+                <Item CMID="10" name="改名"/> <!-- #todo require attention/edit -->
                 <Item CMID="11" name="掉去垃圾桶"/>
                 <Item CMID="12" name="將檔案 set 做唯讀"/>
                 <Item CMID="13" name="取消唯讀屬性"/>
@@ -593,11 +594,11 @@
                     <Item id="45001" name="將 EOL 轉換去 Windows (CR LF) 格式"/>
                     <Item id="45002" name="將 EOL 轉換去 Unix (LF) 格式"/>
                     <Item id="45003" name="將 EOL 轉換去 Macintosh (CR) 格式"/>
-                    <Item id="43022" name="全部標記：使用格式一嘅顏色"/>
-                    <Item id="43024" name="全部標記：使用格式二嘅顏色"/>
-                    <Item id="43026" name="全部標記：使用格式三嘅顏色"/>
-                    <Item id="43028" name="全部標記：使用格式四嘅顏色"/>
-                    <Item id="43030" name="全部標記：使用格式五嘅顏色"/>
+                    <Item id="43022" name="全部標記：使用格式一嘅顏色"/> <!-- #todo require attention/edit -->
+                    <Item id="43024" name="全部標記：使用格式二嘅顏色"/> <!-- #todo require attention/edit -->
+                    <Item id="43026" name="全部標記：使用格式三嘅顏色"/> <!-- #todo require attention/edit -->
+                    <Item id="43028" name="全部標記：使用格式四嘅顏色"/> <!-- #todo require attention/edit -->
+                    <Item id="43030" name="全部標記：使用格式五嘅顏色"/> <!-- #todo require attention/edit -->
                     <Item id="43023" name="去除標記：清除格式一嘅顏色"/>
                     <Item id="43025" name="去除標記：清除格式二嘅顏色"/>
                     <Item id="43027" name="去除標記：清除格式三嘅顏色"/>
@@ -1151,7 +1152,7 @@
                 <Item id="2" name="取消"/>
             </ColumnEditor>
 
-            <FindInFinder title="喺搜尋結果再搵">
+            <FindInFinder title="喺搜尋結果再搵"> <!-- #todo require attention/edit -->
                 <Item id="1"    name="搵晒出嚟"/>
                 <Item id="2"    name="閂"/>
                 <Item id="1711" name="搵乜嘢(&amp;F)："/>
@@ -1192,6 +1193,7 @@
             <DocReloadWarning title="喺磁碟重新 load 過" message="留意返！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
             <FileLockedWarning title="儲存失敗" message="麻煩您檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
             <FileAlreadyOpenedInNpp title="" message="已經喺 Notepad++ 度開咗呢個檔案。"/>
+            <RenameTabTemporaryNameAlreadyInUse title="Rename failed" message="The specified name is already in use on another tab."/> <!-- #new v7.9.2 -->
             <DeleteFileFailed title="掉去垃圾桶" message="剷唔走個檔案。"/>
 
             <NbFileToOpenImportantWarning title="太多檔案" message="成 $INT_REPLACE$ 個檔案咁多，
@@ -1303,6 +1305,9 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
         <FolderAsWorkspace>
             <PanelTitle name="資料夾工作區"/>
             <SelectFolderFromBrowserString name="揀個資料夾嚟加入去資料夾工作區"/>
+            <ExpandAllFoldersTip name="Expand all folders"/> <!-- #new v7.9.2 -->
+            <CollapseAllFoldersTip name="Collapse all folders"/> <!-- #new v7.9.2 -->
+            <LocateCurrentFileTip name="Locate current file"/> <!-- #new v7.9.2 -->
             <Menus>
                 <Item id="3511" name="剷走"/>
                 <Item id="3512" name="剷走晒佢"/>
@@ -1408,11 +1413,12 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-scope-all value="（成份檔案）"/>
             <find-status-scope-backward value="（由頭到滑鼠浮標位置）"/>
             <find-status-scope-forward value="（由滑鼠浮標位置到檔尾）"/>
-            <finder-find-in-finder value="喺搜尋結果再搵..."/>
-            <finder-close-this value="閂埋呢個搜尋結果"/>
+            <finder-find-in-finder value="喺搜尋結果再搵..."/> <!-- #todo require attention/edit -->
+            <finder-close-this value="閂埋呢個搜尋結果"/> <!-- #todo require attention/edit -->
             <finder-collapse-all value="摺埋所有層級"/>
             <finder-uncollapse-all value="展開所有層級"/>
-            <finder-copy value="抄"/>
+            <finder-copy value="抄"/> <!-- #todo require attention/edit -->
+            <finder-copy-verbatim value="Copy"/> <!-- #new v7.9.2 -->
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
@@ -1445,7 +1451,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <replace-in-files-confirm-filetype value="檔案類型："/>
             <replace-in-open-docs-confirm-title value="係咪真係先？"/>
             <replace-in-open-docs-confirm-message value="係咪真係要喺所有打開咗嘅文件度執行取代？"/>
-            <find-result-caption value="搵到嘅結果"/>
+            <find-result-caption value="搵到嘅結果"/> <!-- #todo require attention/edit -->
             <find-result-title value="搵"/>
             <find-result-title-info value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 份文件，總共搵咗 $INT_REPLACE3$ 份文件）"/>
             <find-result-title-info-selections value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 個揀選範圍，總共搵咗 $INT_REPLACE3$ 份文件）"/>
