@@ -38,14 +38,14 @@
                     <Item subMenuId="edit-eolConversion" name="行尾格式（EOL）"/>
                     <Item subMenuId="edit-blankOperations" name="空格處理"/>
                     <Item subMenuId="edit-pasteSpecial" name="特殊貼上"/>
-                    <Item subMenuId="edit-onSelection" name="處理揀咗嘅字元"/>
+                    <Item subMenuId="edit-onSelection" name="處理揀選範圍"/>
                     <Item subMenuId="search-markAll" name="全部標記"/>
                     <Item subMenuId="search-unmarkAll" name="去除標記"/>
                     <Item subMenuId="search-jumpUp" name="上個標記"/>
                     <Item subMenuId="search-jumpDown" name="下個標記"/>
                     <Item subMenuId="search-copyStyledText" name="抄低標記咗嘅字"/> <!-- #new v7.9.1 -->
                     <Item subMenuId="search-bookmark" name="書籤"/>
-                    <Item subMenuId="view-currentFileIn" name="喺...睇呢個檔案"/>
+                    <Item subMenuId="view-currentFileIn" name="喺第二度睇呢個檔案"/>
                     <Item subMenuId="view-showSymbol" name="特殊字元"/>
                     <Item subMenuId="view-zoom" name="Zoom"/>
                     <Item subMenuId="view-moveCloneDocument" name="搬/抄呢個檔案"/>
@@ -91,10 +91,10 @@
                     <Item id="41009" name="閂晒左邊所有檔案"/>
                     <Item id="41018" name="閂晒右邊所有檔案"/>
                     <Item id="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
-                    <Item id="41006" name="Save 呢個檔案(&amp;S)"/>
+                    <Item id="41006" name="Save (&amp;S)"/>
                     <Item id="41007" name="Save 晒所有檔案(&amp;V)"/>
                     <Item id="41008" name="Save 做新檔案(&amp;A)..."/>
-                    <Item id="41010" name="Print 嘢(&amp;P)..."/>
+                    <Item id="41010" name="Print 出嚟(&amp;P)..."/>
                     <Item id="1001"  name="即刻 print 佢出嚟"/>
                     <Item id="41011" name="散水(&amp;X)"/>
                     <Item id="41012" name="開返個工作階段出嚟..."/>
@@ -105,7 +105,7 @@
                     <Item id="41017" name="改名..."/>
                     <Item id="41021" name="開返閂咗嘅檔案"/>
                     <Item id="41022" name="喺工作區打開資料夾(&amp;W)..."/>
-                    <Item id="41023" name="喺系統預設程式打開"/>
+                    <Item id="41023" name="喺系統預設程式度打開"/>
 
                     <!-- menu: Edit -->
                     <Item id="42001" name="剪(&amp;T)"/>
