@@ -409,7 +409,7 @@
             <TabBar>
                 <Item CMID="0" name="閂埋呢個檔案"/>
                 <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/>
-                <Item CMID="2" name="Save 呢個檔案"/>
+                <Item CMID="2" name="Save"/>
                 <Item CMID="3" name="Save 做新檔案..."/>
                 <Item CMID="4" name="Print 出嚟..."/>
                 <Item CMID="5" name="搬呢個檔案去另一邊視窗"/>
@@ -428,7 +428,7 @@
                 <Item CMID="18" name="閂晒右邊所有檔案"/>
                 <Item CMID="19" name="喺檔案總管打開檔案嘅資料夾"/>
                 <Item CMID="20" name="喺 CMD 打開檔案嘅資料夾"/>
-                <Item CMID="21" name="喺系統預設程式打開"/>
+                <Item CMID="21" name="喺系統預設程式度打開"/>
                 <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
                 <Item CMID="23" name="喺資料夾工作區打開"/> <!-- #new v7.9.1 -->
             </TabBar>
@@ -1312,7 +1312,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
                 <Item id="3511" name="剷走"/>
                 <Item id="3512" name="剷走晒佢"/>
                 <Item id="3513" name="加料"/>
-                <Item id="3514" name="喺系統預設程式打開"/>
+                <Item id="3514" name="喺系統預設程式度打開"/>
                 <Item id="3515" name="打開"/>
                 <Item id="3516" name="將檔案路徑抄去剪貼簿"/>
                 <Item id="3517" name="喺呢啲檔案度搵..."/>
