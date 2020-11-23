@@ -1378,7 +1378,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/>
             <cloud-select-folder value="揀返個資料夾，畀 Notepad++ 讀取/寫入設定。"/>
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
-            <two-find-buttons-tip value="用上丶落兩個掣代替「搵下一個」"/>
+            <two-find-buttons-tip value="用上、落兩個掣代替「搵下一個」"/>
             <find-in-files-filter-tip value="只係喺 cpp, cxx, h, hxx &amp;&amp; hpp 嘅檔案度搵：
 *.cpp *.cxx *.h *.hxx *.hpp
 
