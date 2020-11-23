@@ -150,8 +150,8 @@
                     <Item id="42076" name="換過個搜尋器..."/>
 
                     <!-- menu: Macro -->
-                    <Item id="42018" name="開始錄影(&amp;C)"/>
-                    <Item id="42019" name="停止錄影(&amp;T)"/>
+                    <Item id="42018" name="開始錄製(&amp;C)"/>
+                    <Item id="42019" name="停止錄製(&amp;T)"/>
                     <Item id="42021" name="執行(&amp;P)"/>
 
                     <!-- menu: Edit (cont'd) -->
@@ -178,7 +178,7 @@
                     <Item id="42052" name="打開 panel：剪貼簿記錄"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="42025" name="Save 低啱啱錄影嘅 macro (&amp;S)..."/>
+                    <Item id="42025" name="Save 低啱啱錄咗嘅 macro (&amp;S)..."/>
 
                     <!-- menu: View -->
                     <Item id="42026" name="文字方向：右至左"/>
@@ -384,7 +384,7 @@
                     <!-- menu: items in Shortcut Mapper dialog -->
                     <Item id="50003" name="跳去上一份文件"/> <!-- legacy command <= v7.8.9 -->
                     <Item id="50004" name="跳去下一份文件"/> <!-- legacy command <= v7.8.9 -->
-                    <Item id="50005" name="開始/停止 macro 錄影"/>
+                    <Item id="50005" name="開始/停止錄製 macro"/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="50006" name="自動完成文件路徑"/>
@@ -652,7 +652,7 @@
                     <Item id="44085" name="開/閂資料夾工作區"/>
                     <Item id="44080" name="開/閂文件地圖"/>
                     <Item id="44084" name="開/閂函式清單"/>
-                    <Item id="50005" name="開始/停止 macro 錄影"/>
+                    <Item id="50005" name="開始/停止錄製 macro"/>
                     <Item id="44104" name="跳去 Project Panel 1"/>
                     <Item id="44105" name="跳去 Project Panel 2"/>
                     <Item id="44106" name="跳去 Project Panel 3"/>
