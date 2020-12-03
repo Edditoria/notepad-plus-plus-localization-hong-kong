@@ -883,34 +883,46 @@
                     <Item id="6219" name="眨嘅頻率："/>
                     <Item id="6221" name="快"/>
                     <Item id="6222" name="慢"/>
-                    <Item id="6224" name="幾個位置同時改嘢"/>
-                    <Item id="6225" name="啟用（Ctrl + 撳／撳著滑鼠掣）"/>
+                    <Item id="6224" name="幾個位置同時改嘢"/> <!-- #legacy <= v7.9.1 -->
+                    <Item id="6225" name="啟用（Ctrl + 撳／撳著滑鼠掣）"/> <!-- #todo require attention/edit: "Enable Multi-Editing (Ctrl+Mouse click/selection)"/> -->
+                    <Item id="6227" name="Line Wrap"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6228" name="Default"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6229" name="Aligned"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6230" name="Indent"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6234" name="Disable advanced scrolling feature due to touchpad issue"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6214" name="Enable current line highlighting"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6215" name="Enable smooth font"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6236" name="Enable scrolling beyond last line"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6239" name="Keep selection when right-click outside of selection"/> <!-- #moved in v7.9.2 -->
+                </Scintillas>
+
+                <MarginsBorderEdge title="Margins/Border/Edge"> <!-- #todo require attention/edit -->
                     <Item id="6201" name="摺疊符號風格"/>
                     <Item id="6202" name="精簡"/>
                     <Item id="6203" name="箭嘴"/>
                     <Item id="6204" name="圓形"/>
                     <Item id="6205" name="方形"/>
                     <Item id="6226" name="冇"/>
-                    <Item id="6227" name="自動換行"/>
-                    <Item id="6228" name="預設"/>
-                    <Item id="6229" name="對齊"/>
-                    <Item id="6230" name="縮排"/>
+                    <Item id="6227" name="自動換行"/> <!-- #legacy <= v7.9.1 -->
+                    <Item id="6228" name="預設"/> <!-- #legacy <= v7.9.1 -->
+                    <Item id="6229" name="對齊"/> <!-- #legacy <= v7.9.1 -->
+                    <Item id="6230" name="縮排"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6206" name="顯示行數號碼"/>
                     <Item id="6207" name="顯示書籤"/>
-                    <Item id="6208" name="顯示垂直邊緣線"/>
+                    <Item id="6208" name="顯示垂直邊緣線"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6234" name="將進階上下轆功能熄咗佢
-（可能解決一啲觸控板問題）"/>
+（可能解決一啲觸控板問題）"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6211" name="垂直邊緣線設定"/>
                     <Item id="6213" name="背景色模式"/>
                     <Item id="6237" name="條線用嚟參考每行字數嘅上限，輸入十進制數字去決定條線嘅位置。
 想劃多啲線嘅話，用空格分隔多組數字就得。"/>
-                    <Item id="6214" name="突顯改緊嘢嗰行嘅顏色"/>
-                    <Item id="6215" name="啟用順滑字體"/>
+                    <Item id="6214" name="突顯改緊嘢嗰行嘅顏色"/> <!-- #legacy <= v7.9.1 -->
+                    <Item id="6215" name="啟用順滑字體"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
-                    <Item id="6236" name="轆到超出至最後一行"/>
-                    <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/>
-                </Scintillas>
+                    <Item id="6236" name="轆到超出至最後一行"/> <!-- #legacy <= v7.9.1 -->
+                    <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #legacy <= v7.9.1 -->
+                </MarginsBorderEdge>
 
                 <NewDoc title="新文件">
                     <Item id="6401" name="行尾格式（EOL）"/>
@@ -1070,10 +1082,15 @@
 （唔好揀呢項，除非您知道搞緊咩啦）"/>
                 </Delimiter>
 
-                <Cloud title="雲端">
+                <Cloud title="雲端"> <!-- #todo require attention/edit: Cloud &amp; Link -->
                     <Item id="6262" name="雲端設定"/>
                     <Item id="6263" name="唔搞"/>
                     <Item id="6267" name="雲端路徑："/>
+                    <Item id="6318" name="Clickable Link Settings"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6319" name="Enable"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6320" name="No underline"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6350" name="Enable fullbox mode"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6264" name="URI customized schemes:"/> <!-- #new v7.9.2 -->
                 </Cloud>
 
                 <SearchEngine title="搜尋器">
@@ -1096,10 +1113,10 @@
                     <Item id="6308" name="最小化視窗嗰陣縮去系統匣"/>
                     <Item id="6312" name="自動偵測檔案狀態"/>
                     <Item id="6313" name="靜靜雞喺背景更新"/>
-                    <Item id="6318" name="Click 得嘅連結設定"/>
+                    <Item id="6318" name="Click 得嘅連結設定"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6325" name="更新後轆去最後一行"/>
-                    <Item id="6319" name="啟用"/>
-                    <Item id="6320" name="唔顯示連結底線"/>
+                    <Item id="6319" name="啟用"/> <!-- #legacy <= v7.9.1 -->
+                    <Item id="6320" name="唔顯示連結底線"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6322" name="工作階段檔案副檔名："/>
                     <Item id="6323" name="自動更新 Notepad++"/>
                     <Item id="6351" name="Save 對話框將副檔名預設成 .* 而唔係 .txt"/> <!-- #new v7.9.1 -->
@@ -1108,7 +1125,7 @@
                     <Item id="6334" name="自動偵測檔案編碼"/>
                     <Item id="6314" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/> <!-- legacy command <= v7.8.9 -->
                     <Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
-                    <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/>
+                    <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6337" name="資料夾工作區檔案副檔名："/>
                     <Item id="6114" name="啟用"/>
                     <Item id="6117" name="啟用 MRU 行為功能"/>
