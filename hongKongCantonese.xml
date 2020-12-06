@@ -884,19 +884,19 @@
                     <Item id="6221" name="快"/>
                     <Item id="6222" name="慢"/>
                     <Item id="6224" name="幾個位置同時改嘢"/> <!-- #legacy <= v7.9.1 -->
-                    <Item id="6225" name="啟用（Ctrl + 撳／撳著滑鼠掣）"/> <!-- #todo require attention/edit: "Enable Multi-Editing (Ctrl+Mouse click/selection)"/> -->
-                    <Item id="6227" name="Line Wrap"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6228" name="Default"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6229" name="Aligned"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6230" name="Indent"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6234" name="Disable advanced scrolling feature due to touchpad issue"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6214" name="Enable current line highlighting"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6215" name="Enable smooth font"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6236" name="Enable scrolling beyond last line"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6239" name="Keep selection when right-click outside of selection"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6225" name="幾個位置同時改嘢（Ctrl + 撳／撳著滑鼠掣）"/>
+                    <Item id="6227" name="自動換行"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6228" name="預設"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6229" name="對齊"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6230" name="縮排"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6234" name="將進階上下轆功能熄咗佢（避開觸控板問題）"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6214" name="突顯改緊嘢嗰行嘅顏色"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6215" name="啟用順滑字體"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6236" name="轆到超出至最後一行"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #moved in v7.9.2 -->
                 </Scintillas>
 
-                <MarginsBorderEdge title="Margins/Border/Edge"> <!-- #todo require attention/edit -->
+                <MarginsBorderEdge title="邊界／邊框／邊緣線">
                     <Item id="6201" name="摺疊符號風格"/>
                     <Item id="6202" name="精簡"/>
                     <Item id="6203" name="箭嘴"/>
@@ -1082,14 +1082,14 @@
 （唔好揀呢項，除非您知道搞緊咩啦）"/>
                 </Delimiter>
 
-                <Cloud title="雲端"> <!-- #todo require attention/edit: Cloud &amp; Link -->
+                <Cloud title="雲端同埋連結">
                     <Item id="6262" name="雲端設定"/>
                     <Item id="6263" name="唔搞"/>
                     <Item id="6267" name="雲端路徑："/>
-                    <Item id="6318" name="Clickable Link Settings"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6319" name="Enable"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6320" name="No underline"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6350" name="Enable fullbox mode"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6318" name="Click 得嘅連結設定"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6319" name="啟用"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6320" name="唔顯示連結底線"/> <!-- #moved in v7.9.2 -->
+                    <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/> <!-- #moved in v7.9.2 -->
                     <Item id="6264" name="URI customized schemes:"/> <!-- #new v7.9.2 -->
                 </Cloud>
 
