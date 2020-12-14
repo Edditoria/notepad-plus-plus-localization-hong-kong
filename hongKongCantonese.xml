@@ -150,8 +150,8 @@
                     <Item id="42076" name="換過個搜尋器..."/>
 
                     <!-- menu: Macro -->
-                    <Item id="42018" name="開始錄(&amp;C)"/>
-                    <Item id="42019" name="錄完(&amp;T)"/>
+                    <Item id="42018" name="開始錄製(&amp;C)"/>
+                    <Item id="42019" name="停止錄製(&amp;T)"/>
                     <Item id="42021" name="執行(&amp;P)"/>
 
                     <!-- menu: Edit (cont'd) -->
@@ -383,7 +383,7 @@
                     <!-- menu: items in Shortcut Mapper dialog -->
                     <Item id="50003" name="跳去上一份文件"/> <!-- legacy command <= v7.8.9 -->
                     <Item id="50004" name="跳去下一份文件"/> <!-- legacy command <= v7.8.9 -->
-                    <Item id="50005" name="開始錄/錄完"/>
+                    <Item id="50005" name="開始/停止錄製 macro"/>
 
                     <!-- menu: Edit (cont'd) -->
                     <Item id="50006" name="自動完成文件路徑"/>
@@ -396,7 +396,7 @@
                     <Item id="42041" name="剷晒最近用過嘅檔案記錄"/>
 
                     <!-- menu: Macro (cont'd) -->
-                    <Item id="48016" name="改快捷鍵或者剷走 macro..."/>
+                    <Item id="48016" name="修改快捷鍵或者剷走 macro..."/>
 
                     <!-- menu: Run (cont'd) -->
                     <Item id="48017" name="改快捷鍵或者剷走執行指令..."/>
@@ -651,7 +651,7 @@
                     <Item id="44085" name="開/閂資料夾工作區"/>
                     <Item id="44080" name="開/閂文件地圖"/>
                     <Item id="44084" name="開/閂函式清單"/>
-                    <Item id="50005" name="開始錄/錄完"/>
+                    <Item id="50005" name="開始/停止錄製 macro"/>
                     <Item id="44104" name="跳去 Project Panel 1"/>
                     <Item id="44105" name="跳去 Project Panel 2"/>
                     <Item id="44106" name="跳去 Project Panel 3"/>
@@ -1120,7 +1120,7 @@
             <MultiMacro title="係咁執行 Macro">
                 <Item id="1" name="執行(&amp;R)"/>
                 <Item id="2" name="取消(&amp;C)"/>
-                <Item id="8006" name="要執行嘅 macro："/>
+                <Item id="8006" name="要行嘅 macro："/>
                 <Item id="8001" name="執行"/>
                 <Item id="8005" name="次"/>
                 <Item id="8002" name="執行到檔案結尾(&amp;E)"/>
