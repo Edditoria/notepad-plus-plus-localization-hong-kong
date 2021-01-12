@@ -908,10 +908,10 @@
                     <Item id="6229" name="對齊"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6230" name="縮排"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6206" name="顯示行數號碼"/> <!-- #legacy <= v7.9.1 -->
-                    <Item id="6291" name="Line Number"/> <!-- #new v7.9.2 -->
-                    <Item id="6206" name="Display"/> <!-- #new v7.9.2 -->
-                    <Item id="6292" name="Dynamic width"/> <!-- #new v7.9.2 -->
-                    <Item id="6293" name="Constant width"/> <!-- #new v7.9.2 -->
+                    <Item id="6291" name="行數號碼"/> <!-- #new v7.9.2 -->
+                    <Item id="6206" name="顯示"/> <!-- #new v7.9.2 -->
+                    <Item id="6292" name="動態闊度"/> <!-- #new v7.9.2 -->
+                    <Item id="6293" name="固定闊度"/> <!-- #new v7.9.2 -->
                     <Item id="6207" name="顯示書籤"/>
                     <Item id="6208" name="顯示垂直邊緣線"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6234" name="將進階上下轆功能熄咗佢
@@ -1478,7 +1478,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-result-title-info-selections value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 個揀選範圍，總共搵咗 $INT_REPLACE3$ 份文件）"/>
             <find-result-title-info-extra value=" - 搵中搵模式：只顯示「喺搜尋結果再搵」嘅篩選結果"/>
             <find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/>
-            <find-result-line-prefix value="Line"/> <!-- Must not begin with space or tab character --> <!-- #new v7.9.2 -->
+            <find-result-line-prefix value="行數"/> <!-- Must not begin with space or tab character --> <!-- #new v7.9.2 -->
             <find-regex-zero-length-match value="我覺得自己係零囉" /> <!-- 字元相符不過長度係零 -->
         </MiscStrings>
     </Native-Langue>
