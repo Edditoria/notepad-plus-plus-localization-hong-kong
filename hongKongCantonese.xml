@@ -1094,7 +1094,7 @@
                     <Item id="6319" name="啟用"/> <!-- #moved in v7.9.2 -->
                     <Item id="6320" name="唔顯示連結底線"/> <!-- #moved in v7.9.2 -->
                     <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6264" name="URI customized schemes:"/> <!-- #new v7.9.2 -->
+                    <Item id="6264" name="自訂 URI 格式："/> <!-- #new v7.9.2 -->
                 </Cloud>
 
                 <SearchEngine title="搜尋器">
