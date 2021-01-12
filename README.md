@@ -107,7 +107,7 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 
 ## Copyright and License
 
-Copyright (c) 2020 Edditoria. All rights reserved. Code released under the [MIT License](LICENSE.txt). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
+Copyright (c) Edditoria. All rights reserved. Code released under the [MIT License](LICENSE.txt). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
 
 As human-readable summary (but not a substitute for the license):
 
