@@ -945,7 +945,7 @@
                 </NewDoc>
 
                 <DefaultDir title="預設資料夾">
-                    <Item id="6413" name="預設資料夾（打開／Save 嗰陣）"/> <!-- #todo require attention/edit: "Default Open/Save file Directory"/> -->
+                    <Item id="6413" name="預設資料夾（打開或者 save 檔案嗰陣）"/>
                     <Item id="6414" name="跟著而家份文件嘅資料夾"/>
                     <Item id="6415" name="記住上次用過嘅資料夾"/>
                     <Item id="6430" name="用新式檔案對話框（不過會認唔到 Unix 路徑）"/>
@@ -1123,7 +1123,7 @@
                     <Item id="6320" name="唔顯示連結底線"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6322" name="工作階段檔案副檔名："/>
                     <Item id="6323" name="自動更新 Notepad++"/>
-                    <Item id="6351" name="Save 對話框將副檔名預設成 .* 而唔係 .txt"/> <!-- #new v7.9.1 --> <!-- #todo require attention/edit: "Set Save dialog file extension filter to *.*"/> -->
+                    <Item id="6351" name="Save 對話框將副檔名過濾成 *.* 而唔係 *.txt"/> <!-- #new v7.9.1 -->
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
                     <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
@@ -1468,11 +1468,11 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <summary-nbsel1 value=" 個揀咗嘅字元（"/>
             <summary-nbsel2 value=" bytes），揀咗 "/>
             <summary-nbrange value=" 個範圍數"/>
-            <find-in-files-progress-title value="Find In Files progress..."/> <!-- #new v7.9.3 -->
+            <find-in-files-progress-title value="等我搵搵先啊吓，幫緊你幫緊你..."/> <!-- #new v7.9.3 -->
             <replace-in-files-confirm-title value="係咪真係先？"/>
             <replace-in-files-confirm-directory value="係咪真係要喺呢度執行取代："/>
             <replace-in-files-confirm-filetype value="檔案類型："/>
-            <replace-in-files-progress-title value="Replace In Files progress..."/> <!-- #new v7.9.3 -->
+            <replace-in-files-progress-title value="幫你搞緊啦吓，幫緊你幫緊你..."/> <!-- #new v7.9.3 -->
             <replace-in-open-docs-confirm-title value="係咪真係先？"/>
             <replace-in-open-docs-confirm-message value="係咪真係要喺所有打開咗嘅文件度執行取代？"/>
             <find-result-caption value="搜尋結果"/>
@@ -1483,7 +1483,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/>
             <find-result-line-prefix value="行數"/> <!-- Must not begin with space or tab character --> <!-- #new v7.9.2 -->
             <find-regex-zero-length-match value="我覺得自己係零囉" /> <!-- 字元相符不過長度係零 -->
-            <session-save-folder-as-workspace value="Save Folder as Workspace" /> <!-- #new v7.9.3 -->
+            <session-save-folder-as-workspace value="Save 埋資料夾工作區" /> <!-- #new v7.9.3 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
