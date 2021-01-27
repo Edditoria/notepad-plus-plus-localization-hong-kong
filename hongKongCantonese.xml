@@ -907,9 +907,8 @@
                     <Item id="6228" name="預設"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6229" name="對齊"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6230" name="縮排"/> <!-- #legacy <= v7.9.1 -->
-                    <Item id="6206" name="顯示行數號碼"/> <!-- #legacy <= v7.9.1 -->
                     <Item id="6291" name="行數號碼"/> <!-- #new v7.9.2 -->
-                    <Item id="6206" name="顯示"/> <!-- #new v7.9.2 -->
+                    <Item id="6206" name="顯示"/>
                     <Item id="6292" name="動態闊度"/> <!-- #new v7.9.2 -->
                     <Item id="6293" name="固定闊度"/> <!-- #new v7.9.2 -->
                     <Item id="6207" name="顯示書籤"/>
