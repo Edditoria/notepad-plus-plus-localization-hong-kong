@@ -1115,6 +1115,7 @@
                     <Item id="6344" name="文件偷睇功能（Mouse 指著 tab 嗰陣時）"/>
                     <Item id="6345" name="喺 tab 度偷睇"/>
                     <Item id="6346" name="喺文件地圖度偷睇"/>
+                    <Item id="6360" name="Mute all sounds"/> <!-- #new #next -->
                 </MISC>
             </Preference>
 
@@ -1426,6 +1427,8 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <common-name value="名："/>
             <tabrename-title value="幫個 tab 改名"/>
             <tabrename-newname value="新名："/>
+            <splitter-rotate-left value="Rotate to left"/> <!-- #new #next -->
+            <splitter-rotate-right value="Rotate to right"/> <!-- #new #next -->
             <recent-file-history-maxfile value="檔案數量："/>
             <language-tabsize value="縮排大細："/>
             <userdefined-title-new value="開新語言..."/>
