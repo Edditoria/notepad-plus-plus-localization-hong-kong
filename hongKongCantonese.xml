@@ -433,7 +433,7 @@
         </Menu>
 
         <Dialog>
-            <Find title="" titleFind="搵" titleReplace="取代" titleFindInFiles="喺一咋檔案搵" titleMark="標記">
+            <Find title="" titleFind="搵" titleReplace="取代" titleFindInFiles="喺一咋檔案搵" titleFindInProjects="Find in Projects" titleMark="標記"> <!-- #todo require attention/edit -->
                 <Item id="1"    name="搵下一個"/>
                 <Item id="1722" name="向上搵"/>
                 <Item id="2"    name="閂"/>
@@ -464,7 +464,11 @@
                 <Item id="1625" name="一般(&amp;N)"/>
                 <Item id="1626" name="加強（例如 \n, \r, \t, \0, \x...）(&amp;X)"/>
                 <Item id="1660" name="所有檔案全部取代"/>
+                <Item id="1665" name="Replace in Projects"/> <!-- #new #next -->
                 <Item id="1661" name="使用目前文件嘅資料夾"/>
+                <Item id="1662" name="Project Panel 1"/> <!-- #new #next -->
+                <Item id="1663" name="Project Panel 2"/> <!-- #new #next -->
+                <Item id="1664" name="Project Panel 3"/> <!-- #new #next -->
                 <Item id="1641" name="喺目前文件搵晒出嚟"/>
                 <Item id="1686" name="透明度(&amp;Y)"/>
                 <Item id="1703" name="包含換行(&amp;.)"/>
@@ -1338,6 +1342,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
                     <Item id="3126" name="Save 做新..."/>
                     <Item id="3127" name="Save 多份 copy..."/>
                     <Item id="3121" name="開新 project"/>
+                    <Item id="3128" name="Find in Projects..."/> <!-- #new #next -->
                 </WorkspaceMenu>
                 <ProjectMenu>
                     <Item id="3111" name="改名"/>
@@ -1452,6 +1457,8 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <replace-in-files-confirm-directory value="係咪真係要喺呢度執行取代："/>
             <replace-in-files-confirm-filetype value="檔案類型："/>
             <replace-in-files-progress-title value="幫您搞緊啦吓，幫緊您幫緊您..."/> <!-- #new v7.9.3 -->
+            <replace-in-projects-confirm-title value="Are you sure?"/> <!-- #new #next -->
+            <replace-in-projects-confirm-message value="Do you want to replace all occurrences in all documents in the selected Project Panel(s)?"/> <!-- #new #next -->
             <replace-in-open-docs-confirm-title value="係咪真係先？"/>
             <replace-in-open-docs-confirm-message value="係咪真係要喺所有打開咗嘅文件度執行取代？"/>
             <find-result-caption value="搜尋結果"/>
