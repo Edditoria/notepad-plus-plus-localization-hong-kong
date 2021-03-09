@@ -1248,8 +1248,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="Project 工作區有嘢改動過，使唔使 save？"/>
             <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 工作區冇 save 到。"/>  <!-- #legacy <= v7.9.3 -->
-            <ProjectPanelSaveError title="$STR_REPLACE$" message="An error occurred while writing your workspace file.
-Your workspace has not been saved."/> <!-- #new #next -->
+            <ProjectPanelSaveError title="$STR_REPLACE$" message="寫入 project 工作區檔案嗰陣出錯，save 唔到。"/> <!-- #new #next -->
             <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
             <ProjectPanelNewDoSaveDirtyWsOrNot title="新工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
             <ProjectPanelOpenFailed title="打開工作區" message="打唔開個工作區。
