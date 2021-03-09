@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.3">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.4">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -1247,7 +1247,9 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 如果您仍然想咁做，唯有喺工作區剷走包含佢嘅資料夾，先至可以加返上去。"/>
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="Project 工作區有嘢改動過，使唔使 save？"/>
-            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 工作區冇 save 到。"/>
+            <ProjectPanelChangedSaveError title="$STR_REPLACE$" message="Project 工作區冇 save 到。"/>  <!-- #legacy <= v7.9.3 -->
+            <ProjectPanelSaveError title="$STR_REPLACE$" message="An error occurred while writing your workspace file.
+Your workspace has not been saved."/> <!-- #new #next -->
             <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
             <ProjectPanelNewDoSaveDirtyWsOrNot title="新工作區" message="您用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
             <ProjectPanelOpenFailed title="打開工作區" message="打唔開個工作區。
