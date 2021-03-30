@@ -40,6 +40,7 @@
                     <Item subMenuId="edit-pasteSpecial" name="特殊貼上"/>
                     <Item subMenuId="edit-onSelection" name="處理揀選範圍"/>
                     <Item subMenuId="search-markAll" name="全部標記"/>
+                    <Item subMenuId="search-markOne" name="Mark One"/> <!-- #new #next -->
                     <Item subMenuId="search-unmarkAll" name="去除標記"/>
                     <Item subMenuId="search-jumpUp" name="上個標記"/>
                     <Item subMenuId="search-jumpDown" name="下個標記"/>
@@ -255,6 +256,11 @@
                     <Item id="43059" name="格式五"/> <!-- #new v7.9.1 -->
                     <Item id="43060" name="所有格式"/> <!-- #new v7.9.1 -->
                     <Item id="43061" name="搵嘢標記"/> <!-- #new v7.9.1 -->
+                    <Item id="43062" name="Using 1st Style"/> <!-- #new #next -->
+                    <Item id="43063" name="Using 2nd Style"/> <!-- #new #next -->
+                    <Item id="43064" name="Using 3rd Style"/> <!-- #new #next -->
+                    <Item id="43065" name="Using 4th Style"/> <!-- #new #next -->
+                    <Item id="43066" name="Using 5th Style"/> <!-- #new #next -->
                     <Item id="43045" name="顯示搜尋結果視窗"/>
                     <Item id="43046" name="下一個搜尋結果"/>
                     <Item id="43047" name="上一個搜尋結果"/>
@@ -312,14 +318,14 @@
                     <!-- menu: Encoding -->
                     <Item id="45004" name="ANSI"/>
                     <Item id="45005" name="UTF-8 with BOM"/>
-                    <Item id="45006" name="UCS-2BE with BOM"/>
-                    <Item id="45007" name="UCS-2LE with BOM"/>
+                    <Item id="45006" name="UCS-2BE with BOM"/> <!-- #todo review: "UTF-16 BE BOM"-->
+                    <Item id="45007" name="UCS-2LE with BOM"/> <!-- #todo review: "UTF-16 LE BOM" -->
                     <Item id="45008" name="UTF-8"/>
                     <Item id="45009" name="轉做 ANSI"/>
                     <Item id="45010" name="轉做 UTF-8"/>
                     <Item id="45011" name="轉做 UTF-8 with BOM"/>
-                    <Item id="45012" name="轉做 UCS-2BE with BOM"/>
-                    <Item id="45013" name="轉做 UCS-2LE with BOM"/>
+                    <Item id="45012" name="轉做 UCS-2BE with BOM"/> <!-- #todo review: "Convert to UTF-16 BE BOM"-->
+                    <Item id="45013" name="轉做 UCS-2LE with BOM"/> <!-- #todo review: "Convert to UTF-16 LE BOM"-->
                     <Item id="45060" name="Big5（正體中文）"/>
                     <Item id="45061" name="GB2312（簡體中文）"/>
                     <Item id="45054" name="OEM 861: 冰島文"/>
@@ -596,11 +602,16 @@
                     <Item id="45001" name="將 EOL 轉換去 Windows (CR LF) 格式"/>
                     <Item id="45002" name="將 EOL 轉換去 Unix (LF) 格式"/>
                     <Item id="45003" name="將 EOL 轉換去 Macintosh (CR) 格式"/>
-                    <Item id="43022" name="全部標記：使用格式一嘅顏色"/>
-                    <Item id="43024" name="全部標記：使用格式二嘅顏色"/>
-                    <Item id="43026" name="全部標記：使用格式三嘅顏色"/>
-                    <Item id="43028" name="全部標記：使用格式四嘅顏色"/>
-                    <Item id="43030" name="全部標記：使用格式五嘅顏色"/>
+                    <Item id="43022" name="全部標記：使用格式一嘅顏色"/> <!-- #todo review "Mark text..." to "Mark all..." -->
+                    <Item id="43024" name="全部標記：使用格式二嘅顏色"/> <!-- #todo review "Mark text..." to "Mark all..." -->
+                    <Item id="43026" name="全部標記：使用格式三嘅顏色"/> <!-- #todo review "Mark text..." to "Mark all..." -->
+                    <Item id="43028" name="全部標記：使用格式四嘅顏色"/> <!-- #todo review "Mark text..." to "Mark all..." -->
+                    <Item id="43030" name="全部標記：使用格式五嘅顏色"/> <!-- #todo review "Mark text..." to "Mark all..." -->
+                    <Item id="43062" name="Mark one using 1st style"/> <!-- #new #next -->
+                    <Item id="43063" name="Mark one using 2nd style"/> <!-- #new #next -->
+                    <Item id="43064" name="Mark one using 3rd style"/> <!-- #new #next -->
+                    <Item id="43065" name="Mark one using 4th style"/> <!-- #new #next -->
+                    <Item id="43066" name="Mark one using 5th style"/> <!-- #new #next -->
                     <Item id="43023" name="去除標記：清除格式一嘅顏色"/>
                     <Item id="43025" name="去除標記：清除格式二嘅顏色"/>
                     <Item id="43027" name="去除標記：清除格式三嘅顏色"/>
@@ -926,8 +937,8 @@
                     <Item id="6406" name="ANSI"/>
                     <Item id="6407" name="UTF-8"/>
                     <Item id="6408" name="UTF-8 with BOM"/>
-                    <Item id="6409" name="UCS-2 Big Endian with BOM"/>
-                    <Item id="6410" name="UCS-2 Little Endian with BOM"/>
+                    <Item id="6409" name="UTF-16 Big Endian with BOM"/> <!-- #todo review: "UTF-16 Big Endian with BOM" -->
+                    <Item id="6410" name="UTF-16 Little Endian with BOM"/> <!-- #todo review: "UTF-16 Little Endian with BOM" -->
                     <Item id="6411" name="預設程式語言："/>
                     <Item id="6419" name="新文件"/>
                     <Item id="6420" name="套用到打開咗嗰啲 ANSI 檔案"/>
@@ -1397,6 +1408,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replaceinopenedfiles-nb-replaced value="喺所有打開咗嘅文件執行取代：取代咗 $INT_REPLACE$ 次。"/>
             <find-status-mark-re-malformed value="標記：規則運算式無效。"/>
             <find-status-invalid-re value="搵嘢：規則運算式無效。"/>
+            <find-status-search-failed value="Find: Search failed"/> <!-- #new #next -->
             <find-status-mark-1-match value="標記： 1 個符合結果。"/>
             <find-status-mark-nb-matches value="標記： $INT_REPLACE$ 個符合結果。"/>
             <find-status-count-re-malformed value="數量：規則運算式無效。"/>
@@ -1426,6 +1438,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
+            <finder-purge-for-every-search value="Purge for every search"/> <!-- #new #next -->
             <finder-wrap-long-lines value="自動換行"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
