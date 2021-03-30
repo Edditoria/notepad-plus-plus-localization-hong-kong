@@ -990,7 +990,7 @@
                     <Item id="6720" name="左邊"/>
                     <Item id="6721" name="中間"/>
                     <Item id="6722" name="右邊"/>
-                    <Item id="6723" name="加埋"/>
+                    <Item id="6723" name="加入"/>
                     <Item id="6725" name="變數："/>
                     <Item id="6727" name="呢度會顯示您啲變數設定"/>
                     <Item id="6728" name="頁首同埋頁尾"/>
@@ -998,7 +998,7 @@
 
                 <Searching title="搵嘢">
                     <Item id="6901" name="開搵嘢／取代對話框嗰陣，唔好將揀選範圍自動抄落對話框度"/>
-                    <Item id="6902" name="搵／取代對話框啲字用等寬字型（可能要再開過 Notepad++ 先至會生效）"/>
+                    <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
                     <Item id="6903" name="顯示搜尋結果視窗嗰陣唔好閂埋個搵／取代對話框"/>
                     <Item id="6904" name="喺所有打開咗嘅文件執行取代之前再確認多次"/>
                 </Searching>
@@ -1039,7 +1039,7 @@
                     <Item id="6824" name="唔理數字"/>
                     <Item id="6811" name="由第"/>
                     <Item id="6813" name="個字元開始"/>
-                    <Item id="6814" name="（只可以填 1 - 9）"/>
+                    <Item id="6814" name="有效值：1 - 9"/>
                     <Item id="6815" name="打字嗰陣顯示函式參數提示"/>
                     <Item id="6851" name="自動補齊"/>
                     <Item id="6857" name="HTML/XML 結束 tag"/>
@@ -1055,7 +1055,7 @@
                     <Item id="6152" name="打開工作階段嗰陣，開過個新嘅 Notepad++ 視窗"/>
                     <Item id="6153" name="幾時畀開多重視窗"/>
                     <Item id="6154" name="預設（只準開一個視窗）"/>
-                    <Item id="6155" name="（改過上面嘅設定要再開過 Notepad++ 先至會生效）"/>
+                    <Item id="6155" name="* 改過上面啲設定，要重開 Notepad++ 先至會生效"/>
                 </MultiInstance>
 
                 <Delimiter title="分隔符號">
@@ -1102,7 +1102,7 @@
                     <Item id="6323" name="自動更新 Notepad++"/>
                     <Item id="6351" name="Save 對話框將副檔名預設成 .* 而唔係 .txt"/> <!-- #new v7.9.1 -->
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
-                    <Item id="6331" name="標題列淨係顯示檔名，唔顯示成條路徑"/>
+                    <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
                     <Item id="6314" name="搵／取代對話框啲字用等寬字型（要再開過 Notepad++）"/> <!-- legacy command <= v7.8.9 -->
                     <Item id="6349" name="用 DirectWrite（可以令特殊字元呈現得好啲，要再開過 Notepad++）"/>
@@ -1131,7 +1131,7 @@
                 <Item id="2" name="OK (&amp;O)"/>
                 <Item id="7002" name="Save (&amp;S)"/>
                 <Item id="7003" name="閂視窗(&amp;C)"/>
-                <Item id="7004" name="Tabs 自動排次序(&amp;T)"/>
+                <Item id="7004" name="Tabs 排次序(&amp;T)"/>
             </Window>
 
             <ColumnEditor title="欄位編輯器">
@@ -1300,7 +1300,7 @@ Reload 佢嘅話您喺 Notepad++ 改過嘅嘢會唔見晒，仲繼唔繼續呢�
                 <Item id="3513" name="加料"/>
                 <Item id="3514" name="喺系統預設程式度打開"/>
                 <Item id="3515" name="打開"/>
-                <Item id="3516" name="將檔案路徑抄落剪貼簿"/>
+                <Item id="3516" name="將檔案路徑抄去剪貼簿"/>
                 <Item id="3517" name="喺咋檔案度搵..."/>
                 <Item id="3518" name="用檔案總管打開資料夾"/>
                 <Item id="3519" name="用 CMD 打開資料夾"/>
@@ -1381,11 +1381,11 @@ Reload 佢嘅話您喺 Notepad++ 改過嘅嘢會唔見晒，仲繼唔繼續呢�
             <find-status-replaceinopenedfiles-nb-replaced value="喺所有打開咗嘅文件執行取代：取代咗 $INT_REPLACE$ 次。"/>
             <find-status-mark-re-malformed value="標記：規則運算式無效。"/>
             <find-status-invalid-re value="搵嘢：規則運算式無效。"/>
-            <find-status-mark-1-match value="標記：1 個符合結果。"/>
-            <find-status-mark-nb-matches value="標記：$INT_REPLACE$ 個符合結果。"/>
+            <find-status-mark-1-match value="標記： 1 個符合結果。"/>
+            <find-status-mark-nb-matches value="標記： $INT_REPLACE$ 個符合結果。"/>
             <find-status-count-re-malformed value="數量：規則運算式無效。"/>
-            <find-status-count-1-match value="數量：1 個符合結果。"/>
-            <find-status-count-nb-matches value="數量：$INT_REPLACE$ 個符合結果。"/>
+            <find-status-count-1-match value="數量： 1 個符合結果。"/>
+            <find-status-count-nb-matches value="數量： $INT_REPLACE$ 個符合結果。"/>
             <find-status-replaceall-re-malformed value="全部取代：規則運算式無效。"/>
             <find-status-replaceall-1-replaced value="全部取代：取代咗 1 次。"/>
             <find-status-replaceall-nb-replaced value="全部取代：取代咗 $INT_REPLACE$ 次。"/>
@@ -1423,12 +1423,12 @@ Reload 佢嘅話您喺 Notepad++ 改過嘅嘢會唔見晒，仲繼唔繼續呢�
             <autocomplete-nb-char value="字元數："/>
             <edit-verticaledge-nb-col value="參考字元數："/>
             <summary value="統計資料"/>
-            <summary-filepath value="完整檔案路徑："/>
-            <summary-filecreatetime value="建立日期："/>
-            <summary-filemodifytime value="修改日期："/>
-            <summary-nbchar value="字元數（唔包括行尾字元）："/>
-            <summary-nbword value="字數："/>
-            <summary-nbline value="行數："/>
+            <summary-filepath value="完整檔案路徑： "/>
+            <summary-filecreatetime value="建立日期： "/>
+            <summary-filemodifytime value="修改日期： "/>
+            <summary-nbchar value="字元數（唔包括行尾字元）： "/>
+            <summary-nbword value="字數： "/>
+            <summary-nbline value="行數： "/>
             <summary-nbbyte value="文件長度（bytes）： "/>
             <summary-nbsel1 value=" 個揀咗嘅字元（"/>
             <summary-nbsel2 value=" bytes），揀咗 "/>
@@ -1442,7 +1442,7 @@ Reload 佢嘅話您喺 Notepad++ 改過嘅嘢會唔見晒，仲繼唔繼續呢�
             <find-result-title value="搵"/>
             <find-result-title-info value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 份文件，總共搵咗 $INT_REPLACE3$ 份文件）"/>
             <find-result-title-info-selections value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 個揀選範圍，總共搵咗 $INT_REPLACE3$ 份文件）"/>
-            <find-result-title-info-extra value="——搵中搵模式：只顯示「喺搜尋結果再搵」嘅篩選結果"/>
+            <find-result-title-info-extra value=" - 搵中搵模式：只顯示「喺搜尋結果再搵」嘅篩選結果"/>
             <find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/>
             <find-regex-zero-length-match value="我覺得自己係零囉" /> <!-- 字元相符不過長度係零 -->
         </MiscStrings>
