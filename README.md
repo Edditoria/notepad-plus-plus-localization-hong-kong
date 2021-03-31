@@ -74,18 +74,18 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 - 嗰句嘢**兜口兜面點樣講出嚟**，
 - **聽嗰位人兄聽唔聽得明**。
 
-總之，譯嘢要符合生活情景，文化傳承要貼地丶本土，唔求優雅唔怕庸俗。
+總之，譯嘢要符合生活情景，文化傳承要貼地、本土，唔求優雅唔怕庸俗。
 
 
 ## 呢個 Repo 嘅 Status
 
-本來都係龜速咁慢慢寫，但係 Notepad++ Stand With Hong Kong Edition 出咗兩版，又適逢 Github 嘅 Hacktoberfest 2020，我就 push 個 repo 出嚟，大家一齊玩玩丶一齊 fix。
+本來都係龜速咁慢慢寫，但係 Notepad++ Stand With Hong Kong Edition 出咗兩版，又適逢 Github 嘅 Hacktoberfest 2020，我就 push 個 repo 出嚟，大家一齊玩玩、一齊 fix。
 
-- 呢個 repo 名應該叫「香港廣東話」丶「香港粵語」定係叫「香港語」，注意要能夠配合返譯做英文要睇得明，仲有跟 Notepad++ 選擇語言嘅一致性。 **（希望盡早決定）**
-- Typo丶錯別字丶文法。
-- 整體嚟講啲字詞丶語法等嘅用字，有冇一致性嘅問題。
+- 呢個 repo 名應該叫「香港廣東話」、「香港粵語」定係叫「香港語」，注意要能夠配合返譯做英文要睇得明，仲有跟 Notepad++ 選擇語言嘅一致性。 **（希望盡早決定）**
+- Typo、錯別字、文法。
+- 整體嚟講啲字詞、語法等嘅用字，有冇一致性嘅問題。
 - 實際畫面上有冇 overflow 嘅問題，搞到啲字顯示唔到喺個 mon 到，歡迎搵搵 XML comment 咗 `<-- #todo reproduce -->` 嘅 line。冇顯示問題嘅話，大可以開 PR 剷走個 comment；有顯示問題，就開個 issue。
-- 用字上，正字丶異體字同埋約定俗成點樣拿捏（例如「d」vs「啲」），仲有 Windows 字型顯示（例如「𠹺」丶「𡁵」），需要大家討論。
+- 用字上，正字、異體字同埋約定俗成點樣拿捏（例如「d」vs「啲」），仲有 Windows 字型顯示（例如「𠹺」、「𡁵」），需要大家討論。
 
 
 ## 社群貢獻指引（簡潔版）
@@ -95,7 +95,7 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 - 如果唔肯定，歡迎開個 issue 傾傾。
 - 只會 accept 對 localization 內容有幫助嘅 PR。
 - No spam. 鐵定嚴格執行。
-- 麻煩參考 `<.editorconfig>`，跟返 EOL 字元丶tab/space，盡量啦唔該。 :pray:
+- 麻煩參考 `<.editorconfig>`，跟返 EOL 字元、tab/space，盡量啦唔該。 :pray:
 
 
 ## Todo
