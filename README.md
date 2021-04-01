@@ -1,14 +1,12 @@
 # Notepad++ for Hongkonger
 
-This repo is created for **Hong Kong Cantonese** localization for Notepad++.
+This repo is created for **Hong Kong Cantonese** localization for [Notepad++][npp_site].
 
-All translations are done by human base on:
+All translations are done by human based on:
 
 - **All about Hong Kong:** Not Macau Cantonese, not Guangzhou Cantonese, but Hong Kong Cantonese! This localization contains some words only used by Hongkongers.
 - **How we communicate in daily life:** Hong Kong culture is unique mixture of Chinese, British and Western culture in general. We speak Cantonese with some English together. Especially for some technology terms, I would like to retain some English words.
 - **A little bit Taiwan:** We'd got lots of benefit from Taiwan software and books - Eten (倚天中文系統), PC Home, BBS, and more. Remember the old days? I would adapt some terms from Taiwanese Mandarin, if they are not available in Hong Kong.
-
-The localization is done based on Notepad++ v7.9.1 Stand With Hong Kong Edition. Welcome issues and pull requests.
 
 :heart: Notepad++. :heart: Hong Kong. :heart: Hongkongers.
 
@@ -79,13 +77,16 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 
 ## 呢個 Repo 嘅 Status
 
-本來都係龜速咁慢慢寫，但係 Notepad++ Stand With Hong Kong Edition 出咗兩版，又適逢 Github 嘅 Hacktoberfest 2020，我就 push 個 repo 出嚟，大家一齊玩玩、一齊 fix。
+已經出咗一段日子，我個人覺得都 okay 啦，有啲細節位有改善空間：
 
-- 呢個 repo 名應該叫「香港廣東話」、「香港粵語」定係叫「香港語」，注意要能夠配合返譯做英文要睇得明，仲有跟 Notepad++ 選擇語言嘅一致性。 **（希望盡早決定）**
+- 整體嚟講啲字詞、語法等嘅用字，有冇**一致性**嘅問題。
 - Typo、錯別字、文法。
-- 整體嚟講啲字詞、語法等嘅用字，有冇一致性嘅問題。
-- 實際畫面上有冇 overflow 嘅問題，搞到啲字顯示唔到喺個 mon 到，歡迎搵搵 XML comment 咗 `<-- #todo reproduce -->` 嘅 line。冇顯示問題嘅話，大可以開 PR 剷走個 comment；有顯示問題，就開個 issue。
-- 用字上，正字、異體字同埋約定俗成點樣拿捏（例如「d」vs「啲」），仲有 Windows 字型顯示（例如「𠹺」、「𡁵」），需要大家討論。
+- 實際畫面上有冇 overflow 嘅問題，啲字顯示唔到喺個 mon 到。
+- 正字、異體字同埋約定俗成點樣拿捏（例如「d」vs「啲」）。
+- 有啲 Windows 缺字（例如「𠹺」、「𡁵」）係咪需要避開。
+- 個名叫做「香港廣東話」而唔係「香港粵語」亦唔係「香港語」，係為咗譯做英文 "Cantonese" 人哋睇得明，仲有跟 Notepad++ 選擇語言嘅一致性，我細個聽慣叫「廣東話」，係咪要叫「粵語」可以討論。
+
+歡迎開 issue 傾傾，歡迎掟個 PR 上嚟，更歡迎大家開心 share。
 
 
 ## 社群貢獻指引（簡潔版）
@@ -98,13 +99,6 @@ Notepad++ 轉介面語言嘅講法係叫 localization 而唔係 translation，�
 - 麻煩參考 `<.editorconfig>`，跟返 EOL 字元、tab/space，盡量啦唔該。 :pray:
 
 
-## Todo
-
-- [ ] `<hongKongCantonese.xml>` 裏面仲有好多錯處，歡迎大家參與。
-- [ ] 改善 `<tools\>` 啲 scripts 嘅體驗。
-- [ ] 開心 share，吸引更多開源貢獻者。一個 project 需要好多測試、修改，提升質素。
-
-
 ## Copyright and License
 
 Copyright (c) Edditoria. All rights reserved. Code released under the [MIT License](LICENSE.txt). Docs released under [Creative Commons](https://creativecommons.org/licenses/by/4.0/).
@@ -113,4 +107,7 @@ As human-readable summary (but not a substitute for the license):
 
 You can use it, share it, modify the codes and distribute your work for private and commercial uses. If you like, please share your work with me. :pizza:
 
-> Notepad++ is a free (free as in both "free speech" and "free beer") source code editor and Notepad replacement that supports several programming languages and natural languages. Running in the MS Windows environment, its use is governed by [GPL License](https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/LICENSE).
+> Notepad++ is a free (free as in both "free speech" and "free beer") source code editor and Notepad replacement that supports several programming languages and natural languages. Running in the MS Windows environment, its use is governed by [GPL License][npp_license].
+
+[npp_site]: https://notepad-plus-plus.org/
+[npp_license]: https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/LICENSE
