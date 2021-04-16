@@ -271,7 +271,7 @@
                     <!-- menu: View (cont'd) -->
                     <Item id="44009" name="Post-It 便利貼模式"/>
                     <Item id="44010" name="摺埋所有層級"/>
-                    <Item id="44011" name="Distraction Free Mode"/> <!-- #new #next -->
+                    <Item id="44011" name="免干擾模式"/> <!-- #new #next -->
                     <Item id="44019" name="顯示所有字元"/>
                     <Item id="44020" name="顯示縮排輔助線"/>
                     <Item id="44022" name="自動換行"/>
@@ -927,10 +927,10 @@
 想劃多啲線嘅話，用空格分隔多組數字就得。"/>
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
-                    <Item id="6208" name="Padding"/> <!-- #new #next -->
-                    <Item id="6209" name="Left"/> <!-- #new #next -->
-                    <Item id="6210" name="Right"/> <!-- #new #next -->
-                    <Item id="6212" name="Distraction Free"/> <!-- #new #next -->
+                    <Item id="6208" name="框內留白"/> <!-- #new #next -->
+                    <Item id="6209" name="左"/> <!-- #new #next -->
+                    <Item id="6210" name="右"/> <!-- #new #next -->
+                    <Item id="6212" name="免干擾模式"/> <!-- #new #next -->
                 </MarginsBorderEdge>
 
                 <NewDoc title="新文件">
@@ -1489,7 +1489,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-regex-zero-length-match value="我覺得自己係零囉" /> <!-- 字元相符不過長度係零 -->
             <session-save-folder-as-workspace value="Save 埋資料夾工作區" /> <!-- #new v7.9.3 -->
             <tab-untitled-string value="new " /> <!-- #new #next -->
-            <file-save-assign-type value="&amp;Append extension" /> <!-- #new #next -->
+            <file-save-assign-type value="追加副檔名(&amp;A)" /> <!-- #new #next -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
