@@ -271,6 +271,7 @@
                     <!-- menu: View (cont'd) -->
                     <Item id="44009" name="Post-It 便利貼模式"/>
                     <Item id="44010" name="摺埋所有層級"/>
+                    <Item id="44011" name="Distraction Free Mode"/> <!-- #new #next -->
                     <Item id="44019" name="顯示所有字元"/>
                     <Item id="44020" name="顯示縮排輔助線"/>
                     <Item id="44022" name="自動換行"/>
@@ -926,6 +927,10 @@
 想劃多啲線嘅話，用空格分隔多組數字就得。"/>
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
+                    <Item id="6208" name="Padding"/> <!-- #new #next -->
+                    <Item id="6209" name="Left"/> <!-- #new #next -->
+                    <Item id="6210" name="Right"/> <!-- #new #next -->
+                    <Item id="6212" name="Distraction Free"/> <!-- #new #next -->
                 </MarginsBorderEdge>
 
                 <NewDoc title="新文件">
@@ -1119,7 +1124,7 @@
                     <Item id="6325" name="更新後轆去最後一行"/>
                     <Item id="6322" name="工作階段檔案副檔名："/>
                     <Item id="6323" name="自動更新 Notepad++"/>
-                    <Item id="6351" name="Save 對話框將副檔名過濾成 *.* 而唔係 *.txt"/> <!-- #new v7.9.1 -->
+                    <Item id="6351" name="Save 對話框將副檔名過濾成 *.* 而唔係 *.txt"/> <!-- #legacy #next --> <!-- #new v7.9.1 -->
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
                     <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
@@ -1483,6 +1488,8 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-result-line-prefix value="行數"/> <!-- Must not begin with space or tab character --> <!-- #new v7.9.2 -->
             <find-regex-zero-length-match value="我覺得自己係零囉" /> <!-- 字元相符不過長度係零 -->
             <session-save-folder-as-workspace value="Save 埋資料夾工作區" /> <!-- #new v7.9.3 -->
+            <tab-untitled-string value="new " /> <!-- #new #next -->
+            <file-save-assign-type value="&amp;Append extension" /> <!-- #new #next -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
