@@ -1446,7 +1446,7 @@ Reload 會放棄您喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-uncollapse-all value="展開所有層級"/>
             <finder-copy value="抄低呢（幾）行"/>
             <finder-copy-verbatim value="抄"/> <!-- #new v7.9.2 -->
-            <finder-copy-paths value="Copy Pathname(s)"/> <!-- #new #next -->
+            <finder-copy-paths value="抄低檔案路徑"/> <!-- #new #next -->
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
