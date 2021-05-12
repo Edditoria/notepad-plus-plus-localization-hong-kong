@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.4">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.6">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -40,7 +40,7 @@
                     <Item subMenuId="edit-pasteSpecial" name="特殊貼上"/>
                     <Item subMenuId="edit-onSelection" name="處理揀選範圍"/>
                     <Item subMenuId="search-markAll" name="全部標記"/>
-                    <Item subMenuId="search-markOne" name="單一標記"/> <!-- #new #next -->
+                    <Item subMenuId="search-markOne" name="單一標記"/> <!-- #new v7.9.6 -->
                     <Item subMenuId="search-unmarkAll" name="去除標記"/>
                     <Item subMenuId="search-jumpUp" name="上個標記"/>
                     <Item subMenuId="search-jumpDown" name="下個標記"/>
@@ -136,7 +136,7 @@
                     <Item id="42064" name="跟小數位調轉咁排（「,」當做小數點）"/>
                     <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
                     <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
-                    <Item id="42083" name="反轉排"/> <!-- #new #next -->
+                    <Item id="42083" name="反轉排"/> <!-- #new v7.9.6 -->
                     <Item id="42078" name="求其排"/>
                     <Item id="42016" name="轉大楷(&amp;U)"/>
                     <Item id="42017" name="轉細楷(&amp;L)"/>
@@ -257,11 +257,11 @@
                     <Item id="43059" name="格式五"/> <!-- #new v7.9.1 -->
                     <Item id="43060" name="所有格式"/> <!-- #new v7.9.1 -->
                     <Item id="43061" name="搵嘢標記"/> <!-- #new v7.9.1 -->
-                    <Item id="43062" name="格式一"/> <!-- #new #next -->
-                    <Item id="43063" name="格式二"/> <!-- #new #next -->
-                    <Item id="43064" name="格式三"/> <!-- #new #next -->
-                    <Item id="43065" name="格式四"/> <!-- #new #next -->
-                    <Item id="43066" name="格式五"/> <!-- #new #next -->
+                    <Item id="43062" name="格式一"/> <!-- #new v7.9.6 -->
+                    <Item id="43063" name="格式二"/> <!-- #new v7.9.6 -->
+                    <Item id="43064" name="格式三"/> <!-- #new v7.9.6 -->
+                    <Item id="43065" name="格式四"/> <!-- #new v7.9.6 -->
+                    <Item id="43066" name="格式五"/> <!-- #new v7.9.6 -->
                     <Item id="43045" name="顯示搜尋結果視窗"/>
                     <Item id="43046" name="下一個搜尋結果"/>
                     <Item id="43047" name="上一個搜尋結果"/>
@@ -272,7 +272,7 @@
                     <!-- menu: View (cont'd) -->
                     <Item id="44009" name="Post-It 便利貼模式"/>
                     <Item id="44010" name="摺埋所有層級"/>
-                    <Item id="44011" name="免干擾模式"/> <!-- #new #next -->
+                    <Item id="44011" name="免干擾模式"/> <!-- #new v7.9.6 -->
                     <Item id="44019" name="顯示所有字元"/>
                     <Item id="44020" name="顯示縮排輔助線"/>
                     <Item id="44022" name="自動換行"/>
@@ -609,11 +609,11 @@
                     <Item id="43026" name="全部標記：使用格式三嘅顏色"/>
                     <Item id="43028" name="全部標記：使用格式四嘅顏色"/>
                     <Item id="43030" name="全部標記：使用格式五嘅顏色"/>
-                    <Item id="43062" name="單一標記：使用格式一嘅顏色"/> <!-- #new #next -->
-                    <Item id="43063" name="單一標記：使用格式二嘅顏色"/> <!-- #new #next -->
-                    <Item id="43064" name="單一標記：使用格式三嘅顏色"/> <!-- #new #next -->
-                    <Item id="43065" name="單一標記：使用格式四嘅顏色"/> <!-- #new #next -->
-                    <Item id="43066" name="單一標記：使用格式五嘅顏色"/> <!-- #new #next -->
+                    <Item id="43062" name="單一標記：使用格式一嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43063" name="單一標記：使用格式二嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43064" name="單一標記：使用格式三嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43065" name="單一標記：使用格式四嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43066" name="單一標記：使用格式五嘅顏色"/> <!-- #new v7.9.6 -->
                     <Item id="43023" name="去除標記：清除格式一嘅顏色"/>
                     <Item id="43025" name="去除標記：清除格式二嘅顏色"/>
                     <Item id="43027" name="去除標記：清除格式三嘅顏色"/>
@@ -871,8 +871,8 @@
                     <Item id="6102" name="隱藏"/>
                     <Item id="6103" name="滑脫脫介面：細圖示"/> <!-- "Fluent UI" -->
                     <Item id="6104" name="滑脫脫介面：大圖示"/> <!-- "Fluent UI" -->
-                    <Item id="6129" name="肥嘟嘟介面：細圖示"/> <!-- "Filled Fluent UI" --> <!-- #new #next -->
-                    <Item id="6130" name="肥嘟嘟介面：大圖示"/> <!-- "Filled Fluent UI" --> <!-- #new #next -->
+                    <Item id="6129" name="肥嘟嘟介面：細圖示"/> <!-- "Filled Fluent UI" --> <!-- #new v7.9.6 -->
+                    <Item id="6130" name="肥嘟嘟介面：大圖示"/> <!-- "Filled Fluent UI" --> <!-- #new v7.9.6 -->
                     <Item id="6105" name="標準介面：細圖示"/>
                     <Item id="6106" name="Tab Bar"/>
                     <Item id="6107" name="縮細"/>
@@ -912,9 +912,9 @@
                     <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #moved in v7.9.2 -->
                 </Scintillas>
 
-                <DarkMode title="Dark Mode"> <!-- #new #next -->
-                    <Item id="7101" name="啟用 dark mode"/> <!-- #new #next -->
-                    <Item id="7106" name="* 重新啟動 Notepad++ 先至會完整生效"/> <!-- #new #next -->
+                <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
+                    <Item id="7101" name="啟用 dark mode"/> <!-- #new v7.9.6 -->
+                    <Item id="7106" name="* 重新啟動 Notepad++ 先至會完整生效"/> <!-- #new v7.9.6 -->
                 </DarkMode>
 
                 <MarginsBorderEdge title="邊界／邊框／邊緣線">
@@ -935,10 +935,10 @@
 想劃多啲線嘅話，用空格分隔多組數字就得。"/>
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
-                    <Item id="6208" name="框內留白"/> <!-- #new #next -->
-                    <Item id="6209" name="左"/> <!-- #new #next -->
-                    <Item id="6210" name="右"/> <!-- #new #next -->
-                    <Item id="6212" name="免干擾模式"/> <!-- #new #next -->
+                    <Item id="6208" name="框內留白"/> <!-- #new v7.9.6 -->
+                    <Item id="6209" name="左"/> <!-- #new v7.9.6 -->
+                    <Item id="6210" name="右"/> <!-- #new v7.9.6 -->
+                    <Item id="6212" name="免干擾模式"/> <!-- #new v7.9.6 -->
                 </MarginsBorderEdge>
 
                 <NewDoc title="新文件">
@@ -983,12 +983,12 @@
                 </Language>
 
                 <Highlighting title="醒目提示">
-                    <Item id="6351" name="全部標記"/> <!-- #new #next -->
-                    <Item id="6352" name="符合大細楷"/> <!-- #new #next -->
-                    <Item id="6353" name="符合完整單字"/> <!-- #new #next -->
+                    <Item id="6351" name="全部標記"/> <!-- #new v7.9.6 -->
+                    <Item id="6352" name="符合大細楷"/> <!-- #new v7.9.6 -->
+                    <Item id="6353" name="符合完整單字"/> <!-- #new v7.9.6 -->
                     <Item id="6333" name="醒目提示"/>
                     <Item id="6326" name="啟動"/>
-                    <Item id="6354" name="配對方式"/> <!-- #new #next -->
+                    <Item id="6354" name="配對方式"/> <!-- #new v7.9.6 -->
                     <Item id="6332" name="符合大細楷"/>
                     <Item id="6338" name="符合完整單字"/>
                     <Item id="6339" name="套用搵同取代功能對話框嘅設定"/>
@@ -1034,7 +1034,7 @@
                     <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
                     <Item id="6903" name="搵完嘢，保持開著個對話框"/>
                     <Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要再次確認"/>
-                    <Item id="6905" name="取代完唔好跳去另一個關鍵字"/> <!-- #new #next -->
+                    <Item id="6905" name="取代完唔好跳去另一個關鍵字"/> <!-- #new v7.9.6 -->
                 </Searching>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1137,7 +1137,6 @@
                     <Item id="6325" name="更新後轆去最後一行"/>
                     <Item id="6322" name="工作階段檔案副檔名："/>
                     <Item id="6323" name="自動更新 Notepad++"/>
-                    <Item id="6351" name="Save 對話框將副檔名過濾成 *.* 而唔係 *.txt"/> <!-- #legacy #next --> <!-- #new v7.9.1 -->
                     <Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
                     <Item id="6331" name="標題列淨係顯示檔案名"/>
                     <Item id="6334" name="自動偵測檔案編碼"/>
@@ -1426,7 +1425,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replaceinopenedfiles-nb-replaced value="喺所有打開咗嘅文件執行取代：取代咗 $INT_REPLACE$ 次。"/>
             <find-status-mark-re-malformed value="標記：規則運算式無效。"/>
             <find-status-invalid-re value="搵嘢：規則運算式無效。"/>
-            <find-status-search-failed value="搵嘢：搜尋失敗，衰咗。"/> <!-- #new #next -->
+            <find-status-search-failed value="搵嘢：搜尋失敗，衰咗。"/> <!-- #new v7.9.6 -->
             <find-status-mark-1-match value="標記： 1 個符合結果。"/>
             <find-status-mark-nb-matches value="標記： $INT_REPLACE$ 個符合結果。"/>
             <find-status-count-re-malformed value="數量：規則運算式無效。"/>
@@ -1439,7 +1438,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replace-end-reached value="取代：由上而下取代咗 1 次，已經過咗文件結尾。"/>
             <find-status-replace-top-reached value="取代：由下而上取代咗 1 次，已經過咗文件開端。"/>
             <find-status-replaced-next-found value="取代：取代咗 1 次，搵到下一個。"/>
-            <find-status-replaced-without-continuing value="取代：取代咗 1 次。"/> <!-- #new #next -->
+            <find-status-replaced-without-continuing value="取代：取代咗 1 次。"/> <!-- #new v7.9.6 -->
             <find-status-replaced-next-not-found value="取代：取代咗 1 次，再搵唔到下一個喇。"/>
             <find-status-replace-not-found value="取代：搵唔到你要嘅嘢。"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
@@ -1454,11 +1453,11 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-uncollapse-all value="展開所有層級"/>
             <finder-copy value="抄低呢（幾）行"/>
             <finder-copy-verbatim value="抄"/> <!-- #new v7.9.2 -->
-            <finder-copy-paths value="抄低檔案路徑"/> <!-- #new #next -->
+            <finder-copy-paths value="抄低檔案路徑"/> <!-- #new v7.9.6 -->
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
-            <finder-purge-for-every-search value="次次都清走搜尋結果"/> <!-- #new #next -->
+            <finder-purge-for-every-search value="次次都清走搜尋結果"/> <!-- #new v7.9.6 -->
             <finder-wrap-long-lines value="自動換行"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
@@ -1503,8 +1502,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-result-line-prefix value="行數"/> <!-- Must not begin with space or tab character --> <!-- #new v7.9.2 -->
             <find-regex-zero-length-match value="我覺得自己係零囉" /> <!-- 字元相符不過長度係零 -->
             <session-save-folder-as-workspace value="Save 埋資料夾工作區" /> <!-- #new v7.9.3 -->
-            <tab-untitled-string value="new " /> <!-- #new #next -->
-            <file-save-assign-type value="追加副檔名(&amp;A)" /> <!-- #new #next -->
+            <tab-untitled-string value="new " /> <!-- #new v7.9.6 -->
+            <file-save-assign-type value="追加副檔名(&amp;A)" /> <!-- #new v7.9.6 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
