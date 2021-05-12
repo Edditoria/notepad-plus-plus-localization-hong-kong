@@ -137,7 +137,7 @@
                     <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
                     <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
                     <Item id="42083" name="反轉排"/> <!-- #new #next -->
-                    <Item id="42078" name="求其咁排"/>
+                    <Item id="42078" name="求其排"/>
                     <Item id="42016" name="轉大楷(&amp;U)"/>
                     <Item id="42017" name="轉細楷(&amp;L)"/>
                     <Item id="42067" name="每個單字字首大楷，其它細楷(&amp;P)"/>
