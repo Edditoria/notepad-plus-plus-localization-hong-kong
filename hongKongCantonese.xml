@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="7.9.6">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.0.0">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -1503,6 +1503,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <session-save-folder-as-workspace value="Save 埋資料夾工作區" /> <!-- #new v7.9.3 -->
             <tab-untitled-string value="new " /> <!-- #new v7.9.6 -->
             <file-save-assign-type value="追加副檔名(&amp;A)" /> <!-- #new v7.9.6 -->
+            <close-panel-tip value="閂" /> <!-- #new v8.0.0 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
