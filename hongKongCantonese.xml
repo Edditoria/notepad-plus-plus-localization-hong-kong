@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.0">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.1.2">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -1032,7 +1032,7 @@
                     <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/>
                     <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
                     <Item id="6903" name="搵完嘢，保持開著個對話框"/>
-                    <Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要再次確認"/>
+                    <Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要先做確認"/>
                     <Item id="6905" name="取代完唔好跳去另一個關鍵字"/> <!-- #new v7.9.6 -->
                 </Searching>
 
@@ -1147,7 +1147,7 @@
                     <Item id="6345" name="喺 tab 度偷睇"/>
                     <Item id="6346" name="喺文件地圖度偷睇"/>
                     <Item id="6360" name="靜音"/> <!-- #new v7.9.4 -->
-                    <Item id="6361" name="做「Save 晒所有檔案」之前要先做確認"/> <!-- #new #next -->
+                    <Item id="6361" name="做「Save 晒所有檔案」之前要先做確認"/> <!-- #new v8.1.2 -->
                 </MISC>
             </Preference>
 
@@ -1304,7 +1304,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <SaveAllConfirm title="確認 save 晒所有檔案" message="係咪真係要 save 晒所有檔案佢？
 
 留意返，撳「取消」嘅話會直接 save 晒啲檔案，另外以後都唔會再問你，
-之後你亦可以喺偏好設定重新啟用呢個確認對話框。" /> <!-- #new #next -->
+之後你亦可以喺偏好設定重新啟用呢個確認對話框。" /> <!-- #new v8.1.2 -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
@@ -1415,7 +1415,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <cloud-select-folder value="揀返個資料夾，畀 Notepad++ 讀取/寫入設定。"/>
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
             <two-find-buttons-tip value="用上、落兩個掣代替「搵下一個」"/>
-            <file-rename-title value="改名"/> <!-- #new #next -->
+            <file-rename-title value="改名"/> <!-- #new v8.1.2 -->
             <find-in-files-filter-tip value="只係喺 cpp, cxx, h, hxx &amp;&amp; hpp 嘅檔案度搵：
 *.cpp *.cxx *.h *.hxx *.hpp
 
