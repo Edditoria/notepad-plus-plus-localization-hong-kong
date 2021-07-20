@@ -913,25 +913,24 @@
 
                 <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
                     <Item id="7101" name="啟用 dark mode"/> <!-- #new v7.9.6 -->
-                    <Item id="7106" name="* 重新啟動 Notepad++ 先至會完整生效"/> <!-- #legacy v8.1.2 -->
-                    <Item id="7102" name="Black tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7103" name="Red tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7104" name="Green tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7105" name="Blue tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7107" name="Purple tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7108" name="Cyan tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7109" name="Olive tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7115" name="Customized tone"/> <!-- #new v8.1.2 -->
-                    <Item id="7116" name="Top"/> <!-- #new v8.1.2 -->
-                    <Item id="7117" name="Menu hot track"/> <!-- #new v8.1.2 -->
-                    <Item id="7118" name="Active"/> <!-- #new v8.1.2 -->
-                    <Item id="7119" name="Main"/> <!-- #new v8.1.2 -->
+                    <Item id="7102" name="黑色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7103" name="紅色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7104" name="綠色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7105" name="藍色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7107" name="紫色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7108" name="青色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7109" name="橄欖色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7115" name="自訂色調"/> <!-- #new v8.1.2 -->
+                    <Item id="7116" name="頂部"/> <!-- #new v8.1.2 -->
+                    <Item id="7117" name="Menu 追踪顯示"/> <!-- #new v8.1.2 -->
+                    <Item id="7118" name="用緊嘅部分"/> <!-- #new v8.1.2 -->
+                    <Item id="7119" name="主要部分"/> <!-- #new v8.1.2 -->
                     <Item id="7120" name="Error"/> <!-- #new v8.1.2 -->
-                    <Item id="7121" name="Text"/> <!-- #new v8.1.2 -->
-                    <Item id="7122" name="Darker text"/> <!-- #new v8.1.2 -->
-                    <Item id="7123" name="Disabled text"/> <!-- #new v8.1.2 -->
-                    <Item id="7124" name="Edge"/> <!-- #new v8.1.2 -->
-                    <Item id="7130" name="Reset"/> <!-- #new v8.1.2 -->
+                    <Item id="7121" name="文字"/> <!-- #new v8.1.2 -->
+                    <Item id="7122" name="再暗啲嘅字"/> <!-- #new v8.1.2 -->
+                    <Item id="7123" name="停用咗嘅字"/> <!-- #new v8.1.2 -->
+                    <Item id="7124" name="邊緣線"/> <!-- #new v8.1.2 -->
+                    <Item id="7130" name="重新設定"/> <!-- #new v8.1.2 -->
                 </DarkMode>
 
                 <MarginsBorderEdge title="邊界／邊框／邊緣線">
