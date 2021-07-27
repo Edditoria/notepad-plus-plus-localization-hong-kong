@@ -285,7 +285,7 @@
                     <Item id="44031" name="展開呢層"/>
                     <Item id="44049" name="統計資料..."/>
                     <Item id="44080" name="文件地圖"/>
-                    <Item id="44070" name="Document List"/> <!-- #new #next -->
+                    <Item id="44070" name="文件清單"/> <!-- #new #next -->
                     <Item id="44084" name="函式清單"/>
                     <Item id="44085" name="資料夾工作區"/>
                     <Item id="44086" name="1st"/>
@@ -666,7 +666,7 @@
                     <Item id="44083" name="開/閂 Project Panel 3"/>
                     <Item id="44085" name="開/閂資料夾工作區"/>
                     <Item id="44080" name="開/閂文件地圖"/>
-                    <Item id="44070" name="Toggle Document List"/> <!-- #new #next -->
+                    <Item id="44070" name="開/閂文件清單"/> <!-- #new #next -->
                     <Item id="44084" name="開/閂函式清單"/>
                     <Item id="50005" name="開始/停止錄製 macro"/>
                     <Item id="44104" name="跳去 Project Panel 1"/>
@@ -1329,7 +1329,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <PanelTitle name="剪貼簿記錄"/>
         </ClipboardHistory>
         <DocList>
-            <PanelTitle name="文件切換"/> <!-- #update to "Document List" -->
+            <PanelTitle name="文件清單"/>
             <ColumnName name="檔名"/>
             <ColumnExt name="副檔名"/>
         </DocList>
@@ -1339,8 +1339,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <ColumnType name="類型"/>
             <ColumnSize name="Size"/>
             <NbDocsTotal name="文件數量："/> <!-- #new v7.9.2 -->
-            <MenuCopyName name="Copy Name(s)"/> <!-- #new #next -->
-            <MenuCopyPath name="Copy Pathname(s)"/> <!-- #new #next -->
+            <MenuCopyName name="抄低檔名"/> <!-- #new #next -->
+            <MenuCopyPath name="抄低路徑"/> <!-- #new #next -->
         </WindowsDlg>
         <AsciiInsertion>
             <PanelTitle name="ASCII 字元表"/>
