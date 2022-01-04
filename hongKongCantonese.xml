@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.1.5">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.1.9.3">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -352,6 +352,7 @@
                     <!-- menu: Language -->
                     <Item id="46250" name="定義你嘅程式語言..."/>
                     <Item id="46300" name="打開自訂程式語言嘅資料夾..."/>
+                    <Item id="46301" name="Notepad++ User Defined Languages Collection"/> <!-- #new v8.1.9.3 -->
                     <Item id="46180" name="通用使用者設定"/>
 
                     <!-- menu: Help -->
@@ -743,6 +744,8 @@
                     <Item id="25026" name="運算子 1"/>
                     <Item id="25027" name="運算子 2"/>
                     <Item id="25028" name="數字"/>
+                    <Item id="25033" name="Transparent"/><!-- #new v8.1.9.3 -->
+                    <Item id="25034" name="Transparent"/><!-- #new v8.1.9.3 -->
                     <Item id="1" name="OK"/>
                     <Item id="2" name="取消"/>
                 </StylerDialog>
