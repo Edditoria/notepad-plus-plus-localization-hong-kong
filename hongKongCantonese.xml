@@ -1118,7 +1118,7 @@
 
                 <MultiInstance title="多重程式個體"> <!-- #update "Multi-Instance" to "Multi-Instance &amp; Date"-->
                     <Item id="6151" name="多重程式個體設定 (multi-instance)"/>
-                    <Item id="6152" name="打開工作階段嗰陣時，開新嘅 Notepad++ 個體"/>
+                    <Item id="6152" name="打開工作階段嗰陣時，開新嘅 Notepad++ 個體"/> <!-- #update "Open session in a new instance of Notepad++" to "Open session in a new instance (and save session automatically on exit)"-->
                     <Item id="6153" name="幾時都以多重程式個體模式運作"/>
                     <Item id="6154" name="預設（單一程式個體）"/>
                     <Item id="6155" name="* 改過上面啲設定，要重開 Notepad++ 先至會生效"/>
