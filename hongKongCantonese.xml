@@ -118,9 +118,9 @@
                     <Item id="42006" name="剷(&amp;D)"/>
                     <Item id="42007" name="揀晒(&amp;S)"/>
                     <Item id="42020" name="開始揀/揀完(&amp;S)"/>
-                    <Item id="42084" name="Date Time (short)"/> <!-- #new v8.1.4 -->
-                    <Item id="42085" name="Date Time (long)"/> <!-- #new v8.1.4 -->
-                    <Item id="42086" name="Date Time (customized)"/> <!-- #new v8.1.5 -->
+                    <Item id="42084" name="日期時間（短）"/> <!-- #new v8.1.4 -->
+                    <Item id="42085" name="日期時間（長）"/> <!-- #new v8.1.4 -->
+                    <Item id="42086" name="日期時間（自訂）"/> <!-- #new v8.1.5 -->
                     <Item id="42008" name="增加縮排"/>
                     <Item id="42009" name="減少縮排"/>
                     <Item id="42010" name="重複呢行"/>
@@ -352,7 +352,7 @@
                     <!-- menu: Language -->
                     <Item id="46250" name="定義你嘅程式語言..."/>
                     <Item id="46300" name="打開自訂程式語言嘅資料夾..."/>
-                    <Item id="46301" name="Notepad++ User Defined Languages Collection"/> <!-- #new v8.1.9.3 -->
+                    <Item id="46301" name="Notepad++ 自訂程式語言收藏庫"/> <!-- #new v8.1.9.3 -->
                     <Item id="46180" name="通用使用者設定"/>
 
                     <!-- menu: Help -->
@@ -684,7 +684,7 @@
                     <Item id="44105" name="跳去 Project Panel 2"/>
                     <Item id="44106" name="跳去 Project Panel 3"/>
                     <Item id="44107" name="跳去資料夾工作區"/>
-                    <Item id="44109" name="Switch to Document List"/> <!-- #new v8.1.4 -->
+                    <Item id="44109" name="跳去文件清單"/> <!-- #new v8.1.4 -->
                     <Item id="44108" name="跳去函式清單"/>
                 </MainCommandNames>
             </ShortcutMapper>
@@ -744,8 +744,8 @@
                     <Item id="25026" name="運算子 1"/>
                     <Item id="25027" name="運算子 2"/>
                     <Item id="25028" name="數字"/>
-                    <Item id="25033" name="Transparent"/><!-- #new v8.1.9.3 -->
-                    <Item id="25034" name="Transparent"/><!-- #new v8.1.9.3 -->
+                    <Item id="25033" name="透明"/><!-- #new v8.1.9.3 -->
+                    <Item id="25034" name="透明"/><!-- #new v8.1.9.3 -->
                     <Item id="1" name="OK"/>
                     <Item id="2" name="取消"/>
                 </StylerDialog>
@@ -1122,9 +1122,9 @@
                     <Item id="6153" name="幾時都以多重程式個體模式運作"/>
                     <Item id="6154" name="預設（單一程式個體）"/>
                     <Item id="6155" name="* 改過上面啲設定，要重開 Notepad++ 先至會生效"/>
-                    <Item id="6171" name="Customize insert Date Time"/> <!-- #new v8.1.5 -->
-                    <Item id="6175" name="Reverse default date time order (short &amp;&amp; long formats)"/> <!-- #new v8.1.5 -->
-                    <Item id="6172" name="Custom format:"/> <!-- #new v8.1.5 -->
+                    <Item id="6171" name="自訂日期時間插入功能"/> <!-- #new v8.1.5 -->
+                    <Item id="6175" name="將日期同埋時間調轉（插入長/短日期時間功能）"/> <!-- #new v8.1.5 -->
+                    <Item id="6172" name="自訂格式："/> <!-- #new v8.1.5 -->
                 </MultiInstance>
 
                 <Delimiter title="分隔符號">
@@ -1359,7 +1359,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <PanelTitle name="文件清單"/>
             <ColumnName name="檔名"/>
             <ColumnExt name="副檔名"/>
-            <ColumnPath name="Path"/> <!-- #new v8.1.5 -->
+            <ColumnPath name="路徑"/> <!-- #new v8.1.5 -->
         </DocList>
         <WindowsDlg>
             <ColumnName name="檔名"/>
