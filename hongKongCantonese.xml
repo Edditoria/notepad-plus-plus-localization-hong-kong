@@ -140,7 +140,7 @@
                     <Item id="42064" name="跟小數位調轉咁排（「,」當做小數點）"/>
                     <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
                     <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
-                    <Item id="42083" name="反轉排"/> <!-- #new v7.9.6 -->
+                    <Item id="42083" name="調轉排"/> <!-- #new v7.9.6 -->
                     <Item id="42078" name="求其排"/>
                     <Item id="42016" name="轉大楷(&amp;U)"/>
                     <Item id="42017" name="轉細楷(&amp;L)"/>
@@ -1156,7 +1156,7 @@
                     <Item id="6274" name="Bing"/>
                     <Item id="6275" name="Yahoo!"/>
                     <Item id="6276" name="Set 你想要嘅搜尋器："/>
-                    <!-- 嗱！咪撚搞「例子：」後面啲字呀嗱 -->
+                    <!-- 嗱！咪搞「例子：」後面啲字呀嗱 -->
                     <Item id="6278" name="例子： https://www.google.com/search?q=$(CURRENT_WORD)"/>
                 </SearchEngine>
 
