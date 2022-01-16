@@ -40,9 +40,9 @@
                     <Item subMenuId="edit-blankOperations" name="空格處理(&amp;B)"/>
                     <Item subMenuId="edit-pasteSpecial" name="特殊貼上(&amp;P)"/>
                     <Item subMenuId="edit-onSelection" name="處理揀選範圍(&amp;O)"/>
-                    <Item subMenuId="search-markAll" name="全部標記(&amp;A)"/> <!-- #update "Mark All" to "Style All Occurrences of Token"-->
-                    <Item subMenuId="search-markOne" name="單一標記(&amp;O)"/> <!-- #new v7.9.6 --> <!-- #update "Mark One" to "Style One Token"-->
-                    <Item subMenuId="search-unmarkAll" name="去除標記(&amp;U)"/> <!-- #update "Unmark One" to "Clear Style"-->
+                    <Item subMenuId="search-markAll" name="成份文件咁做標記(&amp;A)"/>
+                    <Item subMenuId="search-markOne" name="標記一次(&amp;O)"/> <!-- #new v7.9.6 -->
+                    <Item subMenuId="search-unmarkAll" name="清除風格標記(&amp;U)"/>
                     <Item subMenuId="search-jumpUp" name="上個標記(&amp;J)"/>
                     <Item subMenuId="search-jumpDown" name="下個標記(&amp;D)"/>
                     <Item subMenuId="search-copyStyledText" name="抄低標記咗嘅字(&amp;C)"/> <!-- #new v7.9.1 -->
@@ -615,22 +615,22 @@
                     <Item id="45001" name="將 EOL 轉換去 Windows (CR LF) 格式"/>
                     <Item id="45002" name="將 EOL 轉換去 Unix (LF) 格式"/>
                     <Item id="45003" name="將 EOL 轉換去 Macintosh (CR) 格式"/>
-                    <Item id="43022" name="全部標記：使用格式一嘅顏色"/> <!-- #update "Mark all" to "Style all" -->
-                    <Item id="43024" name="全部標記：使用格式二嘅顏色"/> <!-- #update "Mark all" to "Style all" -->
-                    <Item id="43026" name="全部標記：使用格式三嘅顏色"/> <!-- #update "Mark all" to "Style all" -->
-                    <Item id="43028" name="全部標記：使用格式四嘅顏色"/> <!-- #update "Mark all" to "Style all" -->
-                    <Item id="43030" name="全部標記：使用格式五嘅顏色"/> <!-- #update "Mark all" to "Style all" -->
-                    <Item id="43062" name="單一標記：使用格式一嘅顏色"/> <!-- #new v7.9.6 --> <!-- #update "Mark one" to "Style one" -->
-                    <Item id="43063" name="單一標記：使用格式二嘅顏色"/> <!-- #new v7.9.6 --> <!-- #update "Mark one" to "Style one" -->
-                    <Item id="43064" name="單一標記：使用格式三嘅顏色"/> <!-- #new v7.9.6 --> <!-- #update "Mark one" to "Style one" -->
-                    <Item id="43065" name="單一標記：使用格式四嘅顏色"/> <!-- #new v7.9.6 --> <!-- #update "Mark one" to "Style one" -->
-                    <Item id="43066" name="單一標記：使用格式五嘅顏色"/> <!-- #new v7.9.6 --> <!-- #update "Mark one" to "Style one" -->
-                    <Item id="43023" name="去除標記：清除格式一嘅顏色"/> <!-- #update "Clear marks" to "Clear (style)" -->
-                    <Item id="43025" name="去除標記：清除格式二嘅顏色"/> <!-- #update "Clear marks" to "Clear (style)" -->
-                    <Item id="43027" name="去除標記：清除格式三嘅顏色"/> <!-- #update "Clear marks" to "Clear (style)" -->
-                    <Item id="43029" name="去除標記：清除格式四嘅顏色"/> <!-- #update "Clear marks" to "Clear (style)" -->
-                    <Item id="43031" name="去除標記：清除格式五嘅顏色"/> <!-- #update "Clear marks" to "Clear (style)" -->
-                    <Item id="43032" name="去除標記：清除所有格式嘅顏色"/> <!-- #update "Clear marks" to "Clear (style)" -->
+                    <Item id="43022" name="成份文件咁做標記：使用格式一嘅顏色"/>
+                    <Item id="43024" name="成份文件咁做標記：使用格式二嘅顏色"/>
+                    <Item id="43026" name="成份文件咁做標記：使用格式三嘅顏色"/>
+                    <Item id="43028" name="成份文件咁做標記：使用格式四嘅顏色"/>
+                    <Item id="43030" name="成份文件咁做標記：使用格式五嘅顏色"/>
+                    <Item id="43062" name="標記一次：使用格式一嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43063" name="標記一次：使用格式二嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43064" name="標記一次：使用格式三嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43065" name="標記一次：使用格式四嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43066" name="標記一次：使用格式五嘅顏色"/> <!-- #new v7.9.6 -->
+                    <Item id="43023" name="清除風格標記：清除格式一嘅顏色"/>
+                    <Item id="43025" name="清除風格標記：清除格式二嘅顏色"/>
+                    <Item id="43027" name="清除風格標記：清除格式三嘅顏色"/>
+                    <Item id="43029" name="清除風格標記：清除格式四嘅顏色"/>
+                    <Item id="43031" name="清除風格標記：清除格式五嘅顏色"/>
+                    <Item id="43032" name="清除風格標記：清除所有格式嘅顏色"/>
                     <Item id="43033" name="搵上個標記：格式一"/> <!-- #update "Previous mark" to "Previous style" -->
                     <Item id="43034" name="搵上個標記：格式二"/> <!-- #update "Previous mark" to "Previous style" -->
                     <Item id="43035" name="搵上個標記：格式三"/> <!-- #update "Previous mark" to "Previous style" -->
@@ -1015,7 +1015,7 @@
                 </Language>
 
                 <Highlighting title="醒目提示">
-                    <Item id="6351" name="全部標記"/> <!-- #new v7.9.6 --> <!-- #update "Mark all" to "Style All Occurrences of Token" -->
+                    <Item id="6351" name="成份文件咁做標記"/> <!-- #new v7.9.6 -->
                     <Item id="6352" name="符合大細楷"/> <!-- #new v7.9.6 -->
                     <Item id="6353" name="符合完整單字"/> <!-- #new v7.9.6 -->
                     <Item id="6333" name="醒目提示"/>
