@@ -247,20 +247,20 @@
                     <Item id="43035" name="格式三"/>
                     <Item id="43036" name="格式四"/>
                     <Item id="43037" name="格式五"/>
-                    <Item id="43038" name="搵嘢標記"/> <!-- #update "Find style" to "Find Mark Style" -->
+                    <Item id="43038" name="搵料標記"/>
                     <Item id="43039" name="格式一"/>
                     <Item id="43040" name="格式二"/>
                     <Item id="43041" name="格式三"/>
                     <Item id="43042" name="格式四"/>
                     <Item id="43043" name="格式五"/>
-                    <Item id="43044" name="搵嘢標記"/> <!-- #update "Find style" to "Find Mark Style" -->
+                    <Item id="43044" name="搵料標記"/>
                     <Item id="43055" name="格式一"/> <!-- #new v7.9.1 -->
                     <Item id="43056" name="格式二"/> <!-- #new v7.9.1 -->
                     <Item id="43057" name="格式三"/> <!-- #new v7.9.1 -->
                     <Item id="43058" name="格式四"/> <!-- #new v7.9.1 -->
                     <Item id="43059" name="格式五"/> <!-- #new v7.9.1 -->
                     <Item id="43060" name="所有格式"/> <!-- #new v7.9.1 -->
-                    <Item id="43061" name="搵嘢標記"/> <!-- #new v7.9.1 --> <!-- #update "Find style" to "Find Mark Style" -->
+                    <Item id="43061" name="搵料標記"/> <!-- #new v7.9.1 -->
                     <Item id="43062" name="格式一"/> <!-- #new v7.9.6 -->
                     <Item id="43063" name="格式二"/> <!-- #new v7.9.6 -->
                     <Item id="43064" name="格式三"/> <!-- #new v7.9.6 -->
@@ -631,25 +631,25 @@
                     <Item id="43029" name="清除風格標記：清除格式四嘅顏色"/>
                     <Item id="43031" name="清除風格標記：清除格式五嘅顏色"/>
                     <Item id="43032" name="清除風格標記：清除所有格式嘅顏色"/>
-                    <Item id="43033" name="搵上個標記：格式一"/> <!-- #update "Previous mark" to "Previous style" -->
-                    <Item id="43034" name="搵上個標記：格式二"/> <!-- #update "Previous mark" to "Previous style" -->
-                    <Item id="43035" name="搵上個標記：格式三"/> <!-- #update "Previous mark" to "Previous style" -->
-                    <Item id="43036" name="搵上個標記：格式四"/> <!-- #update "Previous mark" to "Previous style" -->
-                    <Item id="43037" name="搵上個標記：格式五"/> <!-- #update "Previous mark" to "Previous style" -->
-                    <Item id="43038" name="搵上個標記：搵嘢標記"/> <!-- #update "Previous mark" to "Previous style" -->
-                    <Item id="43039" name="搵下個標記：格式一"/> <!-- #update "Next mark" to "Next style" -->
-                    <Item id="43040" name="搵下個標記：格式二"/> <!-- #update "Next mark" to "Next style" -->
-                    <Item id="43041" name="搵下個標記：格式三"/> <!-- #update "Next mark" to "Next style" -->
-                    <Item id="43042" name="搵下個標記：格式四"/> <!-- #update "Next mark" to "Next style" -->
-                    <Item id="43043" name="搵下個標記：格式五"/> <!-- #update "Next mark" to "Next style" -->
-                    <Item id="43044" name="搵下個標記：搵嘢標記"/> <!-- #update "Next mark" to "Next style" -->
-                    <Item id="43055" name="抄低標記咗嘅字：格式一"/> <!-- #new v7.9.1 --> <!-- #update "mark" to "style" -->
-                    <Item id="43056" name="抄低標記咗嘅字：格式二"/> <!-- #new v7.9.1 --> <!-- #update "mark" to "style" -->
-                    <Item id="43057" name="抄低標記咗嘅字：格式三"/> <!-- #new v7.9.1 --> <!-- #update "mark" to "style" -->
-                    <Item id="43058" name="抄低標記咗嘅字：格式四"/> <!-- #new v7.9.1 --> <!-- #update "mark" to "style" -->
-                    <Item id="43059" name="抄低標記咗嘅字：格式五"/> <!-- #new v7.9.1 --> <!-- #update "mark" to "style" -->
-                    <Item id="43060" name="抄低標記咗嘅字：所有格式"/> <!-- #new v7.9.1 --> <!-- #update "mark" to "style" -->
-                    <Item id="43061" name="抄低標記咗嘅字：搵嘢標記"/> <!-- #new v7.9.1 --> <!-- #update "mark" to "style" -->
+                    <Item id="43033" name="搵上個標記：風格標記 1"/>
+                    <Item id="43034" name="搵上個標記：風格標記 2"/>
+                    <Item id="43035" name="搵上個標記：風格標記 3"/>
+                    <Item id="43036" name="搵上個標記：風格標記 4"/>
+                    <Item id="43037" name="搵上個標記：風格標記 5"/>
+                    <Item id="43038" name="搵上個標記：搵料標記"/>
+                    <Item id="43039" name="搵下個標記：風格標記 1"/>
+                    <Item id="43040" name="搵下個標記：風格標記 2"/>
+                    <Item id="43041" name="搵下個標記：風格標記 3"/>
+                    <Item id="43042" name="搵下個標記：風格標記 4"/>
+                    <Item id="43043" name="搵下個標記：風格標記 5"/>
+                    <Item id="43044" name="搵下個標記：搵料標記"/>
+                    <Item id="43055" name="抄低標記咗嘅字：風格標記 1"/> <!-- #new v7.9.1 -->
+                    <Item id="43056" name="抄低標記咗嘅字：風格標記 2"/> <!-- #new v7.9.1 -->
+                    <Item id="43057" name="抄低標記咗嘅字：風格標記 3"/> <!-- #new v7.9.1 -->
+                    <Item id="43058" name="抄低標記咗嘅字：風格標記 4"/> <!-- #new v7.9.1 -->
+                    <Item id="43059" name="抄低標記咗嘅字：風格標記 5"/> <!-- #new v7.9.1 -->
+                    <Item id="43060" name="抄低標記咗嘅字：所有風格標記"/> <!-- #new v7.9.1 -->
+                    <Item id="43061" name="抄低標記咗嘅字：搵料標記"/> <!-- #new v7.9.1 -->
                     <Item id="44100" name="喺 Firefox 度睇呢個檔案"/>
                     <Item id="44101" name="喺 Chrome 度睇呢個檔案"/>
                     <Item id="44103" name="喺 IE 度睇呢個檔案"/>
