@@ -43,8 +43,8 @@
                     <Item subMenuId="search-markAll" name="成份文件咁做標記(&amp;A)"/>
                     <Item subMenuId="search-markOne" name="標記一次(&amp;O)"/> <!-- #new v7.9.6 -->
                     <Item subMenuId="search-unmarkAll" name="清除風格標記(&amp;U)"/>
-                    <Item subMenuId="search-jumpUp" name="上個標記(&amp;J)"/>
-                    <Item subMenuId="search-jumpDown" name="下個標記(&amp;D)"/>
+                    <Item subMenuId="search-jumpUp" name="跳去上個(&amp;J)"/>
+                    <Item subMenuId="search-jumpDown" name="跳去下個(&amp;D)"/>
                     <Item subMenuId="search-copyStyledText" name="抄低標記咗嘅字(&amp;C)"/> <!-- #new v7.9.1 -->
                     <Item subMenuId="search-bookmark" name="書籤(&amp;B)"/>
                     <Item subMenuId="view-currentFileIn" name="喺第二度睇呢個檔案"/>
@@ -631,18 +631,18 @@
                     <Item id="43029" name="清除風格標記：風格標記 4"/>
                     <Item id="43031" name="清除風格標記：風格標記 5"/>
                     <Item id="43032" name="清除風格標記：所有風格標記"/>
-                    <Item id="43033" name="搵上個標記：風格標記 1"/>
-                    <Item id="43034" name="搵上個標記：風格標記 2"/>
-                    <Item id="43035" name="搵上個標記：風格標記 3"/>
-                    <Item id="43036" name="搵上個標記：風格標記 4"/>
-                    <Item id="43037" name="搵上個標記：風格標記 5"/>
-                    <Item id="43038" name="搵上個標記：搵料標記"/>
-                    <Item id="43039" name="搵下個標記：風格標記 1"/>
-                    <Item id="43040" name="搵下個標記：風格標記 2"/>
-                    <Item id="43041" name="搵下個標記：風格標記 3"/>
-                    <Item id="43042" name="搵下個標記：風格標記 4"/>
-                    <Item id="43043" name="搵下個標記：風格標記 5"/>
-                    <Item id="43044" name="搵下個標記：搵料標記"/>
+                    <Item id="43033" name="跳去上個：風格標記 1"/>
+                    <Item id="43034" name="跳去上個：風格標記 2"/>
+                    <Item id="43035" name="跳去上個：風格標記 3"/>
+                    <Item id="43036" name="跳去上個：風格標記 4"/>
+                    <Item id="43037" name="跳去上個：風格標記 5"/>
+                    <Item id="43038" name="跳去上個：搵料標記"/>
+                    <Item id="43039" name="跳去下個：風格標記 1"/>
+                    <Item id="43040" name="跳去下個：風格標記 2"/>
+                    <Item id="43041" name="跳去下個：風格標記 3"/>
+                    <Item id="43042" name="跳去下個：風格標記 4"/>
+                    <Item id="43043" name="跳去下個：風格標記 5"/>
+                    <Item id="43044" name="跳去下個：搵料標記"/>
                     <Item id="43055" name="抄低標記咗嘅字：風格標記 1"/> <!-- #new v7.9.1 -->
                     <Item id="43056" name="抄低標記咗嘅字：風格標記 2"/> <!-- #new v7.9.1 -->
                     <Item id="43057" name="抄低標記咗嘅字：風格標記 3"/> <!-- #new v7.9.1 -->
