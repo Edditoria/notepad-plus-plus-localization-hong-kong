@@ -491,9 +491,9 @@
             </Find>
 
             <IncrementalFind title="">
-                <Item id="1681" name="Find"/> <!-- #new v8.1.5 -->
-                <Item id="1685" name="Match case"/> <!-- #new v8.1.5 -->
-                <Item id="1690" name="Highlight all"/> <!-- #new v8.1.5 -->
+                <Item id="1681" name="搵緊"/> <!-- #new v8.1.5 -->
+                <Item id="1685" name="符合大細楷"/> <!-- #new v8.1.5 -->
+                <Item id="1690" name="醒目提示"/> <!-- #new v8.1.5 -->
             </IncrementalFind>
 
             <FindCharsInRange title="以字元編號搵字元...">
@@ -1116,12 +1116,12 @@
                     <Item id="6866" name="配對 3："/>
                 </AutoCompletion>
 
-                <MultiInstance title="多重程式個體"> <!-- #update "Multi-Instance" to "Multi-Instance &amp; Date"-->
+                <MultiInstance title="程式個體／插入時間">
                     <Item id="6151" name="多重程式個體設定 (multi-instance)"/>
-                    <Item id="6152" name="打開工作階段嗰陣時，開新嘅 Notepad++ 個體"/> <!-- #update "Open session in a new instance of Notepad++" to "Open session in a new instance (and save session automatically on exit)"-->
+                    <Item id="6152" name="打開工作階段嗰陣時，開新嘅程式個體（閂佢會自動 save）"/>
                     <Item id="6153" name="幾時都以多重程式個體模式運作"/>
                     <Item id="6154" name="預設（單一程式個體）"/>
-                    <Item id="6155" name="* 改過上面啲設定，要重開 Notepad++ 先至會生效"/>
+                    <Item id="6155" name="* 改過上面嘅設定，要重開 Notepad++ 先至會生效"/>
                     <Item id="6171" name="自訂日期時間插入功能"/> <!-- #new v8.1.5 -->
                     <Item id="6175" name="將日期同埋時間調轉（插入長/短日期時間功能）"/> <!-- #new v8.1.5 -->
                     <Item id="6172" name="自訂格式："/> <!-- #new v8.1.5 -->
@@ -1243,14 +1243,14 @@
                 <Item id="5" name="全部唔使(&amp;O)"/>
             </DoSaveOrNot>
 
-            <DoSaveAll title="Save All Confirmation"> <!-- #new v8.1.5 -->
-                <Item id="1766" name="Are you sure you want to save all modified documents?
+            <DoSaveAll title="Save 晒所有檔案"> <!-- #new v8.1.5 -->
+                <Item id="1766" name="係咪真係要 save 晒所有檔案佢？
 
-Choose &quot;Always Yes&quot; if you don't want to see this dialog again.
-You can re-activate this dialog in Preferences later."/> <!-- #new v8.1.5 -->
-                <Item id="6" name="&amp;Yes"/> <!-- #new v8.1.5 -->
-                <Item id="7" name="&amp;No"/> <!-- #new v8.1.5 -->
-                <Item id="4" name="Always Yes"/> <!-- #new v8.1.5 -->
+留意返，撳「幾時都要」嘅話，就以後都唔再問你，
+你可以喺偏好設定重新啟用呢個確認對話框。"/> <!-- #new v8.1.5 -->
+                <Item id="6" name="好(&amp;Y)"/> <!-- #new v8.1.5 -->
+                <Item id="7" name="唔使(&amp;N)"/> <!-- #new v8.1.5 -->
+                <Item id="4" name="幾時都要"/> <!-- #new v8.1.5 -->
             </DoSaveAll>
         </Dialog>
 
@@ -1496,7 +1496,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-replaced-next-not-found value="取代：取代咗 1 次，再搵唔到下一個喇。"/>
             <find-status-replace-not-found value="取代：搵唔到你要嘅嘢。"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
-            <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」。"/>
+            <find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」    跌咗嘢 試吓唔好搵"/>
             <find-status-scope-selection value="（限揀選範圍）"/>
             <find-status-scope-all value="（成份檔案）"/>
             <find-status-scope-backward value="（由頭到滑鼠浮標位置）"/>
@@ -1559,10 +1559,10 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <tab-untitled-string value="new " /> <!-- #new v7.9.6 -->
             <file-save-assign-type value="追加副檔名(&amp;A)" /> <!-- #new v7.9.6 -->
             <close-panel-tip value="閂" /> <!-- #new v8.0.0 -->
-            <IncrementalFind-FSFound value="$INT_REPLACE$ matches" /> <!-- #new v8.1.5 -->
-            <IncrementalFind-FSNotFound value="Phrase not found" /> <!-- #new v8.1.5 -->
-            <IncrementalFind-FSTopReached value="Reached top of page, continued from bottom" /> <!-- #new v8.1.5 -->
-            <IncrementalFind-FSEndReached value="Reached end of page, continued from top" /> <!-- #new v8.1.5 -->
+            <IncrementalFind-FSFound value="搵到 $INT_REPLACE$ 個符合結果" /> <!-- #new v8.1.5 -->
+            <IncrementalFind-FSNotFound value="搵唔到喎" /> <!-- #new v8.1.5 -->
+            <IncrementalFind-FSTopReached value="已經過咗文件開端，而家返底部繼續搵" /> <!-- #new v8.1.5 -->
+            <IncrementalFind-FSEndReached value="已經過咗文件結尾，而家返頂部繼續搵" /> <!-- #new v8.1.5 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
