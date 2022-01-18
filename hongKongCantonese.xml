@@ -195,8 +195,8 @@
                     <Item id="42029" name="檔案路徑 → 剪貼簿"/>
                     <Item id="42030" name="檔名 → 剪貼簿"/>
                     <Item id="42031" name="資料夾路徑 → 剪貼簿"/>
-                    <Item id="42087" name="All Filenames to Clipboard"/> <!-- #new v8.2.1 -->
-                    <Item id="42088" name="All File Paths to Clipboard"/> <!-- #new v8.2.1 -->
+                    <Item id="42087" name="所有檔名 → 剪貼簿"/> <!-- #new v8.2.1 -->
+                    <Item id="42088" name="所有檔案路徑 → 剪貼簿"/> <!-- #new v8.2.1 -->
 
                     <!-- menu: Macro (cont'd) -->
                     <Item id="42032" name="係咁執行 mac&amp;ro..."/>
@@ -274,10 +274,10 @@
                     <Item id="43048" name="揀字然後搵下個(&amp;S)"/>
                     <Item id="43049" name="揀字然後搵上個(&amp;S)"/>
                     <Item id="43054" name="搵料標記(&amp;K)..."/>
-                    <Item id="43501" name="Close Selected"/> <!-- #new v8.2.1 -->
-                    <Item id="43502" name="Close Others"/> <!-- #new v8.2.1 -->
-                    <Item id="43503" name="Copy Selected Names"/> <!-- #new v8.2.1 -->
-                    <Item id="43504" name="Copy Selected Pathnames"/> <!-- #new v8.2.1 -->
+                    <Item id="43501" name="閂晒揀咗呢啲檔案"/> <!-- #new v8.2.1 -->
+                    <Item id="43502" name="閂晒其它佢"/> <!-- #new v8.2.1 -->
+                    <Item id="43503" name="抄低揀咗呢啲檔名"/> <!-- #new v8.2.1 -->
+                    <Item id="43504" name="抄低揀咗呢啲檔案路徑"/> <!-- #new v8.2.1 -->
 
                     <!-- menu: View (cont'd) -->
                     <Item id="44009" name="Post-It 便利貼模式"/>
@@ -1109,9 +1109,9 @@
                     <Item id="6809" name="函式自動完成"/>
                     <Item id="6810" name="字詞自動完成"/>
                     <Item id="6816" name="函式同埋字詞自動完成"/>
-                    <Item id="6869" name="Insert Selection"/> <!-- #new v8.2.1 -->
-                    <Item id="6870" name="TAB"/> <!-- TAB key on the keyboard, it's not necessary to translate it normally --> <!-- #new v8.2.1 -->
-                    <Item id="6871" name="ENTER"/> <!-- ENTER key on the keyboard, it's not necessary to translate it normally --> <!-- #new v8.2.1 -->
+                    <Item id="6869" name="插入選項"/> <!-- #new v8.2.1 -->
+                    <Item id="6870" name="用 Tab 掣"/> <!-- #new v8.2.1 -->
+                    <Item id="6871" name="用 Enter 掣"/> <!-- #new v8.2.1 -->
                     <Item id="6824" name="唔理數字"/>
                     <Item id="6811" name="由第"/>
                     <Item id="6813" name="個字元開始"/>
@@ -1469,11 +1469,11 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <word-chars-list-space-warning value=" $INT_REPLACE$ 個空格"/>
             <word-chars-list-tab-warning value=" $INT_REPLACE$ 個 tab "/>
             <word-chars-list-warning-end value="。"/>
-            <backup-select-folder value="Select a folder as backup directory"/> <!-- HowToReproduce: Settings > Preferences > Backup > [...] --> <!-- #new v8.2.1 -->
+            <backup-select-folder value="揀個備份資料夾"/> <!-- #new v8.2.1 -->
             <cloud-invalid-warning value="路徑無效。"/>
             <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/>
             <cloud-select-folder value="揀返個資料夾，畀 Notepad++ 讀取/寫入設定。"/>
-            <default-open-save-select-folder value="Select a folder as default directory"/> <!-- HowToReproduce: Settings > Preferences > Default Directory > [...] --> <!-- #new v8.2.1 -->
+            <default-open-save-select-folder value="揀個預設資料夾"/> <!-- #new v8.2.1 -->
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
             <two-find-buttons-tip value="用上、落兩個掣代替「搵下一個」"/>
             <file-rename-title value="改名"/> <!-- #new v8.1.2 -->
@@ -1483,12 +1483,12 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 所有檔案，除咗 exe, obj &amp;&amp; log：
 *.* !*.exe !*.obj !*.log
 
-Find in all files but exclude folders tests, bin &amp;&amp; bin64:
+所有檔案，除咗資料夾 tests, bin &amp;&amp; bin64：
 *.* !\tests !\bin*
 
-Find in all files but exclude all folders log or logs recursively:
-*.* !+\log*"/> <!-- #update -->
-            <find-in-files-select-folder value="Select a folder to search from"/> <!-- HowToReproduce: Search > Find in Files > [...] --> <!-- #new v8.2.1 -->
+所有檔案，除咗資料夾 log* (recursive)：
+*.* !+\log*"/>
+            <find-in-files-select-folder value="揀個資料夾搵嘢"/> <!-- #new v8.2.1 -->
             <find-status-top-reached value="搵嘢：已經過咗文件開端，而家喺底部第一個相符嘅字串。"/>
             <find-status-end-reached value="搵嘢：已經過咗文件結尾，而家喺頂部第一個相符嘅字串。"/>
             <find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/>
@@ -1582,10 +1582,10 @@ Find in all files but exclude all folders log or logs recursively:
             <IncrementalFind-FSNotFound value="搵唔到喎" /> <!-- #new v8.1.5 -->
             <IncrementalFind-FSTopReached value="已經過咗文件開端，而家返底部繼續搵" /> <!-- #new v8.1.5 -->
             <IncrementalFind-FSEndReached value="已經過咗文件結尾，而家返頂部繼續搵" /> <!-- #new v8.1.5 -->
-            <contextMenu-styleAlloccurrencesOfToken value="Style all occurrences of token" /> <!-- #new v8.2.1 -->
-            <contextMenu-styleOneToken value="Style one token" /> <!-- #new v8.2.1 -->
-            <contextMenu-clearStyle value="Clear style" /> <!-- #new v8.2.1 -->
-            <contextMenu-PluginCommands value="Plugin commands" /> <!-- #new v8.2.1 -->
+            <contextMenu-styleAlloccurrencesOfToken value="成份文件咁做標記" /> <!-- #new v8.2.1 -->
+            <contextMenu-styleOneToken value="標記一次" /> <!-- #new v8.2.1 -->
+            <contextMenu-clearStyle value="清除風格標記" /> <!-- #new v8.2.1 -->
+            <contextMenu-PluginCommands value="外掛指令" /> <!-- #new v8.2.1 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
