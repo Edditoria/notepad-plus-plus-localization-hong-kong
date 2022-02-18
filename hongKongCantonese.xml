@@ -1068,13 +1068,13 @@
                     <Item id="6722" name="右邊"/>
                     <Item id="6723" name="加入"/>
                     <ComboBox id="6724">
-                        <Element name="Full file name path"/> <!-- #new v8.3.1 -->
-                        <Element name="File name"/> <!-- #new v8.3.1 -->
-                        <Element name="File directory"/> <!-- #new v8.3.1 -->
-                        <Element name="Page"/> <!-- #new v8.3.1 -->
-                        <Element name="Short date format"/> <!-- #new v8.3.1 -->
-                        <Element name="Long date format"/> <!-- #new v8.3.1 -->
-                        <Element name="Time"/> <!-- #new v8.3.1 -->
+                        <Element name="完整檔案路徑"/> <!-- #new v8.3.1 -->
+                        <Element name="檔名"/> <!-- #new v8.3.1 -->
+                        <Element name="資料夾路徑"/> <!-- #new v8.3.1 -->
+                        <Element name="頁數"/> <!-- #new v8.3.1 -->
+                        <Element name="日期（簡短）"/> <!-- #new v8.3.1 -->
+                        <Element name="日期（完整）"/> <!-- #new v8.3.1 -->
+                        <Element name="時間"/> <!-- #new v8.3.1 -->
                     </ComboBox>
                     <Item id="6725" name="變數："/>
                     <Item id="6727" name="呢度會顯示你啲變數設定"/>
@@ -1330,9 +1330,9 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/>
             <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/>
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/>
-            <FileLoadingException title="Exception code: $STR_REPLACE$" message="An error occurred while loading the file!"/> <!-- #new v8.3.1 -->
-            <WantToOpenHugeFile title="Opening huge file warning" message="Opening a huge file of 2GB+ could take several minutes.
-Do you want to open it?"/> <!-- #new v8.3.1 -->
+            <FileLoadingException title="Exception code: $STR_REPLACE$" message="Load 檔案嗰陣出錯。你個嘢壞咗啊！"/> <!-- #new v8.3.1 -->
+            <WantToOpenHugeFile title="注意：打開極大嘅檔案" message="打開超過 2GB 嘅檔案可能要花幾分鐘，
+係咪真係要打開佢？"/> <!-- #new v8.3.1 -->
             <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/>
             <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/>
             <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/>
