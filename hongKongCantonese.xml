@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.2.1">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.3.1">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -1067,6 +1067,15 @@
                     <Item id="6721" name="中間"/>
                     <Item id="6722" name="右邊"/>
                     <Item id="6723" name="加入"/>
+                    <ComboBox id="6724">
+                        <Element name="Full file name path"/> <!-- #new v8.3.1 -->
+                        <Element name="File name"/> <!-- #new v8.3.1 -->
+                        <Element name="File directory"/> <!-- #new v8.3.1 -->
+                        <Element name="Page"/> <!-- #new v8.3.1 -->
+                        <Element name="Short date format"/> <!-- #new v8.3.1 -->
+                        <Element name="Long date format"/> <!-- #new v8.3.1 -->
+                        <Element name="Time"/> <!-- #new v8.3.1 -->
+                    </ComboBox>
                     <Item id="6725" name="變數："/>
                     <Item id="6727" name="呢度會顯示你啲變數設定"/>
                     <Item id="6728" name="頁首同埋頁尾"/>
@@ -1321,6 +1330,9 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/>
             <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/>
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/>
+            <FileLoadingException title="Exception code: $STR_REPLACE$" message="An error occurred while loading the file!"/> <!-- #new v8.3.1 -->
+            <WantToOpenHugeFile title="Opening huge file warning" message="Opening a huge file of 2GB+ could take several minutes.
+Do you want to open it?"/> <!-- #new v8.3.1 -->
             <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/>
             <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/>
             <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/>
