@@ -76,7 +76,7 @@
                     <Item subMenuId="settings-import" name="匯入"/>
                     <Item subMenuId="tools-md5" name="MD5"/>
                     <Item subMenuId="tools-sha256" name="SHA-256"/>
-                    <Item subMenuId="window-sortby" name="Sort By"/> <!-- #new v8.3.2 -->
+                    <Item subMenuId="window-sortby" name="排次序"/> <!-- #new v8.3.2 -->
                 </SubEntries>
 
                 <!-- all menu item -->
@@ -426,15 +426,15 @@
                     <Item id="48017" name="修改快捷鍵或者剷走執行指令..."/>
 
                     <!-- type: Window menu -->
-                    <Item id="11001" name="&amp;Windows..."/> <!-- #new v8.3.2 -->
-                    <Item id="11002" name="Name A to Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11003" name="Name Z to A"/> <!-- #new v8.3.2 -->
-                    <Item id="11004" name="Path A to Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11005" name="Path Z to A"/> <!-- #new v8.3.2 -->
-                    <Item id="11006" name="Type A to Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11007" name="Type Z to A"/> <!-- #new v8.3.2 -->
-                    <Item id="11008" name="Size Smaller to Larger"/> <!-- #new v8.3.2 -->
-                    <Item id="11009" name="Size Larger to Smaller"/> <!-- #new v8.3.2 -->
+                    <Item id="11001" name="視窗(&amp;W)..."/> <!-- #new v8.3.2 -->
+                    <Item id="11002" name="檔名 A 至 Z"/> <!-- #new v8.3.2 -->
+                    <Item id="11003" name="檔名 Z 至 A"/> <!-- #new v8.3.2 -->
+                    <Item id="11004" name="路徑 A 至 Z"/> <!-- #new v8.3.2 -->
+                    <Item id="11005" name="路徑 Z 至 A"/> <!-- #new v8.3.2 -->
+                    <Item id="11006" name="副檔名 A 至 Z"/> <!-- #new v8.3.2 -->
+                    <Item id="11007" name="副檔名 Z 至 A"/> <!-- #new v8.3.2 -->
+                    <Item id="11008" name="細至大 size"/> <!-- #new v8.3.2 -->
+                    <Item id="11009" name="大至細 size"/> <!-- #new v8.3.2 -->
                 </Commands>
             </Main>
             <Splitter>
@@ -708,14 +708,14 @@
                     <Item id="44107" name="跳去資料夾工作區"/>
                     <Item id="44109" name="跳去文件清單"/> <!-- #new v8.1.4 -->
                     <Item id="44108" name="跳去函式清單"/>
-                    <Item id="11002" name="Sort By Name A to Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11003" name="Sort By Name Z to A"/> <!-- #new v8.3.2 -->
-                    <Item id="11004" name="Sort By Path A to Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11005" name="Sort By Path Z to A"/> <!-- #new v8.3.2 -->
-                    <Item id="11006" name="Sort By Type A to Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11007" name="Sort By Type Z to A"/> <!-- #new v8.3.2 -->
-                    <Item id="11008" name="Sort By Size Smaller to Larger"/> <!-- #new v8.3.2 -->
-                    <Item id="11009" name="Sort By Size Larger to Smaller"/> <!-- #new v8.3.2 -->
+                    <Item id="11002" name="排次序：檔名 A 至 Z"/> <!-- #new v8.3.2 -->
+                    <Item id="11003" name="排次序：檔名 Z 至 A"/> <!-- #new v8.3.2 -->
+                    <Item id="11004" name="排次序：路徑 A 至 Z"/> <!-- #new v8.3.2 -->
+                    <Item id="11005" name="排次序：路徑 Z 至 A"/> <!-- #new v8.3.2 -->
+                    <Item id="11006" name="排次序：副檔名 A 至 Z"/> <!-- #new v8.3.2 -->
+                    <Item id="11007" name="排次序：副檔名 Z 至 A"/> <!-- #new v8.3.2 -->
+                    <Item id="11008" name="排次序：細至大 size"/> <!-- #new v8.3.2 -->
+                    <Item id="11009" name="排次序：大至細 size"/> <!-- #new v8.3.2 -->
                 </MainCommandNames>
             </ShortcutMapper>
 
