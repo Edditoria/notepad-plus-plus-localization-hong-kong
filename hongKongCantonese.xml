@@ -940,7 +940,7 @@
                 </Global>
 
                 <Scintillas title="編輯">
-                    <Item id="6216" name="滑鼠浮標設定"/>
+                    <Item id="6216" name="浮標設定"/>
                     <Item id="6217" name="闊度："/>
                     <Item id="6219" name="眨嘅頻率："/>
                     <Item id="6221" name="快"/>
