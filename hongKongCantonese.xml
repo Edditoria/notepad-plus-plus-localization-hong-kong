@@ -955,7 +955,7 @@
                     <Item id="6215" name="啟用順滑字體"/> <!-- #moved in v7.9.2 -->
                     <Item id="6236" name="轆到超出至最後一行"/> <!-- #moved in v7.9.2 -->
                     <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6245" name="啟用虛位空間浮標"/> <!-- #new v8.3.4 -->
+                    <Item id="6245" name="啟用虛位空間浮標"/> <!-- #new v8.4.0 -->
                 </Scintillas>
 
                 <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
@@ -1432,8 +1432,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <PanelTitle name="函式清單"/>
             <SortTip name="排次序"/>
             <ReloadTip name="Reload"/>
-            <PreferencesTip name="偏好設定"/> <!-- #new v8.3.4 -->
-            <PreferencesInitialSort name="預設以函式名排次序"/> <!-- #new v8.3.4 -->
+            <PreferencesTip name="偏好設定"/> <!-- #new v8.4.0 -->
+            <PreferencesInitialSort name="預設以函式名排次序"/> <!-- #new v8.4.0 -->
         </FunctionList>
         <FolderAsWorkspace>
             <PanelTitle name="資料夾工作區"/>
