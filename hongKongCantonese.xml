@@ -956,11 +956,11 @@
                     <Item id="6236" name="轆到超出至最後一行"/> <!-- #moved in v7.9.2 -->
                     <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #moved in v7.9.2 -->
                     <Item id="6245" name="啟用虛位空間浮標"/> <!-- #new v8.4.0 -->
-                    <Item id="6651" name="Current Line Indicator"/> <!-- #new v8.4.1 -->
-                    <Item id="6652" name="None"/> <!-- #new v8.4.1 -->
-                    <Item id="6653" name="Hightlight Background"/> <!-- #new v8.4.1 -->
-                    <Item id="6654" name="Frame"/> <!-- #new v8.4.1 -->
-                    <Item id="6655" name="Width"/> <!-- #new v8.4.1 -->
+                    <Item id="6651" name="突顯改緊嘢嗰行"/> <!-- #new v8.4.1 -->
+                    <Item id="6652" name="唔搞"/> <!-- #new v8.4.1 -->
+                    <Item id="6653" name="突顯背景顏色"/> <!-- #new v8.4.1 -->
+                    <Item id="6654" name="邊框"/> <!-- #new v8.4.1 -->
+                    <Item id="6655" name="闊度："/> <!-- #new v8.4.1 -->
                 </Scintillas>
 
                 <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
