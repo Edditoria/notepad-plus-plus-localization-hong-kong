@@ -942,6 +942,7 @@
                     <Item id="6219" name="眨嘅頻率："/>
                     <Item id="6221" name="快"/>
                     <Item id="6222" name="慢"/>
+                    <Item id="6246" name="Make current level folding/unfolding commands toggleable"/> <!-- #new #next -->
                     <Item id="6225" name="幾個位置同時改嘢（Ctrl + 撳／撳著滑鼠掣）"/>
                     <Item id="6227" name="自動換行"/> <!-- #moved in v7.9.2 -->
                     <Item id="6228" name="預設"/> <!-- #moved in v7.9.2 -->
