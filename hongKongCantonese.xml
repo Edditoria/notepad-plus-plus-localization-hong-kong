@@ -1118,6 +1118,7 @@
                     <Item id="6903" name="搵完嘢，保持開著個對話框"/>
                     <Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要先做確認"/>
                     <Item id="6905" name="取代完唔好跳去另一個關鍵字"/> <!-- #new v7.9.6 -->
+                    <Item id="6906" name="Search Result window: show only one entry per found line (not applied to RTL mode)"/> <!-- #new #next -->
                 </Searching>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
