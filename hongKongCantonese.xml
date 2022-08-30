@@ -1118,12 +1118,15 @@
                 </Print>
 
                 <Searching title="搵嘢">
-                    <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/>
+                    <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- #legacy v8.4.4 -->
                     <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
                     <Item id="6903" name="搵完嘢，保持開著個對話框"/>
                     <Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要先做確認"/>
                     <Item id="6905" name="取代完唔好跳去另一個關鍵字"/> <!-- #new v7.9.6 -->
                     <Item id="6906" name="搜尋結果視窗：一行顯示唔重複"/> <!-- #new v8.4.3 -->
+                    <Item id="6907" name="When Find Dialog is Invoked"/> <!-- #new #next -->
+                    <Item id="6908" name="Fill Find Field with Selected Text"/> <!-- #new #next -->
+                    <Item id="6909" name="Select Word Under Caret when Nothing Selected"/> <!-- #new #next -->
                 </Searching>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
