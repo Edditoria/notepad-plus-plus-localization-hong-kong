@@ -27,7 +27,7 @@
                 <!-- Sub Menu Entries -->
                 <SubEntries>
                     <Item subMenuId="file-openFolder" name="打開檔案嘅資料夾(&amp;F)"/>
-                    <Item subMenuId="file-closeMore" name="閂咁啲檔案(&amp;M)"/> <!-- #review "Close &amp;Multiple Documents" -->
+                    <Item subMenuId="file-closeMore" name="閂咁啲檔案(&amp;M)"/>
                     <Item subMenuId="file-recentFiles" name="最近用過嘅檔案"/>
                     <Item subMenuId="edit-insert" name="插入"/> <!-- #new v8.1.4 -->
                     <Item subMenuId="edit-copyToClipboard" name="抄去剪貼簿(&amp;Y)"/>
@@ -52,8 +52,8 @@
                     <Item subMenuId="view-zoom" name="Zoom"/>
                     <Item subMenuId="view-moveCloneDocument" name="搬/抄呢個檔案"/>
                     <Item subMenuId="view-tab"  name="Tabs"/>
-                    <Item subMenuId="view-collapseLevel" name="摺埋第 X 層"/> <!-- #review "Collapse -> Fold Level" -->
-                    <Item subMenuId="view-uncollapseLevel" name="展開第 X 層"/> <!-- #review "Uncollapse -> Unfold Level" -->
+                    <Item subMenuId="view-collapseLevel" name="摺埋第 X 層"/>
+                    <Item subMenuId="view-uncollapseLevel" name="展開第 X 層"/>
                     <Item subMenuId="view-project" name="Project"/>
                     <Item subMenuId="encoding-characterSets"  name="字元集"/>
                     <Item subMenuId="encoding-arabic"  name="阿拉伯文"/>
@@ -196,11 +196,11 @@
 
                     <!-- type: Edit menu (cont'd) -->
                     <Item id="42028" name="將檔案 &amp;set 做唯讀"/>
-                    <Item id="42029" name="檔案路徑 → 剪貼簿"/> <!-- #review "Copy Current File Path" -->
-                    <Item id="42030" name="檔名 → 剪貼簿"/> <!-- #review "Copy Current Filename" -->
-                    <Item id="42031" name="資料夾路徑 → 剪貼簿"/> <!-- #review "Copy Current Dir. Path" -->
-                    <Item id="42087" name="所有檔名 → 剪貼簿"/> <!-- #new v8.2.1 --> <!-- #review "Copy All Filenames" -->
-                    <Item id="42088" name="所有檔案路徑 → 剪貼簿"/> <!-- #new v8.2.1 --> <!-- #review "Copy All File Paths" -->
+                    <Item id="42029" name="抄低個檔案路徑"/>
+                    <Item id="42030" name="抄低個檔名"/>
+                    <Item id="42031" name="抄低個資料夾路徑"/>
+                    <Item id="42087" name="抄低所有檔名"/> <!-- #new v8.2.1 -->
+                    <Item id="42088" name="抄低所有檔案路徑"/> <!-- #new v8.2.1 -->
 
                     <!-- type: Macro menu (cont'd) -->
                     <Item id="42032" name="係咁執行 mac&amp;ro..."/>
@@ -297,8 +297,8 @@
                     <Item id="44025" name="顯示空格同 tab"/>
                     <Item id="44026" name="顯示 EOL 字元 (End of Line)"/>
                     <Item id="44029" name="展開所有層級"/>
-                    <Item id="44030" name="摺埋呢層"/> <!-- #review "Collapse -> Fold Current Level" -->
-                    <Item id="44031" name="展開呢層"/> <!-- #review "Uncollapse -> Unfold Current Level" -->
+                    <Item id="44030" name="摺埋呢層"/>
+                    <Item id="44031" name="展開呢層"/>
                     <Item id="44049" name="統計資料..."/>
                     <Item id="44080" name="文件地圖"/>
                     <Item id="44070" name="文件清單"/> <!-- #new v8.1.3 -->
@@ -449,9 +449,9 @@
                 <Item CMID="4" name="Print 出嚟..."/>
                 <Item CMID="5" name="搬呢個檔案去另一邊視窗"/>
                 <Item CMID="6" name="抄呢個檔案去另一邊視窗"/>
-                <Item CMID="7" name="將檔案路徑抄去剪貼簿"/> <!-- #review "Copy Full File Path" -->
-                <Item CMID="8" name="將檔名抄去剪貼簿"/> <!-- #review "Copy Filename" -->
-                <Item CMID="9" name="將資料夾路徑抄去剪貼簿"/> <!-- #review "Copy Current Dir. Path" -->
+                <Item CMID="7" name="抄低個檔案路徑"/>
+                <Item CMID="8" name="抄低個檔名"/>
+                <Item CMID="9" name="抄低個資料夾路徑"/>
                 <Item CMID="10" name="改名..."/>
                 <Item CMID="11" name="掉去垃圾桶"/>
                 <Item CMID="12" name="將檔案 set 做唯讀"/>
@@ -466,17 +466,17 @@
                 <Item CMID="21" name="喺系統預設程式度打開"/>
                 <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
                 <Item CMID="23" name="喺資料夾工作區打開"/> <!-- #new v7.9.1 -->
-                <Item CMID="24" name="Apply Color 1"/> <!-- #new #next -->
-                <Item CMID="25" name="Apply Color 2"/> <!-- #new #next -->
-                <Item CMID="26" name="Apply Color 3"/> <!-- #new #next -->
-                <Item CMID="27" name="Apply Color 4"/> <!-- #new #next -->
-                <Item CMID="28" name="Apply Color 5"/> <!-- #new #next -->
-                <Item CMID="29" name="Remove Color"/> <!-- #new #next -->
-                <Item CMID="30" name="Close Multiple Tabs"/> <!-- #new #next -->
-                <Item CMID="31" name="Open into"/> <!-- #new #next -->
-                <Item CMID="32" name="Copy to Clipboard"/> <!-- #new #next -->
-                <Item CMID="33" name="Move Document"/> <!-- #new #next -->
-                <Item CMID="34" name="Apply Color to Tab"/> <!-- #new #next -->
+                <Item CMID="24" name="加顏色 1"/> <!-- #new #next -->
+                <Item CMID="25" name="加顏色 2"/> <!-- #new #next -->
+                <Item CMID="26" name="加顏色 3"/> <!-- #new #next -->
+                <Item CMID="27" name="加顏色 4"/> <!-- #new #next -->
+                <Item CMID="28" name="加顏色 5"/> <!-- #new #next -->
+                <Item CMID="29" name="唔用顏色"/> <!-- #new #next -->
+                <Item CMID="30" name="閂咁啲 tabs"/> <!-- #new #next -->
+                <Item CMID="31" name="去...打開"/> <!-- #new #next -->
+                <Item CMID="32" name="抄去剪貼簿"/> <!-- #new #next -->
+                <Item CMID="33" name="移動文件"/> <!-- #new #next -->
+                <Item CMID="34" name="幫個 tab 加顏色"/> <!-- #new #next -->
             </TabBar>
         </Menu>
 
@@ -584,7 +584,7 @@
                 <Item id="2"    name="閂"/>
             </SHA256FromTextDlg>
 
-            <PluginsAdminDlg title="外掛管理員" titleAvailable="可安裝" titleUpdates="更新" titleInstalled="已安裝" titleIncompatible="Incompatible"> <!-- #review Added "titleIncompatible" -->
+            <PluginsAdminDlg title="外掛管理員" titleAvailable="可安裝" titleUpdates="更新" titleInstalled="已安裝" titleIncompatible="唔相容">
                 <ColumnPlugin   name="外掛"/>
                 <ColumnVersion  name="版本"/>
                 <Item id="5501" name="搵："/>
@@ -592,8 +592,8 @@
                 <Item id="5504" name="更新"/>
                 <Item id="5505" name="剷走"/>
                 <Item id="5508" name="下一個"/>
-                <Item id="5509" name="Plugin list version: "/> <!-- #new #next -->
-                <Item id="5511" name="Plugin list repository"/> <!-- #new #next -->
+                <Item id="5509" name="外掛清單版本："/> <!-- #new #next -->
+                <Item id="5511" name="外掛清單存儲庫"/> <!-- #new #next -->
                 <Item id="2"    name="閂"/>
             </PluginsAdminDlg>
 
@@ -694,22 +694,22 @@
                     <Item id="44102" name="喺 Edge 度睇呢個檔案"/>
                     <Item id="50003" name="跳去上一份文件"/>
                     <Item id="50004" name="跳去下一份文件"/>
-                    <Item id="44051" name="摺埋第 1 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44052" name="摺埋第 2 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44053" name="摺埋第 3 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44054" name="摺埋第 4 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44055" name="摺埋第 5 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44056" name="摺埋第 6 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44057" name="摺埋第 7 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44058" name="摺埋第 8 層"/> <!-- #review "Collapse -> Fold" -->
-                    <Item id="44061" name="展開第 1 層"/> <!-- #review "Uncollapse -> Unfold" -->
-                    <Item id="44062" name="展開第 2 層"/> <!-- #review "Uncollapse -> Unfold" -->
-                    <Item id="44063" name="展開第 3 層"/> <!-- #review "Uncollapse -> Unfold" -->
-                    <Item id="44064" name="展開第 4 層"/> <!-- #review "Uncollapse -> Unfold" -->
-                    <Item id="44065" name="展開第 5 層"/> <!-- #review "Uncollapse -> Unfold" -->
-                    <Item id="44066" name="展開第 6 層"/> <!-- #review "Uncollapse -> Unfold" -->
-                    <Item id="44067" name="展開第 7 層"/> <!-- #review "Uncollapse -> Unfold" -->
-                    <Item id="44068" name="展開第 8 層"/> <!-- #review "Uncollapse -> Unfold" -->
+                    <Item id="44051" name="摺埋第 1 層"/>
+                    <Item id="44052" name="摺埋第 2 層"/>
+                    <Item id="44053" name="摺埋第 3 層"/>
+                    <Item id="44054" name="摺埋第 4 層"/>
+                    <Item id="44055" name="摺埋第 5 層"/>
+                    <Item id="44056" name="摺埋第 6 層"/>
+                    <Item id="44057" name="摺埋第 7 層"/>
+                    <Item id="44058" name="摺埋第 8 層"/>
+                    <Item id="44061" name="展開第 1 層"/>
+                    <Item id="44062" name="展開第 2 層"/>
+                    <Item id="44063" name="展開第 3 層"/>
+                    <Item id="44064" name="展開第 4 層"/>
+                    <Item id="44065" name="展開第 5 層"/>
+                    <Item id="44066" name="展開第 6 層"/>
+                    <Item id="44067" name="展開第 7 層"/>
+                    <Item id="44068" name="展開第 8 層"/>
                     <Item id="44081" name="開/閂 Project Panel 1"/>
                     <Item id="44082" name="開/閂 Project Panel 2"/>
                     <Item id="44083" name="開/閂 Project Panel 3"/>
@@ -724,12 +724,12 @@
                     <Item id="44107" name="跳去資料夾工作區"/>
                     <Item id="44109" name="跳去文件清單"/> <!-- #new v8.1.4 -->
                     <Item id="44108" name="跳去函式清單"/>
-                    <Item id="44110" name="Remove Tab Colour"/> <!-- #new #next -->
-                    <Item id="44111" name="Apply Tab Colour 1"/> <!-- #new #next -->
-                    <Item id="44112" name="Apply Tab Colour 2"/> <!-- #new #next -->
-                    <Item id="44113" name="Apply Tab Colour 3"/> <!-- #new #next -->
-                    <Item id="44114" name="Apply Tab Colour 4"/> <!-- #new #next -->
-                    <Item id="44115" name="Apply Tab Colour 5"/> <!-- #new #next -->
+                    <Item id="44110" name="剷走 tab 嘅顏色"/> <!-- #new #next -->
+                    <Item id="44111" name="幫個 tab 加顏色 1"/> <!-- #new #next -->
+                    <Item id="44112" name="幫個 tab 加顏色 2"/> <!-- #new #next -->
+                    <Item id="44113" name="幫個 tab 加顏色 3"/> <!-- #new #next -->
+                    <Item id="44114" name="幫個 tab 加顏色 4"/> <!-- #new #next -->
+                    <Item id="44115" name="幫個 tab 加顏色 5"/> <!-- #new #next -->
                     <Item id="11002" name="排次序：檔名 A 至 Z"/> <!-- #new v8.3.2 -->
                     <Item id="11003" name="排次序：檔名 Z 至 A"/> <!-- #new v8.3.2 -->
                     <Item id="11004" name="排次序：路徑 A 至 Z"/> <!-- #new v8.3.2 -->
@@ -1016,7 +1016,7 @@
                 </DarkMode>
 
                 <MarginsBorderEdge title="邊界／邊框／邊緣線">
-                    <Item id="6201" name="摺疊符號風格"/> <!-- #review "Folder Margin Style" -> "Fold Margin Style" -->
+                    <Item id="6201" name="摺疊符號風格"/>
                     <Item id="6202" name="精簡"/>
                     <Item id="6203" name="箭嘴"/>
                     <Item id="6204" name="圓形"/>
@@ -1472,8 +1472,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
         <FolderAsWorkspace>
             <PanelTitle name="資料夾工作區"/>
             <SelectFolderFromBrowserString name="揀個資料夾嚟加入去資料夾工作區"/>
-            <ExpandAllFoldersTip name="展開所有資料夾"/> <!-- #new v7.9.2 --> <!-- #review "Expand all folders" -> "Unfold all" -->
-            <CollapseAllFoldersTip name="摺埋所有資料夾"/> <!-- #new v7.9.2 --> <!-- #review ""Collapse all folders"" -> "Fold all" -->
+            <ExpandAllFoldersTip name="展開所有資料夾"/> <!-- #new v7.9.2 -->
+            <CollapseAllFoldersTip name="摺埋所有資料夾"/> <!-- #new v7.9.2 -->
             <LocateCurrentFileTip name="定位檔案"/> <!-- #new v7.9.2 -->
             <Menus>
                 <Item id="3511" name="剷走"/>
@@ -1599,8 +1599,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <find-status-scope-forward value="（由滑鼠浮標位置到檔尾）"/>
             <finder-find-in-finder value="喺搜尋結果再搵..."/>
             <finder-close-this value="將呢啲搜尋結果閂埋佢"/>
-            <finder-collapse-all value="摺埋所有層級"/> <!-- #review "Collapse all" -> "Fold all" -->
-            <finder-uncollapse-all value="展開所有層級"/> <!-- #review "Uncollapse all" -> "Unfold all" -->
+            <finder-collapse-all value="摺埋所有層級"/>
+            <finder-uncollapse-all value="展開所有層級"/>
             <finder-copy value="抄低呢（幾）行"/>
             <finder-copy-verbatim value="抄"/> <!-- #new v7.9.2 -->
             <finder-copy-paths value="抄低檔案路徑"/> <!-- #new v7.9.6 -->
