@@ -1229,14 +1229,14 @@
 
                 <Performance title="性能"> <!-- #new #next -->
                     <Item id="7141" name="大型檔案限制"/> <!-- #new #next -->
-                    <Item id="7142" name="開大檔案嗰陣時，會閂咁啲功能嚟將就吓個效能，你可以喺呢度做設定。"/> <!-- #new #next -->
-                    <Item id="7143" name="啟用大型檔案限制"/> <!-- #new #next -->
+                    <Item id="7143" name="啟用大型檔案限制"/> <!-- #new #next --> <!-- #update added "(no syntax highlighting)" -->
                     <Item id="7144" name="定義大檔案 size："/> <!-- #new #next -->
                     <Item id="7146" name="MB   (1 - 4096)"/> <!-- #new #next -->
                     <Item id="7147" name="容許顯示對應括號"/> <!-- #new #next -->
                     <Item id="7148" name="容許自動完成功能"/> <!-- #new #next -->
                     <Item id="7149" name="容許醒目提示功能"/> <!-- #new #next -->
-                    <Item id="7150" name="容許自動換行功能"/> <!-- #new #next -->
+                    <Item id="7150" name="容許自動換行功能"/> <!-- #new #next --> <!-- #update to:"Deactivate Word Wrap globally" -->
+                    <Item id="7151" name="Allow URL Clickable Link"/> <!-- #new #next -->
                 </Performance>
 
                 <Cloud title="雲端同埋連結">
@@ -1683,8 +1683,12 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <contextMenu-styleOneToken value="標記一次" /> <!-- #new v8.2.1 -->
             <contextMenu-clearStyle value="清除風格標記" /> <!-- #new v8.2.1 -->
             <contextMenu-PluginCommands value="外掛指令" /> <!-- #new v8.2.1 --> <!-- #legacy v8.4.6 -->
-            <enable-disable-largeFileRestriction-tip value="切換「啟動大型檔案限制」之後，要閂咗個檔案再重新開過，咁先至會生效" /> <!-- #new #next -->
-            <change-largeFileRestriction_fileLength-tip value="修改檔案 size 數值之後，要閂咗個檔案再重新開過，咁先至會生效" /> <!-- #new #next -->
+            <largeFileRestriction-tip value="Some features may slow performance in large files. These features can be auto-disabled on opening a large file. You can customize them here.
+
+NOTE:
+1. Modifying options here requires re-open currently opened large files to get proper behavior.
+
+2. If &quot;Deactivate Word Wrap globally&quot; is checked and you open a large file, &quot;Word Wrap&quot; will be disabled for all files. You can re-enable it via menu &quot;View-&gt;Word Wrap&quot;." /> <!-- #new #next -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
