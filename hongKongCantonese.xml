@@ -1682,7 +1682,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <contextMenu-styleAlloccurrencesOfToken value="成份文件咁做標記" /> <!-- #new v8.2.1 -->
             <contextMenu-styleOneToken value="標記一次" /> <!-- #new v8.2.1 -->
             <contextMenu-clearStyle value="清除風格標記" /> <!-- #new v8.2.1 -->
-            <contextMenu-PluginCommands value="外掛指令" /> <!-- #new v8.2.1 --> <!-- #legacy v8.4.6 -->
+            <contextMenu-PluginCommands value="外掛指令" /> <!-- #new v8.2.1 -->
             <largeFileRestriction-tip value="開大型檔案嗰陣，某啲功能可能會軟件令性能降低，Notepad++ 會將就吓自動閂咁啲，你可以喺呢度做設定。
 
 注意：
