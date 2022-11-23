@@ -999,7 +999,7 @@
                     <Item id="7101" name="啟用 dark mode"/> <!-- #legacy v8.4.7 -->
                     <Item id="7131" name="Light mode"/> <!-- #new #next -->
                     <Item id="7132" name="Dark mode"/> <!-- #new #next -->
-                    <Item id="7133" name="Follow Windows"/> <!-- #new #next -->
+                    <Item id="7133" name="跟返 Windows"/> <!-- #new #next -->
                     <Item id="7102" name="黑色"/> <!-- #new v8.1.2 -->
                     <Item id="7103" name="紅色"/> <!-- #new v8.1.2 -->
                     <Item id="7104" name="綠色"/> <!-- #new v8.1.2 -->
@@ -1640,7 +1640,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <splitter-rotate-left value="向左旋轉"/> <!-- #new v7.9.4 -->
             <splitter-rotate-right value="向右旋轉"/> <!-- #new v7.9.4 -->
             <recent-file-history-maxfile value="檔案數量："/>
-            <recent-file-history-customlength value="Length: "/> <!-- #new #next -->
+            <recent-file-history-customlength value="長度："/> <!-- #new #next -->
             <language-tabsize value="縮排大細："/>
             <userdefined-title-new value="開新語言..."/>
             <userdefined-title-save value="另 Save 而家個語言名..."/>
