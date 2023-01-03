@@ -168,7 +168,7 @@
                     <Item id="42042" name="剔走行前啲空格同埋 tab"/>
                     <Item id="42043" name="剔走呢行頭尾啲空格同埋 tab"/>
                     <Item id="42044" name="EOL → 空格"/>
-                    <Item id="42045" name="剷走冇用嘅空格同埋 EOL"/>
+                    <Item id="42045" name="剷走冇用嘅空格同埋 EOL"/> <!-- #next #review -->
                     <Item id="42046" name="Tab → 空格"/>
                     <Item id="42054" name="空格 → tab（成份檔案）"/>
                     <Item id="42053" name="空格 → tab（淨係行首）"/>
@@ -1245,7 +1245,7 @@
                 </AutoCompletion>
 
                 <MultiInstance title="程式個體／插入時間">
-                    <Item id="6151" name="多重程式個體設定 (multi-instance)"/>
+                    <Item id="6151" name="多重程式個體設定 (multi-instance)"/> <!-- #next #review -->
                     <Item id="6152" name="打開工作階段嗰陣時，開新嘅程式個體（閂佢會自動 save）"/>
                     <Item id="6153" name="幾時都以多重程式個體模式運作"/>
                     <Item id="6154" name="預設（單一程式個體）"/>
@@ -1253,6 +1253,16 @@
                     <Item id="6171" name="自訂日期時間插入功能"/> <!-- #new v8.1.5 -->
                     <Item id="6175" name="將日期同埋時間調轉（插入完整/簡短日期時間功能）"/> <!-- #new v8.1.5 -->
                     <Item id="6172" name="自訂格式："/> <!-- #new v8.1.5 -->
+                    <Item id="6181" name="Panel State and [-nosession] *"/> <!-- #new #next -->
+                    <Item id="6182" name="Remember panel state (panel is open) in other instances (multi-instance mode) or when using command line parameter [-nosession]"/> <!-- #new #next -->
+                    <Item id="6183" name="Clipboard History"/> <!-- #new #next -->
+                    <Item id="6184" name="Document List"/> <!-- #new #next -->
+                    <Item id="6185" name="Character Panel"/> <!-- #new #next -->
+                    <Item id="6186" name="Folder as Workspace"/> <!-- #new #next -->
+                    <Item id="6187" name="Project Panels"/> <!-- #new #next -->
+                    <Item id="6188" name="Document Map"/> <!-- #new #next -->
+                    <Item id="6189" name="Function List"/> <!-- #new #next -->
+                    <Item id="6190" name="Plugin Panels"/> <!-- #new #next -->
                 </MultiInstance>
 
                 <Delimiter title="分隔符號">
