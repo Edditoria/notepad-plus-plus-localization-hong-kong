@@ -448,41 +448,77 @@
             <Splitter>
             </Splitter>
             <TabBar>
-                <Item CMID="0" name="閂埋呢個檔案"/>
-                <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/>
-                <Item CMID="2" name="Save"/>
-                <Item CMID="3" name="Save 做新檔案..."/>
-                <Item CMID="4" name="Print 出嚟..."/>
-                <Item CMID="5" name="搬呢個檔案去另一邊視窗"/>
-                <Item CMID="6" name="抄呢個檔案去另一邊視窗"/>
-                <Item CMID="7" name="抄低個檔案路徑"/>
-                <Item CMID="8" name="抄低個檔名"/>
-                <Item CMID="9" name="抄低個資料夾路徑"/>
-                <Item CMID="10" name="改名..."/>
-                <Item CMID="11" name="掉去垃圾桶"/>
-                <Item CMID="12" name="將檔案 set 做唯讀"/>
-                <Item CMID="13" name="取消唯讀屬性"/>
-                <Item CMID="14" name="搬呢個檔案去新視窗"/>
-                <Item CMID="15" name="抄呢個檔案去新視窗"/>
-                <Item CMID="16" name="喺磁碟重新 load 過"/>
-                <Item CMID="17" name="閂晒左邊所有檔案"/>
-                <Item CMID="18" name="閂晒右邊所有檔案"/>
-                <Item CMID="19" name="喺檔案總管打開檔案嘅資料夾"/>
-                <Item CMID="20" name="喺 CMD 打開檔案嘅資料夾"/>
-                <Item CMID="21" name="喺系統預設程式度打開"/>
-                <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
-                <Item CMID="23" name="喺資料夾工作區打開"/> <!-- #new v7.9.1 -->
-                <Item CMID="24" name="加顏色 1"/> <!-- #new v8.4.6 -->
-                <Item CMID="25" name="加顏色 2"/> <!-- #new v8.4.6 -->
-                <Item CMID="26" name="加顏色 3"/> <!-- #new v8.4.6 -->
-                <Item CMID="27" name="加顏色 4"/> <!-- #new v8.4.6 -->
-                <Item CMID="28" name="加顏色 5"/> <!-- #new v8.4.6 -->
-                <Item CMID="29" name="唔用顏色"/> <!-- #new v8.4.6 -->
-                <Item CMID="30" name="閂咁啲 tabs"/> <!-- #new v8.4.6 -->
-                <Item CMID="31" name="去...打開"/> <!-- #new v8.4.6 -->
-                <Item CMID="32" name="抄去剪貼簿"/> <!-- #new v8.4.6 -->
-                <Item CMID="33" name="移動文件"/> <!-- #new v8.4.6 -->
-                <Item CMID="34" name="幫個 tab 加顏色"/> <!-- #new v8.4.6 -->
+                <Item CMID="0" name="閂埋呢個檔案"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="2" name="Save"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="3" name="Save 做新檔案..."/> <!-- #legacy v8.4.7 -->
+                <Item CMID="4" name="Print 出嚟..."/> <!-- #legacy v8.4.7 -->
+                <Item CMID="5" name="搬呢個檔案去另一邊視窗"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="6" name="抄呢個檔案去另一邊視窗"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="7" name="抄低個檔案路徑"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="8" name="抄低個檔名"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="9" name="抄低個資料夾路徑"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="10" name="改名..."/> <!-- #legacy v8.4.7 -->
+                <Item CMID="11" name="掉去垃圾桶"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="12" name="將檔案 set 做唯讀"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="13" name="取消唯讀屬性"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="14" name="搬呢個檔案去新視窗"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="15" name="抄呢個檔案去新視窗"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="16" name="喺磁碟重新 load 過"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="17" name="閂晒左邊所有檔案"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="18" name="閂晒右邊所有檔案"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="19" name="喺檔案總管打開檔案嘅資料夾"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="20" name="喺 CMD 打開檔案嘅資料夾"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="21" name="喺系統預設程式度打開"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/> <!-- #legacy v8.4.7 -->
+                <Item CMID="23" name="喺資料夾工作區打開"/> <!-- #new v7.9.1 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="24" name="加顏色 1"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="25" name="加顏色 2"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="26" name="加顏色 3"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="27" name="加顏色 4"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="28" name="加顏色 5"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="29" name="唔用顏色"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="30" name="閂咁啲 tabs"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="31" name="去...打開"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="32" name="抄去剪貼簿"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="33" name="移動文件"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="34" name="幫個 tab 加顏色"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+
+                <Item CMDID="41003" name="Close"/> <!-- #new #next -->
+                <Item CMDID="0" name="Close Multiple Tabs"/> <!-- #new #next -->
+                <Item CMDID="41005" name="Close All BUT This"/> <!-- #new #next -->
+                <Item CMDID="41009" name="Close All to the Left"/> <!-- #new #next -->
+                <Item CMDID="41018" name="Close All to the Right"/> <!-- #new #next -->
+                <Item CMDID="41024" name="Close All Unchanged"/> <!-- #new #next -->
+                <Item CMDID="41006" name="Save"/> <!-- #new #next -->
+                <Item CMDID="41008" name="Save As..."/> <!-- #new #next -->
+                <Item CMDID="1" name="Open into"/> <!-- #new #next -->
+                <Item CMDID="41019" name="Open Containing Folder in Explorer"/> <!-- #new #next -->
+                <Item CMDID="41020" name="Open Containing Folder in cmd"/> <!-- #new #next -->
+                <Item CMDID="41025" name="Open Containing Folder as Workspace"/> <!-- #new #next -->
+                <Item CMDID="41023" name="Open in Default Viewer"/> <!-- #new #next -->
+                <Item CMDID="41017" name="Rename..."/> <!-- #new #next -->
+                <Item CMDID="41016" name="Move to Recycle Bin"/> <!-- #new #next -->
+                <Item CMDID="41014" name="Reload"/> <!-- #new #next -->
+                <Item CMDID="41010" name="Print..."/> <!-- #new #next -->
+                <Item CMDID="42028" name="Read-Only"/> <!-- #new #next -->
+                <Item CMDID="42033" name="Clear Read-Only Flag"/> <!-- #new #next -->
+                <Item CMDID="2" name="Copy to Clipboard"/> <!-- #new #next -->
+                <Item CMDID="42029" name="Copy Full File Path"/> <!-- #new #next -->
+                <Item CMDID="42030" name="Copy Filename"/> <!-- #new #next -->
+                <Item CMDID="42031" name="Copy Current Dir. Path"/> <!-- #new #next -->
+                <Item CMDID="3" name="Move Document"/> <!-- #new #next -->
+                <Item CMDID="10001" name="Move to Other View"/> <!-- #new #next -->
+                <Item CMDID="10002" name="Clone to Other View"/> <!-- #new #next -->
+                <Item CMDID="10003" name="Move to New Instance"/> <!-- #new #next -->
+                <Item CMDID="10004" name="Open in New Instance"/> <!-- #new #next -->
+                <Item CMDID="4" name="Apply Color to Tab"/> <!-- #new #next -->
+                <Item CMDID="44111" name="Apply Color 1"/> <!-- #new #next -->
+                <Item CMDID="44112" name="Apply Color 2"/> <!-- #new #next -->
+                <Item CMDID="44113" name="Apply Color 3"/> <!-- #new #next -->
+                <Item CMDID="44114" name="Apply Color 4"/> <!-- #new #next -->
+                <Item CMDID="44115" name="Apply Color 5"/> <!-- #new #next -->
+                <Item CMDID="44110" name="Remove Color"/> <!-- #new #next -->
             </TabBar>
         </Menu>
 
@@ -1455,6 +1491,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 係咪繼續？"/>
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/>
             <ChangeHistoryEnabledWarning title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至會顯示修改紀錄。"/> <!-- #new v8.4.6 -->
+            <WindowsSessionExit title="Notepad++ - Windows session exit" message="Windows session is about to be terminated but you have some data unsaved. Do you want to exit Notepad++ now?"/> <!-- #new #next -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
