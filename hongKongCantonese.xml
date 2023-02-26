@@ -118,7 +118,7 @@
                     <Item id="42006" name="剷(&amp;D)"/>
                     <Item id="42007" name="揀晒(&amp;S)"/>
                     <Item id="42020" name="開始揀/揀完(&amp;S)"/>
-                    <Item id="42089" name="Begin/End Select in Column Mode"/> <!-- #new #next -->
+                    <Item id="42089" name="開始揀/揀完（欄位模式）"/> <!-- #new #next -->
                     <Item id="42084" name="日期時間（簡短）"/> <!-- #new v8.1.4 -->
                     <Item id="42085" name="日期時間（完整）"/> <!-- #new v8.1.4 -->
                     <Item id="42086" name="日期時間（自訂）"/> <!-- #new v8.1.5 -->
@@ -228,7 +228,7 @@
                     <Item id="43019" name="抄低書籤嗰幾行"/>
                     <Item id="43020" name="貼去兼取代書籤嗰幾行"/>
                     <Item id="43021" name="剷走書籤嗰幾行"/>
-                    <Item id="43051" name="剷走冇書籤標記嗰幾行"/> <!-- #next #review -->
+                    <Item id="43051" name="剷走冇書籤標記嗰幾行"/>
                     <Item id="43050" name="反向標記書籤"/>
                     <Item id="43052" name="以字元編號搵字元(&amp;E)..."/>
                     <Item id="43053" name="揀選括號之間全部字元(&amp;M)"/>
@@ -295,7 +295,7 @@
                     <Item id="44022" name="自動換行"/>
                     <Item id="44023" name="放大(&amp;I)"/>
                     <Item id="44024" name="縮細(&amp;O)"/>
-                    <Item id="44025" name="顯示空格同 tab"/> <!-- #next #review -->
+                    <Item id="44025" name="顯示各種空格同 tab"/>
                     <Item id="44026" name="顯示 EOL 字元 (End of Line)"/>
                     <Item id="44029" name="展開所有層級"/>
                     <Item id="44030" name="摺埋呢層"/>
@@ -325,7 +325,7 @@
                     <Item id="44113" name="加顏色 3"/> <!-- #new v8.4.6 -->
                     <Item id="44114" name="加顏色 4"/> <!-- #new v8.4.6 -->
                     <Item id="44115" name="加顏色 5"/> <!-- #new v8.4.6 -->
-                    <Item id="44130" name="Show Non-Printing Characters"/> <!-- #new #next -->
+                    <Item id="44130" name="顯示非打印字符"/> <!-- #new #next -->
                     <Item id="44032" name="全螢幕模式"/>
                     <Item id="44033" name="回復預設 zoom 大細"/>
                     <Item id="44034" name="保持最上層"/>
@@ -690,20 +690,20 @@
                 <ScintillaCommandsTab name="Scintilla 指令"/>
                 <ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
                 <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
-                <WindowCategory name="Window"/> <!-- #new #next -->
-                <FileCategory name="File"/> <!-- #new #next -->
-                <EditCategory name="Edit"/> <!-- #new #next -->
-                <SearchCategory name="Search"/> <!-- #new #next -->
-                <ViewCategory name="View"/> <!-- #new #next -->
-                <FormatCategory name="Format"/> <!-- #new #next -->
-                <LangCategory name="Lang"/> <!-- #new #next -->
-                <AboutCategory name="About"/> <!-- #new #next -->
-                <SettingCategory name="Setting"/> <!-- #new #next -->
-                <ToolCategory name="Tool"/> <!-- #new #next -->
-                <ExecuteCategory name="Execute"/> <!-- #new #next -->
-                <ModifyContextMenu name="Modify"/> <!-- #new #next -->
-                <DeleteContextMenu name="Delete"/> <!-- #new #next -->
-                <ClearContextMenu name="Clear"/> <!-- #new #next -->
+                <WindowCategory name="視窗"/> <!-- #new #next -->
+                <FileCategory name="檔案"/> <!-- #new #next -->
+                <EditCategory name="編輯"/> <!-- #new #next -->
+                <SearchCategory name="搵"/> <!-- #new #next -->
+                <ViewCategory name="睇"/> <!-- #new #next -->
+                <FormatCategory name="編碼"/> <!-- #new #next -->
+                <LangCategory name="語言"/> <!-- #new #next -->
+                <AboutCategory name="關於"/> <!-- #new #next -->
+                <SettingCategory name="設定"/> <!-- #new #next -->
+                <ToolCategory name="架撐"/> <!-- #new #next -->
+                <ExecuteCategory name="執行"/> <!-- #new #next -->
+                <ModifyContextMenu name="修改"/> <!-- #new #next -->
+                <DeleteContextMenu name="剷走"/> <!-- #new #next -->
+                <ClearContextMenu name="清除"/> <!-- #new #next -->
                 <MainCommandNames>
                     <Item id="41019" name="喺檔案總管打開檔案嘅資料夾"/>
                     <Item id="41020" name="喺 CMD 打開檔案嘅資料夾"/>
@@ -822,7 +822,7 @@
                 <Item id="20011" name="透明度"/>
                 <Item id="20015" name="匯入..."/>
                 <Item id="20016" name="匯出..."/>
-                <Item id="20017" name="Undock"/> <!-- #new #next -->
+                <Item id="20017" name="唔靠邊"/> <!-- #new #next -->
 
                 <StylerDialog title="樣式對話框">
                     <Item id="25030" name="字型選項："/>
@@ -1046,10 +1046,10 @@
                     <Item id="6248" name="預設"/> <!-- #new v8.4.3 -->
                     <Item id="6249" name="純文字"/> <!-- #new v8.4.3 -->
                     <Item id="6250" name="自訂顏色"/> <!-- #new v8.4.3 -->
-                    <Item id="6252" name="Non-Printing Characters"/> <!-- #new #next -->
-                    <Item id="6254" name="Abbreviation"/> <!-- #new #next -->
-                    <Item id="6255" name="Codepoint"/> <!-- #new #next -->
-                    <Item id="6256" name="Custom Color"/> <!-- #new #next -->
+                    <Item id="6252" name="非打印字符"/> <!-- #new #next -->
+                    <Item id="6254" name="Abbreviation"/> <!-- #new #next #review commit aaab190 -->
+                    <Item id="6255" name="Codepoint"/> <!-- #new #next #review commit aaab190 -->
+                    <Item id="6256" name="自訂顏色"/> <!-- #new #next -->
                 </Scintillas>
 
                 <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
@@ -1255,7 +1255,7 @@
                     <Item id="6811" name="由第"/>
                     <Item id="6813" name="個字元開始"/>
                     <Item id="6814" name="有效值：1 - 9"/> <!-- #legacy v8.4.9 -->
-                    <Item id="6872" name="Make auto-completion list brief"/> <!-- #new #next -->
+                    <Item id="6872" name="簡化自動完成清單"/> <!-- #new #next -->
                     <Item id="6815" name="打字嗰陣顯示函式參數提示"/>
                     <Item id="6851" name="自動補齊"/>
                     <Item id="6857" name="HTML/XML 結束 tag"/>
@@ -1455,19 +1455,16 @@
             <DroppingFolderAsProjectModeWarning title="操作無效" message="由於你喺「偏好設定：預設資料夾」閂咗「拖放資料夾去視窗嗰陣，會打開資料夾裏面所有檔案，而唔係放入去資料夾工作區」呢個選項，你只能夠拖放文件或者資料夾其中一種。
 有需要就啟用呢個選項，然後再試一次。"/>
             <SortingError title="排次序出錯" message="第 $INT_REPLACE$ 行出問題，無法子以整數排次序。"/>
-            <ColumnModeTip title="欄位模式" message="貼士：用「Alt + 滑鼠拖拉揀選」或者「Alt + Shift + keyboard 方向掣」嚟切換去欄位模式。"/>
-            <!-- #review update ColumnModeTip: message="
-There are 3 ways to switch to column-select mode:
+            <ColumnModeTip title="欄位模式" message="
+有三種方法切換去欄位模式：
 
-1. (Keyboard and Mouse)  Hold Alt while left-click dragging
+1. （鍵盤加滑鼠）撳著鍵盤 Alt 掣，再撳著滑鼠左掣嚟拖拉
 
-2. (Keyboard only)  Hold Alt+Shift while using arrow keys
+2. （只用鍵盤）撳著鍵盤 Alt + Shift 掣，再撳方向掣
 
-3. (Keyboard or Mouse)
-      Put caret at desired start of column block position, then
-       execute &quot;Begin/End Select in Column Mode&quot; command;
-      Move caret to desired end of column block position, then
-       execute &quot;Begin/End Select in Column Mode&quot; command again" -->
+3. （鍵盤或者滑鼠）
+    浮標喺某個位置，執行「開始揀/揀完（欄位模式）」指令，作為開始。
+    然後移動浮標到另一個位置，再次執行「開始揀/揀完（欄位模式）」指令，作為結束。"/>
             <BufferInvalidWarning title="Save 失敗" message="Save 唔到：緩衝區無效。"/>
             <DoCloseOrNot title="保留唔存在嘅文件" message="個檔案「$STR_REPLACE$」已經唔存在喇。
 仲使唔使 keep 著呢個檔案呢？"/>
@@ -1498,8 +1495,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/>
             <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/>
             <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/>
-            <OpenFileNoFolderError title="Cannot open file" message="&quot;$STR_REPLACE1$&quot; cannot be opened:
-Folder &quot;$STR_REPLACE2$&quot; doesn't exist."/> <!-- #new #next -->
+            <OpenFileNoFolderError title="開唔到檔案" message="打唔開個檔案「$STR_REPLACE1$」：
+資料夾「$STR_REPLACE2$」唔存在。"/> <!-- #new #next -->
             <FileBackupFailed title="檔案備份失敗" message="備份資料夾「$STR_REPLACE$」存唔到個檔案嘅過往版本。
 
 仲使唔使 save 呢個檔案呢？"/>
@@ -1539,9 +1536,9 @@ Folder &quot;$STR_REPLACE2$&quot; doesn't exist."/> <!-- #new #next -->
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/>
             <ChangeHistoryEnabledWarning title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至會顯示修改紀錄。"/> <!-- #new v8.4.6 -->
             <WindowsSessionExit title="Notepad++ - Windows 工作階段結束" message="Windows 工作階段即將結束，但係你有啲資料未 save，係咪真係就咁閂埋 Notepad++ 佢？"/> <!-- #new v8.4.8 -->
-            <LanguageMenuCompactWarning title="Compact Language Menu" message="This option will be changed on the next launch."/> <!-- #new #next -->
-            <SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="Unsaved changes are about to be discarded!
-Do you want to save your changes before switching themes?"/> <!-- #new #next -->
+            <LanguageMenuCompactWarning title="簡化程式語言 menu" message="呢個選項會喺下次開程式嗰陣搞。"/> <!-- #new #next -->
+            <SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="未 save 喎！咁樣會捨棄晒啲改過嘅設定。
+換主題之前使唔使 save 咗佢先啊？"/> <!-- #new #next -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
@@ -1551,7 +1548,7 @@ Do you want to save your changes before switching themes?"/> <!-- #new #next -->
             <ColumnName name="檔名"/>
             <ColumnExt name="副檔名"/>
             <ColumnPath name="路徑"/> <!-- #new v8.1.5 -->
-            <ListGroups name="Group by View"/> <!-- #new #next -->
+            <ListGroups name="分類檢視"/> <!-- #new #next -->
         </DocList>
         <WindowsDlg>
             <ColumnName name="檔名"/>
@@ -1746,8 +1743,8 @@ Do you want to save your changes before switching themes?"/> <!-- #new #next -->
             <summary-nbsel1 value=" 個揀咗嘅字元（"/>
             <summary-nbsel2 value=" bytes），揀咗 "/>
             <summary-nbrange value=" 個範圍數"/>
-            <progress-cancel-button value="Cancel"/> <!-- #new #next -->
-            <progress-cancel-info value="Cancelling operation, please wait..."/> <!-- #new #next -->
+            <progress-cancel-button value="取消"/> <!-- #new #next -->
+            <progress-cancel-info value="取消緊，唔該等一陣..."/> <!-- #new #next -->
             <find-in-files-progress-title value="等我搵搵先啊吓，幫緊你幫緊你..."/> <!-- #new v7.9.3 -->
             <replace-in-files-confirm-title value="係咪真係先？"/>
             <replace-in-files-confirm-directory value="係咪真係要喺呢度執行取代："/>
@@ -1792,24 +1789,24 @@ Using representation will disable character effects on text.
 
 For the full list of selected whitespace and non-printing characters check User Manual.
 
-Click on this button to open website with User Manual." /> <!-- #new #next -->
+Click on this button to open website with User Manual." /> <!-- #new #next #review commit aaab190 -->
             <npcAbbreviation-tip value="Abbreviation : name
 NBSP : no-break space
 ZWSP : zero-width space
 ZWNBSP : zero-width no-break space
 
 For the full list check User Manual.
-Click on &quot;?&quot; button on right to open website with User Manual." /> <!-- #new #next -->
+Click on &quot;?&quot; button on right to open website with User Manual." /> <!-- #new #next #review commit aaab190 -->
             <npcCodepoint-tip value="Codepoint : name
 U+00A0 : no-break space
 U+200B : zero-width space
 U+FEFF : zero-width no-break space
 
 For the full list check User Manual.
-Click on &quot;?&quot; button on right to open website with User Manual." /> <!-- #new #next -->
+Click on &quot;?&quot; button on right to open website with User Manual." /> <!-- #new #next #review commit aaab190 -->
 
-            <!-- Don't translate "(&quot;Non-printing characters custom color&quot;)" -->
-            <npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)." /> <!-- #new #next -->
+            <!-- 唔好翻譯「(&quot;Non-printing characters custom color&quot;)」 -->
+            <npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)." /> <!-- #new #next #review commit aaab190 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
