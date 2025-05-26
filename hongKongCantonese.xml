@@ -165,11 +165,11 @@
                     <Item id="42022" name="轉做/取消單行式註解"/>
                     <Item id="42023" name="轉做區塊式註解"/>
                     <Item id="42047" name="取消區塊式註解"/>
-                    <Item id="42024" name="剔走行尾啲空格同埋 tab"/>
-                    <Item id="42042" name="剔走行前啲空格同埋 tab"/>
-                    <Item id="42043" name="剔走呢行頭尾啲空格同埋 tab"/>
+                    <Item id="42024" name="剔走行尾啲空間"/>
+                    <Item id="42042" name="剔走行頭啲空間"/>
+                    <Item id="42043" name="剔走呢行頭尾啲空間"/>
                     <Item id="42044" name="EOL → 空格"/>
-                    <Item id="42045" name="剷走冇用嘅空格同埋 EOL"/> <!-- #next #review -->
+                    <Item id="42045" name="剔走頭尾空間，EOL → 空格"/>
                     <Item id="42046" name="Tab → 空格"/>
                     <Item id="42054" name="空格 → tab（成份檔案）"/>
                     <Item id="42053" name="空格 → tab（淨係行首）"/>
