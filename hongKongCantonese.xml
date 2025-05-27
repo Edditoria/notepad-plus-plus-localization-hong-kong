@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.5">
+    <Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.5.1">
         <!--//
         This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
         Welcome issues and pull requests in Github repository:
@@ -447,8 +447,6 @@
                     <Item id="11009" name="大至細 size"/> <!-- #new v8.3.2 -->
                 </Commands>
             </Main>
-            <Splitter>
-            </Splitter>
             <TabBar>
                 <Item CMID="0" name="閂埋呢個檔案"/> <!-- #legacy v8.4.7 -->
                 <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/> <!-- #legacy v8.4.7 -->
@@ -522,6 +520,14 @@
                 <Item CMDID="44115" name="加顏色 5"/> <!-- #new v8.4.8 -->
                 <Item CMDID="44110" name="唔用顏色"/> <!-- #new v8.4.8 -->
             </TabBar>
+            <TrayIcon>
+                <Item id="43101" name="Activate"/> <!-- #new #next -->
+                <Item id="43102" name="New"/> <!-- #new #next -->
+                <Item id="43103" name="New and Paste"/> <!-- #new #next -->
+                <Item id="43104" name="Open..."/> <!-- #new #next -->
+                <Item id="43013" name="Find in Files..."/> <!-- #new #next -->
+                <Item id="43105" name="Close Tray Icon"/> <!-- #new #next -->
+            </TrayIcon>
         </Menu>
 
         <Dialog>
@@ -567,6 +573,11 @@
                 <Item id="1721" name="▲"/>
                 <Item id="1723" name="▼ 搵下一個"/>
                 <Item id="1725" name="抄低標記咗嘅字"/> <!-- #new v7.9.1 -->
+                <Menu>
+                    <Item id="1726" name="⇅ Swap Find with Replace"/> <!-- #new #next -->
+                    <Item id="1727" name="⤵ Copy from Find to Replace"/> <!-- #new #next -->
+                    <Item id="1728" name="⤴ Copy from Replace to Find"/> <!-- #new #next -->
+                </Menu>
             </Find>
 
             <IncrementalFind title="">
@@ -1583,7 +1594,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <ExpandAllFoldersTip name="展開所有資料夾"/> <!-- #new v7.9.2 -->
             <CollapseAllFoldersTip name="摺埋所有資料夾"/> <!-- #new v7.9.2 -->
             <LocateCurrentFileTip name="定位檔案"/> <!-- #new v7.9.2 -->
-            <Menus>
+            <Menu>
                 <Item id="3511" name="剷走"/>
                 <Item id="3512" name="剷走晒佢"/>
                 <Item id="3513" name="加料"/>
@@ -1594,7 +1605,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
                 <Item id="3518" name="喺檔案總管打開資料夾"/>
                 <Item id="3519" name="喺 CMD 打開資料夾"/>
                 <Item id="3520" name="將檔名抄去剪貼簿"/>
-            </Menus>
+            </Menu>
         </FolderAsWorkspace>
         <ProjectManager>
             <PanelTitle name="Project"/>
@@ -1724,14 +1735,14 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <tabrename-newname value="新名："/>
             <splitter-rotate-left value="向左旋轉"/> <!-- #new v7.9.4 -->
             <splitter-rotate-right value="向右旋轉"/> <!-- #new v7.9.4 -->
-            <recent-file-history-maxfile value="檔案數量："/>
-            <recent-file-history-customlength value="長度："/> <!-- #new v8.4.8 -->
+            <recent-file-history-maxfile value="檔案數量："/> <!-- #legacy v8.5.0 -->
+            <recent-file-history-customlength value="長度："/> <!-- #new v8.4.8 --> <!-- #legacy v8.5.0 -->
             <language-tabsize value="縮排大細："/> <!-- #legacy v8.4.9 -->
             <userdefined-title-new value="開新語言..."/>
             <userdefined-title-save value="另 Save 而家個語言名..."/>
             <userdefined-title-rename value="改而家個語言名"/>
             <autocomplete-nb-char value="字元數："/> <!-- #legacy v8.4.9 -->
-            <edit-verticaledge-nb-col value="參考字元數："/>
+            <edit-verticaledge-nb-col value="參考字元數："/> <!-- #legacy v8.5.0 -->
             <summary value="統計資料"/>
             <summary-filepath value="完整檔案路徑： "/>
             <summary-filecreatetime value="建立： "/>
