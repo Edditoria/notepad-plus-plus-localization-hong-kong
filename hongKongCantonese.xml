@@ -521,12 +521,12 @@
                 <Item CMDID="44110" name="唔用顏色"/> <!-- #new v8.4.8 -->
             </TabBar>
             <TrayIcon>
-                <Item id="43101" name="Activate"/> <!-- #new #next -->
-                <Item id="43102" name="New"/> <!-- #new #next -->
-                <Item id="43103" name="New and Paste"/> <!-- #new #next -->
-                <Item id="43104" name="Open..."/> <!-- #new #next -->
-                <Item id="43013" name="Find in Files..."/> <!-- #new #next -->
-                <Item id="43105" name="Close Tray Icon"/> <!-- #new #next -->
+                <Item id="43101" name="開程式"/> <!-- #new v8.5.1 -->
+                <Item id="43102" name="開新檔"/> <!-- #new v8.5.1 -->
+                <Item id="43103" name="開新檔跟手貼上"/> <!-- #new v8.5.1 -->
+                <Item id="43104" name="打開檔案..."/> <!-- #new v8.5.1 -->
+                <Item id="43013" name="喺一咋檔案搵..."/> <!-- #new v8.5.1 -->
+                <Item id="43105" name="散水"/> <!-- #new v8.5.1 -->
             </TrayIcon>
         </Menu>
 
@@ -574,9 +574,9 @@
                 <Item id="1723" name="▼ 搵下一個"/>
                 <Item id="1725" name="抄低標記咗嘅字"/> <!-- #new v7.9.1 -->
                 <Menu>
-                    <Item id="1726" name="⇅ Swap Find with Replace"/> <!-- #new #next -->
-                    <Item id="1727" name="⤵ Copy from Find to Replace"/> <!-- #new #next -->
-                    <Item id="1728" name="⤴ Copy from Replace to Find"/> <!-- #new #next -->
+                    <Item id="1726" name="⇅ 搵同取代啲字互調"/> <!-- #new v8.5.1 -->
+                    <Item id="1727" name="⤵ 將想搵嘅字抄去取代嗰度"/> <!-- #new v8.5.1 -->
+                    <Item id="1728" name="⤴ 將取代嘅字抄去搵嘢嗰度"/> <!-- #new v8.5.1 -->
                 </Menu>
             </Find>
 
