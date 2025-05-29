@@ -1578,12 +1578,12 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
         </WindowsDlg>
         <AsciiInsertion>
             <PanelTitle name="ASCII 字元表"/>
-            <ColumnVal name="Dec"/>
-            <ColumnHex name="Hex"/>
+            <ColumnVal name="十進位值"/>
+            <ColumnHex name="十六進位值"/>
             <ColumnChar name="字元縮寫"/>
             <ColumnHtmlName name="HTML 編名"/>
-            <ColumnHtmlNumber name="HTML 編號"/>
-            <ColumnHtmlHexNb name="HTML Hex 值"/> <!-- #new v8.5.2 -->
+            <ColumnHtmlNumber name="HTML 十進位值"/>
+            <ColumnHtmlHexNb name="HTML 十六進位值"/> <!-- #new v8.5.2 -->
         </AsciiInsertion>
         <DocumentMap>
             <PanelTitle name="文件地圖"/>
