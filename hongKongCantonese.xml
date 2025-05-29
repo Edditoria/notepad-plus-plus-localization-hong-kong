@@ -1393,11 +1393,11 @@
                 <Item id="2030" name="起始數值(&amp;I)："/>
                 <Item id="2031" name="增量(&amp;Y)："/>
                 <Item id="2035" name="齊頭補零(&amp;Z)"/> <!-- #legacy v8.5.1 -->
-                <Item id="2038" name="&amp;Leading :"/> <!-- #new v8.5.2 -->
+                <Item id="2038" name="喺開頭加入(&amp;L)："/> <!-- #new v8.5.2 -->
                 <ComboBox id="2039">
-                    <Element name="None"/> <!-- #new v8.5.2 -->
-                    <Element name="Zeros"/> <!-- #new v8.5.2 -->
-                    <Element name="Spaces"/> <!-- #new v8.5.2 -->
+                    <Element name="唔加嘢"/> <!-- #new v8.5.2 -->
+                    <Element name="零"/> <!-- #new v8.5.2 -->
+                    <Element name="空格"/> <!-- #new v8.5.2 -->
                 </ComboBox>
                 <Item id="2036" name="重複(&amp;R)："/>
                 <Item id="2032" name="格式"/>
@@ -1581,9 +1581,9 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <ColumnVal name="Dec"/>
             <ColumnHex name="Hex"/>
             <ColumnChar name="字元縮寫"/>
-            <ColumnHtmlName name="HTML Code"/> <!-- #review v8.5.2 -->
+            <ColumnHtmlName name="HTML 編名"/>
             <ColumnHtmlNumber name="HTML 編號"/>
-            <ColumnHtmlHexNb name="HTML Hexadecimal"/> <!-- #new v8.5.2 -->
+            <ColumnHtmlHexNb name="HTML Hex 值"/> <!-- #new v8.5.2 -->
         </AsciiInsertion>
         <DocumentMap>
             <PanelTitle name="文件地圖"/>
@@ -1761,7 +1761,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <summary-nbsel1 value=" 個揀咗嘅字元（"/>
             <summary-nbsel2 value=" bytes），揀咗 "/>
             <summary-nbrange value=" 個範圍數"/>
-            <progress-hits-title value="Hits:"/> <!-- #new v8.5.2 -->
+            <progress-hits-title value="命中："/> <!-- #new v8.5.2 -->
             <progress-cancel-button value="取消"/> <!-- #new v8.5 -->
             <progress-cancel-info value="取消緊，唔該等一陣..."/> <!-- #new v8.5 -->
             <find-in-files-progress-title value="等我搵搵先啊吓，幫緊你幫緊你..."/> <!-- #new v7.9.3 -->
