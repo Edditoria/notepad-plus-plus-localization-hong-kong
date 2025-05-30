@@ -326,7 +326,7 @@
                     <Item id="44114" name="加顏色 4"/> <!-- #new v8.4.6 -->
                     <Item id="44115" name="加顏色 5"/> <!-- #new v8.4.6 -->
                     <Item id="44130" name="顯示非打印字符"/> <!-- #new v8.5 -->
-                    <Item id="44131" name="Show Control Characters &amp; Unicode EOL"/> <!-- #new v8.5.3 -->
+                    <Item id="44131" name="顯示控制字符 &amp; "/> <!-- #new v8.5.3 -->
                     <Item id="44032" name="全螢幕模式"/>
                     <Item id="44033" name="回復預設 zoom 大細"/>
                     <Item id="44034" name="保持最上層"/>
@@ -1062,7 +1062,7 @@
                     <Item id="6254" name="Abbreviation"/> <!-- #new v8.5 #review commit aaab190 -->
                     <Item id="6255" name="Codepoint"/> <!-- #new v8.5 #review commit aaab190 -->
                     <Item id="6256" name="自訂顏色"/> <!-- #new v8.5 -->
-                    <Item id="6258" name="Apply to C0, C1 &amp; Unicode EOL"/> <!-- #new v8.5.3 -->
+                    <Item id="6258" name="套用喺 C0、C1 同埋 Unicode EOL &amp; "/> <!-- #new v8.5.3 -->
                 </Scintillas>
 
                 <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
@@ -1558,12 +1558,12 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <LanguageMenuCompactWarning title="簡化程式語言 menu" message="呢個選項會喺下次開程式嗰陣搞。"/> <!-- #new v8.5 -->
             <SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="未 save 喎！咁樣會捨棄晒啲改過嘅設定。
 換主題之前使唔使 save 咗佢先啊？"/> <!-- #new v8.5 -->
-            <MacroAndRunCmdlWarning title="Macro and Run Commands Compatibility" message="Your Macro and Run commands saved in Notepad++ v.8.5.2 (or older) may not be compatible with the current version of Notepad++.
-Please test those commands and, if needed, re-edit them.
+            <MacroAndRunCmdlWarning title="Macro 同埋執行指令嘅兼容度" message="你 save 喺 Notepad++ v8.5.2（或之前）嗰啲 Macro 同埋執行指令，未必兼容到而家嘅版本。
+麻煩你先測試一下，有需要嘅就修改吓。
 
-Alternatively, you can downgrade to Notepad++ v8.5.2 and restore your previous data.
-Notepad++ will backup your old &quot;shortcuts.xml&quot; and save it as &quot;shortcuts.xml.v8.5.2.backup&quot;.
-Renaming &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot;, your commands should be restored and work properly."/> <!-- HowToReproduce: Close Notepad++, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad++, delete or modify a shortcuts via Shortcut Mapper, close Notepad++, then the message will show up --> <!-- #new v8.5.3 -->
+又或者，你可以先將 Notepad++ 降級去 v8.5.2，回復舊有嘅資料用著先：
+Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.backup」。
+將「shortcuts.xml.v8.5.2.backup」改名做「shortcuts.xml」，咁就可以回復你啲舊指令嘞。"/> <!-- #new v8.5.3 -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
@@ -1834,7 +1834,7 @@ Click on &quot;?&quot; button on right to open website with User Manual." /> <!-
 
             <!-- 唔好翻譯「(&quot;Non-printing characters custom color&quot;)」 -->
             <npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)." /> <!-- #new v8.5 #review commit aaab190 -->
-            <npcIncludeCcUniEol-tip value="Apply non-printing characters appearance settings to C0, C1 control and Unicode EOL (next line, line separator and paragraph separator) characters." /> <!-- #new v8.5.3 -->
+            <npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）" /> <!-- #new v8.5.3 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
