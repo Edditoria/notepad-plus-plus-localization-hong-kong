@@ -326,6 +326,7 @@
                     <Item id="44114" name="加顏色 4"/> <!-- #new v8.4.6 -->
                     <Item id="44115" name="加顏色 5"/> <!-- #new v8.4.6 -->
                     <Item id="44130" name="顯示非打印字符"/> <!-- #new v8.5 -->
+                    <Item id="44131" name="Show Control Characters &amp; Unicode EOL"/> <!-- #new v8.5.3 -->
                     <Item id="44032" name="全螢幕模式"/>
                     <Item id="44033" name="回復預設 zoom 大細"/>
                     <Item id="44034" name="保持最上層"/>
@@ -587,15 +588,15 @@
             </IncrementalFind>
 
             <FindCharsInRange title="以字元編號搵字元...">
-                <Item id="2" name="閂"/>
-                <Item id="2901" name="非 ASCII 字元 (128-255)"/>
-                <Item id="2902" name="ASCII 字元 (0-127)"/>
-                <Item id="2903" name="自訂範圍："/>
+                <Item id="2" name="閂(&amp;C)"/>
+                <Item id="2901" name="非 ASCII 字元 (128-255) (&amp;N)"/>
+                <Item id="2902" name="ASCII 字元 (0-127) (&amp;A)"/>
+                <Item id="2903" name="自訂範圍(&amp;R)："/>
                 <Item id="2906" name="向上(&amp;U)"/>
                 <Item id="2907" name="向下(&amp;D)"/>
                 <Item id="2908" name="方向"/>
                 <Item id="2909" name="循環(&amp;P)"/>
-                <Item id="2910" name="搵"/>
+                <Item id="2910" name="搵(&amp;F)"/>
             </FindCharsInRange>
 
             <GoToLine title="跳去...">
@@ -616,27 +617,27 @@
             </Run>
 
             <MD5FromFilesDlg title="運算檔案嘅 MD5">
-                <Item id="1922" name="揀一個／一咋檔案..."/>
-                <Item id="1924" name="抄去剪貼簿"/>
-                <Item id="2"    name="閂"/>
+                <Item id="1922" name="揀一個／一咋檔案...(&amp;G)"/>
+                <Item id="1924" name="抄去剪貼簿(&amp;P)"/>
+                <Item id="2"    name="閂(&amp;C)"/>
             </MD5FromFilesDlg>
 
             <MD5FromTextDlg title="運算 MD5">
-                <Item id="1932" name="每一行都係獨立嘅字串"/>
-                <Item id="1934" name="抄去剪貼簿"/>
-                <Item id="2"    name="閂"/>
+                <Item id="1932" name="每一行都係獨立嘅字串(&amp;S)"/>
+                <Item id="1934" name="抄去剪貼簿(&amp;P)"/>
+                <Item id="2"    name="閂(&amp;C)"/>
             </MD5FromTextDlg>
 
             <SHA256FromFilesDlg title="運算檔案嘅 SHA-256">
-                <Item id="1922" name="揀一個／一咋檔案..."/>
-                <Item id="1924" name="抄去剪貼簿"/>
-                <Item id="2"    name="閂"/>
+                <Item id="1922" name="揀一個／一咋檔案...(&amp;G)"/>
+                <Item id="1924" name="抄去剪貼簿(&amp;P)"/>
+                <Item id="2"    name="閂(&amp;C)"/>
             </SHA256FromFilesDlg>
 
             <SHA256FromTextDlg title="運算 SHA-256">
-                <Item id="1932" name="每一行都係獨立嘅字串"/>
-                <Item id="1934" name="抄去剪貼簿"/>
-                <Item id="2"    name="閂"/>
+                <Item id="1932" name="每一行都係獨立嘅字串(&amp;S)"/>
+                <Item id="1934" name="抄去剪貼簿(&amp;P)"/>
+                <Item id="2"    name="閂(&amp;C)"/>
             </SHA256FromTextDlg>
 
             <PluginsAdminDlg title="外掛管理員" titleAvailable="可安裝" titleUpdates="更新" titleInstalled="已安裝" titleIncompatible="唔相容">
@@ -827,7 +828,7 @@
                 <Item id="20003" name="開新..."/>
                 <Item id="20004" name="剷除"/>
                 <Item id="20005" name="Save 做新..."/>
-                <Item id="20007" name="自訂程式語言："/>
+                <Item id="20007" name="自訂程式語言"/>
                 <Item id="20009" name="副檔名："/>
                 <Item id="20012" name="唔分大細楷"/>
                 <Item id="20011" name="透明度"/>
@@ -836,7 +837,7 @@
                 <Item id="20017" name="唔靠邊"/> <!-- #new v8.5 -->
 
                 <StylerDialog title="樣式對話框">
-                    <Item id="25030" name="字型選項："/>
+                    <Item id="25030" name="字型選項"/>
                     <Item id="25006" name="前景顏色"/>
                     <Item id="25007" name="背景顏色"/>
                     <Item id="25031" name="名："/>
@@ -844,7 +845,7 @@
                     <Item id="25001" name="粗體"/>
                     <Item id="25002" name="斜體"/>
                     <Item id="25003" name="底線"/>
-                    <Item id="25029" name="巢狀繼承："/>
+                    <Item id="25029" name="巢狀繼承"/>
                     <Item id="25008" name="分隔符號 1"/>
                     <Item id="25009" name="分隔符號 2"/>
                     <Item id="25010" name="分隔符號 3"/>
@@ -875,20 +876,20 @@
                 <Folder title="摺疊同埋預設樣式">
                     <Item id="21101" name="預設樣式"/>
                     <Item id="21102" name="樣式"/>
-                    <Item id="21105" name="文件資訊："/>
+                    <Item id="21105" name="文件資訊"/>
                     <Item id="21104" name="臨時文件網站："/>
                     <Item id="21106" name="緊密摺疊（包括空行）"/>
-                    <Item id="21220" name="摺疊樣式一（有冇空格分隔都包）："/>
+                    <Item id="21220" name="摺疊樣式一（有冇空格分隔都包）"/>
                     <Item id="21224" name="起始："/>
                     <Item id="21225" name="中介："/>
                     <Item id="21226" name="結束："/>
                     <Item id="21227" name="樣式"/>
-                    <Item id="21320" name="摺疊樣式二（完整或者以空格分隔）："/>
+                    <Item id="21320" name="摺疊樣式二（完整或者以空格分隔）"/>
                     <Item id="21324" name="起始："/>
                     <Item id="21325" name="中介："/>
                     <Item id="21326" name="結束："/>
                     <Item id="21327" name="樣式"/>
-                    <Item id="21420" name="摺疊註解樣式："/>
+                    <Item id="21420" name="摺疊註解樣式"/>
                     <Item id="21424" name="起始："/>
                     <Item id="21425" name="中介："/>
                     <Item id="21426" name="結束："/>
@@ -1061,6 +1062,7 @@
                     <Item id="6254" name="Abbreviation"/> <!-- #new v8.5 #review commit aaab190 -->
                     <Item id="6255" name="Codepoint"/> <!-- #new v8.5 #review commit aaab190 -->
                     <Item id="6256" name="自訂顏色"/> <!-- #new v8.5 -->
+                    <Item id="6258" name="Apply to C0, C1 &amp; Unicode EOL"/> <!-- #new v8.5.3 -->
                 </Scintillas>
 
                 <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
@@ -1176,30 +1178,30 @@
                 </Highlighting>
 
                 <Print title="Print 嘢">
-                    <Item id="6601" name="Print 埋行數號碼"/>
+                    <Item id="6601" name="Print 埋行數號碼(&amp;U)"/>
                     <Item id="6602" name="色彩選項"/>
-                    <Item id="6603" name="所見即所得"/>
-                    <Item id="6604" name="反白"/>
-                    <Item id="6605" name="白底黑字"/>
-                    <Item id="6606" name="冇底色"/>
+                    <Item id="6603" name="所見即所得(&amp;Y)"/>
+                    <Item id="6604" name="反白(&amp;N)"/>
+                    <Item id="6605" name="白底黑字(&amp;W)"/>
+                    <Item id="6606" name="冇底色(&amp;K)"/>
                     <Item id="6607" name="邊界設定（毫米）"/>
-                    <Item id="6612" name="左"/>
-                    <Item id="6613" name="上"/>
-                    <Item id="6614" name="右"/>
-                    <Item id="6615" name="下"/>
-                    <Item id="6706" name="粗體"/>
-                    <Item id="6707" name="斜體"/>
+                    <Item id="6612" name="左(&amp;L)"/>
+                    <Item id="6613" name="上(&amp;T)"/>
+                    <Item id="6614" name="右(&amp;R)"/>
+                    <Item id="6615" name="下(&amp;M)"/>
+                    <Item id="6706" name="粗體(&amp;B)"/>
+                    <Item id="6707" name="斜體(&amp;I)"/>
                     <Item id="6708" name="頁首"/>
-                    <Item id="6709" name="左邊"/>
-                    <Item id="6710" name="中間"/>
-                    <Item id="6711" name="右邊"/>
-                    <Item id="6717" name="粗體"/>
-                    <Item id="6718" name="斜體"/>
+                    <Item id="6709" name="左邊(&amp;E)"/>
+                    <Item id="6710" name="中間(&amp;M)"/>
+                    <Item id="6711" name="右邊(&amp;G)"/>
+                    <Item id="6717" name="粗體(&amp;D)"/>
+                    <Item id="6718" name="斜體(&amp;C)"/>
                     <Item id="6719" name="頁尾"/>
-                    <Item id="6720" name="左邊"/>
-                    <Item id="6721" name="中間"/>
-                    <Item id="6722" name="右邊"/>
-                    <Item id="6723" name="加入"/>
+                    <Item id="6720" name="左邊(&amp;F)"/>
+                    <Item id="6721" name="中間(&amp;P)"/>
+                    <Item id="6722" name="右邊(&amp;H)"/>
+                    <Item id="6723" name="加入(&amp;A)"/>
                     <ComboBox id="6724">
                         <Element name="完整檔案路徑"/> <!-- #new v8.3.1 -->
                         <Element name="檔名"/> <!-- #new v8.3.1 -->
@@ -1209,7 +1211,7 @@
                         <Element name="日期（完整）"/> <!-- #new v8.3.1 -->
                         <Element name="時間"/> <!-- #new v8.3.1 -->
                     </ComboBox>
-                    <Item id="6725" name="變數："/>
+                    <Item id="6725" name="變數(&amp;V)："/>
                     <Item id="6727" name="呢度會顯示你啲變數設定"/>
                     <Item id="6728" name="頁首同埋頁尾"/>
                 </Print>
@@ -1373,7 +1375,7 @@
             <MultiMacro title="係咁執行 Macro">
                 <Item id="1" name="執行(&amp;R)"/>
                 <Item id="2" name="取消(&amp;C)"/>
-                <Item id="8006" name="要行嘅 macro："/>
+                <Item id="8006" name="要行嘅 macro"/>
                 <Item id="8001" name="執行"/>
                 <Item id="8005" name="次"/>
                 <Item id="8002" name="執行到檔案結尾(&amp;E)"/>
@@ -1556,6 +1558,12 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <LanguageMenuCompactWarning title="簡化程式語言 menu" message="呢個選項會喺下次開程式嗰陣搞。"/> <!-- #new v8.5 -->
             <SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="未 save 喎！咁樣會捨棄晒啲改過嘅設定。
 換主題之前使唔使 save 咗佢先啊？"/> <!-- #new v8.5 -->
+            <MacroAndRunCmdlWarning title="Macro and Run Commands Compatibility" message="Your Macro and Run commands saved in Notepad++ v.8.5.2 (or older) may not be compatible with the current version of Notepad++.
+Please test those commands and, if needed, re-edit them.
+
+Alternatively, you can downgrade to Notepad++ v8.5.2 and restore your previous data.
+Notepad++ will backup your old &quot;shortcuts.xml&quot; and save it as &quot;shortcuts.xml.v8.5.2.backup&quot;.
+Renaming &quot;shortcuts.xml.v8.5.2.backup&quot; -&gt; &quot;shortcuts.xml&quot;, your commands should be restored and work properly."/> <!-- HowToReproduce: Close Notepad++, remove shortcuts.xml.v8.5.2.backup & v852ShortcutsCompatibilityWarning.xml if present, relaunch Notepad++, delete or modify a shortcuts via Shortcut Mapper, close Notepad++, then the message will show up --> <!-- #new v8.5.3 -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
@@ -1737,9 +1745,9 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <finder-wrap-long-lines value="自動換行"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
-            <common-name value="名："/>
+            <common-name value="名"/>
             <tabrename-title value="幫個 tab 改名"/>
-            <tabrename-newname value="新名："/>
+            <tabrename-newname value="新名"/>
             <splitter-rotate-left value="向左旋轉"/> <!-- #new v7.9.4 -->
             <splitter-rotate-right value="向右旋轉"/> <!-- #new v7.9.4 -->
             <recent-file-history-maxfile value="檔案數量："/> <!-- #legacy v8.5.0 -->
@@ -1826,6 +1834,7 @@ Click on &quot;?&quot; button on right to open website with User Manual." /> <!-
 
             <!-- 唔好翻譯「(&quot;Non-printing characters custom color&quot;)」 -->
             <npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)." /> <!-- #new v8.5 #review commit aaab190 -->
+            <npcIncludeCcUniEol-tip value="Apply non-printing characters appearance settings to C0, C1 control and Unicode EOL (next line, line separator and paragraph separator) characters." /> <!-- #new v8.5.3 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
