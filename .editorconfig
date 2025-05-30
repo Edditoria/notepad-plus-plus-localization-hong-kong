@@ -11,8 +11,6 @@ insert_final_newline=true
 
 [*.xml]
 end_of_line=crlf
-indent_style=space
-indent_size=4
 
 [{*.yml,*.yaml,bower.json,package.json,package-lock.json}]
 indent_style=space
