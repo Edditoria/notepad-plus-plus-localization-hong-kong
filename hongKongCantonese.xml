@@ -29,7 +29,7 @@
                     <Item subMenuId="file-openFolder" name="打開檔案嘅資料夾(&amp;F)"/>
                     <Item subMenuId="file-closeMore" name="閂咁啲檔案(&amp;M)"/>
                     <Item subMenuId="file-recentFiles" name="最近用過嘅檔案"/>
-                    <Item subMenuId="edit-insert" name="插入"/> <!-- #new v8.1.4 -->
+                    <Item subMenuId="edit-insert" name="插入"/><!-- #new v8.1.4 -->
                     <Item subMenuId="edit-copyToClipboard" name="抄去剪貼簿(&amp;Y)"/>
                     <Item subMenuId="edit-indent" name="縮排(&amp;I)"/>
                     <Item subMenuId="edit-convertCaseTo" name="轉換大細楷(&amp;V)"/>
@@ -41,31 +41,31 @@
                     <Item subMenuId="edit-pasteSpecial" name="特殊貼上(&amp;P)"/>
                     <Item subMenuId="edit-onSelection" name="處理揀選範圍(&amp;O)"/>
                     <Item subMenuId="search-markAll" name="成份文件咁做標記(&amp;A)"/>
-                    <Item subMenuId="search-markOne" name="標記一次(&amp;O)"/> <!-- #new v7.9.6 -->
+                    <Item subMenuId="search-markOne" name="標記一次(&amp;O)"/><!-- #new v7.9.6 -->
                     <Item subMenuId="search-unmarkAll" name="清除風格標記(&amp;U)"/>
                     <Item subMenuId="search-jumpUp" name="跳去上個(&amp;J)"/>
                     <Item subMenuId="search-jumpDown" name="跳去下個(&amp;D)"/>
-                    <Item subMenuId="search-copyStyledText" name="抄低標記咗嘅字(&amp;C)"/> <!-- #new v7.9.1 -->
+                    <Item subMenuId="search-copyStyledText" name="抄低標記咗嘅字(&amp;C)"/><!-- #new v7.9.1 -->
                     <Item subMenuId="search-bookmark" name="書籤(&amp;B)"/>
                     <Item subMenuId="view-currentFileIn" name="喺第二度睇呢個檔案"/>
                     <Item subMenuId="view-showSymbol" name="特殊字元"/>
                     <Item subMenuId="view-zoom" name="Zoom"/>
                     <Item subMenuId="view-moveCloneDocument" name="搬/抄呢個檔案"/>
-                    <Item subMenuId="view-tab"  name="Tabs"/>
+                    <Item subMenuId="view-tab" name="Tabs"/>
                     <Item subMenuId="view-collapseLevel" name="摺埋第 X 層"/>
                     <Item subMenuId="view-uncollapseLevel" name="展開第 X 層"/>
                     <Item subMenuId="view-project" name="Project"/>
-                    <Item subMenuId="encoding-characterSets"  name="字元集"/>
-                    <Item subMenuId="encoding-arabic"  name="阿拉伯文"/>
-                    <Item subMenuId="encoding-baltic"  name="波羅的海文"/>
-                    <Item subMenuId="encoding-celtic"  name="些路迪文"/>
-                    <Item subMenuId="encoding-cyrillic"  name="斯拉夫文"/>
-                    <Item subMenuId="encoding-centralEuropean"  name="中歐語系"/>
-                    <Item subMenuId="encoding-chinese"  name="中文"/>
-                    <Item subMenuId="encoding-easternEuropean"  name="東歐語系"/>
-                    <Item subMenuId="encoding-greek"  name="希臘文"/>
-                    <Item subMenuId="encoding-hebrew"  name="希伯來文"/>
-                    <Item subMenuId="encoding-japanese"  name="日文"/>
+                    <Item subMenuId="encoding-characterSets" name="字元集"/>
+                    <Item subMenuId="encoding-arabic" name="阿拉伯文"/>
+                    <Item subMenuId="encoding-baltic" name="波羅的海文"/>
+                    <Item subMenuId="encoding-celtic" name="些路迪文"/>
+                    <Item subMenuId="encoding-cyrillic" name="斯拉夫文"/>
+                    <Item subMenuId="encoding-centralEuropean" name="中歐語系"/>
+                    <Item subMenuId="encoding-chinese" name="中文"/>
+                    <Item subMenuId="encoding-easternEuropean" name="東歐語系"/>
+                    <Item subMenuId="encoding-greek" name="希臘文"/>
+                    <Item subMenuId="encoding-hebrew" name="希伯來文"/>
+                    <Item subMenuId="encoding-japanese" name="日文"/>
                     <Item subMenuId="encoding-korean" name="韓文"/>
                     <Item subMenuId="encoding-northEuropean" name="北歐語系"/>
                     <Item subMenuId="encoding-thai" name="泰文"/>
@@ -76,7 +76,7 @@
                     <Item subMenuId="settings-import" name="匯入"/>
                     <Item subMenuId="tools-md5" name="MD5"/>
                     <Item subMenuId="tools-sha256" name="SHA-256"/>
-                    <Item subMenuId="window-sortby" name="排次序"/> <!-- #new v8.3.2 -->
+                    <Item subMenuId="window-sortby" name="排次序"/><!-- #new v8.3.2 -->
                 </SubEntries>
 
                 <!-- all menu item -->
@@ -86,7 +86,7 @@
                     <Item id="41002" name="打開舊檔(&amp;O)..."/>
                     <Item id="41019" name="檔案總管"/>
                     <Item id="41020" name="CMD"/>
-                    <Item id="41025" name="資料夾工作區"/> <!-- #new v7.9.1 -->
+                    <Item id="41025" name="資料夾工作區"/><!-- #new v7.9.1 -->
                     <Item id="41003" name="閂埋呢個檔案(&amp;C)"/>
                     <Item id="41004" name="閂晒所有檔案(&amp;E)"/>
                     <Item id="41005" name="除咗呢個檔案，閂晒其它佢"/>
@@ -97,7 +97,7 @@
                     <Item id="41007" name="Sa&amp;ve 晒所有檔案"/>
                     <Item id="41008" name="S&amp;ave 做新檔案..."/>
                     <Item id="41010" name="&amp;Print 出嚟..."/>
-                    <Item id="1001"  name="即刻 print 佢出嚟(&amp;W)"/>
+                    <Item id="1001" name="即刻 print 佢出嚟(&amp;W)"/>
                     <Item id="41011" name="散水(&amp;X)"/>
                     <Item id="41012" name="開返個工作階段出嚟(&amp;I)..."/>
                     <Item id="41013" name="Save 低個工作階段(&amp;I)..."/>
@@ -118,14 +118,14 @@
                     <Item id="42006" name="剷(&amp;D)"/>
                     <Item id="42007" name="揀晒(&amp;S)"/>
                     <Item id="42020" name="開始揀/揀完(&amp;S)"/>
-                    <Item id="42089" name="開始揀/揀完（欄位模式）"/> <!-- #new v8.5 -->
-                    <Item id="42084" name="日期時間（簡短）"/> <!-- #new v8.1.4 -->
-                    <Item id="42085" name="日期時間（完整）"/> <!-- #new v8.1.4 -->
-                    <Item id="42086" name="日期時間（自訂）"/> <!-- #new v8.1.5 -->
+                    <Item id="42089" name="開始揀/揀完（欄位模式）"/><!-- #new v8.5 -->
+                    <Item id="42084" name="日期時間（簡短）"/><!-- #new v8.1.4 -->
+                    <Item id="42085" name="日期時間（完整）"/><!-- #new v8.1.4 -->
+                    <Item id="42086" name="日期時間（自訂）"/><!-- #new v8.1.5 -->
                     <Item id="42008" name="增加縮排"/>
                     <Item id="42009" name="減少縮排"/>
                     <Item id="42010" name="重複呢行"/>
-                    <Item id="42079" name="剷走重複嗰幾行"/> <!-- #new v7.9.1 -->
+                    <Item id="42079" name="剷走重複嗰幾行"/><!-- #new v7.9.1 -->
                     <Item id="42077" name="剷走連續又重複嗰幾行"/>
                     <Item id="42012" name="分割呢行"/>
                     <Item id="42013" name="合併呢（幾）行"/>
@@ -133,15 +133,15 @@
                     <Item id="42015" name="移呢行落去"/>
                     <Item id="42059" name="跟字母排"/>
                     <Item id="42060" name="跟字母調轉咁排"/>
-                    <Item id="42080" name="跟字母排（唔分大細楷）"/> <!-- #new v7.9.1 -->
-                    <Item id="42081" name="跟字母調轉咁排（唔分大細楷）"/> <!-- #new v7.9.1 -->
+                    <Item id="42080" name="跟字母排（唔分大細楷）"/><!-- #new v7.9.1 -->
+                    <Item id="42081" name="跟字母調轉咁排（唔分大細楷）"/><!-- #new v7.9.1 -->
                     <Item id="42061" name="跟整數排"/>
                     <Item id="42062" name="跟整數調轉咁排"/>
                     <Item id="42063" name="跟小數位排（「,」當做小數點）"/>
                     <Item id="42064" name="跟小數位調轉咁排（「,」當做小數點）"/>
                     <Item id="42065" name="跟小數位排（「.」當做小數點）"/>
                     <Item id="42066" name="跟小數位調轉咁排（「.」當做小數點）"/>
-                    <Item id="42083" name="調轉排"/> <!-- #new v7.9.6 -->
+                    <Item id="42083" name="調轉排"/><!-- #new v7.9.6 -->
                     <Item id="42078" name="求其排"/>
                     <Item id="42016" name="轉大楷(&amp;U)"/>
                     <Item id="42017" name="轉細楷(&amp;L)"/>
@@ -180,7 +180,7 @@
                     <Item id="42050" name="貼上 binary 內容（包埋 NULL 字元）"/>
 
                     <!-- type: context menu -->
-                    <Item id="42082" name="抄低條 link"/> <!-- #new v7.9.2 -->
+                    <Item id="42082" name="抄低條 link"/><!-- #new v7.9.2 -->
 
                     <!-- type: Edit menu (cont'd) -->
                     <Item id="42037" name="欄位模式..."/>
@@ -200,8 +200,8 @@
                     <Item id="42029" name="抄低個檔案路徑"/>
                     <Item id="42030" name="抄低個檔名"/>
                     <Item id="42031" name="抄低個資料夾路徑"/>
-                    <Item id="42087" name="抄低所有檔名"/> <!-- #new v8.2.1 -->
-                    <Item id="42088" name="抄低所有檔案路徑"/> <!-- #new v8.2.1 -->
+                    <Item id="42087" name="抄低所有檔名"/><!-- #new v8.2.1 -->
+                    <Item id="42088" name="抄低所有檔案路徑"/><!-- #new v8.2.1 -->
 
                     <!-- type: Macro menu (cont'd) -->
                     <Item id="42032" name="係咁執行 mac&amp;ro..."/>
@@ -261,18 +261,18 @@
                     <Item id="43042" name="風格標記 4"/>
                     <Item id="43043" name="風格標記 5"/>
                     <Item id="43044" name="搵料標記"/>
-                    <Item id="43055" name="風格標記 1"/> <!-- #new v7.9.1 -->
-                    <Item id="43056" name="風格標記 2"/> <!-- #new v7.9.1 -->
-                    <Item id="43057" name="風格標記 3"/> <!-- #new v7.9.1 -->
-                    <Item id="43058" name="風格標記 4"/> <!-- #new v7.9.1 -->
-                    <Item id="43059" name="風格標記 5"/> <!-- #new v7.9.1 -->
-                    <Item id="43060" name="所有風格標記"/> <!-- #new v7.9.1 -->
-                    <Item id="43061" name="搵料標記"/> <!-- #new v7.9.1 -->
-                    <Item id="43062" name="使用風格標記 1"/> <!-- #new v7.9.6 -->
-                    <Item id="43063" name="使用風格標記 2"/> <!-- #new v7.9.6 -->
-                    <Item id="43064" name="使用風格標記 3"/> <!-- #new v7.9.6 -->
-                    <Item id="43065" name="使用風格標記 4"/> <!-- #new v7.9.6 -->
-                    <Item id="43066" name="使用風格標記 5"/> <!-- #new v7.9.6 -->
+                    <Item id="43055" name="風格標記 1"/><!-- #new v7.9.1 -->
+                    <Item id="43056" name="風格標記 2"/><!-- #new v7.9.1 -->
+                    <Item id="43057" name="風格標記 3"/><!-- #new v7.9.1 -->
+                    <Item id="43058" name="風格標記 4"/><!-- #new v7.9.1 -->
+                    <Item id="43059" name="風格標記 5"/><!-- #new v7.9.1 -->
+                    <Item id="43060" name="所有風格標記"/><!-- #new v7.9.1 -->
+                    <Item id="43061" name="搵料標記"/><!-- #new v7.9.1 -->
+                    <Item id="43062" name="使用風格標記 1"/><!-- #new v7.9.6 -->
+                    <Item id="43063" name="使用風格標記 2"/><!-- #new v7.9.6 -->
+                    <Item id="43064" name="使用風格標記 3"/><!-- #new v7.9.6 -->
+                    <Item id="43065" name="使用風格標記 4"/><!-- #new v7.9.6 -->
+                    <Item id="43066" name="使用風格標記 5"/><!-- #new v7.9.6 -->
                     <Item id="43045" name="顯示搜尋結果視窗(&amp;W)"/>
                     <Item id="43046" name="下一個搜尋結果(&amp;T)"/>
                     <Item id="43047" name="上一個搜尋結果(&amp;T)"/>
@@ -281,15 +281,15 @@
                     <Item id="43054" name="搵料標記(&amp;K)..."/>
 
                     <!-- type: context menu in Document List panel -->
-                    <Item id="43501" name="閂晒揀咗呢啲檔案"/> <!-- #new v8.2.1 -->
-                    <Item id="43502" name="閂晒其它佢"/> <!-- #new v8.2.1 -->
-                    <Item id="43503" name="抄低揀咗呢啲檔名"/> <!-- #new v8.2.1 -->
-                    <Item id="43504" name="抄低揀咗呢啲檔案路徑"/> <!-- #new v8.2.1 -->
+                    <Item id="43501" name="閂晒揀咗呢啲檔案"/><!-- #new v8.2.1 -->
+                    <Item id="43502" name="閂晒其它佢"/><!-- #new v8.2.1 -->
+                    <Item id="43503" name="抄低揀咗呢啲檔名"/><!-- #new v8.2.1 -->
+                    <Item id="43504" name="抄低揀咗呢啲檔案路徑"/><!-- #new v8.2.1 -->
 
                     <!-- type: View menu (cont'd) -->
                     <Item id="44009" name="Post-It 便利貼模式"/>
                     <Item id="44010" name="摺埋所有層級"/>
-                    <Item id="44011" name="免干擾模式"/> <!-- #new v7.9.6 -->
+                    <Item id="44011" name="免干擾模式"/><!-- #new v7.9.6 -->
                     <Item id="44019" name="顯示所有字元"/>
                     <Item id="44020" name="顯示縮排輔助線"/>
                     <Item id="44022" name="自動換行"/>
@@ -302,7 +302,7 @@
                     <Item id="44031" name="展開呢層"/>
                     <Item id="44049" name="統計資料..."/>
                     <Item id="44080" name="文件地圖"/>
-                    <Item id="44070" name="文件清單"/> <!-- #new v8.1.3 -->
+                    <Item id="44070" name="文件清單"/><!-- #new v8.1.3 -->
                     <Item id="44084" name="函式清單"/>
                     <Item id="44085" name="資料夾工作區"/>
                     <Item id="44086" name="1st"/>
@@ -319,14 +319,14 @@
                     <Item id="44097" name="監視模式 (tail --follow)"/>
                     <Item id="44098" name="向前移個 tab"/>
                     <Item id="44099" name="向後移個 tab"/>
-                    <Item id="44110" name="唔用顏色"/> <!-- #new v8.4.6 -->
-                    <Item id="44111" name="加顏色 1"/> <!-- #new v8.4.6 -->
-                    <Item id="44112" name="加顏色 2"/> <!-- #new v8.4.6 -->
-                    <Item id="44113" name="加顏色 3"/> <!-- #new v8.4.6 -->
-                    <Item id="44114" name="加顏色 4"/> <!-- #new v8.4.6 -->
-                    <Item id="44115" name="加顏色 5"/> <!-- #new v8.4.6 -->
-                    <Item id="44130" name="顯示非打印字符"/> <!-- #new v8.5 -->
-                    <Item id="44131" name="顯示控制字符 &amp; "/> <!-- #new v8.5.3 -->
+                    <Item id="44110" name="唔用顏色"/><!-- #new v8.4.6 -->
+                    <Item id="44111" name="加顏色 1"/><!-- #new v8.4.6 -->
+                    <Item id="44112" name="加顏色 2"/><!-- #new v8.4.6 -->
+                    <Item id="44113" name="加顏色 3"/><!-- #new v8.4.6 -->
+                    <Item id="44114" name="加顏色 4"/><!-- #new v8.4.6 -->
+                    <Item id="44115" name="加顏色 5"/><!-- #new v8.4.6 -->
+                    <Item id="44130" name="顯示非打印字符"/><!-- #new v8.5 -->
+                    <Item id="44131" name="顯示控制字符 &amp; "/><!-- #new v8.5.3 -->
                     <Item id="44032" name="全螢幕模式"/>
                     <Item id="44033" name="回復預設 zoom 大細"/>
                     <Item id="44034" name="保持最上層"/>
@@ -373,7 +373,7 @@
                     <!-- type: Language menu -->
                     <Item id="46250" name="定義你嘅程式語言..."/>
                     <Item id="46300" name="打開自訂程式語言嘅資料夾..."/>
-                    <Item id="46301" name="Notepad++ 自訂程式語言收藏庫"/> <!-- #new v8.1.9.3 -->
+                    <Item id="46301" name="Notepad++ 自訂程式語言收藏庫"/><!-- #new v8.1.9.3 -->
                     <Item id="46180" name="通用使用者設定"/>
 
                     <!-- type: Help menu -->
@@ -414,8 +414,8 @@
                     <Item id="50000" name="自動完成函數"/>
                     <Item id="50001" name="自動完成字詞"/>
                     <Item id="50002" name="功能參數提示"/>
-                    <Item id="50010" name="功能參數：上一個提示"/> <!-- #new v8.4.5 -->
-                    <Item id="50011" name="功能參數：下一個提示"/> <!-- #new v8.4.5 -->
+                    <Item id="50010" name="功能參數：上一個提示"/><!-- #new v8.4.5 -->
+                    <Item id="50011" name="功能參數：下一個提示"/><!-- #new v8.4.5 -->
 
                     <!-- type: Shortcut Mapper dialog -->
                     <Item id="50005" name="開始/停止錄製 macro"/>
@@ -437,105 +437,105 @@
                     <Item id="48017" name="修改快捷鍵或者剷走執行指令..."/>
 
                     <!-- type: Window menu -->
-                    <Item id="11001" name="視窗(&amp;W)..."/> <!-- #new v8.3.2 -->
-                    <Item id="11002" name="檔名 A 至 Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11003" name="檔名 Z 至 A"/> <!-- #new v8.3.2 -->
-                    <Item id="11004" name="路徑 A 至 Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11005" name="路徑 Z 至 A"/> <!-- #new v8.3.2 -->
-                    <Item id="11006" name="副檔名 A 至 Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11007" name="副檔名 Z 至 A"/> <!-- #new v8.3.2 -->
-                    <Item id="11008" name="細至大 size"/> <!-- #new v8.3.2 -->
-                    <Item id="11009" name="大至細 size"/> <!-- #new v8.3.2 -->
+                    <Item id="11001" name="視窗(&amp;W)..."/><!-- #new v8.3.2 -->
+                    <Item id="11002" name="檔名 A 至 Z"/><!-- #new v8.3.2 -->
+                    <Item id="11003" name="檔名 Z 至 A"/><!-- #new v8.3.2 -->
+                    <Item id="11004" name="路徑 A 至 Z"/><!-- #new v8.3.2 -->
+                    <Item id="11005" name="路徑 Z 至 A"/><!-- #new v8.3.2 -->
+                    <Item id="11006" name="副檔名 A 至 Z"/><!-- #new v8.3.2 -->
+                    <Item id="11007" name="副檔名 Z 至 A"/><!-- #new v8.3.2 -->
+                    <Item id="11008" name="細至大 size"/><!-- #new v8.3.2 -->
+                    <Item id="11009" name="大至細 size"/><!-- #new v8.3.2 -->
                 </Commands>
             </Main>
             <TabBar>
-                <Item CMID="0" name="閂埋呢個檔案"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="2" name="Save"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="3" name="Save 做新檔案..."/> <!-- #legacy v8.4.7 -->
-                <Item CMID="4" name="Print 出嚟..."/> <!-- #legacy v8.4.7 -->
-                <Item CMID="5" name="搬呢個檔案去另一邊視窗"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="6" name="抄呢個檔案去另一邊視窗"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="7" name="抄低個檔案路徑"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="8" name="抄低個檔名"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="9" name="抄低個資料夾路徑"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="10" name="改名..."/> <!-- #legacy v8.4.7 -->
-                <Item CMID="11" name="掉去垃圾桶"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="12" name="將檔案 set 做唯讀"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="13" name="取消唯讀屬性"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="14" name="搬呢個檔案去新視窗"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="15" name="抄呢個檔案去新視窗"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="16" name="喺磁碟重新 load 過"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="17" name="閂晒左邊所有檔案"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="18" name="閂晒右邊所有檔案"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="19" name="喺檔案總管打開檔案嘅資料夾"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="20" name="喺 CMD 打開檔案嘅資料夾"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="21" name="喺系統預設程式度打開"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/> <!-- #legacy v8.4.7 -->
-                <Item CMID="23" name="喺資料夾工作區打開"/> <!-- #new v7.9.1 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="24" name="加顏色 1"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="25" name="加顏色 2"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="26" name="加顏色 3"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="27" name="加顏色 4"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="28" name="加顏色 5"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="29" name="唔用顏色"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="30" name="閂咁啲 tabs"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="31" name="去...打開"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="32" name="抄去剪貼簿"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="33" name="移動文件"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
-                <Item CMID="34" name="幫個 tab 加顏色"/> <!-- #new v8.4.6 --> <!-- #legacy v8.4.7 -->
+                <Item CMID="0" name="閂埋呢個檔案"/><!-- #legacy v8.4.7 -->
+                <Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/><!-- #legacy v8.4.7 -->
+                <Item CMID="2" name="Save"/><!-- #legacy v8.4.7 -->
+                <Item CMID="3" name="Save 做新檔案..."/><!-- #legacy v8.4.7 -->
+                <Item CMID="4" name="Print 出嚟..."/><!-- #legacy v8.4.7 -->
+                <Item CMID="5" name="搬呢個檔案去另一邊視窗"/><!-- #legacy v8.4.7 -->
+                <Item CMID="6" name="抄呢個檔案去另一邊視窗"/><!-- #legacy v8.4.7 -->
+                <Item CMID="7" name="抄低個檔案路徑"/><!-- #legacy v8.4.7 -->
+                <Item CMID="8" name="抄低個檔名"/><!-- #legacy v8.4.7 -->
+                <Item CMID="9" name="抄低個資料夾路徑"/><!-- #legacy v8.4.7 -->
+                <Item CMID="10" name="改名..."/><!-- #legacy v8.4.7 -->
+                <Item CMID="11" name="掉去垃圾桶"/><!-- #legacy v8.4.7 -->
+                <Item CMID="12" name="將檔案 set 做唯讀"/><!-- #legacy v8.4.7 -->
+                <Item CMID="13" name="取消唯讀屬性"/><!-- #legacy v8.4.7 -->
+                <Item CMID="14" name="搬呢個檔案去新視窗"/><!-- #legacy v8.4.7 -->
+                <Item CMID="15" name="抄呢個檔案去新視窗"/><!-- #legacy v8.4.7 -->
+                <Item CMID="16" name="喺磁碟重新 load 過"/><!-- #legacy v8.4.7 -->
+                <Item CMID="17" name="閂晒左邊所有檔案"/><!-- #legacy v8.4.7 -->
+                <Item CMID="18" name="閂晒右邊所有檔案"/><!-- #legacy v8.4.7 -->
+                <Item CMID="19" name="喺檔案總管打開檔案嘅資料夾"/><!-- #legacy v8.4.7 -->
+                <Item CMID="20" name="喺 CMD 打開檔案嘅資料夾"/><!-- #legacy v8.4.7 -->
+                <Item CMID="21" name="喺系統預設程式度打開"/><!-- #legacy v8.4.7 -->
+                <Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/><!-- #legacy v8.4.7 -->
+                <Item CMID="23" name="喺資料夾工作區打開"/><!-- #new v7.9.1 --><!-- #legacy v8.4.7 -->
+                <Item CMID="24" name="加顏色 1"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="25" name="加顏色 2"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="26" name="加顏色 3"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="27" name="加顏色 4"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="28" name="加顏色 5"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="29" name="唔用顏色"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="30" name="閂咁啲 tabs"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="31" name="去...打開"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="32" name="抄去剪貼簿"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="33" name="移動文件"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+                <Item CMID="34" name="幫個 tab 加顏色"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
 
-                <Item CMDID="41003" name="閂埋呢個檔案"/> <!-- #new v8.4.8 -->
-                <Item CMDID="0" name="閂咁啲 tabs"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41005" name="除咗呢個檔案，閂晒其它佢"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41009" name="閂晒左邊所有檔案"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41018" name="閂晒右邊所有檔案"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41006" name="Save"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41008" name="Save 做新檔案..."/> <!-- #new v8.4.8 -->
-                <Item CMDID="1" name="去...打開"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41019" name="喺檔案總管打開檔案嘅資料夾"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41020" name="喺 CMD 打開檔案嘅資料夾"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41025" name="喺資料夾工作區打開檔案嘅資料夾"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41023" name="喺系統預設程式度打開"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41017" name="改名..."/> <!-- #new v8.4.8 -->
-                <Item CMDID="41016" name="掉去垃圾桶"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41014" name="喺磁碟重新 load 過"/> <!-- #new v8.4.8 -->
-                <Item CMDID="41010" name="Print 出嚟..."/> <!-- #new v8.4.8 -->
-                <Item CMDID="42028" name="唯讀"/> <!-- #new v8.4.8 -->
-                <Item CMDID="42033" name="取消唯讀屬性"/> <!-- #new v8.4.8 -->
-                <Item CMDID="2" name="抄去剪貼簿"/> <!-- #new v8.4.8 -->
-                <Item CMDID="42029" name="抄低個檔案路徑"/> <!-- #new v8.4.8 -->
-                <Item CMDID="42030" name="抄低個檔名"/> <!-- #new v8.4.8 -->
-                <Item CMDID="42031" name="抄低個資料夾路徑"/> <!-- #new v8.4.8 -->
-                <Item CMDID="3" name="移動文件"/> <!-- #new v8.4.8 -->
-                <Item CMDID="10001" name="搬呢個檔案去另一邊視窗"/> <!-- #new v8.4.8 -->
-                <Item CMDID="10002" name="抄呢個檔案去另一邊視窗"/> <!-- #new v8.4.8 -->
-                <Item CMDID="10003" name="搬呢個檔案去新視窗"/> <!-- #new v8.4.8 -->
-                <Item CMDID="10004" name="抄呢個檔案去新視窗"/> <!-- #new v8.4.8 -->
-                <Item CMDID="4" name="幫個 tab 加顏色"/> <!-- #new v8.4.8 -->
-                <Item CMDID="44111" name="加顏色 1"/> <!-- #new v8.4.8 -->
-                <Item CMDID="44112" name="加顏色 2"/> <!-- #new v8.4.8 -->
-                <Item CMDID="44113" name="加顏色 3"/> <!-- #new v8.4.8 -->
-                <Item CMDID="44114" name="加顏色 4"/> <!-- #new v8.4.8 -->
-                <Item CMDID="44115" name="加顏色 5"/> <!-- #new v8.4.8 -->
-                <Item CMDID="44110" name="唔用顏色"/> <!-- #new v8.4.8 -->
+                <Item CMDID="41003" name="閂埋呢個檔案"/><!-- #new v8.4.8 -->
+                <Item CMDID="0" name="閂咁啲 tabs"/><!-- #new v8.4.8 -->
+                <Item CMDID="41005" name="除咗呢個檔案，閂晒其它佢"/><!-- #new v8.4.8 -->
+                <Item CMDID="41009" name="閂晒左邊所有檔案"/><!-- #new v8.4.8 -->
+                <Item CMDID="41018" name="閂晒右邊所有檔案"/><!-- #new v8.4.8 -->
+                <Item CMDID="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/><!-- #new v8.4.8 -->
+                <Item CMDID="41006" name="Save"/><!-- #new v8.4.8 -->
+                <Item CMDID="41008" name="Save 做新檔案..."/><!-- #new v8.4.8 -->
+                <Item CMDID="1" name="去...打開"/><!-- #new v8.4.8 -->
+                <Item CMDID="41019" name="喺檔案總管打開檔案嘅資料夾"/><!-- #new v8.4.8 -->
+                <Item CMDID="41020" name="喺 CMD 打開檔案嘅資料夾"/><!-- #new v8.4.8 -->
+                <Item CMDID="41025" name="喺資料夾工作區打開檔案嘅資料夾"/><!-- #new v8.4.8 -->
+                <Item CMDID="41023" name="喺系統預設程式度打開"/><!-- #new v8.4.8 -->
+                <Item CMDID="41017" name="改名..."/><!-- #new v8.4.8 -->
+                <Item CMDID="41016" name="掉去垃圾桶"/><!-- #new v8.4.8 -->
+                <Item CMDID="41014" name="喺磁碟重新 load 過"/><!-- #new v8.4.8 -->
+                <Item CMDID="41010" name="Print 出嚟..."/><!-- #new v8.4.8 -->
+                <Item CMDID="42028" name="唯讀"/><!-- #new v8.4.8 -->
+                <Item CMDID="42033" name="取消唯讀屬性"/><!-- #new v8.4.8 -->
+                <Item CMDID="2" name="抄去剪貼簿"/><!-- #new v8.4.8 -->
+                <Item CMDID="42029" name="抄低個檔案路徑"/><!-- #new v8.4.8 -->
+                <Item CMDID="42030" name="抄低個檔名"/><!-- #new v8.4.8 -->
+                <Item CMDID="42031" name="抄低個資料夾路徑"/><!-- #new v8.4.8 -->
+                <Item CMDID="3" name="移動文件"/><!-- #new v8.4.8 -->
+                <Item CMDID="10001" name="搬呢個檔案去另一邊視窗"/><!-- #new v8.4.8 -->
+                <Item CMDID="10002" name="抄呢個檔案去另一邊視窗"/><!-- #new v8.4.8 -->
+                <Item CMDID="10003" name="搬呢個檔案去新視窗"/><!-- #new v8.4.8 -->
+                <Item CMDID="10004" name="抄呢個檔案去新視窗"/><!-- #new v8.4.8 -->
+                <Item CMDID="4" name="幫個 tab 加顏色"/><!-- #new v8.4.8 -->
+                <Item CMDID="44111" name="加顏色 1"/><!-- #new v8.4.8 -->
+                <Item CMDID="44112" name="加顏色 2"/><!-- #new v8.4.8 -->
+                <Item CMDID="44113" name="加顏色 3"/><!-- #new v8.4.8 -->
+                <Item CMDID="44114" name="加顏色 4"/><!-- #new v8.4.8 -->
+                <Item CMDID="44115" name="加顏色 5"/><!-- #new v8.4.8 -->
+                <Item CMDID="44110" name="唔用顏色"/><!-- #new v8.4.8 -->
             </TabBar>
             <TrayIcon>
-                <Item id="43101" name="開程式"/> <!-- #new v8.5.1 -->
-                <Item id="43102" name="開新檔"/> <!-- #new v8.5.1 -->
-                <Item id="43103" name="開新檔跟手貼上"/> <!-- #new v8.5.1 -->
-                <Item id="43104" name="打開檔案..."/> <!-- #new v8.5.1 -->
-                <Item id="43013" name="喺一咋檔案搵..."/> <!-- #new v8.5.1 -->
-                <Item id="43105" name="散水"/> <!-- #new v8.5.1 -->
+                <Item id="43101" name="開程式"/><!-- #new v8.5.1 -->
+                <Item id="43102" name="開新檔"/><!-- #new v8.5.1 -->
+                <Item id="43103" name="開新檔跟手貼上"/><!-- #new v8.5.1 -->
+                <Item id="43104" name="打開檔案..."/><!-- #new v8.5.1 -->
+                <Item id="43013" name="喺一咋檔案搵..."/><!-- #new v8.5.1 -->
+                <Item id="43105" name="散水"/><!-- #new v8.5.1 -->
             </TrayIcon>
         </Menu>
 
         <Dialog>
-            <Find title="" titleFind="搵" titleReplace="取代" titleFindInFiles="喺一咋檔案搵" titleFindInProjects="喺 Projects 度搵" titleMark="搵料標記"> <!-- #new v7.9.4 "titleFindInProjects" -->
-                <Item id="1"    name="搵下一個"/>
+            <Find title="" titleFind="搵" titleReplace="取代" titleFindInFiles="喺一咋檔案搵" titleFindInProjects="喺 Projects 度搵" titleMark="搵料標記"><!-- #new v7.9.4 "titleFindInProjects" -->
+                <Item id="1" name="搵下一個"/>
                 <Item id="1722" name="向上搵"/>
-                <Item id="2"    name="閂"/>
+                <Item id="2" name="閂"/>
                 <Item id="1620" name="搵乜嘢(&amp;F)："/>
                 <Item id="1603" name="符合完整單字(&amp;W)"/>
                 <Item id="1604" name="符合大細楷(&amp;C)"/>
@@ -563,28 +563,28 @@
                 <Item id="1625" name="一般(&amp;N)"/>
                 <Item id="1626" name="加強（例如 \n, \r, \t, \0, \x...）(&amp;X)"/>
                 <Item id="1660" name="所有檔案全部取代"/>
-                <Item id="1665" name="喺 projects 嘅檔案執行取代"/> <!-- #new v7.9.4 -->
+                <Item id="1665" name="喺 projects 嘅檔案執行取代"/><!-- #new v7.9.4 -->
                 <Item id="1661" name="使用目前文件嘅資料夾"/>
-                <Item id="1662" name="Project Panel 1"/> <!-- #new v7.9.4 -->
-                <Item id="1663" name="Project Panel 2"/> <!-- #new v7.9.4 -->
-                <Item id="1664" name="Project Panel 3"/> <!-- #new v7.9.4 -->
+                <Item id="1662" name="Project Panel 1"/><!-- #new v7.9.4 -->
+                <Item id="1663" name="Project Panel 2"/><!-- #new v7.9.4 -->
+                <Item id="1664" name="Project Panel 3"/><!-- #new v7.9.4 -->
                 <Item id="1641" name="喺目前文件搵晒出嚟"/>
                 <Item id="1686" name="透明度(&amp;Y)"/>
                 <Item id="1703" name="包含換行(&amp;.)"/>
                 <Item id="1721" name="▲"/>
                 <Item id="1723" name="▼ 搵下一個"/>
-                <Item id="1725" name="抄低標記咗嘅字"/> <!-- #new v7.9.1 -->
+                <Item id="1725" name="抄低標記咗嘅字"/><!-- #new v7.9.1 -->
                 <Menu>
-                    <Item id="1726" name="⇅ 搵同取代啲字互調"/> <!-- #new v8.5.1 -->
-                    <Item id="1727" name="⤵ 將想搵嘅字抄去取代嗰度"/> <!-- #new v8.5.1 -->
-                    <Item id="1728" name="⤴ 將取代嘅字抄去搵嘢嗰度"/> <!-- #new v8.5.1 -->
+                    <Item id="1726" name="⇅ 搵同取代啲字互調"/><!-- #new v8.5.1 -->
+                    <Item id="1727" name="⤵ 將想搵嘅字抄去取代嗰度"/><!-- #new v8.5.1 -->
+                    <Item id="1728" name="⤴ 將取代嘅字抄去搵嘢嗰度"/><!-- #new v8.5.1 -->
                 </Menu>
             </Find>
 
             <IncrementalFind title="">
-                <Item id="1681" name="搵緊"/> <!-- #new v8.1.5 -->
-                <Item id="1685" name="符合大細楷"/> <!-- #new v8.1.5 -->
-                <Item id="1690" name="醒目提示"/> <!-- #new v8.1.5 -->
+                <Item id="1681" name="搵緊"/><!-- #new v8.1.5 -->
+                <Item id="1685" name="符合大細楷"/><!-- #new v8.1.5 -->
+                <Item id="1690" name="醒目提示"/><!-- #new v8.1.5 -->
             </IncrementalFind>
 
             <FindCharsInRange title="以字元編號搵字元...">
@@ -602,8 +602,8 @@
             <GoToLine title="跳去...">
                 <Item id="2007" name="行數號碼(&amp;L)"/>
                 <Item id="2008" name="字元位置(&amp;O)"/>
-                <Item id="1"    name="跳過去"/>
-                <Item id="2"    name="邊度都唔去"/>
+                <Item id="1" name="跳過去"/>
+                <Item id="2" name="邊度都唔去"/>
                 <Item id="2004" name="你喺呢度："/>
                 <Item id="2005" name="你想去："/>
                 <Item id="2006" name="去到盡喺呢度："/>
@@ -611,50 +611,50 @@
 
             <Run title="執行...">
                 <Item id="1903" name="行乜嘢程式"/>
-                <Item id="1"    name="執行"/>
-                <Item id="2"    name="取消"/>
+                <Item id="1" name="執行"/>
+                <Item id="2" name="取消"/>
                 <Item id="1904" name="儲存..."/>
             </Run>
 
             <MD5FromFilesDlg title="運算檔案嘅 MD5">
                 <Item id="1922" name="揀一個／一咋檔案...(&amp;G)"/>
                 <Item id="1924" name="抄去剪貼簿(&amp;P)"/>
-                <Item id="2"    name="閂(&amp;C)"/>
+                <Item id="2" name="閂(&amp;C)"/>
             </MD5FromFilesDlg>
 
             <MD5FromTextDlg title="運算 MD5">
                 <Item id="1932" name="每一行都係獨立嘅字串(&amp;S)"/>
                 <Item id="1934" name="抄去剪貼簿(&amp;P)"/>
-                <Item id="2"    name="閂(&amp;C)"/>
+                <Item id="2" name="閂(&amp;C)"/>
             </MD5FromTextDlg>
 
             <SHA256FromFilesDlg title="運算檔案嘅 SHA-256">
                 <Item id="1922" name="揀一個／一咋檔案...(&amp;G)"/>
                 <Item id="1924" name="抄去剪貼簿(&amp;P)"/>
-                <Item id="2"    name="閂(&amp;C)"/>
+                <Item id="2" name="閂(&amp;C)"/>
             </SHA256FromFilesDlg>
 
             <SHA256FromTextDlg title="運算 SHA-256">
                 <Item id="1932" name="每一行都係獨立嘅字串(&amp;S)"/>
                 <Item id="1934" name="抄去剪貼簿(&amp;P)"/>
-                <Item id="2"    name="閂(&amp;C)"/>
+                <Item id="2" name="閂(&amp;C)"/>
             </SHA256FromTextDlg>
 
             <PluginsAdminDlg title="外掛管理員" titleAvailable="可安裝" titleUpdates="更新" titleInstalled="已安裝" titleIncompatible="唔相容">
-                <ColumnPlugin   name="外掛"/>
-                <ColumnVersion  name="版本"/>
+                <ColumnPlugin name="外掛"/>
+                <ColumnVersion name="版本"/>
                 <Item id="5501" name="搵："/>
                 <Item id="5503" name="安裝"/>
                 <Item id="5504" name="更新"/>
                 <Item id="5505" name="剷走"/>
                 <Item id="5508" name="下一個"/>
-                <Item id="5509" name="外掛清單版本："/> <!-- #new v8.4.6 -->
-                <Item id="5511" name="外掛清單存儲庫"/> <!-- #new v8.4.6 -->
-                <Item id="2"    name="閂"/>
+                <Item id="5509" name="外掛清單版本："/><!-- #new v8.4.6 -->
+                <Item id="5511" name="外掛清單存儲庫"/><!-- #new v8.4.6 -->
+                <Item id="2" name="閂"/>
             </PluginsAdminDlg>
 
             <StyleConfig title="主題風格設定">
-                <Item id="2"    name="取消"/>
+                <Item id="2" name="取消"/>
                 <Item id="2301" name="儲存然後閂埋佢"/>
                 <Item id="2303" name="透明度"/>
                 <Item id="2306" name="揀主題："/>
@@ -681,7 +681,7 @@
                     <Item id="2230" name="啟用全域粗體"/>
                     <Item id="2231" name="啟用全域斜體"/>
                     <Item id="2232" name="啟用全域底線"/>
-                    <Item id="2234" name="跳去相關嘅設定"/> <!-- #new v8.4.4 -->
+                    <Item id="2234" name="跳去相關嘅設定"/><!-- #new v8.4.4 -->
                 </SubDialog>
             </StyleConfig>
 
@@ -702,20 +702,20 @@
                 <ScintillaCommandsTab name="Scintilla 指令"/>
                 <ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
                 <ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
-                <WindowCategory name="視窗"/> <!-- #new v8.5 -->
-                <FileCategory name="檔案"/> <!-- #new v8.5 -->
-                <EditCategory name="編輯"/> <!-- #new v8.5 -->
-                <SearchCategory name="搵"/> <!-- #new v8.5 -->
-                <ViewCategory name="睇"/> <!-- #new v8.5 -->
-                <FormatCategory name="編碼"/> <!-- #new v8.5 -->
-                <LangCategory name="語言"/> <!-- #new v8.5 -->
-                <AboutCategory name="關於"/> <!-- #new v8.5 -->
-                <SettingCategory name="設定"/> <!-- #new v8.5 -->
-                <ToolCategory name="架撐"/> <!-- #new v8.5 -->
-                <ExecuteCategory name="執行"/> <!-- #new v8.5 -->
-                <ModifyContextMenu name="修改"/> <!-- #new v8.5 -->
-                <DeleteContextMenu name="剷走"/> <!-- #new v8.5 -->
-                <ClearContextMenu name="清除"/> <!-- #new v8.5 -->
+                <WindowCategory name="視窗"/><!-- #new v8.5 -->
+                <FileCategory name="檔案"/><!-- #new v8.5 -->
+                <EditCategory name="編輯"/><!-- #new v8.5 -->
+                <SearchCategory name="搵"/><!-- #new v8.5 -->
+                <ViewCategory name="睇"/><!-- #new v8.5 -->
+                <FormatCategory name="編碼"/><!-- #new v8.5 -->
+                <LangCategory name="語言"/><!-- #new v8.5 -->
+                <AboutCategory name="關於"/><!-- #new v8.5 -->
+                <SettingCategory name="設定"/><!-- #new v8.5 -->
+                <ToolCategory name="架撐"/><!-- #new v8.5 -->
+                <ExecuteCategory name="執行"/><!-- #new v8.5 -->
+                <ModifyContextMenu name="修改"/><!-- #new v8.5 -->
+                <DeleteContextMenu name="剷走"/><!-- #new v8.5 -->
+                <ClearContextMenu name="清除"/><!-- #new v8.5 -->
                 <MainCommandNames>
                     <Item id="41019" name="喺檔案總管打開檔案嘅資料夾"/>
                     <Item id="41020" name="喺 CMD 打開檔案嘅資料夾"/>
@@ -728,11 +728,11 @@
                     <Item id="43026" name="成份文件咁做標記：使用風格標記 3"/>
                     <Item id="43028" name="成份文件咁做標記：使用風格標記 4"/>
                     <Item id="43030" name="成份文件咁做標記：使用風格標記 5"/>
-                    <Item id="43062" name="標記一次：使用風格標記 1"/> <!-- #new v7.9.6 -->
-                    <Item id="43063" name="標記一次：使用風格標記 2"/> <!-- #new v7.9.6 -->
-                    <Item id="43064" name="標記一次：使用風格標記 3"/> <!-- #new v7.9.6 -->
-                    <Item id="43065" name="標記一次：使用風格標記 4"/> <!-- #new v7.9.6 -->
-                    <Item id="43066" name="標記一次：使用風格標記 5"/> <!-- #new v7.9.6 -->
+                    <Item id="43062" name="標記一次：使用風格標記 1"/><!-- #new v7.9.6 -->
+                    <Item id="43063" name="標記一次：使用風格標記 2"/><!-- #new v7.9.6 -->
+                    <Item id="43064" name="標記一次：使用風格標記 3"/><!-- #new v7.9.6 -->
+                    <Item id="43065" name="標記一次：使用風格標記 4"/><!-- #new v7.9.6 -->
+                    <Item id="43066" name="標記一次：使用風格標記 5"/><!-- #new v7.9.6 -->
                     <Item id="43023" name="清除風格標記：風格標記 1"/>
                     <Item id="43025" name="清除風格標記：風格標記 2"/>
                     <Item id="43027" name="清除風格標記：風格標記 3"/>
@@ -751,13 +751,13 @@
                     <Item id="43042" name="跳去下個：風格標記 4"/>
                     <Item id="43043" name="跳去下個：風格標記 5"/>
                     <Item id="43044" name="跳去下個：搵料標記"/>
-                    <Item id="43055" name="抄低標記咗嘅字：風格標記 1"/> <!-- #new v7.9.1 -->
-                    <Item id="43056" name="抄低標記咗嘅字：風格標記 2"/> <!-- #new v7.9.1 -->
-                    <Item id="43057" name="抄低標記咗嘅字：風格標記 3"/> <!-- #new v7.9.1 -->
-                    <Item id="43058" name="抄低標記咗嘅字：風格標記 4"/> <!-- #new v7.9.1 -->
-                    <Item id="43059" name="抄低標記咗嘅字：風格標記 5"/> <!-- #new v7.9.1 -->
-                    <Item id="43060" name="抄低標記咗嘅字：所有風格標記"/> <!-- #new v7.9.1 -->
-                    <Item id="43061" name="抄低標記咗嘅字：搵料標記"/> <!-- #new v7.9.1 -->
+                    <Item id="43055" name="抄低標記咗嘅字：風格標記 1"/><!-- #new v7.9.1 -->
+                    <Item id="43056" name="抄低標記咗嘅字：風格標記 2"/><!-- #new v7.9.1 -->
+                    <Item id="43057" name="抄低標記咗嘅字：風格標記 3"/><!-- #new v7.9.1 -->
+                    <Item id="43058" name="抄低標記咗嘅字：風格標記 4"/><!-- #new v7.9.1 -->
+                    <Item id="43059" name="抄低標記咗嘅字：風格標記 5"/><!-- #new v7.9.1 -->
+                    <Item id="43060" name="抄低標記咗嘅字：所有風格標記"/><!-- #new v7.9.1 -->
+                    <Item id="43061" name="抄低標記咗嘅字：搵料標記"/><!-- #new v7.9.1 -->
                     <Item id="44100" name="喺 Firefox 度睇呢個檔案"/>
                     <Item id="44101" name="喺 Chrome 度睇呢個檔案"/>
                     <Item id="44103" name="喺 IE 度睇呢個檔案"/>
@@ -785,29 +785,29 @@
                     <Item id="44083" name="開/閂 Project Panel 3"/>
                     <Item id="44085" name="開/閂資料夾工作區"/>
                     <Item id="44080" name="開/閂文件地圖"/>
-                    <Item id="44070" name="開/閂文件清單"/> <!-- #new v8.1.3 -->
+                    <Item id="44070" name="開/閂文件清單"/><!-- #new v8.1.3 -->
                     <Item id="44084" name="開/閂函式清單"/>
                     <Item id="50005" name="開始/停止錄製 macro"/>
                     <Item id="44104" name="跳去 Project Panel 1"/>
                     <Item id="44105" name="跳去 Project Panel 2"/>
                     <Item id="44106" name="跳去 Project Panel 3"/>
                     <Item id="44107" name="跳去資料夾工作區"/>
-                    <Item id="44109" name="跳去文件清單"/> <!-- #new v8.1.4 -->
+                    <Item id="44109" name="跳去文件清單"/><!-- #new v8.1.4 -->
                     <Item id="44108" name="跳去函式清單"/>
-                    <Item id="44110" name="剷走 tab 嘅顏色"/> <!-- #new v8.4.6 -->
-                    <Item id="44111" name="幫個 tab 加顏色 1"/> <!-- #new v8.4.6 -->
-                    <Item id="44112" name="幫個 tab 加顏色 2"/> <!-- #new v8.4.6 -->
-                    <Item id="44113" name="幫個 tab 加顏色 3"/> <!-- #new v8.4.6 -->
-                    <Item id="44114" name="幫個 tab 加顏色 4"/> <!-- #new v8.4.6 -->
-                    <Item id="44115" name="幫個 tab 加顏色 5"/> <!-- #new v8.4.6 -->
-                    <Item id="11002" name="排次序：檔名 A 至 Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11003" name="排次序：檔名 Z 至 A"/> <!-- #new v8.3.2 -->
-                    <Item id="11004" name="排次序：路徑 A 至 Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11005" name="排次序：路徑 Z 至 A"/> <!-- #new v8.3.2 -->
-                    <Item id="11006" name="排次序：副檔名 A 至 Z"/> <!-- #new v8.3.2 -->
-                    <Item id="11007" name="排次序：副檔名 Z 至 A"/> <!-- #new v8.3.2 -->
-                    <Item id="11008" name="排次序：細至大 size"/> <!-- #new v8.3.2 -->
-                    <Item id="11009" name="排次序：大至細 size"/> <!-- #new v8.3.2 -->
+                    <Item id="44110" name="剷走 tab 嘅顏色"/><!-- #new v8.4.6 -->
+                    <Item id="44111" name="幫個 tab 加顏色 1"/><!-- #new v8.4.6 -->
+                    <Item id="44112" name="幫個 tab 加顏色 2"/><!-- #new v8.4.6 -->
+                    <Item id="44113" name="幫個 tab 加顏色 3"/><!-- #new v8.4.6 -->
+                    <Item id="44114" name="幫個 tab 加顏色 4"/><!-- #new v8.4.6 -->
+                    <Item id="44115" name="幫個 tab 加顏色 5"/><!-- #new v8.4.6 -->
+                    <Item id="11002" name="排次序：檔名 A 至 Z"/><!-- #new v8.3.2 -->
+                    <Item id="11003" name="排次序：檔名 Z 至 A"/><!-- #new v8.3.2 -->
+                    <Item id="11004" name="排次序：路徑 A 至 Z"/><!-- #new v8.3.2 -->
+                    <Item id="11005" name="排次序：路徑 Z 至 A"/><!-- #new v8.3.2 -->
+                    <Item id="11006" name="排次序：副檔名 A 至 Z"/><!-- #new v8.3.2 -->
+                    <Item id="11007" name="排次序：副檔名 Z 至 A"/><!-- #new v8.3.2 -->
+                    <Item id="11008" name="排次序：細至大 size"/><!-- #new v8.3.2 -->
+                    <Item id="11009" name="排次序：大至細 size"/><!-- #new v8.3.2 -->
                 </MainCommandNames>
             </ShortcutMapper>
 
@@ -834,7 +834,7 @@
                 <Item id="20011" name="透明度"/>
                 <Item id="20015" name="匯入..."/>
                 <Item id="20016" name="匯出..."/>
-                <Item id="20017" name="唔靠邊"/> <!-- #new v8.5 -->
+                <Item id="20017" name="唔靠邊"/><!-- #new v8.5 -->
 
                 <StylerDialog title="樣式對話框">
                     <Item id="25030" name="字型選項"/>
@@ -1007,10 +1007,10 @@
                 <Global title="一般">
                     <Item id="6101" name="工具列"/>
                     <Item id="6102" name="隱藏"/>
-                    <Item id="6103" name="滑脫脫介面：細圖示"/> <!-- "Fluent UI" -->
-                    <Item id="6104" name="滑脫脫介面：大圖示"/> <!-- "Fluent UI" -->
-                    <Item id="6129" name="肥嘟嘟介面：細圖示"/> <!-- "Filled Fluent UI" --> <!-- #new v7.9.6 -->
-                    <Item id="6130" name="肥嘟嘟介面：大圖示"/> <!-- "Filled Fluent UI" --> <!-- #new v7.9.6 -->
+                    <Item id="6103" name="滑脫脫介面：細圖示"/><!-- "Fluent UI" -->
+                    <Item id="6104" name="滑脫脫介面：大圖示"/><!-- "Fluent UI" -->
+                    <Item id="6129" name="肥嘟嘟介面：細圖示"/><!-- "Filled Fluent UI" --><!-- #new v7.9.6 -->
+                    <Item id="6130" name="肥嘟嘟介面：大圖示"/><!-- "Filled Fluent UI" --><!-- #new v7.9.6 -->
                     <Item id="6105" name="標準介面：細圖示"/>
                     <Item id="6106" name="Tab Bar"/>
                     <Item id="6107" name="縮細"/>
@@ -1024,11 +1024,11 @@
                     <Item id="6119" name="多行"/>
                     <Item id="6120" name="打直"/>
                     <Item id="6121" name="閂最後份文件嗰陣順便閂埋個程式"/>
-                    <Item id="6131" name="Menu"/> <!-- #new v8.4.5 -->
+                    <Item id="6131" name="Menu"/><!-- #new v8.4.5 -->
                     <Item id="6122" name="隱藏 menu bar（撳 Alt 或者 F10 切換）"/>
-                    <Item id="6132" name="隱藏 menu bar 右邊嗰啲快捷鍵 ＋ ▼ ✕（需要重開 Notepad++）"/> <!-- #new v8.4.5 -->
+                    <Item id="6132" name="隱藏 menu bar 右邊嗰啲快捷鍵 ＋ ▼ ✕（需要重開 Notepad++）"/><!-- #new v8.4.5 -->
                     <Item id="6123" name="本土化"/>
-                    <Item id="6128" name="另類圖示"/> <!-- #new v7.9.1 -->
+                    <Item id="6128" name="另類圖示"/><!-- #new v7.9.1 -->
                 </Global>
 
                 <Scintillas title="編輯">
@@ -1037,61 +1037,61 @@
                     <Item id="6219" name="眨嘅頻率："/>
                     <Item id="6221" name="快"/>
                     <Item id="6222" name="慢"/>
-                    <Item id="6246" name="「摺埋呢層」同「展開呢層」命令改為「切換」"/> <!-- #new v8.4.2 -->
+                    <Item id="6246" name="「摺埋呢層」同「展開呢層」命令改為「切換」"/><!-- #new v8.4.2 -->
                     <Item id="6225" name="幾個位置同時改嘢（Ctrl + 撳／撳著滑鼠掣）"/>
-                    <Item id="6227" name="自動換行"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6228" name="預設"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6229" name="對齊"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6230" name="縮排"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6234" name="將進階上下轆功能熄咗佢（避開觸控板問題）"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6214" name="突顯改緊嘢嗰行嘅顏色"/> <!-- #legacy v8.4.0 -->
-                    <Item id="6215" name="啟用順滑字體"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6236" name="轆到超出至最後一行"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6245" name="啟用虛位空間浮標"/> <!-- #new v8.4.0 -->
-                    <Item id="6651" name="突顯改緊嘢嗰行"/> <!-- #new v8.4.1 -->
-                    <Item id="6652" name="唔搞"/> <!-- #new v8.4.1 -->
-                    <Item id="6653" name="突顯背景顏色"/> <!-- #new v8.4.1 -->
-                    <Item id="6654" name="邊框"/> <!-- #new v8.4.1 -->
-                    <Item id="6655" name="闊度："/> <!-- #new v8.4.1 -->
-                    <Item id="6247" name="EOL (CRLF)"/> <!-- #new v8.4.3 --> <!-- Don't translate "(CRLF)" -->
-                    <Item id="6248" name="預設"/> <!-- #new v8.4.3 -->
-                    <Item id="6249" name="純文字"/> <!-- #new v8.4.3 -->
-                    <Item id="6250" name="自訂顏色"/> <!-- #new v8.4.3 -->
-                    <Item id="6252" name="非打印字符"/> <!-- #new v8.5 -->
-                    <Item id="6254" name="Abbreviation"/> <!-- #new v8.5 #review commit aaab190 -->
-                    <Item id="6255" name="Codepoint"/> <!-- #new v8.5 #review commit aaab190 -->
-                    <Item id="6256" name="自訂顏色"/> <!-- #new v8.5 -->
-                    <Item id="6258" name="套用喺 C0、C1 同埋 Unicode EOL &amp; "/> <!-- #new v8.5.3 -->
+                    <Item id="6227" name="自動換行"/><!-- #moved in v7.9.2 -->
+                    <Item id="6228" name="預設"/><!-- #moved in v7.9.2 -->
+                    <Item id="6229" name="對齊"/><!-- #moved in v7.9.2 -->
+                    <Item id="6230" name="縮排"/><!-- #moved in v7.9.2 -->
+                    <Item id="6234" name="將進階上下轆功能熄咗佢（避開觸控板問題）"/><!-- #moved in v7.9.2 -->
+                    <Item id="6214" name="突顯改緊嘢嗰行嘅顏色"/><!-- #legacy v8.4.0 -->
+                    <Item id="6215" name="啟用順滑字體"/><!-- #moved in v7.9.2 -->
+                    <Item id="6236" name="轆到超出至最後一行"/><!-- #moved in v7.9.2 -->
+                    <Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/><!-- #moved in v7.9.2 -->
+                    <Item id="6245" name="啟用虛位空間浮標"/><!-- #new v8.4.0 -->
+                    <Item id="6651" name="突顯改緊嘢嗰行"/><!-- #new v8.4.1 -->
+                    <Item id="6652" name="唔搞"/><!-- #new v8.4.1 -->
+                    <Item id="6653" name="突顯背景顏色"/><!-- #new v8.4.1 -->
+                    <Item id="6654" name="邊框"/><!-- #new v8.4.1 -->
+                    <Item id="6655" name="闊度："/><!-- #new v8.4.1 -->
+                    <Item id="6247" name="EOL (CRLF)"/><!-- #new v8.4.3 --><!-- Don't translate "(CRLF)" -->
+                    <Item id="6248" name="預設"/><!-- #new v8.4.3 -->
+                    <Item id="6249" name="純文字"/><!-- #new v8.4.3 -->
+                    <Item id="6250" name="自訂顏色"/><!-- #new v8.4.3 -->
+                    <Item id="6252" name="非打印字符"/><!-- #new v8.5 -->
+                    <Item id="6254" name="Abbreviation"/><!-- #new v8.5 #review commit aaab190 -->
+                    <Item id="6255" name="Codepoint"/><!-- #new v8.5 #review commit aaab190 -->
+                    <Item id="6256" name="自訂顏色"/><!-- #new v8.5 -->
+                    <Item id="6258" name="套用喺 C0、C1 同埋 Unicode EOL &amp; "/><!-- #new v8.5.3 -->
                 </Scintillas>
 
-                <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
-                    <Item id="7101" name="啟用 dark mode"/> <!-- #legacy v8.4.7 -->
-                    <Item id="7131" name="Light mode"/> <!-- #new v8.4.8 -->
-                    <Item id="7132" name="Dark mode"/> <!-- #new v8.4.8 -->
-                    <Item id="7133" name="跟返 Windows"/> <!-- #new v8.4.8 -->
-                    <Item id="7102" name="黑色"/> <!-- #new v8.1.2 -->
-                    <Item id="7103" name="紅色"/> <!-- #new v8.1.2 -->
-                    <Item id="7104" name="綠色"/> <!-- #new v8.1.2 -->
-                    <Item id="7105" name="藍色"/> <!-- #new v8.1.2 -->
-                    <Item id="7107" name="紫色"/> <!-- #new v8.1.2 -->
-                    <Item id="7108" name="青色"/> <!-- #new v8.1.2 -->
-                    <Item id="7109" name="橄欖色"/> <!-- #new v8.1.2 -->
-                    <Item id="7115" name="自訂"/> <!-- #new v8.1.2 -->
-                    <Item id="7116" name="頂部"/> <!-- #new v8.1.2 -->
-                    <Item id="7117" name="Menu 追踪顯示"/> <!-- #new v8.1.2 -->
-                    <Item id="7118" name="用緊嘅部分"/> <!-- #new v8.1.2 -->
-                    <Item id="7119" name="主要部分"/> <!-- #new v8.1.2 -->
-                    <Item id="7120" name="Error"/> <!-- #new v8.1.2 -->
-                    <Item id="7121" name="文字"/> <!-- #new v8.1.2 -->
-                    <Item id="7122" name="再暗啲嘅字"/> <!-- #new v8.1.2 -->
-                    <Item id="7123" name="停用咗嘅字"/> <!-- #new v8.1.2 -->
-                    <Item id="7124" name="邊緣線"/> <!-- #new v8.1.2 -->
-                    <Item id="7125" name="Link"/> <!-- #new v8.2.1 -->
-                    <Item id="7126" name="突顯緊嘅邊緣線"/> <!-- #new v8.4.2 -->
-                    <Item id="7127" name="禁用咗嘅邊緣線"/> <!-- #new v8.4.3 -->
-                    <Item id="7130" name="重新設定"/> <!-- #new v8.1.2 -->
-                    <Item id="7135" name="色調"/> <!-- #new v8.4.2 -->
+                <DarkMode title="Dark Mode"><!-- #new v7.9.6 -->
+                    <Item id="7101" name="啟用 dark mode"/><!-- #legacy v8.4.7 -->
+                    <Item id="7131" name="Light mode"/><!-- #new v8.4.8 -->
+                    <Item id="7132" name="Dark mode"/><!-- #new v8.4.8 -->
+                    <Item id="7133" name="跟返 Windows"/><!-- #new v8.4.8 -->
+                    <Item id="7102" name="黑色"/><!-- #new v8.1.2 -->
+                    <Item id="7103" name="紅色"/><!-- #new v8.1.2 -->
+                    <Item id="7104" name="綠色"/><!-- #new v8.1.2 -->
+                    <Item id="7105" name="藍色"/><!-- #new v8.1.2 -->
+                    <Item id="7107" name="紫色"/><!-- #new v8.1.2 -->
+                    <Item id="7108" name="青色"/><!-- #new v8.1.2 -->
+                    <Item id="7109" name="橄欖色"/><!-- #new v8.1.2 -->
+                    <Item id="7115" name="自訂"/><!-- #new v8.1.2 -->
+                    <Item id="7116" name="頂部"/><!-- #new v8.1.2 -->
+                    <Item id="7117" name="Menu 追踪顯示"/><!-- #new v8.1.2 -->
+                    <Item id="7118" name="用緊嘅部分"/><!-- #new v8.1.2 -->
+                    <Item id="7119" name="主要部分"/><!-- #new v8.1.2 -->
+                    <Item id="7120" name="Error"/><!-- #new v8.1.2 -->
+                    <Item id="7121" name="文字"/><!-- #new v8.1.2 -->
+                    <Item id="7122" name="再暗啲嘅字"/><!-- #new v8.1.2 -->
+                    <Item id="7123" name="停用咗嘅字"/><!-- #new v8.1.2 -->
+                    <Item id="7124" name="邊緣線"/><!-- #new v8.1.2 -->
+                    <Item id="7125" name="Link"/><!-- #new v8.2.1 -->
+                    <Item id="7126" name="突顯緊嘅邊緣線"/><!-- #new v8.4.2 -->
+                    <Item id="7127" name="禁用咗嘅邊緣線"/><!-- #new v8.4.3 -->
+                    <Item id="7130" name="重新設定"/><!-- #new v8.1.2 -->
+                    <Item id="7135" name="色調"/><!-- #new v8.4.2 -->
                 </DarkMode>
 
                 <MarginsBorderEdge title="邊界／邊框／邊緣線">
@@ -1101,22 +1101,22 @@
                     <Item id="6204" name="圓形"/>
                     <Item id="6205" name="方形"/>
                     <Item id="6226" name="冇"/>
-                    <Item id="6291" name="行數號碼"/> <!-- #new v7.9.2 -->
+                    <Item id="6291" name="行數號碼"/><!-- #new v7.9.2 -->
                     <Item id="6206" name="顯示"/>
-                    <Item id="6292" name="動態闊度"/> <!-- #new v7.9.2 -->
-                    <Item id="6293" name="固定闊度"/> <!-- #new v7.9.2 -->
+                    <Item id="6292" name="動態闊度"/><!-- #new v7.9.2 -->
+                    <Item id="6293" name="固定闊度"/><!-- #new v7.9.2 -->
                     <Item id="6207" name="顯示書籤"/>
-                    <Item id="6223" name="顯示修改紀錄"/> <!-- #new v8.4.6 -->
+                    <Item id="6223" name="顯示修改紀錄"/><!-- #new v8.4.6 -->
                     <Item id="6211" name="垂直邊緣線設定"/>
                     <Item id="6213" name="背景色模式"/>
                     <Item id="6237" name="條線用嚟參考每行字數嘅上限，輸入十進制數字去決定條線嘅位置。
 想劃多啲線嘅話，用空格分隔多組數字就得。"/>
                     <Item id="6231" name="邊框闊度"/>
                     <Item id="6235" name="無邊框"/>
-                    <Item id="6208" name="框內留白"/> <!-- #new v7.9.6 -->
-                    <Item id="6209" name="左"/> <!-- #new v7.9.6 -->
-                    <Item id="6210" name="右"/> <!-- #new v7.9.6 -->
-                    <Item id="6212" name="免干擾模式"/> <!-- #new v7.9.6 -->
+                    <Item id="6208" name="框內留白"/><!-- #new v7.9.6 -->
+                    <Item id="6209" name="左"/><!-- #new v7.9.6 -->
+                    <Item id="6210" name="右"/><!-- #new v7.9.6 -->
+                    <Item id="6212" name="免干擾模式"/><!-- #new v7.9.6 -->
                 </MarginsBorderEdge>
 
                 <NewDoc title="新文件">
@@ -1161,12 +1161,12 @@
                 </Language>
 
                 <Highlighting title="醒目提示">
-                    <Item id="6351" name="成份文件咁做標記"/> <!-- #new v7.9.6 -->
-                    <Item id="6352" name="符合大細楷"/> <!-- #new v7.9.6 -->
-                    <Item id="6353" name="符合完整單字"/> <!-- #new v7.9.6 -->
+                    <Item id="6351" name="成份文件咁做標記"/><!-- #new v7.9.6 -->
+                    <Item id="6352" name="符合大細楷"/><!-- #new v7.9.6 -->
+                    <Item id="6353" name="符合完整單字"/><!-- #new v7.9.6 -->
                     <Item id="6333" name="醒目提示"/>
                     <Item id="6326" name="啟動"/>
-                    <Item id="6354" name="配對方式"/> <!-- #new v7.9.6 -->
+                    <Item id="6354" name="配對方式"/><!-- #new v7.9.6 -->
                     <Item id="6332" name="符合大細楷"/>
                     <Item id="6338" name="符合完整單字"/>
                     <Item id="6339" name="套用搵同取代功能對話框嘅設定"/>
@@ -1203,13 +1203,13 @@
                     <Item id="6722" name="右邊(&amp;H)"/>
                     <Item id="6723" name="加入(&amp;A)"/>
                     <ComboBox id="6724">
-                        <Element name="完整檔案路徑"/> <!-- #new v8.3.1 -->
-                        <Element name="檔名"/> <!-- #new v8.3.1 -->
-                        <Element name="資料夾路徑"/> <!-- #new v8.3.1 -->
-                        <Element name="頁數"/> <!-- #new v8.3.1 -->
-                        <Element name="日期（簡短）"/> <!-- #new v8.3.1 -->
-                        <Element name="日期（完整）"/> <!-- #new v8.3.1 -->
-                        <Element name="時間"/> <!-- #new v8.3.1 -->
+                        <Element name="完整檔案路徑"/><!-- #new v8.3.1 -->
+                        <Element name="檔名"/><!-- #new v8.3.1 -->
+                        <Element name="資料夾路徑"/><!-- #new v8.3.1 -->
+                        <Element name="頁數"/><!-- #new v8.3.1 -->
+                        <Element name="日期（簡短）"/><!-- #new v8.3.1 -->
+                        <Element name="日期（完整）"/><!-- #new v8.3.1 -->
+                        <Element name="時間"/><!-- #new v8.3.1 -->
                     </ComboBox>
                     <Item id="6725" name="變數(&amp;V)："/>
                     <Item id="6727" name="呢度會顯示你啲變數設定"/>
@@ -1217,15 +1217,15 @@
                 </Print>
 
                 <Searching title="搵嘢">
-                    <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/> <!-- #legacy v8.4.4 -->
+                    <Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/><!-- #legacy v8.4.4 -->
                     <Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
                     <Item id="6903" name="搵完嘢，保持開著個對話框"/>
                     <Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要先做確認"/>
-                    <Item id="6905" name="取代完唔好跳去另一個關鍵字"/> <!-- #new v7.9.6 -->
-                    <Item id="6906" name="搜尋結果視窗：一行顯示唔重複"/> <!-- #new v8.4.3 -->
-                    <Item id="6907" name="搵／取代對話框彈出嚟嗰陣時"/> <!-- #new v8.4.5 -->
-                    <Item id="6908" name="將揀咗嘅字填去輸入欄"/> <!-- #new v8.4.5 -->
-                    <Item id="6909" name="冇揀字嘅話，就揀浮標下面個字詞"/> <!-- #new v8.4.5 -->
+                    <Item id="6905" name="取代完唔好跳去另一個關鍵字"/><!-- #new v7.9.6 -->
+                    <Item id="6906" name="搜尋結果視窗：一行顯示唔重複"/><!-- #new v8.4.3 -->
+                    <Item id="6907" name="搵／取代對話框彈出嚟嗰陣時"/><!-- #new v8.4.5 -->
+                    <Item id="6908" name="將揀咗嘅字填去輸入欄"/><!-- #new v8.4.5 -->
+                    <Item id="6909" name="冇揀字嘅話，就揀浮標下面個字詞"/><!-- #new v8.4.5 -->
                 </Searching>
 
                 <RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1261,14 +1261,14 @@
                     <Item id="6809" name="函式自動完成"/>
                     <Item id="6810" name="字詞自動完成"/>
                     <Item id="6816" name="函式同埋字詞自動完成"/>
-                    <Item id="6869" name="插入選項"/> <!-- #new v8.2.1 -->
-                    <Item id="6870" name="用 Tab 掣"/> <!-- #new v8.2.1 -->
-                    <Item id="6871" name="用 Enter 掣"/> <!-- #new v8.2.1 -->
+                    <Item id="6869" name="插入選項"/><!-- #new v8.2.1 -->
+                    <Item id="6870" name="用 Tab 掣"/><!-- #new v8.2.1 -->
+                    <Item id="6871" name="用 Enter 掣"/><!-- #new v8.2.1 -->
                     <Item id="6824" name="唔理數字"/>
                     <Item id="6811" name="由第"/>
                     <Item id="6813" name="個字元開始"/>
-                    <Item id="6814" name="有效值：1 - 9"/> <!-- #legacy v8.4.9 -->
-                    <Item id="6872" name="簡化自動完成清單"/> <!-- #new v8.5 -->
+                    <Item id="6814" name="有效值：1 - 9"/><!-- #legacy v8.4.9 -->
+                    <Item id="6872" name="簡化自動完成清單"/><!-- #new v8.5 -->
                     <Item id="6815" name="打字嗰陣顯示函式參數提示"/>
                     <Item id="6851" name="自動補齊"/>
                     <Item id="6857" name="HTML/XML 結束 tag"/>
@@ -1285,19 +1285,19 @@
                     <Item id="6153" name="幾時都以多重程式個體模式運作"/>
                     <Item id="6154" name="預設（單一程式個體）"/>
                     <Item id="6155" name="* 改過上面嘅設定，要重開 Notepad++ 先至會生效"/>
-                    <Item id="6171" name="自訂日期時間插入功能"/> <!-- #new v8.1.5 -->
-                    <Item id="6175" name="將日期同埋時間調轉（插入完整/簡短日期時間功能）"/> <!-- #new v8.1.5 -->
-                    <Item id="6172" name="自訂格式："/> <!-- #new v8.1.5 -->
-                    <Item id="6181" name="Panel 狀態同埋 [-nosession] *"/> <!-- #new v8.4.9 -->
-                    <Item id="6182" name="用緊多重程式個體嗰陣，又或者用咗 command line 參數「-nosession」，記住呢啲 panel 狀態"/> <!-- #new v8.4.9 -->
-                    <Item id="6183" name="剪貼簿記錄"/> <!-- #new v8.4.9 -->
-                    <Item id="6184" name="文件清單"/> <!-- #new v8.4.9 -->
-                    <Item id="6185" name="ASCII 字元表"/> <!-- #new v8.4.9 -->
-                    <Item id="6186" name="資料夾工作區"/> <!-- #new v8.4.9 -->
-                    <Item id="6187" name="Project Panels"/> <!-- #new v8.4.9 -->
-                    <Item id="6188" name="文件地圖"/> <!-- #new v8.4.9 -->
-                    <Item id="6189" name="函式清單"/> <!-- #new v8.4.9 -->
-                    <Item id="6190" name="外掛 Panels"/> <!-- #new v8.4.9 -->
+                    <Item id="6171" name="自訂日期時間插入功能"/><!-- #new v8.1.5 -->
+                    <Item id="6175" name="將日期同埋時間調轉（插入完整/簡短日期時間功能）"/><!-- #new v8.1.5 -->
+                    <Item id="6172" name="自訂格式："/><!-- #new v8.1.5 -->
+                    <Item id="6181" name="Panel 狀態同埋 [-nosession] *"/><!-- #new v8.4.9 -->
+                    <Item id="6182" name="用緊多重程式個體嗰陣，又或者用咗 command line 參數「-nosession」，記住呢啲 panel 狀態"/><!-- #new v8.4.9 -->
+                    <Item id="6183" name="剪貼簿記錄"/><!-- #new v8.4.9 -->
+                    <Item id="6184" name="文件清單"/><!-- #new v8.4.9 -->
+                    <Item id="6185" name="ASCII 字元表"/><!-- #new v8.4.9 -->
+                    <Item id="6186" name="資料夾工作區"/><!-- #new v8.4.9 -->
+                    <Item id="6187" name="Project Panels"/><!-- #new v8.4.9 -->
+                    <Item id="6188" name="文件地圖"/><!-- #new v8.4.9 -->
+                    <Item id="6189" name="函式清單"/><!-- #new v8.4.9 -->
+                    <Item id="6190" name="外掛 Panels"/><!-- #new v8.4.9 -->
                 </MultiInstance>
 
                 <Delimiter title="分隔符號">
@@ -1311,27 +1311,27 @@
 （唔好揀呢項，除非你知道搞緊咩啦）"/>
                 </Delimiter>
 
-                <Performance title="性能"> <!-- #new v8.4.7 -->
-                    <Item id="7141" name="大型檔案限制"/> <!-- #new v8.4.7 -->
-                    <Item id="7143" name="啟用大型檔案限制（會失去語法突顯功能）"/> <!-- #new v8.4.7 -->
-                    <Item id="7144" name="定義大檔案 size："/> <!-- #new v8.4.7 -->
-                    <Item id="7146" name="MB   (1 - 4096)"/> <!-- #new v8.4.7 -->
-                    <Item id="7147" name="容許顯示對應括號"/> <!-- #new v8.4.7 -->
-                    <Item id="7148" name="容許自動完成功能"/> <!-- #new v8.4.7 -->
-                    <Item id="7149" name="容許醒目提示功能"/> <!-- #new v8.4.7 -->
-                    <Item id="7150" name="將全局自動換行功能閂咗佢"/> <!-- #new v8.4.7 -->
-                    <Item id="7151" name="容許 URL 連結 click 得到"/> <!-- #new v8.4.7 -->
+                <Performance title="性能"><!-- #new v8.4.7 -->
+                    <Item id="7141" name="大型檔案限制"/><!-- #new v8.4.7 -->
+                    <Item id="7143" name="啟用大型檔案限制（會失去語法突顯功能）"/><!-- #new v8.4.7 -->
+                    <Item id="7144" name="定義大檔案 size："/><!-- #new v8.4.7 -->
+                    <Item id="7146" name="MB   (1 - 4096)"/><!-- #new v8.4.7 -->
+                    <Item id="7147" name="容許顯示對應括號"/><!-- #new v8.4.7 -->
+                    <Item id="7148" name="容許自動完成功能"/><!-- #new v8.4.7 -->
+                    <Item id="7149" name="容許醒目提示功能"/><!-- #new v8.4.7 -->
+                    <Item id="7150" name="將全局自動換行功能閂咗佢"/><!-- #new v8.4.7 -->
+                    <Item id="7151" name="容許 URL 連結 click 得到"/><!-- #new v8.4.7 -->
                 </Performance>
 
                 <Cloud title="雲端同埋連結">
                     <Item id="6262" name="雲端設定"/>
                     <Item id="6263" name="唔搞"/>
                     <Item id="6267" name="雲端路徑："/>
-                    <Item id="6318" name="Click 得嘅連結設定"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6319" name="啟用"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6320" name="唔顯示連結底線"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/> <!-- #moved in v7.9.2 -->
-                    <Item id="6264" name="自訂 URI 格式："/> <!-- #new v7.9.2 -->
+                    <Item id="6318" name="Click 得嘅連結設定"/><!-- #moved in v7.9.2 -->
+                    <Item id="6319" name="啟用"/><!-- #moved in v7.9.2 -->
+                    <Item id="6320" name="唔顯示連結底線"/><!-- #moved in v7.9.2 -->
+                    <Item id="6350" name="Fullbox 模式（Hover 嗰陣時反白）"/><!-- #moved in v7.9.2 -->
+                    <Item id="6264" name="自訂 URI 格式："/><!-- #new v7.9.2 -->
                 </Cloud>
 
                 <SearchEngine title="搜尋器">
@@ -1367,8 +1367,8 @@
                     <Item id="6344" name="文件偷睇功能（Mouse 指著 tab 嗰陣時）"/>
                     <Item id="6345" name="喺 tab 度偷睇"/>
                     <Item id="6346" name="喺文件地圖度偷睇"/>
-                    <Item id="6360" name="靜音"/> <!-- #new v7.9.4 -->
-                    <Item id="6361" name="做「Save 晒所有檔案」之前要先做確認"/> <!-- #new v8.1.2 -->
+                    <Item id="6360" name="靜音"/><!-- #new v7.9.4 -->
+                    <Item id="6361" name="做「Save 晒所有檔案」之前要先做確認"/><!-- #new v8.1.2 -->
                 </MISC>
             </Preference>
 
@@ -1394,12 +1394,12 @@
                 <Item id="2033" name="插入數字(&amp;N)"/>
                 <Item id="2030" name="起始數值(&amp;I)："/>
                 <Item id="2031" name="增量(&amp;Y)："/>
-                <Item id="2035" name="齊頭補零(&amp;Z)"/> <!-- #legacy v8.5.1 -->
-                <Item id="2038" name="喺開頭加入(&amp;L)："/> <!-- #new v8.5.2 -->
+                <Item id="2035" name="齊頭補零(&amp;Z)"/><!-- #legacy v8.5.1 -->
+                <Item id="2038" name="喺開頭加入(&amp;L)："/><!-- #new v8.5.2 -->
                 <ComboBox id="2039">
-                    <Element name="唔加嘢"/> <!-- #new v8.5.2 -->
-                    <Element name="零"/> <!-- #new v8.5.2 -->
-                    <Element name="空格"/> <!-- #new v8.5.2 -->
+                    <Element name="唔加嘢"/><!-- #new v8.5.2 -->
+                    <Element name="零"/><!-- #new v8.5.2 -->
+                    <Element name="空格"/><!-- #new v8.5.2 -->
                 </ComboBox>
                 <Item id="2036" name="重複(&amp;R)："/>
                 <Item id="2032" name="格式"/>
@@ -1412,8 +1412,8 @@
             </ColumnEditor>
 
             <FindInFinder title="喺搜尋結果再搵">
-                <Item id="1"    name="搵晒出嚟"/>
-                <Item id="2"    name="閂"/>
+                <Item id="1" name="搵晒出嚟"/>
+                <Item id="2" name="閂"/>
                 <Item id="1711" name="搵乜嘢(&amp;F)："/>
                 <Item id="1713" name="限制喺啲搵咗嘅行數再搵"/>
                 <Item id="1714" name="符合完整單字(&amp;W)"/>
@@ -1434,14 +1434,14 @@
                 <Item id="5" name="全部唔使(&amp;O)"/>
             </DoSaveOrNot>
 
-            <DoSaveAll title="Save 晒所有檔案"> <!-- #new v8.1.5 -->
+            <DoSaveAll title="Save 晒所有檔案"><!-- #new v8.1.5 -->
                 <Item id="1766" name="係咪真係要 save 晒所有檔案佢？
 
 留意返，撳「幾時都要」嘅話，就以後都唔再問你，
-你可以喺偏好設定重新啟用呢個確認對話框。"/> <!-- #new v8.1.5 -->
-                <Item id="6" name="好(&amp;Y)"/> <!-- #new v8.1.5 -->
-                <Item id="7" name="唔使(&amp;N)"/> <!-- #new v8.1.5 -->
-                <Item id="4" name="幾時都要"/> <!-- #new v8.1.5 -->
+你可以喺偏好設定重新啟用呢個確認對話框。"/><!-- #new v8.1.5 -->
+                <Item id="6" name="好(&amp;Y)"/><!-- #new v8.1.5 -->
+                <Item id="7" name="唔使(&amp;N)"/><!-- #new v8.1.5 -->
+                <Item id="4" name="幾時都要"/><!-- #new v8.1.5 -->
             </DoSaveAll>
         </Dialog>
 
@@ -1461,7 +1461,7 @@
             <DocReloadWarning title="喺磁碟重新 load 過" message="留意返！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
             <FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
             <FileAlreadyOpenedInNpp title="" message="已經喺 Notepad++ 度開咗呢個檔案。"/>
-            <RenameTabTemporaryNameAlreadyInUse title="Rename failed" message="你改呢個名已經用緊喺另一個 tab 度。"/> <!-- #new v7.9.2 -->
+            <RenameTabTemporaryNameAlreadyInUse title="Rename failed" message="你改呢個名已經用緊喺另一個 tab 度。"/><!-- #new v7.9.2 -->
             <DeleteFileFailed title="掉去垃圾桶" message="剷唔走個檔案。"/>
 
             <NbFileToOpenImportantWarning title="太多檔案" message="成 $INT_REPLACE$ 個檔案咁多，
@@ -1508,14 +1508,14 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
             <DocTooDirtyToMonitor title="監控問題" message="份文件污糟咗，麻煩 save 咗佢先至再監視。"/>
             <DocNoExistToMonitor title="監控問題" message="份文件已經唔存在喇，冇辦法進行監視。"/>
             <FileTooBigToOpen title="檔案太大" message="檔案太大開唔到。"/>
-            <FileLoadingException title="Exception code: $STR_REPLACE$" message="Load 檔案嗰陣出錯。你個嘢壞咗啊！"/> <!-- #new v8.3.1 -->
+            <FileLoadingException title="Exception code: $STR_REPLACE$" message="Load 檔案嗰陣出錯。你個嘢壞咗啊！"/><!-- #new v8.3.1 -->
             <WantToOpenHugeFile title="注意：打開極大嘅檔案" message="打開超過 2GB 嘅檔案可能要花幾分鐘，
-係咪真係要打開佢？"/> <!-- #new v8.3.1 -->
+係咪真係要打開佢？"/><!-- #new v8.3.1 -->
             <CreateNewFileOrNot title="開新檔案" message="個檔案「$STR_REPLACE$」唔存在，開唔開新？"/>
             <CreateNewFileError title="開新檔案" message="開唔到新檔案「$STR_REPLACE$」。"/>
             <OpenFileError title="ERROR" message="個檔案「$STR_REPLACE$」打唔開"/>
             <OpenFileNoFolderError title="開唔到檔案" message="打唔開個檔案「$STR_REPLACE1$」：
-資料夾「$STR_REPLACE2$」唔存在。"/> <!-- #new v8.5 -->
+資料夾「$STR_REPLACE2$」唔存在。"/><!-- #new v8.5 -->
             <FileBackupFailed title="檔案備份失敗" message="備份資料夾「$STR_REPLACE$」存唔到個檔案嘅過往版本。
 
 仲使唔使 save 呢個檔案呢？"/>
@@ -1527,7 +1527,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 如果你仍然想咁做，唯有喺工作區剷走包含佢嘅資料夾，先至可以加返上去。"/>
 
             <ProjectPanelChanged title="$STR_REPLACE$" message="Project 工作區有嘢改動過，使唔使 save？"/>
-            <ProjectPanelSaveError title="$STR_REPLACE$" message="寫入 project 工作區檔案嗰陣出錯，save 唔到。"/> <!-- #new v7.9.4 -->
+            <ProjectPanelSaveError title="$STR_REPLACE$" message="寫入 project 工作區檔案嗰陣出錯，save 唔到。"/><!-- #new v7.9.4 -->
             <ProjectPanelOpenDoSaveDirtyWsOrNot title="打開工作區" message="你用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
             <ProjectPanelNewDoSaveDirtyWsOrNot title="新工作區" message="你用緊呢個工作區改過嘢，使唔使 save 咗佢先呢？"/>
             <ProjectPanelOpenFailed title="打開工作區" message="打唔開個工作區。
@@ -1553,17 +1553,17 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/>
             <NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/>
-            <ChangeHistoryEnabledWarning title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至會顯示修改紀錄。"/> <!-- #new v8.4.6 -->
-            <WindowsSessionExit title="Notepad++ - Windows 工作階段結束" message="Windows 工作階段即將結束，但係你有啲資料未 save，係咪真係就咁閂埋 Notepad++ 佢？"/> <!-- #new v8.4.8 -->
-            <LanguageMenuCompactWarning title="簡化程式語言 menu" message="呢個選項會喺下次開程式嗰陣搞。"/> <!-- #new v8.5 -->
+            <ChangeHistoryEnabledWarning title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至會顯示修改紀錄。"/><!-- #new v8.4.6 -->
+            <WindowsSessionExit title="Notepad++ - Windows 工作階段結束" message="Windows 工作階段即將結束，但係你有啲資料未 save，係咪真係就咁閂埋 Notepad++ 佢？"/><!-- #new v8.4.8 -->
+            <LanguageMenuCompactWarning title="簡化程式語言 menu" message="呢個選項會喺下次開程式嗰陣搞。"/><!-- #new v8.5 -->
             <SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="未 save 喎！咁樣會捨棄晒啲改過嘅設定。
-換主題之前使唔使 save 咗佢先啊？"/> <!-- #new v8.5 -->
+換主題之前使唔使 save 咗佢先啊？"/><!-- #new v8.5 -->
             <MacroAndRunCmdlWarning title="Macro 同埋執行指令嘅兼容度" message="你 save 喺 Notepad++ v8.5.2（或之前）嗰啲 Macro 同埋執行指令，未必兼容到而家嘅版本。
 麻煩你先測試一下，有需要嘅就修改吓。
 
 又或者，你可以先將 Notepad++ 降級去 v8.5.2，回復舊有嘅資料用著先：
 Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.backup」。
-將「shortcuts.xml.v8.5.2.backup」改名做「shortcuts.xml」，咁就可以回復你啲舊指令嘞。"/> <!-- #new v8.5.3 -->
+將「shortcuts.xml.v8.5.2.backup」改名做「shortcuts.xml」，咁就可以回復你啲舊指令嘞。"/><!-- #new v8.5.3 -->
         </MessageBox>
         <ClipboardHistory>
             <PanelTitle name="剪貼簿記錄"/>
@@ -1572,17 +1572,17 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <PanelTitle name="文件清單"/>
             <ColumnName name="檔名"/>
             <ColumnExt name="副檔名"/>
-            <ColumnPath name="路徑"/> <!-- #new v8.1.5 -->
-            <ListGroups name="分類檢視"/> <!-- #new v8.5 -->
+            <ColumnPath name="路徑"/><!-- #new v8.1.5 -->
+            <ListGroups name="分類檢視"/><!-- #new v8.5 -->
         </DocList>
         <WindowsDlg>
             <ColumnName name="檔名"/>
             <ColumnPath name="路徑"/>
             <ColumnType name="類型"/>
             <ColumnSize name="Size"/>
-            <NbDocsTotal name="文件數量："/> <!-- #new v7.9.2 -->
-            <MenuCopyName name="抄低檔名"/> <!-- #new v8.1.3 -->
-            <MenuCopyPath name="抄低路徑"/> <!-- #new v8.1.3 -->
+            <NbDocsTotal name="文件數量："/><!-- #new v7.9.2 -->
+            <MenuCopyName name="抄低檔名"/><!-- #new v8.1.3 -->
+            <MenuCopyPath name="抄低路徑"/><!-- #new v8.1.3 -->
         </WindowsDlg>
         <AsciiInsertion>
             <PanelTitle name="ASCII 字元表"/>
@@ -1591,7 +1591,7 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <ColumnChar name="字元縮寫"/>
             <ColumnHtmlName name="HTML 編名"/>
             <ColumnHtmlNumber name="HTML 十進位值"/>
-            <ColumnHtmlHexNb name="HTML 十六進位值"/> <!-- #new v8.5.2 -->
+            <ColumnHtmlHexNb name="HTML 十六進位值"/><!-- #new v8.5.2 -->
         </AsciiInsertion>
         <DocumentMap>
             <PanelTitle name="文件地圖"/>
@@ -1600,15 +1600,15 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <PanelTitle name="函式清單"/>
             <SortTip name="排次序"/>
             <ReloadTip name="Reload"/>
-            <PreferencesTip name="偏好設定"/> <!-- #new v8.4.0 -->
-            <PreferencesInitialSort name="預設以函式名排次序"/> <!-- #new v8.4.0 -->
+            <PreferencesTip name="偏好設定"/><!-- #new v8.4.0 -->
+            <PreferencesInitialSort name="預設以函式名排次序"/><!-- #new v8.4.0 -->
         </FunctionList>
         <FolderAsWorkspace>
             <PanelTitle name="資料夾工作區"/>
             <SelectFolderFromBrowserString name="揀個資料夾嚟加入去資料夾工作區"/>
-            <ExpandAllFoldersTip name="展開所有資料夾"/> <!-- #new v7.9.2 -->
-            <CollapseAllFoldersTip name="摺埋所有資料夾"/> <!-- #new v7.9.2 -->
-            <LocateCurrentFileTip name="定位檔案"/> <!-- #new v7.9.2 -->
+            <ExpandAllFoldersTip name="展開所有資料夾"/><!-- #new v7.9.2 -->
+            <CollapseAllFoldersTip name="摺埋所有資料夾"/><!-- #new v7.9.2 -->
+            <LocateCurrentFileTip name="定位檔案"/><!-- #new v7.9.2 -->
             <Menu>
                 <Item id="3511" name="剷走"/>
                 <Item id="3512" name="剷走晒佢"/>
@@ -1640,7 +1640,7 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
                     <Item id="3126" name="Save 做新..."/>
                     <Item id="3127" name="Save 多份 copy..."/>
                     <Item id="3121" name="開新 project"/>
-                    <Item id="3128" name="喺 projects 搵嘢..."/> <!-- #new v7.9.4 -->
+                    <Item id="3128" name="喺 projects 搵嘢..."/><!-- #new v7.9.4 -->
                 </WorkspaceMenu>
                 <ProjectMenu>
                     <Item id="3111" name="改名"/>
@@ -1674,20 +1674,20 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <word-chars-list-tip value="呢度要嚟喺現時嘅單字字元清單附加字元，double-click 揀字又或者剔咗「符合完整單字」嚟搵嘢就會包埋。"/>
 
             <!-- Don't translate "(&quot;EOL custom color&quot;)" -->
-            <eol-custom-color-tip value="有需要就喺「主題風格設定」嗰度改顏色 (&quot;EOL custom color&quot;).."/> <!-- #new v8.4.3 -->
+            <eol-custom-color-tip value="有需要就喺「主題風格設定」嗰度改顏色 (&quot;EOL custom color&quot;).."/><!-- #new v8.4.3 -->
 
             <word-chars-list-warning-begin value="留意返：你嘅清單裏頭有"/>
             <word-chars-list-space-warning value=" $INT_REPLACE$ 個空格"/>
             <word-chars-list-tab-warning value=" $INT_REPLACE$ 個 tab "/>
             <word-chars-list-warning-end value="。"/>
-            <backup-select-folder value="揀個備份資料夾"/> <!-- #new v8.2.1 -->
+            <backup-select-folder value="揀個備份資料夾"/><!-- #new v8.2.1 -->
             <cloud-invalid-warning value="路徑無效。"/>
             <cloud-restart-warning value="麻煩重新啟動 Notepad++ 令改動嘅嘢生效。"/>
             <cloud-select-folder value="揀返個資料夾，畀 Notepad++ 讀取/寫入設定。"/>
-            <default-open-save-select-folder value="揀個預設資料夾"/> <!-- #new v8.2.1 -->
+            <default-open-save-select-folder value="揀個預設資料夾"/><!-- #new v8.2.1 -->
             <shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
             <two-find-buttons-tip value="用上、落兩個掣代替「搵下一個」"/>
-            <file-rename-title value="改名"/> <!-- #new v8.1.2 -->
+            <file-rename-title value="改名"/><!-- #new v8.1.2 -->
             <find-in-files-filter-tip value="只係喺 cpp, cxx, h, hxx &amp;&amp; hpp 嘅檔案度搵：
 *.cpp *.cxx *.h *.hxx *.hpp
 
@@ -1699,7 +1699,7 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
 
 所有檔案，除咗資料夾 log* (recursive)：
 *.* !+\log*"/>
-            <find-in-files-select-folder value="揀個資料夾搵嘢"/> <!-- #new v8.2.1 -->
+            <find-in-files-select-folder value="揀個資料夾搵嘢"/><!-- #new v8.2.1 -->
             <find-status-top-reached value="搵嘢：已經過咗文件開端，而家喺底部第一個相符嘅字串。"/>
             <find-status-end-reached value="搵嘢：已經過咗文件結尾，而家喺頂部第一個相符嘅字串。"/>
             <find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/>
@@ -1709,7 +1709,7 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <find-status-replaceinopenedfiles-nb-replaced value="喺所有打開咗嘅文件執行取代：取代咗 $INT_REPLACE$ 次。"/>
             <find-status-mark-re-malformed value="搵料標記：規則運算式無效。"/>
             <find-status-invalid-re value="搵嘢：規則運算式無效。"/>
-            <find-status-search-failed value="搵嘢：搜尋失敗，衰咗。"/> <!-- #new v7.9.6 -->
+            <find-status-search-failed value="搵嘢：搜尋失敗，衰咗。"/><!-- #new v7.9.6 -->
             <find-status-mark-1-match value="搵料標記： 1 個符合結果。"/>
             <find-status-mark-nb-matches value="搵料標記： $INT_REPLACE$ 個符合結果。"/>
             <find-status-count-re-malformed value="數量：規則運算式無效。"/>
@@ -1722,7 +1722,7 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <find-status-replace-end-reached value="取代：由上而下取代咗 1 次，已經過咗文件結尾。"/>
             <find-status-replace-top-reached value="取代：由下而上取代咗 1 次，已經過咗文件開端。"/>
             <find-status-replaced-next-found value="取代：取代咗 1 次，搵到下一個。"/>
-            <find-status-replaced-without-continuing value="取代：取代咗 1 次。"/> <!-- #new v7.9.6 -->
+            <find-status-replaced-without-continuing value="取代：取代咗 1 次。"/><!-- #new v7.9.6 -->
             <find-status-replaced-next-not-found value="取代：取代咗 1 次，再搵唔到下一個喇。"/>
             <find-status-replace-not-found value="取代：搵唔到你要嘅嘢。"/>
             <find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
@@ -1736,28 +1736,28 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <finder-collapse-all value="摺埋所有層級"/>
             <finder-uncollapse-all value="展開所有層級"/>
             <finder-copy value="抄低呢（幾）行"/>
-            <finder-copy-verbatim value="抄"/> <!-- #new v7.9.2 -->
-            <finder-copy-paths value="抄低檔案路徑"/> <!-- #new v7.9.6 -->
+            <finder-copy-verbatim value="抄"/><!-- #new v7.9.2 -->
+            <finder-copy-paths value="抄低檔案路徑"/><!-- #new v7.9.6 -->
             <finder-select-all value="揀晒"/>
             <finder-clear-all value="全部清除"/>
             <finder-open-all value="全部打開"/>
-            <finder-purge-for-every-search value="次次都清走搜尋結果"/> <!-- #new v7.9.6 -->
+            <finder-purge-for-every-search value="次次都清走搜尋結果"/><!-- #new v7.9.6 -->
             <finder-wrap-long-lines value="自動換行"/>
             <common-ok value="OK"/>
             <common-cancel value="取消"/>
             <common-name value="名"/>
             <tabrename-title value="幫個 tab 改名"/>
             <tabrename-newname value="新名"/>
-            <splitter-rotate-left value="向左旋轉"/> <!-- #new v7.9.4 -->
-            <splitter-rotate-right value="向右旋轉"/> <!-- #new v7.9.4 -->
-            <recent-file-history-maxfile value="檔案數量："/> <!-- #legacy v8.5.0 -->
-            <recent-file-history-customlength value="長度："/> <!-- #new v8.4.8 --> <!-- #legacy v8.5.0 -->
-            <language-tabsize value="縮排大細："/> <!-- #legacy v8.4.9 -->
+            <splitter-rotate-left value="向左旋轉"/><!-- #new v7.9.4 -->
+            <splitter-rotate-right value="向右旋轉"/><!-- #new v7.9.4 -->
+            <recent-file-history-maxfile value="檔案數量："/><!-- #legacy v8.5.0 -->
+            <recent-file-history-customlength value="長度："/><!-- #new v8.4.8 --><!-- #legacy v8.5.0 -->
+            <language-tabsize value="縮排大細："/><!-- #legacy v8.4.9 -->
             <userdefined-title-new value="開新語言..."/>
             <userdefined-title-save value="另 Save 而家個語言名..."/>
             <userdefined-title-rename value="改而家個語言名"/>
-            <autocomplete-nb-char value="字元數："/> <!-- #legacy v8.4.9 -->
-            <edit-verticaledge-nb-col value="參考字元數："/> <!-- #legacy v8.5.0 -->
+            <autocomplete-nb-char value="字元數："/><!-- #legacy v8.4.9 -->
+            <edit-verticaledge-nb-col value="參考字元數："/><!-- #legacy v8.5.0 -->
             <summary value="統計資料"/>
             <summary-filepath value="完整檔案路徑： "/>
             <summary-filecreatetime value="建立： "/>
@@ -1769,44 +1769,44 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
             <summary-nbsel1 value=" 個揀咗嘅字元（"/>
             <summary-nbsel2 value=" bytes），揀咗 "/>
             <summary-nbrange value=" 個範圍數"/>
-            <progress-hits-title value="命中："/> <!-- #new v8.5.2 -->
-            <progress-cancel-button value="取消"/> <!-- #new v8.5 -->
-            <progress-cancel-info value="取消緊，唔該等一陣..."/> <!-- #new v8.5 -->
-            <find-in-files-progress-title value="等我搵搵先啊吓，幫緊你幫緊你..."/> <!-- #new v7.9.3 -->
+            <progress-hits-title value="命中："/><!-- #new v8.5.2 -->
+            <progress-cancel-button value="取消"/><!-- #new v8.5 -->
+            <progress-cancel-info value="取消緊，唔該等一陣..."/><!-- #new v8.5 -->
+            <find-in-files-progress-title value="等我搵搵先啊吓，幫緊你幫緊你..."/><!-- #new v7.9.3 -->
             <replace-in-files-confirm-title value="係咪真係先？"/>
             <replace-in-files-confirm-directory value="係咪真係要喺呢度執行取代："/>
             <replace-in-files-confirm-filetype value="檔案類型："/>
-            <replace-in-files-progress-title value="幫你搞緊啦吓，幫緊你幫緊你..."/> <!-- #new v7.9.3 -->
-            <replace-in-projects-confirm-title value="係咪真係先？"/> <!-- #new v7.9.4 -->
-            <replace-in-projects-confirm-message value="係咪真係要喺 Project Panel(s) 嘅所有文件執行取代？"/> <!-- #new v7.9.4 -->
+            <replace-in-files-progress-title value="幫你搞緊啦吓，幫緊你幫緊你..."/><!-- #new v7.9.3 -->
+            <replace-in-projects-confirm-title value="係咪真係先？"/><!-- #new v7.9.4 -->
+            <replace-in-projects-confirm-message value="係咪真係要喺 Project Panel(s) 嘅所有文件執行取代？"/><!-- #new v7.9.4 -->
             <replace-in-open-docs-confirm-title value="係咪真係先？"/>
             <replace-in-open-docs-confirm-message value="係咪真係要喺所有打開咗嘅文件度執行取代？"/>
             <find-result-caption value="搜尋結果"/>
-            <find-result-title value="搵"/> <!-- Must not begin with space or tab character -->
+            <find-result-title value="搵"/><!-- Must not begin with space or tab character -->
             <find-result-title-info value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 份文件，總共搵咗 $INT_REPLACE3$ 份文件）"/>
             <find-result-title-info-selections value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 個揀選範圍，總共搵咗 $INT_REPLACE3$ 份文件）"/>
             <find-result-title-info-extra value=" - 搵中搵模式：只顯示「喺搜尋結果再搵」嘅篩選結果"/>
             <find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/>
-            <find-result-line-prefix value="行數"/> <!-- Must not begin with space or tab character --> <!-- #new v7.9.2 -->
-            <find-regex-zero-length-match value="我覺得自己係零囉" /> <!-- 字元相符不過長度係零 -->
-            <session-save-folder-as-workspace value="Save 埋資料夾工作區" /> <!-- #new v7.9.3 -->
-            <tab-untitled-string value="new " /> <!-- #new v7.9.6 -->
-            <file-save-assign-type value="追加副檔名(&amp;A)" /> <!-- #new v7.9.6 -->
-            <close-panel-tip value="閂" /> <!-- #new v8.0.0 -->
-            <IncrementalFind-FSFound value="搵到 $INT_REPLACE$ 個符合結果" /> <!-- #new v8.1.5 -->
-            <IncrementalFind-FSNotFound value="搵唔到喎" /> <!-- #new v8.1.5 -->
-            <IncrementalFind-FSTopReached value="已經過咗文件開端，而家返底部繼續搵" /> <!-- #new v8.1.5 -->
-            <IncrementalFind-FSEndReached value="已經過咗文件結尾，而家返頂部繼續搵" /> <!-- #new v8.1.5 -->
-            <contextMenu-styleAlloccurrencesOfToken value="成份文件咁做標記" /> <!-- #new v8.2.1 -->
-            <contextMenu-styleOneToken value="標記一次" /> <!-- #new v8.2.1 -->
-            <contextMenu-clearStyle value="清除風格標記" /> <!-- #new v8.2.1 -->
-            <contextMenu-PluginCommands value="外掛指令" /> <!-- #new v8.2.1 -->
+            <find-result-line-prefix value="行數"/><!-- Must not begin with space or tab character --><!-- #new v7.9.2 -->
+            <find-regex-zero-length-match value="我覺得自己係零囉"/><!-- 字元相符不過長度係零 -->
+            <session-save-folder-as-workspace value="Save 埋資料夾工作區"/><!-- #new v7.9.3 -->
+            <tab-untitled-string value="new "/><!-- #new v7.9.6 -->
+            <file-save-assign-type value="追加副檔名(&amp;A)"/><!-- #new v7.9.6 -->
+            <close-panel-tip value="閂"/><!-- #new v8.0.0 -->
+            <IncrementalFind-FSFound value="搵到 $INT_REPLACE$ 個符合結果"/><!-- #new v8.1.5 -->
+            <IncrementalFind-FSNotFound value="搵唔到喎"/><!-- #new v8.1.5 -->
+            <IncrementalFind-FSTopReached value="已經過咗文件開端，而家返底部繼續搵"/><!-- #new v8.1.5 -->
+            <IncrementalFind-FSEndReached value="已經過咗文件結尾，而家返頂部繼續搵"/><!-- #new v8.1.5 -->
+            <contextMenu-styleAlloccurrencesOfToken value="成份文件咁做標記"/><!-- #new v8.2.1 -->
+            <contextMenu-styleOneToken value="標記一次"/><!-- #new v8.2.1 -->
+            <contextMenu-clearStyle value="清除風格標記"/><!-- #new v8.2.1 -->
+            <contextMenu-PluginCommands value="外掛指令"/><!-- #new v8.2.1 -->
             <largeFileRestriction-tip value="開大型檔案嗰陣，某啲功能可能會軟件令性能降低，Notepad++ 會將就吓自動閂咁啲，你可以喺呢度做設定。
 
 注意：
 1. 改過呢啲設定之後，要將啲大檔案閂咗佢再重新開過，咁先至會正常。
 
-2. 如果揀咗「將全局自動換行功能閂咗佢」，當你打開大檔案嗰陣，全部開咗嘅檔案都會唔再自動換行，你可以事後喺 menu 度開返佢（「睇」 → 「自動換行」）" /> <!-- #new v8.4.7 -->
+2. 如果揀咗「將全局自動換行功能閂咗佢」，當你打開大檔案嗰陣，全部開咗嘅檔案都會唔再自動換行，你可以事後喺 menu 度開返佢（「睇」 → 「自動換行」）"/><!-- #new v8.4.7 -->
             <npcNote-tip value="Representation of selected &quot;non-ASCII&quot; whitespace and non-printing (control) characters.
 
 NOTE:
@@ -1816,25 +1816,25 @@ Using representation will disable character effects on text.
 
 For the full list of selected whitespace and non-printing characters check User Manual.
 
-Click on this button to open website with User Manual." /> <!-- #new v8.5 #review commit aaab190 -->
+Click on this button to open website with User Manual."/><!-- #new v8.5 #review commit aaab190 -->
             <npcAbbreviation-tip value="Abbreviation : name
 NBSP : no-break space
 ZWSP : zero-width space
 ZWNBSP : zero-width no-break space
 
 For the full list check User Manual.
-Click on &quot;?&quot; button on right to open website with User Manual." /> <!-- #new v8.5 #review commit aaab190 -->
+Click on &quot;?&quot; button on right to open website with User Manual."/><!-- #new v8.5 #review commit aaab190 -->
             <npcCodepoint-tip value="Codepoint : name
 U+00A0 : no-break space
 U+200B : zero-width space
 U+FEFF : zero-width no-break space
 
 For the full list check User Manual.
-Click on &quot;?&quot; button on right to open website with User Manual." /> <!-- #new v8.5 #review commit aaab190 -->
+Click on &quot;?&quot; button on right to open website with User Manual."/><!-- #new v8.5 #review commit aaab190 -->
 
             <!-- 唔好翻譯「(&quot;Non-printing characters custom color&quot;)」 -->
-            <npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)." /> <!-- #new v8.5 #review commit aaab190 -->
-            <npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）" /> <!-- #new v8.5.3 -->
+            <npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)."/><!-- #new v8.5 #review commit aaab190 -->
+            <npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）"/><!-- #new v8.5.3 -->
         </MiscStrings>
     </Native-Langue>
 </NotepadPlus>
