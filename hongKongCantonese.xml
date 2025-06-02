@@ -326,7 +326,7 @@
 					<Item id="44114" name="加顏色 4"/><!-- #new v8.4.6 -->
 					<Item id="44115" name="加顏色 5"/><!-- #new v8.4.6 -->
 					<Item id="44130" name="顯示非打印字符"/><!-- #new v8.5 -->
-					<Item id="44131" name="顯示控制字符 &amp; "/><!-- #new v8.5.3 -->
+					<Item id="44131" name="顯示控制字符同埋 Unicode EOL &amp; "/><!-- #new v8.5.3 -->
 					<Item id="44032" name="全螢幕模式"/>
 					<Item id="44033" name="回復預設 zoom 大細"/>
 					<Item id="44034" name="保持最上層"/>
@@ -1062,7 +1062,7 @@
 					<Item id="6254" name="Abbreviation"/><!-- #new v8.5 #review commit aaab190 -->
 					<Item id="6255" name="Codepoint"/><!-- #new v8.5 #review commit aaab190 -->
 					<Item id="6256" name="自訂顏色"/><!-- #new v8.5 -->
-					<Item id="6258" name="套用喺 C0、C1 同埋 Unicode EOL &amp; "/><!-- #new v8.5.3 -->
+					<Item id="6258" name="套用 C0、C1 同埋 Unicode EOL &amp; "/><!-- #new v8.5.3 -->
 				</Scintillas>
 
 				<DarkMode title="Dark Mode"><!-- #new v7.9.6 -->
@@ -1549,7 +1549,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 想唔想用系統管理員身份重新打開 Notepad++？"/>
 			<OpenInAdminModeFailed title="系統管理員身份都開唔到" message="Notepad++ 冇法子用系統管理員身份打開"/>
 			<ViewInBrowser title="喺瀏覽器度睇呢個檔案" message="喺系統裏面搵唔到應用程式"/>
-			<ExitToUpdatePlugins title="即將會閂 Notepad++" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新或者剷走 plugin(s)。
+			<ExitToUpdatePlugins title="即將會閂 Notepad++" message="係嘅話，Notepad++ 會自己摺埋，然後安裝更新或者剷走啲外掛。
 搞掂晒安裝程序，Notepad++ 就會重新啟動。
 係咪繼續？"/>
 			<NeedToRestartToLoadPlugins title="重新啟動 Notepad++" message="你必須重新啟動 Notepad++ 先至可以 load 啲外掛。"/>
@@ -1558,7 +1558,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 			<LanguageMenuCompactWarning title="簡化程式語言 menu" message="呢個選項會喺下次開程式嗰陣搞。"/><!-- #new v8.5 -->
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="未 save 喎！咁樣會捨棄晒啲改過嘅設定。
 換主題之前使唔使 save 咗佢先啊？"/><!-- #new v8.5 -->
-			<MacroAndRunCmdlWarning title="Macro 同埋執行指令嘅兼容度" message="你 save 喺 Notepad++ v8.5.2（或之前）嗰啲 Macro 同埋執行指令，未必兼容到而家嘅版本。
+			<MacroAndRunCmdlWarning title="Macro 同埋執行指令嘅兼容度" message="你 save 喺 Notepad++ v8.5.2（或之前）嗰啲 macro 同埋執行指令，未必兼容到而家嘅版本。
 麻煩你先測試一下，有需要嘅就修改吓。
 
 又或者，你可以先將 Notepad++ 降級去 v8.5.2，回復舊有嘅資料用著先：
