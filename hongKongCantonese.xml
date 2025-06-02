@@ -326,7 +326,7 @@
 					<Item id="44114" name="加顏色 4"/><!-- #new v8.4.6 -->
 					<Item id="44115" name="加顏色 5"/><!-- #new v8.4.6 -->
 					<Item id="44130" name="顯示非打印字符"/><!-- #new v8.5 -->
-					<Item id="44131" name="顯示控制字符同埋 Unicode EOL &amp; "/><!-- #new v8.5.3 -->
+					<Item id="44131" name="顯示控制字符同埋 Unicode EOL"/><!-- #new v8.5.3 -->
 					<Item id="44032" name="全螢幕模式"/>
 					<Item id="44033" name="回復預設 zoom 大細"/>
 					<Item id="44034" name="保持最上層"/>
@@ -643,11 +643,11 @@
 			<PluginsAdminDlg title="外掛管理員" titleAvailable="可安裝" titleUpdates="更新" titleInstalled="已安裝" titleIncompatible="唔相容">
 				<ColumnPlugin name="外掛"/>
 				<ColumnVersion name="版本"/>
-				<Item id="5501" name="搵："/>
-				<Item id="5503" name="安裝"/>
-				<Item id="5504" name="更新"/>
-				<Item id="5505" name="剷走"/>
-				<Item id="5508" name="下一個"/>
+				<Item id="5501" name="搵(&amp;S)："/>
+				<Item id="5503" name="安裝(&amp;I)"/>
+				<Item id="5504" name="更新(&amp;U)"/>
+				<Item id="5505" name="剷走(&amp;R)"/>
+				<Item id="5508" name="下一個(&amp;N)"/>
 				<Item id="5509" name="外掛清單版本："/><!-- #new v8.4.6 -->
 				<Item id="5511" name="外掛清單存儲庫"/><!-- #new v8.4.6 -->
 				<Item id="2" name="閂"/>
@@ -1017,18 +1017,20 @@
 					<Item id="6108" name="鎖定（唔畀 drag-and-drop）"/>
 					<Item id="6109" name="整暗啲唔係用緊嘅 tabs"/>
 					<Item id="6110" name="喺用緊嘅 tab 上面加條顏色 bar"/>
-					<Item id="6111" name="顯示狀態列"/>
+					<Item id="6111" name="顯示狀態列"/><!-- #legacy v8.5.3 -->
 					<Item id="6112" name="喺每個 tab 顯示交叉掣"/>
 					<Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
 					<Item id="6118" name="隱藏"/>
 					<Item id="6119" name="多行"/>
 					<Item id="6120" name="打直"/>
 					<Item id="6121" name="閂最後份文件嗰陣順便閂埋個程式"/>
+					<Item id="6128" name="另類圖示"/><!-- #new v7.9.1 -->
+					<Item id="6133" name="Status Bar"/><!-- #new v8.5.4 -->
+					<Item id="6134" name="Hide"/><!-- #new v8.5.4 -->
 					<Item id="6131" name="Menu"/><!-- #new v8.4.5 -->
 					<Item id="6122" name="隱藏 menu bar（撳 Alt 或者 F10 切換）"/>
 					<Item id="6132" name="隱藏 menu bar 右邊嗰啲快捷鍵 ＋ ▼ ✕（需要重開 Notepad++）"/><!-- #new v8.4.5 -->
 					<Item id="6123" name="本土化"/>
-					<Item id="6128" name="另類圖示"/><!-- #new v7.9.1 -->
 				</Global>
 
 				<Scintillas title="編輯">
@@ -1062,7 +1064,7 @@
 					<Item id="6254" name="Abbreviation"/><!-- #new v8.5 #review commit aaab190 -->
 					<Item id="6255" name="Codepoint"/><!-- #new v8.5 #review commit aaab190 -->
 					<Item id="6256" name="自訂顏色"/><!-- #new v8.5 -->
-					<Item id="6258" name="套用 C0、C1 同埋 Unicode EOL &amp; "/><!-- #new v8.5.3 -->
+					<Item id="6258" name="套用 C0、C1 同埋 Unicode EOL"/><!-- #new v8.5.3 -->
 				</Scintillas>
 
 				<DarkMode title="Dark Mode"><!-- #new v7.9.6 -->
@@ -1133,6 +1135,7 @@
 					<Item id="6411" name="預設程式語言："/>
 					<Item id="6419" name="新文件"/>
 					<Item id="6420" name="套用到打開咗嗰啲 ANSI 檔案"/>
+					<Item id="6432" name="Always open a new document in addition at startup"/><!-- #new v8.5.4 -->
 				</NewDoc>
 
 				<DefaultDir title="預設資料夾">
@@ -1415,7 +1418,7 @@
 				<Item id="1" name="搵晒出嚟"/>
 				<Item id="2" name="閂"/>
 				<Item id="1711" name="搵乜嘢(&amp;F)："/>
-				<Item id="1713" name="限制喺啲搵咗嘅行數再搵"/>
+				<Item id="1713" name="限制喺啲搵咗嘅行數再搵(&amp;O)"/>
 				<Item id="1714" name="符合完整單字(&amp;W)"/>
 				<Item id="1715" name="符合大細楷(&amp;C)"/>
 				<Item id="1716" name="模式"/>
@@ -1441,7 +1444,7 @@
 你可以喺偏好設定重新啟用呢個確認對話框。"/><!-- #new v8.1.5 -->
 				<Item id="6" name="好(&amp;Y)"/><!-- #new v8.1.5 -->
 				<Item id="7" name="唔使(&amp;N)"/><!-- #new v8.1.5 -->
-				<Item id="4" name="幾時都要"/><!-- #new v8.1.5 -->
+				<Item id="4" name="幾時都要(&amp;A)"/><!-- #new v8.1.5 -->
 			</DoSaveAll>
 		</Dialog>
 
