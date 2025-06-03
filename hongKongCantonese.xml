@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.5.4">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.5.5">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -40,7 +40,7 @@
 					<Item subMenuId="edit-blankOperations" name="空格處理(&amp;B)"/>
 					<Item subMenuId="edit-pasteSpecial" name="特殊貼上(&amp;P)"/>
 					<Item subMenuId="edit-onSelection" name="處理揀選範圍(&amp;O)"/>
-					<Item subMenuId="search-changeHistory" name="Change History"/><!-- #new v8.5.5 -->
+					<Item subMenuId="search-changeHistory" name="修改紀錄"/><!-- #new v8.5.5 -->
 					<Item subMenuId="search-markAll" name="成份文件咁做標記(&amp;A)"/>
 					<Item subMenuId="search-markOne" name="標記一次(&amp;O)"/><!-- #new v7.9.6 -->
 					<Item subMenuId="search-unmarkAll" name="清除風格標記(&amp;U)"/>
@@ -276,9 +276,9 @@
 					<Item id="43064" name="使用風格標記 3"/><!-- #new v7.9.6 -->
 					<Item id="43065" name="使用風格標記 4"/><!-- #new v7.9.6 -->
 					<Item id="43066" name="使用風格標記 5"/><!-- #new v7.9.6 -->
-					<Item id="43067" name="Go to Next Change"/><!-- #new v8.5.5 -->
-					<Item id="43068" name="Go to Previous Change"/><!-- #new v8.5.5 -->
-					<Item id="43069" name="Clear Change History"/><!-- #new v8.5.5 -->
+					<Item id="43067" name="跳去下單修改記錄"/><!-- #new v8.5.5 -->
+					<Item id="43068" name="跳去上單修改記錄"/><!-- #new v8.5.5 -->
+					<Item id="43069" name="剷走修改紀錄"/><!-- #new v8.5.5 -->
 					<Item id="43045" name="顯示搜尋結果視窗(&amp;W)"/>
 					<Item id="43046" name="下一個搜尋結果(&amp;T)"/>
 					<Item id="43047" name="上一個搜尋結果(&amp;T)"/>
@@ -412,12 +412,12 @@
 					<Item id="48504" name="運算..."/>
 					<Item id="48505" name="運算檔案..."/>
 					<Item id="48506" name="運算揀咗嘅字再抄去剪貼簿"/>
-					<Item id="48507" name="Generate..."/><!-- #new v8.5.5 -->
-					<Item id="48508" name="Generate from files..."/><!-- #new v8.5.5 -->
-					<Item id="48509" name="Generate from selection into clipboard"/><!-- #new v8.5.5 -->
-					<Item id="48510" name="Generate..."/><!-- #new v8.5.5 -->
-					<Item id="48511" name="Generate from files..."/><!-- #new v8.5.5 -->
-					<Item id="48512" name="Generate from selection into clipboard"/><!-- #new v8.5.5 -->
+					<Item id="48507" name="運算..."/><!-- #new v8.5.5 -->
+					<Item id="48508" name="運算檔案..."/><!-- #new v8.5.5 -->
+					<Item id="48509" name="運算揀咗嘅字再抄去剪貼簿"/><!-- #new v8.5.5 -->
+					<Item id="48510" name="運算..."/><!-- #new v8.5.5 -->
+					<Item id="48511" name="運算檔案..."/><!-- #new v8.5.5 -->
+					<Item id="48512" name="運算揀咗嘅字再抄去剪貼簿"/><!-- #new v8.5.5 -->
 
 					<!-- type: Run menu -->
 					<Item id="49000" name="執行(&amp;R)..."/>
@@ -652,28 +652,28 @@
 				<Item id="2" name="閂(&amp;C)"/>
 			</SHA256FromTextDlg>
 
-			<SHA1FromFilesDlg title="Generate SHA-1 digest from files"><!-- #new v8.5.5 -->
-				<Item id="1922" name="Choose files to &amp;generate SHA-1..."/><!-- #new v8.5.5 -->
-				<Item id="1924" name="Co&amp;py to Clipboard"/><!-- #new v8.5.5 -->
-				<Item id="2" name="&amp;Close"/><!-- #new v8.5.5 -->
+			<SHA1FromFilesDlg title="運算檔案嘅 SHA-1"><!-- #new v8.5.5 -->
+				<Item id="1922" name="揀一個／一咋檔案...(&amp;G)"/><!-- #new v8.5.5 -->
+				<Item id="1924" name="抄去剪貼簿(&amp;P)"/><!-- #new v8.5.5 -->
+				<Item id="2" name="閂(&amp;C)"/><!-- #new v8.5.5 -->
 			</SHA1FromFilesDlg>
 
-			<SHA1FromTextDlg title="Generate SHA-1 digest"><!-- #new v8.5.5 -->
-				<Item id="1932" name="Treat each line as a &amp;separate string"/><!-- #new v8.5.5 -->
-				<Item id="1934" name="Co&amp;py to Clipboard"/><!-- #new v8.5.5 -->
-				<Item id="2" name="&amp;Close"/><!-- #new v8.5.5 -->
+			<SHA1FromTextDlg title="運算 SHA-1"><!-- #new v8.5.5 -->
+				<Item id="1932" name="每一行都係獨立嘅字串(&amp;S)"/><!-- #new v8.5.5 -->
+				<Item id="1934" name="抄去剪貼簿(&amp;P)"/><!-- #new v8.5.5 -->
+				<Item id="2" name="閂(&amp;C)"/><!-- #new v8.5.5 -->
 			</SHA1FromTextDlg>
 
-			<SHA512FromFilesDlg title="Generate SHA-512 digest from files"><!-- #new v8.5.5 -->
-				<Item id="1922" name="Choose files to &amp;generate SHA-512..."/><!-- #new v8.5.5 -->
-				<Item id="1924" name="Co&amp;py to Clipboard"/><!-- #new v8.5.5 -->
-				<Item id="2" name="&amp;Close"/><!-- #new v8.5.5 -->
+			<SHA512FromFilesDlg title="運算檔案嘅 SHA-512"><!-- #new v8.5.5 -->
+				<Item id="1922" name="揀一個／一咋檔案...(&amp;G)"/><!-- #new v8.5.5 -->
+				<Item id="1924" name="抄去剪貼簿(&amp;P)"/><!-- #new v8.5.5 -->
+				<Item id="2" name="閂(&amp;C)"/><!-- #new v8.5.5 -->
 			</SHA512FromFilesDlg>
 
-			<SHA512FromTextDlg title="Generate SHA-512 digest"><!-- #new v8.5.5 -->
-				<Item id="1932" name="Treat each line as a &amp;separate string"/><!-- #new v8.5.5 -->
-				<Item id="1934" name="Co&amp;py to Clipboard"/><!-- #new v8.5.5 -->
-				<Item id="2" name="&amp;Close"/><!-- #new v8.5.5 -->
+			<SHA512FromTextDlg title="運算 SHA-512"><!-- #new v8.5.5 -->
+				<Item id="1932" name="每一行都係獨立嘅字串(&amp;S)"/><!-- #new v8.5.5 -->
+				<Item id="1934" name="抄去剪貼簿(&amp;P)"/><!-- #new v8.5.5 -->
+				<Item id="2" name="閂(&amp;C)"/><!-- #new v8.5.5 -->
 			</SHA512FromTextDlg>
 
 			<PluginsAdminDlg title="外掛管理員" titleAvailable="可安裝" titleUpdates="更新" titleInstalled="已安裝" titleIncompatible="唔相容">
@@ -1501,7 +1501,7 @@
 			<FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
 			<FileAlreadyOpenedInNpp title="" message="已經喺 Notepad++ 度開咗呢個檔案。"/>
 			<RenameTabTemporaryNameAlreadyInUse title="改唔到名" message="你改呢個名已經用緊喺另一個 tab 度。"/><!-- #new v7.9.2 -->
-			<RenameTabTemporaryNameIsEmpty title="Rename failed" message="The specified name cannot be empty, or it cannot contain only space(s) or TAB(s)."/><!-- HowToReproduce: Rename the tab of an untitled document and provide an empty string or only some white speces. --><!-- #new v8.5.5 -->
+			<RenameTabTemporaryNameIsEmpty title="改唔到名" message="改名唔好吉，淨係空格同埋 tab 都唔得。"/><!-- #new v8.5.5 -->
 			<DeleteFileFailed title="掉去垃圾桶" message="剷唔走個檔案。"/>
 
 			<NbFileToOpenImportantWarning title="太多檔案" message="成 $INT_REPLACE$ 個檔案咁多，
