@@ -738,17 +738,17 @@
 				<ScintillaCommandsTab name="Scintilla 指令"/>
 				<ConflictInfoOk name="冇同其它快捷鍵發生衝突。"/>
 				<ConflictInfoEditing name="冇同其它快捷鍵發生衝突..."/>
-				<WindowCategory name="視窗"/><!-- #new v8.5 -->
-				<FileCategory name="檔案"/><!-- #new v8.5 -->
-				<EditCategory name="編輯"/><!-- #new v8.5 -->
-				<SearchCategory name="搵"/><!-- #new v8.5 -->
-				<ViewCategory name="睇"/><!-- #new v8.5 -->
-				<FormatCategory name="編碼"/><!-- #new v8.5 -->
-				<LangCategory name="語言"/><!-- #new v8.5 -->
+				<WindowCategory name="視窗"/><!-- #legacy v8.5.7 -->
+				<FileCategory name="檔案"/><!-- #legacy v8.5.7 -->
+				<EditCategory name="編輯"/><!-- #legacy v8.5.7 -->
+				<SearchCategory name="搵"/><!-- #legacy v8.5.7 -->
+				<ViewCategory name="睇"/><!-- #legacy v8.5.7 -->
+				<FormatCategory name="編碼"/><!-- #legacy v8.5.7 -->
+				<LangCategory name="語言"/><!-- #legacy v8.5.7 -->
 				<AboutCategory name="關於"/><!-- #new v8.5 -->
-				<SettingCategory name="設定"/><!-- #new v8.5 -->
-				<ToolCategory name="架撐"/><!-- #new v8.5 -->
-				<ExecuteCategory name="執行"/><!-- #new v8.5 -->
+				<SettingCategory name="設定"/><!-- #legacy v8.5.7 -->
+				<ToolCategory name="架撐"/><!-- #legacy v8.5.7 -->
+				<ExecuteCategory name="執行"/><!-- #legacy v8.5.7 -->
 				<ModifyContextMenu name="修改"/><!-- #new v8.5 -->
 				<DeleteContextMenu name="剷走"/><!-- #new v8.5 -->
 				<ClearContextMenu name="清除"/><!-- #new v8.5 -->
@@ -1265,6 +1265,7 @@
 					<Item id="6907" name="搵／取代對話框彈出嚟嗰陣時"/><!-- #new v8.4.5 -->
 					<Item id="6908" name="將揀咗嘅字填去輸入欄"/><!-- #new v8.4.5 -->
 					<Item id="6909" name="冇揀字嘅話，就揀浮標下面個字詞"/><!-- #new v8.4.5 -->
+					<Item id="6910" name="Minimum Size for Auto-Checking 'In selection'"/><!-- #new v8.5.8 -->
 				</Searching>
 
 				<RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1605,6 +1606,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 又或者，你可以先將 Notepad++ 降級去 v8.5.2，回復舊有嘅資料用著先：
 Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.backup」。
 將「shortcuts.xml.v8.5.2.backup」改名做「shortcuts.xml」，咁就可以回復你啲舊指令嘞。"/><!-- #new v8.5.3 -->
+			<NotEnoughRoom4Saving title="Save failed" message="Failed to save file.
+It seems there's not enough space on disk to save file. Your file is not saved."/><!-- #new v8.5.8 -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="剪貼簿記錄"/>
@@ -1876,6 +1879,7 @@ Click on &quot;?&quot; button on right to open website with User Manual."/><!-- 
 			<!-- 唔好翻譯「(&quot;Non-printing characters custom color&quot;)」 -->
 			<npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)."/><!-- #new v8.5 #review commit aaab190 -->
 			<npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）"/><!-- #new v8.5.3 -->
+			<searchingInSelThresh-tip value="Number of selected characters in edit zone to automatically check the 'In selection' checkbox when the Find dialog is activated. The maximum value is 1024. Set the value to 0 to disable auto-checking."/><!-- #new v8.5.8 -->
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
