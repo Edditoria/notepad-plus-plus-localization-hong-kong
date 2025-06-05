@@ -1360,6 +1360,7 @@
 					<Item id="7149" name="容許醒目提示功能"/><!-- #new v8.4.7 -->
 					<Item id="7150" name="將全局自動換行功能閂咗佢"/><!-- #new v8.4.7 -->
 					<Item id="7151" name="容許 URL 連結 click 得到"/><!-- #new v8.4.7 -->
+					<Item id="7152" name="Suppress warning when opening ≥2GB files"/><!-- #new v8.5.7 -->
 				</Performance>
 
 				<Cloud title="雲端同埋連結">
