@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.5.7">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.5.8">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -1265,7 +1265,7 @@
 					<Item id="6907" name="搵／取代對話框彈出嚟嗰陣時"/><!-- #new v8.4.5 -->
 					<Item id="6908" name="將揀咗嘅字填去輸入欄"/><!-- #new v8.4.5 -->
 					<Item id="6909" name="冇揀字嘅話，就揀浮標下面個字詞"/><!-- #new v8.4.5 -->
-					<Item id="6910" name="Minimum Size for Auto-Checking 'In selection'"/><!-- #new v8.5.8 -->
+					<Item id="6910" name="最少字數以自動剔選「限揀選範圍」"/><!-- #new v8.5.8 -->
 				</Searching>
 
 				<RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1606,8 +1606,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 又或者，你可以先將 Notepad++ 降級去 v8.5.2，回復舊有嘅資料用著先：
 Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.backup」。
 將「shortcuts.xml.v8.5.2.backup」改名做「shortcuts.xml」，咁就可以回復你啲舊指令嘞。"/><!-- #new v8.5.3 -->
-			<NotEnoughRoom4Saving title="Save failed" message="Failed to save file.
-It seems there's not enough space on disk to save file. Your file is not saved."/><!-- #new v8.5.8 -->
+			<NotEnoughRoom4Saving title="Save 唔到" message="Save 唔到。
+似乎係磁碟唔夠位，留意返你嘅檔案係冇save到嘅。"/><!-- #new v8.5.8 -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="剪貼簿記錄"/>
@@ -1879,7 +1879,7 @@ Click on &quot;?&quot; button on right to open website with User Manual."/><!-- 
 			<!-- 唔好翻譯「(&quot;Non-printing characters custom color&quot;)」 -->
 			<npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)."/><!-- #new v8.5 #review commit aaab190 -->
 			<npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）"/><!-- #new v8.5.3 -->
-			<searchingInSelThresh-tip value="Number of selected characters in edit zone to automatically check the 'In selection' checkbox when the Find dialog is activated. The maximum value is 1024. Set the value to 0 to disable auto-checking."/><!-- #new v8.5.8 -->
+			<searchingInSelThresh-tip value="當「搵」對話框打開嗰陣，「限揀選範圍」選項會因應你揀咗幾多個字呢，嚟決定自動剔選，最大數值係 1024，set 做 0 就唔會再自動剔選。"/><!-- #new v8.5.8 -->
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
