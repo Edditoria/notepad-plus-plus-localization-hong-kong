@@ -40,6 +40,8 @@
 					<Item subMenuId="edit-blankOperations" name="空格處理(&amp;B)"/>
 					<Item subMenuId="edit-pasteSpecial" name="特殊貼上(&amp;P)"/>
 					<Item subMenuId="edit-onSelection" name="處理揀選範圍(&amp;O)"/>
+					<Item subMenuId="edit-multiSelectALL" name="Multi-select ALL"/><!-- #new v8.6.0 -->
+					<Item subMenuId="edit-multiSelectNext" name="Multi-select Next"/><!-- #new v8.6.0 -->
 					<Item subMenuId="search-changeHistory" name="修改紀錄"/><!-- #new v8.5.5 -->
 					<Item subMenuId="search-markAll" name="成份文件咁做標記(&amp;A)"/>
 					<Item subMenuId="search-markOne" name="標記一次(&amp;O)"/><!-- #new v7.9.6 -->
@@ -158,6 +160,16 @@
 					<Item id="42074" name="喺檔案總管打開資料夾"/>
 					<Item id="42075" name="上網搵吓"/>
 					<Item id="42076" name="換過個搜尋器..."/>
+					<Item id="42090" name="Ignore Case &amp;&amp; Whole Word"/><!-- #new v8.6.0 -->
+					<Item id="42091" name="Match Case Only"/><!-- #new v8.6.0 -->
+					<Item id="42092" name="Match Whole Word Only"/><!-- #new v8.6.0 -->
+					<Item id="42093" name="Match Case &amp;&amp; Whole Word"/><!-- #new v8.6.0 -->
+					<Item id="42094" name="Ignore Case &amp;&amp; Whole Word"/><!-- #new v8.6.0 -->
+					<Item id="42095" name="Match Case Only"/><!-- #new v8.6.0 -->
+					<Item id="42096" name="Match Whole Word Only"/><!-- #new v8.6.0 -->
+					<Item id="42097" name="Match Case &amp;&amp; Whole Word"/><!-- #new v8.6.0 -->
+					<Item id="42098" name="Undo the Latest Added Multi-Select"/><!-- #new v8.6.0 -->
+					<Item id="42099" name="Skip Current &amp;&amp; Go to Next Multi-select"/><!-- #new v8.6.0 -->
 
 					<!-- type: Macro menu -->
 					<Item id="42018" name="開始錄製(&amp;C)"/>
@@ -1076,7 +1088,7 @@
 					<Item id="6221" name="快"/>
 					<Item id="6222" name="慢"/>
 					<Item id="6246" name="「摺埋呢層」同「展開呢層」命令改為「切換」"/><!-- #new v8.4.2 -->
-					<Item id="6225" name="幾個位置同時改嘢（Ctrl + 撳／撳著滑鼠掣）"/>
+					<Item id="6225" name="幾個位置同時改嘢（Ctrl + 撳／撳著滑鼠掣）"/><!-- #legacy v8.5.8 -->
 					<Item id="6227" name="自動換行"/><!-- #moved in v7.9.2 -->
 					<Item id="6228" name="預設"/><!-- #moved in v7.9.2 -->
 					<Item id="6229" name="對齊"/><!-- #moved in v7.9.2 -->
@@ -1286,6 +1298,7 @@
 					<Item id="6821" name="秒備份一次"/>
 					<Item id="6822" name="備份路徑："/>
 					<Item id="6309" name="記著工作階段，下次開程式嗰陣繼續用"/>
+					<Item id="6825" name="Remember inaccessible files from past session"/><!-- #new v.8.6.0 -->
 					<Item id="6801" name="Save 嗰陣備份"/>
 					<Item id="6315" name="唔做"/>
 					<Item id="6316" name="簡易備份"/>
@@ -1608,6 +1621,17 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
 將「shortcuts.xml.v8.5.2.backup」改名做「shortcuts.xml」，咁就可以回復你啲舊指令嘞。"/><!-- #new v8.5.3 -->
 			<NotEnoughRoom4Saving title="Save 唔到" message="Save 唔到。
 似乎係磁碟唔夠位，留意返你嘅檔案係冇save到嘅。"/><!-- #new v8.5.8 -->
+			<FileInaccessibleUserSession title="File inaccessible" message="Some files from your manually-saved session &quot;$STR_REPLACE$&quot; are inaccessible. They can be opened as empty and read-only documents as placeholders.
+
+Would you like to create those placeholders?
+
+NOTE: Choosing not to create the placeholders or closing them later, your manually-saved session will NOT be modified on exit."/><!-- #new v8.6.0 -->
+			<FileInaccessibleDefaultSessionXml title="File inaccessible" message="Some files from your past session are inaccessible. They can be opened as empty and read-only documents as placeholders.
+
+Would you like to create those placeholders?
+
+NOTE: Choosing not to create the placeholders or closing them later, your session WILL BE MODIFIED ON EXIT! We suggest you backup your &quot;session.xml&quot; now."/><!-- #new v8.6.0 -->
+			<RTLvsDirectWrite title="Cannot run RTL" message="RTL is not compatible with DirectWrite mode. Please disable DirectWrite mode in MISC. section of Preferences dialog, restart Notepad++, and try this command again."/><!-- #new v8.6.0 -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="剪貼簿記錄"/>
@@ -1771,6 +1795,7 @@ Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.
 			<find-status-replace-not-found value="取代：搵唔到你要嘅嘢。"/>
 			<find-status-replace-readonly value="取代：無法取代，因為檔案屬性係唯讀。"/>
 			<find-status-cannot-find value="搵：搵唔到「$STR_REPLACE$」    跌咗嘢 試吓唔好搵"/>
+			<find-status-cannot-find-pebkac-maybe value="The given occurrence cannot be found. You may have forgotten to check &quot;Wrap around&quot; (to ON), &quot;Match case&quot; (to OFF), or &quot;Match whole word only&quot; (to OFF)."/><!-- #new v8.6.0 -->
 			<find-status-scope-selection value="（限揀選範圍）"/>
 			<find-status-scope-all value="（成份檔案）"/>
 			<find-status-scope-backward value="（由頭到滑鼠浮標位置）"/>
