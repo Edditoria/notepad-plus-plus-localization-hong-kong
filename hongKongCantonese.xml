@@ -1399,7 +1399,7 @@
 					<Item id="6278" name="例子： https://www.google.com/search?q=$(CURRENT_WORD)"/>
 				</SearchEngine>
 
-				<MISC title="其它雜項">
+				<MISC title="雜項">
 					<ComboBox id="6347">
 						<Element name="啟用"/>
 						<Element name="喺所有打開咗嘅檔案啟用"/>
