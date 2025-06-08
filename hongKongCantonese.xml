@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6.1">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -332,8 +332,8 @@
 					<Item id="44092" name="7th"/>
 					<Item id="44093" name="8th"/>
 					<Item id="44094" name="9th"/>
-					<Item id="44116" name="First Tab"/><!-- #new v8.6.1 -->
-					<Item id="44117" name="Last Tab"/><!-- #new v8.6.1 -->
+					<Item id="44116" name="第一個 tab"/><!-- #new v8.6.1 -->
+					<Item id="44117" name="最尾個 tab"/><!-- #new v8.6.1 -->
 					<Item id="44095" name="下個 tab"/>
 					<Item id="44096" name="上個 tab"/>
 					<Item id="44097" name="監視模式 (tail --follow)"/>
@@ -386,8 +386,8 @@
 					<Item id="10002" name="抄呢個檔案去另一邊視窗"/>
 					<Item id="10003" name="搬呢個檔案去新視窗"/>
 					<Item id="10004" name="抄呢個檔案去新視窗"/>
-					<Item id="10005" name="Move to Start"/><!-- #new v8.6.1 -->
-					<Item id="10006" name="Move to End"/><!-- #new v8.6.1 -->
+					<Item id="10005" name="移去頭"/><!-- #new v8.6.1 -->
+					<Item id="10006" name="移去尾"/><!-- #new v8.6.1 -->
 
 					<!-- type: Settings menu -->
 					<Item id="46001" name="主題風格設定..."/>
@@ -537,8 +537,8 @@
 				<Item CMDID="42030" name="抄低個檔名"/><!-- #new v8.4.8 -->
 				<Item CMDID="42031" name="抄低個資料夾路徑"/><!-- #new v8.4.8 -->
 				<Item CMDID="3" name="移動文件"/><!-- #new v8.4.8 -->
-				<Item CMDID="10005" name="Move to Start"/><!-- #new v8.6.1 -->
-				<Item CMDID="10006" name="Move to End"/><!-- #new v8.6.1 -->
+				<Item CMDID="10005" name="移去頭"/><!-- #new v8.6.1 -->
+				<Item CMDID="10006" name="移去尾"/><!-- #new v8.6.1 -->
 				<Item CMDID="10001" name="搬呢個檔案去另一邊視窗"/><!-- #new v8.4.8 -->
 				<Item CMDID="10002" name="抄呢個檔案去另一邊視窗"/><!-- #new v8.4.8 -->
 				<Item CMDID="10003" name="搬呢個檔案去新視窗"/><!-- #new v8.4.8 -->
@@ -1640,7 +1640,7 @@ $STR_REPLACE$
 留意：如果選擇唔保留呢啲文件，又或者之後閂埋佢哋，你嘅「工作階段檔案」就會喺閂程式嗰陣作出修改！
 建議：立即備份你嘅「session.xml」。"/><!-- #new v8.6.0 -->
 			<RTLvsDirectWrite title="文字方向轉唔到右至左" message="DirectWrite 模式唔兼容右至左文字方向，你可以喺「偏好設定」→「雜項」將「使用 DirectWrite 模式」熄咗佢，然後重新啟動 Notepad++。"/><!-- #new v8.6.0 -->
-			<FileMemoryAllocationFailed title="Exception: File memory allocation failed" message="There is probably not enough contiguous free memory for the file being loaded by Notepad++."/><!-- HowToReproduce: Try to open multiple files with total size > ~700MB in the x86 Notepad++ (it will depend on the PC memory configuration and the current system memory usage...). --><!-- #new v8.6.1 -->
+			<FileMemoryAllocationFailed title="Exception: 檔案嘅記憶體配置失敗" message="睇嚟記憶體嘅連續空間唔夠，搞到 Notepad++ load 唔到個檔案。"/><!-- #new v8.6.1 -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="剪貼簿記錄"/>
@@ -1863,11 +1863,11 @@ $STR_REPLACE$
 			<find-result-title value="搵"/><!-- Must not begin with space or tab character -->
 			<find-result-title-info value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 份文件，總共搵咗 $INT_REPLACE3$ 份文件）"/>
 			<find-result-title-info-selections value="（搵到 $INT_REPLACE1$ 個結果，散佈喺 $INT_REPLACE2$ 個揀選範圍，總共搵咗 $INT_REPLACE3$ 份文件）"/>
-			<find-result-title-info-options-searchmode-normal value="Normal"/><!-- #new v8.6.1 -->
-			<find-result-title-info-options-searchmode-extended value="Extended"/><!-- #new v8.6.1 -->
-			<find-result-title-info-options-searchmode-regexp value="RegEx"/><!-- #new v8.6.1 -->
-			<find-result-title-info-options-case value="Case"/><!-- #new v8.6.1 -->
-			<find-result-title-info-options-word value="Word"/><!-- #new v8.6.1 -->
+			<find-result-title-info-options-searchmode-normal value="一般"/><!-- #new v8.6.1 -->
+			<find-result-title-info-options-searchmode-extended value="加強"/><!-- #new v8.6.1 -->
+			<find-result-title-info-options-searchmode-regexp value="規則運算式"/><!-- #new v8.6.1 -->
+			<find-result-title-info-options-case value="大細階"/><!-- #new v8.6.1 -->
+			<find-result-title-info-options-word value="完整單字"/><!-- #new v8.6.1 -->
 			<find-result-title-info-extra value=" - 搵中搵模式：只顯示「喺搜尋結果再搵」嘅篩選結果"/>
 			<find-result-hits value="（搵到 $INT_REPLACE$ 個結果）"/>
 			<find-result-line-prefix value="行數"/><!-- Must not begin with space or tab character --><!-- #new v7.9.2 -->
