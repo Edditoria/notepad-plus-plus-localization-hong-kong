@@ -1105,6 +1105,7 @@
 					<Item id="6236" name="轆到超出至最後一行"/><!-- #moved in v7.9.2 -->
 					<Item id="6239" name="喺揀選範圍以外撳滑鼠右掣，保留揀選範圍"/><!-- #moved in v7.9.2 -->
 					<Item id="6245" name="啟用虛位空間浮標"/><!-- #new v8.4.0 -->
+					<Item id="6214" name="Enable Copy/Cut Line without selection"/><!-- #new v8.6.3 -->
 					<Item id="6651" name="突顯改緊嘢嗰行"/><!-- #new v8.4.1 -->
 					<Item id="6652" name="唔搞"/><!-- #new v8.4.1 -->
 					<Item id="6653" name="突顯背景顏色"/><!-- #new v8.4.1 -->
