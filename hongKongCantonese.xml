@@ -1087,7 +1087,7 @@
 					<Item id="6123" name="本土化"/>
 				</Global>
 
-				<Scintillas title="編輯">
+				<Scintillas title="編輯（一）">
 					<Item id="6216" name="浮標設定"/>
 					<Item id="6217" name="闊度："/>
 					<Item id="6219" name="眨嘅頻率："/>
@@ -1110,16 +1110,33 @@
 					<Item id="6653" name="突顯背景顏色"/><!-- #new v8.4.1 -->
 					<Item id="6654" name="邊框"/><!-- #new v8.4.1 -->
 					<Item id="6655" name="闊度："/><!-- #new v8.4.1 -->
-					<Item id="6247" name="EOL (CRLF)"/><!-- #new v8.4.3 --><!-- Don't translate "(CRLF)" -->
-					<Item id="6248" name="預設"/><!-- #new v8.4.3 -->
-					<Item id="6249" name="純文字"/><!-- #new v8.4.3 -->
-					<Item id="6250" name="自訂顏色"/><!-- #new v8.4.3 -->
-					<Item id="6252" name="非打印字符"/><!-- #new v8.5 -->
-					<Item id="6254" name="Abbreviation"/><!-- #new v8.5 #review commit aaab190 -->
-					<Item id="6255" name="Codepoint"/><!-- #new v8.5 #review commit aaab190 -->
-					<Item id="6256" name="自訂顏色"/><!-- #new v8.5 -->
-					<Item id="6258" name="套用 C0、C1 同埋 Unicode EOL"/><!-- #new v8.5.3 -->
+					<Item id="6247" name="EOL (CRLF)"/><!-- #legacy v8.6.4 --><!-- Don't translate "(CRLF)" -->
+					<Item id="6248" name="預設"/><!-- #legacy v8.6.4 -->
+					<Item id="6249" name="純文字"/><!-- #legacy v8.6.4 -->
+					<Item id="6250" name="自訂顏色"/><!-- #legacy v8.6.4 -->
+					<Item id="6252" name="非打印字符"/><!-- #legacy v8.6.4 -->
+					<Item id="6254" name="Abbreviation"/><!-- #legacy v8.6.4 #review commit aaab190 -->
+					<Item id="6255" name="Codepoint"/><!-- #legacy v8.6.4 #review commit aaab190 -->
+					<Item id="6256" name="自訂顏色"/><!-- #legacy v8.6.4 -->
+					<Item id="6258" name="套用 C0、C1 同埋 Unicode EOL"/><!-- #legacy v8.6.4 -->
 				</Scintillas>
+
+				<Scintillas2 title="Editing 2"><!-- #new v8.6.5 -->
+					<Item id="6521" name="Multi-Editing"/><!-- #new v8.6.5 -->
+					<Item id="6522" name="Enable Multi-Editing (Ctrl+Mouse click/selection)"/><!-- #new v8.6.5 -->
+					<Item id="6523" name="Enable Column Selection to Multi-Editing"/><!-- #new v8.6.5 -->
+					<Item id="6247" name="EOL (CRLF)"/><!-- #moved v8.6.5 --><!-- Don't translate "(CRLF)" -->
+					<Item id="6248" name="預設"/><!-- #moved v8.6.5 -->
+					<Item id="6249" name="純文字"/><!-- #moved v8.6.5 -->
+					<Item id="6250" name="自訂顏色"/><!-- #moved v8.6.5 -->
+					<Item id="6252" name="非打印字符"/><!-- #moved v8.6.5 -->
+					<Item id="6260" name="Appearance"/><!-- #new v8.6.5 -->
+					<Item id="6254" name="Abbreviation"/><!-- #moved v8.6.5 #review commit aaab190 -->
+					<Item id="6255" name="Codepoint"/><!-- #moved v8.6.5 #review commit aaab190 -->
+					<Item id="6256" name="自訂顏色"/><!-- #moved v8.6.5 -->
+					<Item id="6258" name="Apply Appearance settings to C0, C1 &amp;&amp; Unicode EOL"/><!-- #moved v8.6.5 -->
+					<Item id="6259" name="Prevent control character (C0 code) typing into document"/><!-- #new v8.6.5 -->
+				</Scintillas2>
 
 				<DarkMode title="Dark Mode"><!-- #new v7.9.6 -->
 					<Item id="7101" name="啟用 dark mode"/><!-- #legacy v8.4.7 -->
@@ -1162,11 +1179,14 @@
 					<Item id="6292" name="動態闊度"/><!-- #new v7.9.2 -->
 					<Item id="6293" name="固定闊度"/><!-- #new v7.9.2 -->
 					<Item id="6207" name="顯示書籤"/>
-					<Item id="6223" name="顯示修改紀錄"/><!-- #new v8.4.6 -->
+					<Item id="6295" name="Change History"/><!-- #new v8.6.5 -->
+					<Item id="6223" name="顯示修改紀錄"/><!-- #new v8.4.6 #review -->
+					<Item id="6223" name="Show in the margin"/><!-- #new v8.6.5 #review -->
+					<Item id="6296" name="Show in the text"/><!-- #new v8.6.5 -->
 					<Item id="6211" name="垂直邊緣線設定"/>
 					<Item id="6213" name="背景色模式"/>
 					<Item id="6237" name="條線用嚟參考每行字數嘅上限，輸入十進制數字去決定條線嘅位置。
-想劃多啲線嘅話，用空格分隔多組數字就得。"/>
+想劃多啲線嘅話，用空格分隔多組數字就得。"/><!-- #legacy v8.6.4 -->
 					<Item id="6231" name="邊框闊度"/>
 					<Item id="6235" name="無邊框"/>
 					<Item id="6208" name="框內留白"/><!-- #new v7.9.6 -->
@@ -1764,7 +1784,7 @@ $STR_REPLACE$
 			<default-open-save-select-folder value="揀個預設資料夾"/><!-- #new v8.2.1 -->
 			<shift-change-direction-tip value="用「Shift + Enter」掣嚟反方向咁搵"/>
 			<two-find-buttons-tip value="用上、落兩個掣代替「搵下一個」"/>
-			<file-rename-title value="改名"/><!-- #new v8.1.2 -->
+			<file-rename-title value="改名"/><!-- #legacy v8.6.4 -->
 			<find-in-files-filter-tip value="只係喺 cpp, cxx, h, hxx &amp;&amp; hpp 嘅檔案度搵：
 *.cpp *.cxx *.h *.hxx *.hpp
 
@@ -1814,9 +1834,9 @@ $STR_REPLACE$
 			<finder-collapse-all value="摺埋所有層級"/>
 			<finder-uncollapse-all value="展開所有層級"/>
 			<finder-copy value="抄低呢（幾）行"/>
-			<finder-copy-verbatim value="抄"/><!-- #new v7.9.2 -->
+			<finder-copy-verbatim value="抄"/><!-- #legacy v8.6.4 -->
 			<finder-copy-paths value="抄低檔案路徑"/><!-- #new v7.9.6 -->
-			<finder-select-all value="揀晒"/>
+			<finder-select-all value="揀晒"/><!-- #legacy v8.6.4 -->
 			<finder-clear-all value="全部清除"/>
 			<finder-open-all value="全部打開"/>
 			<finder-purge-for-every-search value="次次都清走搜尋結果"/><!-- #new v7.9.6 -->
@@ -1848,7 +1868,7 @@ $STR_REPLACE$
 			<summary-nbsel2 value=" bytes），揀咗 "/>
 			<summary-nbrange value=" 個範圍數"/>
 			<progress-hits-title value="命中："/><!-- #new v8.5.2 -->
-			<progress-cancel-button value="取消"/><!-- #new v8.5 -->
+			<progress-cancel-button value="取消"/><!-- #legacy v8.6.4 -->
 			<progress-cancel-info value="取消緊，唔該等一陣..."/><!-- #new v8.5 -->
 			<find-in-files-progress-title value="等我搵搵先啊吓，幫緊你幫緊你..."/><!-- #new v7.9.3 -->
 			<replace-in-files-confirm-title value="係咪真係先？"/>
@@ -1919,6 +1939,7 @@ Click on &quot;?&quot; button on right to open website with User Manual."/><!-- 
 			<npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)."/><!-- #new v8.5 #review commit aaab190 -->
 			<npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）"/><!-- #new v8.5.3 -->
 			<searchingInSelThresh-tip value="當「搵」對話框打開嗰陣，「限揀選範圍」選項會因應你揀咗幾多個字呢，嚟決定自動剔選，最大數值係 1024，set 做 0 就唔會再自動剔選。"/><!-- #new v8.5.8 -->
+			<verticalEdge-tip value="Add your column marker by indicating its position with a decimal number. You can define several column markers by using white space to separate the different numbers."/><!-- #new v8.6.5 -->
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
