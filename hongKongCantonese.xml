@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6.3">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6.5">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -1121,21 +1121,21 @@
 					<Item id="6258" name="套用 C0、C1 同埋 Unicode EOL"/><!-- #legacy v8.6.4 -->
 				</Scintillas>
 
-				<Scintillas2 title="Editing 2"><!-- #new v8.6.5 -->
-					<Item id="6521" name="Multi-Editing"/><!-- #new v8.6.5 -->
-					<Item id="6522" name="Enable Multi-Editing (Ctrl+Mouse click/selection)"/><!-- #new v8.6.5 -->
-					<Item id="6523" name="Enable Column Selection to Multi-Editing"/><!-- #new v8.6.5 -->
+				<Scintillas2 title="編輯（二）"><!-- #new v8.6.5 -->
+					<Item id="6521" name="多重編輯"/><!-- #new v8.6.5 -->
+					<Item id="6522" name="啟用多重編輯（Ctrl + 撳一下／撳著滑鼠掣）"/><!-- #new v8.6.5 -->
+					<Item id="6523" name="啟用由欄位模式轉去多重編輯模式"/><!-- #new v8.6.5 -->
 					<Item id="6247" name="EOL (CRLF)"/><!-- #moved v8.6.5 --><!-- Don't translate "(CRLF)" -->
 					<Item id="6248" name="預設"/><!-- #moved v8.6.5 -->
 					<Item id="6249" name="純文字"/><!-- #moved v8.6.5 -->
 					<Item id="6250" name="自訂顏色"/><!-- #moved v8.6.5 -->
 					<Item id="6252" name="非打印字符"/><!-- #moved v8.6.5 -->
-					<Item id="6260" name="Appearance"/><!-- #new v8.6.5 -->
+					<Item id="6260" name="展示方式"/><!-- #new v8.6.5 -->
 					<Item id="6254" name="Abbreviation"/><!-- #moved v8.6.5 #review commit aaab190 -->
 					<Item id="6255" name="Codepoint"/><!-- #moved v8.6.5 #review commit aaab190 -->
 					<Item id="6256" name="自訂顏色"/><!-- #moved v8.6.5 -->
-					<Item id="6258" name="Apply Appearance settings to C0, C1 &amp;&amp; Unicode EOL"/><!-- #moved v8.6.5 -->
-					<Item id="6259" name="Prevent control character (C0 code) typing into document"/><!-- #new v8.6.5 -->
+					<Item id="6258" name="將展示方式套用埋 C0、C1 同埋 Unicode EOL"/><!-- #moved v8.6.5 -->
+					<Item id="6259" name="避免喺文件中打得出控制字符（C0 code）"/><!-- #new v8.6.5 -->
 				</Scintillas2>
 
 				<DarkMode title="Dark Mode"><!-- #new v7.9.6 -->
@@ -1179,10 +1179,9 @@
 					<Item id="6292" name="動態闊度"/><!-- #new v7.9.2 -->
 					<Item id="6293" name="固定闊度"/><!-- #new v7.9.2 -->
 					<Item id="6207" name="顯示書籤"/>
-					<Item id="6295" name="Change History"/><!-- #new v8.6.5 -->
-					<Item id="6223" name="顯示修改紀錄"/><!-- #new v8.4.6 #review -->
-					<Item id="6223" name="Show in the margin"/><!-- #new v8.6.5 #review -->
-					<Item id="6296" name="Show in the text"/><!-- #new v8.6.5 -->
+					<Item id="6295" name="修改紀錄"/><!-- #new v8.6.5 -->
+					<Item id="6223" name="喺邊界展示修改紀錄"/><!-- #new v8.4.6 -->
+					<Item id="6296" name="喺文字度展示修改紀錄"/><!-- #new v8.6.5 -->
 					<Item id="6211" name="垂直邊緣線設定"/>
 					<Item id="6213" name="背景色模式"/>
 					<Item id="6237" name="條線用嚟參考每行字數嘅上限，輸入十進制數字去決定條線嘅位置。
@@ -1939,7 +1938,7 @@ Click on &quot;?&quot; button on right to open website with User Manual."/><!-- 
 			<npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)."/><!-- #new v8.5 #review commit aaab190 -->
 			<npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）"/><!-- #new v8.5.3 -->
 			<searchingInSelThresh-tip value="當「搵」對話框打開嗰陣，「限揀選範圍」選項會因應你揀咗幾多個字呢，嚟決定自動剔選，最大數值係 1024，set 做 0 就唔會再自動剔選。"/><!-- #new v8.5.8 -->
-			<verticalEdge-tip value="Add your column marker by indicating its position with a decimal number. You can define several column markers by using white space to separate the different numbers."/><!-- #new v8.6.5 -->
+			<verticalEdge-tip value="填上十進位數字用嚟 mark 條跨行嘅垂直線，想劃多啲線嘅話，用空格分隔多組數字就得，多啲嚟密啲手。"/><!-- #new v8.6.5 -->
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
