@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6.5">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6.6">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -1393,7 +1393,7 @@
 					<Item id="7141" name="大型檔案限制"/><!-- #new v8.4.7 -->
 					<Item id="7143" name="啟用大型檔案限制（會失去語法突顯功能）"/><!-- #new v8.4.7 -->
 					<Item id="7144" name="定義大檔案 size："/><!-- #new v8.4.7 -->
-					<Item id="7146" name="MB   (1 - 4096)"/><!-- #new v8.4.7 -->
+					<Item id="7146" name="MB   (1 - 2046)"/><!-- #new v8.4.7 -->
 					<Item id="7147" name="容許顯示對應括號"/><!-- #new v8.4.7 -->
 					<Item id="7148" name="容許自動完成功能"/><!-- #new v8.4.7 -->
 					<Item id="7149" name="容許醒目提示功能"/><!-- #new v8.4.7 -->
