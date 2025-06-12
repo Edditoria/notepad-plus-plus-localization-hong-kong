@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6.6">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.6.9">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -1229,13 +1229,13 @@
 					<Item id="6506" name="停用咗嘅項目"/>
 					<Item id="6507" name="簡化程式語言 menu"/>
 					<Item id="6508" name="程式語言 Menu"/>
-					<Item id="6301" name="縮排設定"/><!-- #review #next -->
-					<Item id="6302" name="以空格做 tab"/><!-- #review #next -->
-					<Item id="6303" name="縮排大細："/><!-- #review #next -->
-					<Item id="6310" name="Indent using:"/><!-- #new v8.6.9 -->
-					<Item id="6311" name="Tab character"/><!-- #new v8.6.9 -->
+					<Item id="6301" name="縮排設定"/>
+					<Item id="6302" name="空格"/>
+					<Item id="6303" name="縮排大細："/>
+					<Item id="6310" name="縮排字元："/><!-- #new v8.6.9 -->
+					<Item id="6311" name="Tab"/><!-- #new v8.6.9 -->
 					<Item id="6510" name="使用預設值"/>
-					<Item id="6512" name="Backspace key unindents instead of removing single space"/><!-- #new v8.6.9 -->
+					<Item id="6512" name="Backspace 掣用嚟刪縮排而唔係齋一個空格"/><!-- #new v8.6.9 -->
 					<Item id="6335" name="喺 SQL 將 backslash「\」睇成 escape character"/>
 				</Language>
 
@@ -1663,10 +1663,10 @@ $STR_REPLACE$
 建議：立即備份你嘅「session.xml」。"/><!-- #new v8.6.0 -->
 			<RTLvsDirectWrite title="文字方向轉唔到右至左" message="DirectWrite 模式唔兼容右至左文字方向，你可以喺「偏好設定」→「雜項」將「使用 DirectWrite 模式」熄咗佢，然後重新啟動 Notepad++。"/><!-- #new v8.6.0 -->
 			<FileMemoryAllocationFailed title="Exception: 檔案嘅記憶體配置失敗" message="睇嚟記憶體嘅連續空間唔夠，搞到 Notepad++ load 唔到個檔案。"/><!-- #new v8.6.1 -->
-			<FindRegexBackwardDisabled title="Regex backward search disabled" message="By default, backward regex searching is disabled due to potentially unexpected results. To perform a backward search, open the Find dialog and select either normal or extended search mode instead of regular expression.
-Press the OK button to open the Find dialog or set focus on it.
-			
-If you require the backward regex searching feature, consult the user manual for instructions on enabling it."/><!-- #new v8.6.9 -->
+			<FindRegexBackwardDisabled title="規則運算式返唔到轉頭啊" message="為咗避開一啲意外，規則運算式預設係唔用得「▲ 搵上一個」嘅，如果你真係想向上搵，打開「搵」對話框，用返一般或者加強模式。
+咁 OK 掣可以跳去「搵」對話框。
+
+如果你真係真係想喺規則運算式模式用到「▲ 搵上一個」功能，麻煩查吓網上用戶手冊。"/><!-- #new v8.6.9 -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="剪貼簿記錄"/>
