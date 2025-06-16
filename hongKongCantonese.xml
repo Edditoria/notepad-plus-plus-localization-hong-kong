@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.1">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -729,15 +729,15 @@
 					<Item id="2219" name="預設關鍵字"/>
 					<Item id="2221" name="自訂關鍵字"/>
 					<Item id="2225" name="程式語言："/>
-					<Item id="2226" name="啟用全域前景色彩"/><!-- #review v8.7.1 -->
-					<Item id="2227" name="啟用全域背景色彩"/><!-- #review v8.7.1 -->
-					<Item id="2228" name="啟用全域字型"/><!-- #review v8.7.1 -->
-					<Item id="2229" name="啟用全域字體大細"/><!-- #review v8.7.1 -->
-					<Item id="2230" name="啟用全域粗體"/><!-- #review v8.7.1 -->
-					<Item id="2231" name="啟用全域斜體"/><!-- #review v8.7.1 -->
-					<Item id="2232" name="啟用全域底線"/><!-- #review v8.7.1 -->
+					<Item id="2226" name="將前景色彩套用去所有樣式"/>
+					<Item id="2227" name="將背景色彩套用去所有樣式"/>
+					<Item id="2228" name="將字型套用去所有樣式"/>
+					<Item id="2229" name="將字體大細套用去所有樣式"/>
+					<Item id="2230" name="將粗體套用去所有樣式"/>
+					<Item id="2231" name="將斜體套用去所有樣式"/>
+					<Item id="2232" name="將底線套用去所有樣式"/>
 					<Item id="2234" name="跳去相關嘅設定"/><!-- #new v8.4.4 -->
-					<Item id="2235" name="What is Global override?"/><!-- #new v8.7.1 --><!-- Don't translate "Global override" -->
+					<Item id="2235" name="Global override 係咩嚟？"/><!-- #new v8.7.1 --><!-- Don't translate "Global override" -->
 				</SubDialog>
 			</StyleConfig>
 
@@ -1450,11 +1450,11 @@
 						<Element name="停用"/>
 					</ComboBox>
 					<ComboBox id="6307"><!-- #new v8.7.1 -->
-						<Element name="No action to"/><!-- #new v8.7.1 -->
-						<Element name="Minimize to"/><!-- #new v8.7.1 -->
-						<Element name="Close to"/><!-- #new v8.7.1 -->
+						<Element name="唔用"/><!-- #new v8.7.1 -->
+						<Element name="最小化視窗嗰陣縮去"/><!-- #new v8.7.1 -->
+						<Element name="閂程式嗰陣縮去"/><!-- #new v8.7.1 -->
 					</ComboBox>
-					<Item id="6308" name="最小化視窗嗰陣縮去系統匣"/><!-- #review v8.7.1 -->
+					<Item id="6308" name="系統匣"/>
 					<Item id="6312" name="自動偵測檔案狀態"/>
 					<Item id="6313" name="靜靜雞喺背景更新"/>
 					<Item id="6325" name="更新後轆去最後一行"/>
@@ -1830,8 +1830,8 @@ $STR_REPLACE$
 所有檔案，除咗資料夾 log* (recursive)：
 *.* !+\log*"/>
 			<find-in-files-select-folder value="揀個資料夾搵嘢"/><!-- #new v8.2.1 -->
-			<find-status-top-reached value="搵嘢：已經過咗文件開端，而家喺底部第一個相符嘅字串。"/><!-- #review v8.7.1 -->
-			<find-status-end-reached value="搵嘢：已經過咗文件結尾，而家喺頂部第一個相符嘅字串。"/><!-- #review v8.7.1 -->
+			<find-status-top-reached value="搵嘢：過咗文件開端，而家喺底部第一個相符嘅字串。"/>
+			<find-status-end-reached value="搵嘢：過咗文件結尾，而家喺頂部第一個相符嘅字串。"/>
 			<find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/>
 			<find-status-replaceinfiles-nb-replaced value="檔案中執行取代：取代咗 $INT_REPLACE$ 次。"/>
 			<find-status-replaceinfiles-re-malformed value="檔案中執行取代：規則運算式無效。"/><!-- #legacy v8.5.4 -->
@@ -1849,8 +1849,8 @@ $STR_REPLACE$
 			<find-status-replaceall-1-replaced value="全部取代：取代咗 1 次。"/>
 			<find-status-replaceall-nb-replaced value="全部取代：取代咗 $INT_REPLACE$ 次。"/>
 			<find-status-replaceall-readonly value="全部取代：無法取代，因為檔案屬性係唯讀。"/>
-			<find-status-replace-end-reached value="取代：由上而下完成到尾，已經到咗文件結尾。"/><!-- #review v8.7.1 -->
-			<find-status-replace-top-reached value="取代：由下而上完成到尾，已經到咗文件開端。"/><!-- #review v8.7.1 -->
+			<find-status-replace-end-reached value="取代：由上而下完成，到咗文件結尾。"/>
+			<find-status-replace-top-reached value="取代：由下而上完成，到咗文件開端。"/>
 			<find-status-replaced-next-found value="取代：取代咗 1 次，搵到下一個。"/>
 			<find-status-replaced-without-continuing value="取代：取代咗 1 次。"/><!-- #new v7.9.6 -->
 			<find-status-replaced-next-not-found value="取代：取代咗 1 次，再搵唔到下一個喇。"/>
@@ -1981,7 +1981,7 @@ C、C++、Java、C#、Objective-C、PHP、JavaScript、JSP、CSS、Perl、Rust�
 如果你唔係喺上述呢啲語言編輯檔案，咁就會用返基本模式而唔再係進階模式。"/><!-- #new v8.7.0 -->
 
 			<!-- Don't translate "Global override" and "Default Style" -->
-			<global-override-tip value="Enabling &quot;Global override&quot; here will override that parameter in all language styles. What you probably really want is to use the &quot;Default Style&quot; settings instead"/><!-- #new v8.7.1 -->
+			<global-override-tip value="啟用呢啲「Global override」選項將會覆蓋所有語言嘅樣式參數，如果「覆蓋」唔係你想要嘅嘢，你可能想試吓去改「Default Style」"/><!-- #new v8.7.1 -->
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
