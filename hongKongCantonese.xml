@@ -1553,7 +1553,7 @@
 			</DoSaveAll>
 
 			<DebugInfo title="除錯資訊"><!-- #new v8.7.0 -->
-				<Item id="1752" name="複製除錯資訊落剪貼簿(&amp;C)"/><!-- #new v8.7.0 -->
+				<Item id="1752" name="將除錯資訊抄落剪貼簿(&amp;C)"/><!-- #new v8.7.0 -->
 				<Item id="1" name="OK"/><!-- #new v8.7.0 -->
 			</DebugInfo>
 		</Dialog>
@@ -1673,7 +1673,7 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 			<SwitchUnsavedThemeWarning title="$STR_REPLACE$" message="未 save 喎！咁樣會捨棄晒啲改過嘅設定。
 換主題之前使唔使 save 咗佢先啊？"/><!-- #new v8.5 -->
 			<MacroAndRunCmdlWarning title="Macro 同埋執行指令嘅兼容度" message="你 save 喺 Notepad++ v8.5.2（或之前）嗰啲 macro 同埋執行指令，未必兼容到而家嘅版本。
-麻煩你先測試一下，有需要嘅就修改吓。
+麻煩你先測試吓，有需要就修改。
 
 又或者，你可以先將 Notepad++ 降級去 v8.5.2，回復舊有嘅資料用著先：
 Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.backup」。
