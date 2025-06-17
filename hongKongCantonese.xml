@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.3">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.5">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -598,7 +598,7 @@
 				<Item id="1626" name="加強（例如 \n, \r, \t, \0, \x...）(&amp;X)"/>
 				<Item id="1660" name="所有檔案全部取代"/>
 				<Item id="1665" name="喺 projects 嘅檔案執行取代"/><!-- #new v7.9.4 -->
-				<Item id="1661" name="使用目前文件嘅資料夾"/><!-- #legacy v8.7.5 -->
+				<Item id="1661" name="&lt;&lt;"/><!-- #legacy v8.7.5 original: 使用目前文件嘅資料夾 -->
 				<Item id="1662" name="Project Panel 1"/><!-- #new v7.9.4 -->
 				<Item id="1663" name="Project Panel 2"/><!-- #new v7.9.4 -->
 				<Item id="1664" name="Project Panel 3"/><!-- #new v7.9.4 -->
@@ -1077,7 +1077,7 @@
 					<Item id="6109" name="冇用緊嘅分頁配另一種顏色"/>
 					<Item id="6110" name="喺用緊嘅分頁上面加條顏色 bar"/>
 					<Item id="6111" name="顯示狀態列"/><!-- #legacy v8.5.3 -->
-					<Item id="6112" name="喺每個分頁顯示交叉掣"/><!-- #review v8.7.5 -->
+					<Item id="6112" name="顯示交叉掣"/><!-- #review v8.7.5 -->
 					<Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
 					<Item id="6115" name="啟用固定分頁功能"/><!-- #new v8.7.2 -->
 					<Item id="6118" name="隱藏"/>
@@ -1326,7 +1326,7 @@
 					<Item id="6908" name="將揀咗嘅字填去輸入欄"/><!-- #new v8.4.5 -->
 					<Item id="6909" name="冇揀字嘅話，就揀浮標下面個字詞"/><!-- #new v8.4.5 -->
 					<Item id="6910" name="最少字數以自動剔選「限揀選範圍」"/><!-- #new v8.5.8 -->
-					<Item id="6913" name="Fill Find in Files Directory Field Based On Active Document"/><!-- #new v8.7.5 -->
+					<Item id="6913" name="根據目前份文件填上資料夾路徑"/><!-- #new v8.7.5 -->
 				</Searching>
 
 				<RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1836,7 +1836,7 @@ $STR_REPLACE$
 所有檔案，除咗資料夾 log* (recursive)：
 *.* !+\log*"/>
 			<find-in-files-select-folder value="揀個資料夾搵嘢"/><!-- #new v8.2.1 -->
-			<find-in-files-dir-from-active-doc-tip value="Fill Directory field based on active document"/><!-- HowToReproduce: Search > Find in Files > [<<] --><!-- #new v8.7.5 -->
+			<find-in-files-dir-from-active-doc-tip value="將目前文件嘅資料夾填過去"/><!-- #new v8.7.5 -->
 			<find-status-top-reached value="搵嘢：過咗文件開端，而家喺底部第一個相符嘅字串。"/>
 			<find-status-end-reached value="搵嘢：過咗文件結尾，而家喺頂部第一個相符嘅字串。"/>
 			<find-status-replaceinfiles-1-replaced value="檔案中執行取代：取代咗 1 次。"/>
