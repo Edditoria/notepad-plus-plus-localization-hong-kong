@@ -54,7 +54,7 @@
 					<Item subMenuId="view-showSymbol" name="特殊字元"/>
 					<Item subMenuId="view-zoom" name="Zoom"/>
 					<Item subMenuId="view-moveCloneDocument" name="搬/抄呢個檔案"/>
-					<Item subMenuId="view-tab" name="Tabs"/>
+					<Item subMenuId="view-tab" name="分頁"/>
 					<Item subMenuId="view-collapseLevel" name="摺埋第 X 層"/>
 					<Item subMenuId="view-uncollapseLevel" name="展開第 X 層"/>
 					<Item subMenuId="view-project" name="Project"/>
@@ -333,13 +333,13 @@
 					<Item id="44092" name="7th"/>
 					<Item id="44093" name="8th"/>
 					<Item id="44094" name="9th"/>
-					<Item id="44116" name="第一個 tab"/><!-- #new v8.6.1 -->
-					<Item id="44117" name="最尾個 tab"/><!-- #new v8.6.1 -->
-					<Item id="44095" name="下個 tab"/>
-					<Item id="44096" name="上個 tab"/>
+					<Item id="44116" name="第一個分頁"/><!-- #new v8.6.1 -->
+					<Item id="44117" name="最尾個分頁"/><!-- #new v8.6.1 -->
+					<Item id="44095" name="下個分頁"/>
+					<Item id="44096" name="上個分頁"/>
 					<Item id="44097" name="監視模式 (tail --follow)"/>
-					<Item id="44098" name="向前移個 tab"/>
-					<Item id="44099" name="向後移個 tab"/>
+					<Item id="44098" name="向前移個分頁"/>
+					<Item id="44099" name="向後移個分頁"/>
 					<Item id="44110" name="唔用顏色"/><!-- #new v8.4.6 -->
 					<Item id="44111" name="加顏色 1"/><!-- #new v8.4.6 -->
 					<Item id="44112" name="加顏色 2"/><!-- #new v8.4.6 -->
@@ -509,20 +509,20 @@
 				<Item CMID="27" name="加顏色 4"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
 				<Item CMID="28" name="加顏色 5"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
 				<Item CMID="29" name="唔用顏色"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="30" name="閂咁啲 tabs"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+				<Item CMID="30" name="閂咁啲分頁"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
 				<Item CMID="31" name="去...打開"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
 				<Item CMID="32" name="抄去剪貼簿"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
 				<Item CMID="33" name="移動文件"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="34" name="幫個 tab 加顏色"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
+				<Item CMID="34" name="幫個分頁加顏色"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
 
 				<Item CMDID="41003" name="閂埋呢個檔案"/><!-- #new v8.4.8 -->
-				<Item CMDID="0" name="閂咁啲 tabs"/><!-- #new v8.4.8 -->
+				<Item CMDID="0" name="閂咁啲分頁"/><!-- #new v8.4.8 -->
 				<Item CMDID="41005" name="除咗呢個檔案，閂晒其它佢"/><!-- #new v8.4.8 -->
 				<Item CMDID="41026" name="除咗固定咗嘅文件，閂晒其它佢"/><!-- #new v8.7.3 -->
 				<Item CMDID="41009" name="閂晒左邊所有檔案"/><!-- #new v8.4.8 -->
 				<Item CMDID="41018" name="閂晒右邊所有檔案"/><!-- #new v8.4.8 -->
 				<Item CMDID="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/><!-- #new v8.4.8 -->
-				<Item CMDID="44048" name="固定 tab" alternativeName="取消固定 tab"/><!-- #new v8.7.3 -->
+				<Item CMDID="44048" name="固定分頁" alternativeName="取消固定分頁"/><!-- #new v8.7.3 -->
 				<Item CMDID="41006" name="Save"/><!-- #new v8.4.8 -->
 				<Item CMDID="41008" name="Save 做新檔案..."/><!-- #new v8.4.8 -->
 				<Item CMDID="1" name="去...打開"/><!-- #new v8.4.8 -->
@@ -547,7 +547,7 @@
 				<Item CMDID="10002" name="抄呢個檔案去另一邊視窗"/><!-- #new v8.4.8 -->
 				<Item CMDID="10003" name="搬呢個檔案去新視窗"/><!-- #new v8.4.8 -->
 				<Item CMDID="10004" name="抄呢個檔案去新視窗"/><!-- #new v8.4.8 -->
-				<Item CMDID="4" name="幫個 tab 加顏色"/><!-- #new v8.4.8 -->
+				<Item CMDID="4" name="幫個分頁加顏色"/><!-- #new v8.4.8 -->
 				<Item CMDID="44111" name="加顏色 1"/><!-- #new v8.4.8 -->
 				<Item CMDID="44112" name="加顏色 2"/><!-- #new v8.4.8 -->
 				<Item CMDID="44113" name="加顏色 3"/><!-- #new v8.4.8 -->
@@ -853,12 +853,12 @@
 					<Item id="44107" name="跳去資料夾工作區"/>
 					<Item id="44109" name="跳去文件清單"/><!-- #new v8.1.4 -->
 					<Item id="44108" name="跳去函式清單"/>
-					<Item id="44110" name="剷走 tab 嘅顏色"/><!-- #new v8.4.6 -->
-					<Item id="44111" name="幫個 tab 加顏色 1"/><!-- #new v8.4.6 -->
-					<Item id="44112" name="幫個 tab 加顏色 2"/><!-- #new v8.4.6 -->
-					<Item id="44113" name="幫個 tab 加顏色 3"/><!-- #new v8.4.6 -->
-					<Item id="44114" name="幫個 tab 加顏色 4"/><!-- #new v8.4.6 -->
-					<Item id="44115" name="幫個 tab 加顏色 5"/><!-- #new v8.4.6 -->
+					<Item id="44110" name="剷走分頁嘅顏色"/><!-- #new v8.4.6 -->
+					<Item id="44111" name="幫個分頁加顏色 1"/><!-- #new v8.4.6 -->
+					<Item id="44112" name="幫個分頁加顏色 2"/><!-- #new v8.4.6 -->
+					<Item id="44113" name="幫個分頁加顏色 3"/><!-- #new v8.4.6 -->
+					<Item id="44114" name="幫個分頁加顏色 4"/><!-- #new v8.4.6 -->
+					<Item id="44115" name="幫個分頁加顏色 5"/><!-- #new v8.4.6 -->
 					<Item id="11002" name="排次序：檔名 A 至 Z"/><!-- #new v8.3.2 -->
 					<Item id="11003" name="排次序：檔名 Z 至 A"/><!-- #new v8.3.2 -->
 					<Item id="11004" name="排次序：路徑 A 至 Z"/><!-- #new v8.3.2 -->
@@ -1071,15 +1071,15 @@
 					<Item id="6129" name="肥嘟嘟介面：細圖示"/><!-- "Filled Fluent UI" --><!-- #new v7.9.6 -->
 					<Item id="6130" name="肥嘟嘟介面：大圖示"/><!-- "Filled Fluent UI" --><!-- #new v7.9.6 -->
 					<Item id="6105" name="標準介面：細圖示"/>
-					<Item id="6106" name="Tab Bar"/>
+					<Item id="6106" name="分頁欄"/>
 					<Item id="6107" name="縮細"/>
 					<Item id="6108" name="鎖定（唔畀 drag-and-drop）"/>
-					<Item id="6109" name="冇用緊嘅 tabs 用另一種顏色"/>
-					<Item id="6110" name="喺用緊嘅 tab 上面加條顏色 bar"/>
+					<Item id="6109" name="冇用緊嘅分頁配另一種顏色"/>
+					<Item id="6110" name="喺用緊嘅分頁上面加條顏色 bar"/>
 					<Item id="6111" name="顯示狀態列"/><!-- #legacy v8.5.3 -->
-					<Item id="6112" name="喺每個 tab 顯示交叉掣"/>
+					<Item id="6112" name="喺每個分頁顯示交叉掣"/>
 					<Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
-					<Item id="6115" name="啟用 tab 釘選功能"/><!-- #new v8.7.2 -->
+					<Item id="6115" name="啟用固定分頁功能"/><!-- #new v8.7.2 -->
 					<Item id="6118" name="隱藏"/>
 					<Item id="6119" name="多行"/>
 					<Item id="6120" name="打直"/>
@@ -1472,8 +1472,8 @@
 					<Item id="6337" name="資料夾工作區檔案副檔名："/>
 					<Item id="6114" name="啟用"/>
 					<Item id="6117" name="啟用 MRU 行為功能"/>
-					<Item id="6344" name="文件偷睇功能（Mouse 指著 tab 嗰陣時）"/>
-					<Item id="6345" name="喺 tab 度偷睇"/>
+					<Item id="6344" name="文件偷睇功能（Mouse 指著分頁嗰陣時）"/>
+					<Item id="6345" name="喺分頁度偷睇"/>
 					<Item id="6346" name="喺文件地圖度偷睇"/>
 					<Item id="6360" name="靜音"/><!-- #new v7.9.4 -->
 					<Item id="6361" name="做「Save 晒所有檔案」之前要先做確認"/><!-- #new v8.1.2 -->
@@ -1494,7 +1494,7 @@
 				<Item id="2" name="&amp;OK"/>
 				<Item id="7002" name="&amp;Save"/>
 				<Item id="7003" name="閂視窗(&amp;C)"/>
-				<Item id="7004" name="&amp;Tabs 排次序"/>
+				<Item id="7004" name="幫分頁排次序(&amp;T)"/>
 			</Window>
 
 			<ColumnEditor title="欄位編輯器">
@@ -1574,7 +1574,7 @@
 			<DocReloadWarning title="喺磁碟重新 load 過" message="留意返！改過嘅嘢會冇晒，係咪真係要再 load 過呢個檔案？"/>
 			<FileLockedWarning title="儲存失敗" message="麻煩你檢查吓，係咪有其它應用程式開咗呢個檔案。"/>
 			<FileAlreadyOpenedInNpp title="" message="已經喺 Notepad++ 度開咗呢個檔案。"/>
-			<RenameTabTemporaryNameAlreadyInUse title="改唔到名" message="你改呢個名已經用緊喺另一個 tab 度。"/><!-- #new v7.9.2 -->
+			<RenameTabTemporaryNameAlreadyInUse title="改唔到名" message="你改呢個名已經喺另一個分頁度用緊。"/><!-- #new v7.9.2 -->
 			<RenameTabTemporaryNameIsEmpty title="改唔到名" message="改名唔好吉，淨係空格同埋 tab 都唔得。"/><!-- #new v8.5.5 -->
 			<DeleteFileFailed title="掉去垃圾桶" message="剷唔走個檔案。"/>
 
@@ -1884,7 +1884,7 @@ $STR_REPLACE$
 			<common-ok value="OK"/>
 			<common-cancel value="取消"/>
 			<common-name value="名"/>
-			<tabrename-title value="幫個 tab 改名"/>
+			<tabrename-title value="幫個分頁改名"/>
 			<tabrename-newname value="新名"/>
 			<splitter-rotate-left value="向左旋轉"/><!-- #new v7.9.4 -->
 			<splitter-rotate-right value="向右旋轉"/><!-- #new v7.9.4 -->
