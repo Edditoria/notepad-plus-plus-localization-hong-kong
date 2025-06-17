@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.1">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.2">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -1076,7 +1076,7 @@
 					<Item id="6111" name="顯示狀態列"/><!-- #legacy v8.5.3 -->
 					<Item id="6112" name="喺每個 tab 顯示交叉掣"/>
 					<Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
-					<Item id="6115" name="Enable pin tab feature"/><!-- #new v8.7.2 -->
+					<Item id="6115" name="啟用 tab 釘選功能"/><!-- #new v8.7.2 -->
 					<Item id="6118" name="隱藏"/>
 					<Item id="6119" name="多行"/>
 					<Item id="6120" name="打直"/>
@@ -1454,7 +1454,7 @@
 						<Element name="唔用"/><!-- #new v8.7.1 -->
 						<Element name="最小化視窗嗰陣縮去"/><!-- #new v8.7.1 -->
 						<Element name="閂程式嗰陣縮去"/><!-- #new v8.7.1 -->
-						<Element name="Minimize / Close to"/><!-- #new v8.7.2 -->
+						<Element name="最小化或者閂程式都縮去"/><!-- #new v8.7.2 -->
 					</ComboBox>
 					<Item id="6308" name="系統匣"/>
 					<Item id="6312" name="自動偵測檔案狀態"/>
@@ -1871,11 +1871,11 @@ $STR_REPLACE$
 			<finder-copy value="抄低呢（幾）行"/>
 			<finder-copy-verbatim value="抄"/><!-- #legacy v8.6.4 -->
 			<finder-copy-paths value="抄低檔案路徑"/><!-- #legacy v8.7.1 -->
-			<finder-copy-selected-paths value="Copy Selected Pathname(s)"/><!-- #new v8.7.2 -->
+			<finder-copy-selected-paths value="抄低揀咗嘅檔案路徑"/><!-- #new v8.7.2 -->
 			<finder-select-all value="揀晒"/><!-- #legacy v8.6.4 -->
 			<finder-clear-all value="全部清除"/>
 			<finder-open-all value="全部打開"/><!-- #legacy v8.7.1 -->
-			<finder-open-selected-paths value="Open Selected Pathname(s)"/><!-- #new v8.7.2 -->
+			<finder-open-selected-paths value="打開揀咗嘅檔案路徑"/><!-- #new v8.7.2 -->
 			<finder-purge-for-every-search value="次次都清走搜尋結果"/><!-- #new v7.9.6 -->
 			<finder-wrap-long-lines value="自動換行"/>
 			<common-ok value="OK"/>
