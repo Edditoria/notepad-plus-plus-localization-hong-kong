@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.2">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.3">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -95,7 +95,7 @@
 					<Item id="41003" name="閂埋呢個檔案(&amp;C)"/>
 					<Item id="41004" name="閂晒所有檔案(&amp;E)"/>
 					<Item id="41005" name="除咗呢個檔案，閂晒其它佢"/>
-					<Item id="41026" name="Close All BUT Pinned Documents"/><!-- #new v8.7.3 -->
+					<Item id="41026" name="除咗固定咗嘅文件，閂晒其它佢"/><!-- #new v8.7.3 -->
 					<Item id="41009" name="閂晒左邊所有檔案"/>
 					<Item id="41018" name="閂晒右邊所有檔案"/>
 					<Item id="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/>
@@ -518,11 +518,11 @@
 				<Item CMDID="41003" name="閂埋呢個檔案"/><!-- #new v8.4.8 -->
 				<Item CMDID="0" name="閂咁啲 tabs"/><!-- #new v8.4.8 -->
 				<Item CMDID="41005" name="除咗呢個檔案，閂晒其它佢"/><!-- #new v8.4.8 -->
-				<Item CMDID="41026" name="Close All BUT Pinned"/><!-- #new v8.7.3 -->
+				<Item CMDID="41026" name="除咗固定咗嘅文件，閂晒其它佢"/><!-- #new v8.7.3 -->
 				<Item CMDID="41009" name="閂晒左邊所有檔案"/><!-- #new v8.4.8 -->
 				<Item CMDID="41018" name="閂晒右邊所有檔案"/><!-- #new v8.4.8 -->
 				<Item CMDID="41024" name="閂晒啲 save 咗兼冇改過嘅檔案"/><!-- #new v8.4.8 -->
-				<Item CMDID="44048" name="Pin Tab" alternativeName="Unpin Tab"/><!-- #new v8.7.3 -->
+				<Item CMDID="44048" name="固定 tab" alternativeName="取消固定 tab"/><!-- #new v8.7.3 -->
 				<Item CMDID="41006" name="Save"/><!-- #new v8.4.8 -->
 				<Item CMDID="41008" name="Save 做新檔案..."/><!-- #new v8.4.8 -->
 				<Item CMDID="1" name="去...打開"/><!-- #new v8.4.8 -->
@@ -1074,7 +1074,7 @@
 					<Item id="6106" name="Tab Bar"/>
 					<Item id="6107" name="縮細"/>
 					<Item id="6108" name="鎖定（唔畀 drag-and-drop）"/>
-					<Item id="6109" name="整暗啲唔係用緊嘅 tabs"/><!-- #review v8.7.3 -->
+					<Item id="6109" name="冇用緊嘅 tabs 用另一種顏色"/>
 					<Item id="6110" name="喺用緊嘅 tab 上面加條顏色 bar"/>
 					<Item id="6111" name="顯示狀態列"/><!-- #legacy v8.5.3 -->
 					<Item id="6112" name="喺每個 tab 顯示交叉掣"/>
