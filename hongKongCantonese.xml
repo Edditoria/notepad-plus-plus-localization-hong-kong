@@ -479,42 +479,6 @@
 				</Commands>
 			</Main>
 			<TabBar>
-				<Item CMID="0" name="閂埋呢個檔案"/><!-- #legacy v8.4.7 -->
-				<Item CMID="1" name="除咗呢個檔案，閂晒其它佢"/><!-- #legacy v8.4.7 -->
-				<Item CMID="2" name="Save"/><!-- #legacy v8.4.7 -->
-				<Item CMID="3" name="Save 做新檔案..."/><!-- #legacy v8.4.7 -->
-				<Item CMID="4" name="Print 出嚟..."/><!-- #legacy v8.4.7 -->
-				<Item CMID="5" name="搬呢個檔案去另一邊視窗"/><!-- #legacy v8.4.7 -->
-				<Item CMID="6" name="抄呢個檔案去另一邊視窗"/><!-- #legacy v8.4.7 -->
-				<Item CMID="7" name="抄低個檔案路徑"/><!-- #legacy v8.4.7 -->
-				<Item CMID="8" name="抄低個檔名"/><!-- #legacy v8.4.7 -->
-				<Item CMID="9" name="抄低個資料夾路徑"/><!-- #legacy v8.4.7 -->
-				<Item CMID="10" name="改名..."/><!-- #legacy v8.4.7 -->
-				<Item CMID="11" name="掉去垃圾桶"/><!-- #legacy v8.4.7 -->
-				<Item CMID="12" name="將檔案 set 做唯讀"/><!-- #legacy v8.4.7 -->
-				<Item CMID="13" name="取消唯讀屬性"/><!-- #legacy v8.4.7 -->
-				<Item CMID="14" name="搬呢個檔案去新視窗"/><!-- #legacy v8.4.7 -->
-				<Item CMID="15" name="抄呢個檔案去新視窗"/><!-- #legacy v8.4.7 -->
-				<Item CMID="16" name="喺磁碟重新 load 過"/><!-- #legacy v8.4.7 -->
-				<Item CMID="17" name="閂晒左邊所有檔案"/><!-- #legacy v8.4.7 -->
-				<Item CMID="18" name="閂晒右邊所有檔案"/><!-- #legacy v8.4.7 -->
-				<Item CMID="19" name="喺檔案總管打開檔案嘅資料夾"/><!-- #legacy v8.4.7 -->
-				<Item CMID="20" name="喺 CMD 打開檔案嘅資料夾"/><!-- #legacy v8.4.7 -->
-				<Item CMID="21" name="喺系統預設程式度打開"/><!-- #legacy v8.4.7 -->
-				<Item CMID="22" name="閂晒啲 save 咗兼冇改過嘅檔案"/><!-- #legacy v8.4.7 -->
-				<Item CMID="23" name="喺資料夾工作區打開"/><!-- #new v7.9.1 --><!-- #legacy v8.4.7 -->
-				<Item CMID="24" name="加顏色 1"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="25" name="加顏色 2"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="26" name="加顏色 3"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="27" name="加顏色 4"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="28" name="加顏色 5"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="29" name="唔用顏色"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="30" name="閂咁啲分頁"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="31" name="去...打開"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="32" name="抄去剪貼簿"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="33" name="移動文件"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-				<Item CMID="34" name="幫個分頁加顏色"/><!-- #new v8.4.6 --><!-- #legacy v8.4.7 -->
-
 				<Item CMDID="41003" name="閂埋呢個檔案"/><!-- #new v8.4.8 -->
 				<Item CMDID="0" name="閂咁啲分頁"/><!-- #new v8.4.8 -->
 				<Item CMDID="41005" name="除咗呢個檔案，閂晒其它佢"/><!-- #new v8.4.8 -->
@@ -1145,7 +1109,6 @@
 				</Scintillas2>
 
 				<DarkMode title="Dark Mode"><!-- #new v7.9.6 -->
-					<Item id="7101" name="啟用 dark mode"/><!-- #legacy v8.4.7 -->
 					<Item id="7131" name="Light mode"/><!-- #new v8.4.8 -->
 					<Item id="7132" name="Dark mode"/><!-- #new v8.4.8 -->
 					<Item id="7133" name="跟返 Windows"/><!-- #new v8.4.8 -->
@@ -1316,7 +1279,6 @@
 				</Print>
 
 				<Searching title="搵嘢">
-					<Item id="6901" name="撳搵嘢／取代嗰陣，唔好將揀咗嘅字自動輸入去對話框"/><!-- #legacy v8.4.4 -->
 					<Item id="6902" name="搵／取代對話框啲字用等寬字型（需要重開 Notepad++）"/>
 					<Item id="6903" name="搵完嘢，保持開著個對話框"/>
 					<Item id="6904" name="喺所有打開咗嘅文件執行取代之前，要先做確認"/>
@@ -1369,7 +1331,6 @@
 					<Item id="6824" name="唔理數字"/>
 					<Item id="6811" name="由第"/>
 					<Item id="6813" name="個字元開始"/>
-					<Item id="6814" name="有效值：1 - 9"/><!-- #legacy v8.4.9 -->
 					<Item id="6872" name="簡化自動完成清單"/><!-- #new v8.5 -->
 					<Item id="6815" name="打字嗰陣顯示函式參數提示"/>
 					<Item id="6851" name="自動補齊"/>
@@ -1890,14 +1851,9 @@ $STR_REPLACE$
 			<tabrename-newname value="新名"/>
 			<splitter-rotate-left value="向左旋轉"/><!-- #new v7.9.4 -->
 			<splitter-rotate-right value="向右旋轉"/><!-- #new v7.9.4 -->
-			<recent-file-history-maxfile value="檔案數量："/><!-- #legacy v8.5.0 -->
-			<recent-file-history-customlength value="長度："/><!-- #new v8.4.8 --><!-- #legacy v8.5.0 -->
-			<language-tabsize value="縮排大細："/><!-- #legacy v8.4.9 -->
 			<userdefined-title-new value="開新語言..."/>
 			<userdefined-title-save value="另 Save 而家個語言名..."/>
 			<userdefined-title-rename value="改而家個語言名"/>
-			<autocomplete-nb-char value="字元數："/><!-- #legacy v8.4.9 -->
-			<edit-verticaledge-nb-col value="參考字元數："/><!-- #legacy v8.5.0 -->
 			<summary value="統計資料"/>
 			<summary-filepath value="完整檔案路徑： "/>
 			<summary-filecreatetime value="建立： "/>
