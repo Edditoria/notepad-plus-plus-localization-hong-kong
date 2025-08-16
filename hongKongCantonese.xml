@@ -326,7 +326,7 @@
                     <Item id="44114" name="加顏色 4"/> <!-- #new v8.4.6 -->
                     <Item id="44115" name="加顏色 5"/> <!-- #new v8.4.6 -->
                     <Item id="44130" name="顯示非打印字符"/> <!-- #new v8.5 -->
-                    <Item id="44131" name="Show Control Characters &amp; Unicode EOL"/> <!-- #new v8.5.3 -->
+                    <Item id="44131" name="顯示控制字符 &amp; "/> <!-- #new v8.5.3 -->
                     <Item id="44032" name="全螢幕模式"/>
                     <Item id="44033" name="回復預設 zoom 大細"/>
                     <Item id="44034" name="保持最上層"/>
@@ -1062,7 +1062,7 @@
                     <Item id="6254" name="Abbreviation"/> <!-- #new v8.5 #review commit aaab190 -->
                     <Item id="6255" name="Codepoint"/> <!-- #new v8.5 #review commit aaab190 -->
                     <Item id="6256" name="自訂顏色"/> <!-- #new v8.5 -->
-                    <Item id="6258" name="Apply to C0, C1 &amp; Unicode EOL"/> <!-- #new v8.5.3 -->
+                    <Item id="6258" name="套用喺 C0, C1 Unicode EOL &amp; "/> <!-- #new v8.5.3 -->
                 </Scintillas>
 
                 <DarkMode title="Dark Mode"> <!-- #new v7.9.6 -->
