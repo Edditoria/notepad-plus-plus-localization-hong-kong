@@ -594,7 +594,7 @@
                 <Item id="2906" name="向上(&amp;U)"/>
                 <Item id="2907" name="向下(&amp;D)"/>
                 <Item id="2908" name="方向"/>
-                <Item id="2909" name="循環(&amp;D)"/>
+                <Item id="2909" name="循環(&amp;P)"/>
                 <Item id="2910" name="搵"/>
             </FindCharsInRange>
 
