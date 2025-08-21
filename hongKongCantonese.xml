@@ -562,7 +562,7 @@
 				<Item id="1626" name="加強（例如 \n, \r, \t, \0, \x...）(&amp;X)"/>
 				<Item id="1660" name="所有檔案全部取代"/>
 				<Item id="1665" name="喺 projects 嘅檔案執行取代"/><!-- #new v7.9.4 -->
-				<Item id="1661" name="&lt;&lt;"/><!-- #legacy v8.7.5 original: 使用目前文件嘅資料夾 -->
+				<Item id="1661" name="&lt;&lt;"/><!-- #legacy v8.7.4 original: 使用目前文件嘅資料夾 -->
 				<Item id="1662" name="Project Panel 1"/><!-- #new v7.9.4 -->
 				<Item id="1663" name="Project Panel 2"/><!-- #new v7.9.4 -->
 				<Item id="1664" name="Project Panel 3"/><!-- #new v7.9.4 -->
@@ -1041,7 +1041,7 @@
 					<Item id="6109" name="冇用緊嘅分頁配另一種顏色"/>
 					<Item id="6110" name="喺用緊嘅分頁上面加條顏色 bar"/>
 					<Item id="6111" name="顯示狀態列"/><!-- #legacy v8.5.3 -->
-					<Item id="6112" name="顯示交叉掣"/><!-- #review v8.7.5 -->
+					<Item id="6112" name="顯示交叉掣"/>
 					<Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
 					<Item id="6115" name="啟用固定分頁功能"/><!-- #new v8.7.2 -->
 					<Item id="6118" name="隱藏"/>
@@ -1319,7 +1319,7 @@
 				</Backup>
 
 				<AutoCompletion title="自動完成">
-					<Item id="6115" name="自動縮排"/><!-- #legacy v8.7.2 -->
+					<Item id="6115" name="自動縮排"/><!-- #legacy v8.7.1 -->
 					<Item id="6807" name="自動完成"/>
 					<Item id="6808" name="打每隻字都行自動完成"/>
 					<Item id="6809" name="函式自動完成"/>
