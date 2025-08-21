@@ -899,6 +899,7 @@
 				<Folder title="摺疊同埋預設樣式">
 					<Item id="21101" name="預設樣式"/>
 					<Item id="21102" name="樣式"/>
+					<Item id="21103" name="User Defined Languages online help"/><!-- #new v8.7.8 -->
 					<Item id="21105" name="文件資訊"/>
 					<Item id="21104" name="臨時文件網站："/><!-- #legacy v8.5.4 -->
 					<Item id="21106" name="緊密摺疊（包括空行）"/>
@@ -1421,7 +1422,14 @@
 						<Element name="閂程式嗰陣縮去"/><!-- #new v8.7.1 -->
 						<Element name="最小化或者閂程式都縮去"/><!-- #new v8.7.2 -->
 					</ComboBox>
+					<ComboBox id="6362"><!-- #new v8.7.8 -->
+						<Element name="GDI (most compatible)"/><!-- #new v8.7.8 -->
+						<Element name="DirectWrite (default)"/><!-- #new v8.7.8 -->
+						<Element name="DirectWrite (retain frames)"/><!-- #new v8.7.8 -->
+						<Element name="DirectWrite (draw to GDI DC)"/><!-- #new v8.7.8 -->
+					</ComboBox>
 					<Item id="6308" name="系統匣"/>
+					<Item id="6363" name="rendering mode"/><!-- #new v8.7.8 -->
 					<Item id="6312" name="自動偵測檔案狀態"/>
 					<Item id="6313" name="靜靜雞喺背景更新"/>
 					<Item id="6325" name="更新後轆去最後一行"/>
@@ -1430,7 +1438,7 @@
 					<Item id="6324" name="文件切換器（Ctrl + Tab 掣）"/>
 					<Item id="6331" name="標題列淨係顯示檔案名"/>
 					<Item id="6334" name="自動偵測檔案編碼"/>
-					<Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/>
+					<Item id="6349" name="使用 DirectWrite（可以令特殊字符呈現得好啲，需要重開 Notepad++）"/><!-- #legacy v8.7.7 -->
 					<Item id="6337" name="資料夾工作區檔案副檔名："/>
 					<Item id="6114" name="啟用"/>
 					<Item id="6117" name="啟用 MRU 行為功能"/>
@@ -1950,6 +1958,8 @@ C、C++、Java、C#、Objective-C、PHP、JavaScript、JSP、CSS、Perl、Rust�
 
 			<!-- Don't translate "Global override" and "Default Style" -->
 			<global-override-tip value="啟用呢啲「Global override」選項將會覆蓋所有語言嘅樣式參數，如果「覆蓋」唔係你想要嘅嘢，你可能想試吓去改「Default Style」"/><!-- #new v8.7.1 -->
+
+			<scintillaRenderingTechnology-tip value="May improve rendering of special characters or resolve some graphics issues, restart Notepad++ to apply the changes."/><!-- #new v8.7.8 -->
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
