@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.5">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.6">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -1040,7 +1040,7 @@
 					<Item id="6108" name="鎖定（唔畀 drag-and-drop）"/>
 					<Item id="6109" name="冇用緊嘅分頁配另一種顏色"/>
 					<Item id="6110" name="喺用緊嘅分頁上面加條顏色 bar"/>
-					<Item id="6111" name="顯示狀態列"/><!-- #new v8.7.6 --><!-- #review v8.7.6  -->
+					<Item id="6111" name="喺冇用緊嘅分頁顯示交叉掣"/><!-- #new v8.7.6 -->
 					<Item id="6112" name="顯示交叉掣"/>
 					<Item id="6113" name="撳兩吓滑鼠掣去閂文件"/>
 					<Item id="6115" name="啟用固定分頁功能"/><!-- #new v8.7.2 -->
@@ -1051,9 +1051,9 @@
 					<Item id="6128" name="另類圖示"/><!-- #new v7.9.1 -->
 					<Item id="6133" name="狀態列"/><!-- #new v8.5.4 -->
 					<Item id="6134" name="隱藏"/><!-- #new v8.5.4 -->
-					<Item id="6131" name="Menu"/><!-- #new v8.4.5 -->
-					<Item id="6122" name="隱藏 menu bar（撳 Alt 或者 F10 切換）"/><!-- #review v8.7.6 -->
-					<Item id="6132" name="隱藏 menu bar 右邊嗰啲快捷鍵 ＋ ▼ ✕（需要重開 Notepad++）"/><!-- #new v8.4.5 --><!-- #review v8.7.6 -->
+					<Item id="6131" name="Menu bar"/><!-- #new v8.4.5 -->
+					<Item id="6122" name="隱藏（撳 Alt 或者 F10 切換）"/>
+					<Item id="6132" name="隱藏右邊嗰幾個快捷鍵： + ▼ ✕"/><!-- #new v8.4.5 -->
 					<Item id="6123" name="本土化"/>
 				</Global>
 
@@ -1661,9 +1661,9 @@ $STR_REPLACE$
 
 如果你真係真係想喺規則運算式模式用到「▲ 搵上一個」功能，麻煩查吓網上用戶手冊。"/><!-- #new v8.6.9 -->
 			<PrintError title="0" message="開唔到打印文件。"/><!-- #new v8.7.0 -->
-			<FindAutoChangeOfInSelectionWarning title="Search warning" message="The &quot;In selection&quot; checkbox state has been automatically modified.
-Please verify the search condition before performing the action."/> <!-- HowToReproduce: https://github.com/notepad-plus-plus/notepad-plus-plus/issues/14897#issuecomment-2564316224 --><!-- #new v8.7.6 -->
-			<Need2Restart2ShowMenuShortcuts title="Notepad++ needs to be restarted" message="Notepad++ needs to be restarted to show right menu shorcuts."/><!-- #new v8.7.6 -->
+			<FindAutoChangeOfInSelectionWarning title="搵嘢警告" message="自動改咗「限揀選範圍」個選擇。
+搵嘢之前麻煩 check 清楚啲選項。"/><!-- #new v8.7.6 -->
+			<Need2Restart2ShowMenuShortcuts title="重開 Notepad++" message="需要重開 Notepad++ 先至會顯示到 menu bar 右邊嗰幾個快捷鍵。"/><!-- #new v8.7.6 -->
 		</MessageBox>
 		<ClipboardHistory>
 			<PanelTitle name="剪貼簿記錄"/>
