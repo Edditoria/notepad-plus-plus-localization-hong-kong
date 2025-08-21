@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <NotepadPlus>
-	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.8">
+	<Native-Langue name="香港廣東話" filename="hongKongCantonese.xml" version="8.7.9">
 		<!--//
 		This localization project is maintained by real Hongkongers who speak native Hong Kong Cantonese.
 		Welcome issues and pull requests in Github repository:
@@ -1427,6 +1427,7 @@
 						<Element name="DirectWrite（預設）"/><!-- #new v8.7.8 -->
 						<Element name="DirectWrite（保留框架）"/><!-- #new v8.7.8 -->
 						<Element name="DirectWrite（繪製到 GDI DC）"/><!-- #new v8.7.8 -->
+						<Element name="DirectWrite (DirectX 11)"/><!-- #new v8.7.9 -->
 					</ComboBox>
 					<Item id="6308" name="系統匣"/>
 					<Item id="6363" name="渲染模式"/><!-- #new v8.7.8 -->
