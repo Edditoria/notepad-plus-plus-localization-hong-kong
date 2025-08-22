@@ -141,6 +141,8 @@
 					<Item id="42060" name="跟字母調轉咁排"/>
 					<Item id="42080" name="跟字母排（唔分大細楷）"/><!-- #new v7.9.1 -->
 					<Item id="42081" name="跟字母調轉咁排（唔分大細楷）"/><!-- #new v7.9.1 -->
+					<Item id="42100" name="Sort Lines In Locale Order Ascending"/><!-- #new v8.8.1 -->
+					<Item id="42101" name="Sort Lines In Locale Order Descending"/><!-- #new v8.8.1 -->
 					<Item id="42061" name="跟整數排"/>
 					<Item id="42062" name="跟整數調轉咁排"/>
 					<Item id="42063" name="跟小數位排（「,」當做小數點）"/>
@@ -1580,6 +1582,9 @@
 			<DroppingFolderAsProjectModeWarning title="操作無效" message="由於你喺「偏好設定：預設資料夾」閂咗「拖放資料夾去視窗嗰陣，會打開資料夾裏面所有檔案，而唔係放入去資料夾工作區」呢個選項，你只能夠拖放文件或者資料夾其中一種。
 有需要就啟用呢個選項，然後再試一次。"/>
 			<SortingError title="排次序出錯" message="第 $INT_REPLACE$ 行出問題，無法子以整數排次序。"/>
+			<SortLocaleMultiple title="Sort not performed" message="Sorting multiple selections is not supported."/><!-- HowToReproduce: Make a multiple selection and choose Edit | Line Operations | Sort Lines In Locale Order. --><!-- #new v8.8.1 -->
+			<SortLocaleUnknown title="Sort Failed" message="The reason the sort failed cannot be determined."/><!-- HowToReproduce: This condition is theoretical; it is unknown what could cause it. --><!-- #new v8.8.1 -->
+			<SortLocaleExcept title="Sort Failed" message="$STR_REPLACE$"/><!-- HowToReproduce: Open a large file, e.g. 500MB / 90k lines, in 32-bit Notepad++ and choose Edit | Line Operations | Sort Lines In Locale Order. --><!-- #new v8.8.1 -->
 			<ColumnModeTip title="欄位模式" message="
 有三種方法切換去欄位模式：
 
