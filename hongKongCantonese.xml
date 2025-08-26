@@ -2014,6 +2014,9 @@ C、C++、Java、C#、Objective-C、PHP、JavaScript、JSP、CSS、Perl、Rust�
 			<statusbar-Sel value="已選："/><!-- #new v8.8.0 -->
 			<statusbar-Sel-number value="Sel"/><!-- #new v8.8.0 -->
 			<toolbar-accent-tip value="呢個選項令工具列圖示顏色跟返你 Windows 嘅系統輔色設定。關於輔色 Accent color，Windows 咁講：「輔色是用來醒目提示使用者介面中的重要元素，例如按鈕、連結及其他互動式元件。」，你可以喺 Windows 設定 → 個人化 (Personalization) → 顏色 (Colors)，然後揀你想要嘅顏色。"/><!-- #new v8.8.0 -->
+			<max-len-on-search-tip value="Only $INT_REPLACE$ characters are allowed for the find/replace text length - your input could be truncated, and it won't be saved for the next session."/><!-- #new v8.8.4 -->
+			<max-len-on-save-tip value="This search input (> $INT_REPLACE$ characters) won't be saved for the next session."/><!-- #new v8.8.4 -->
+			<goto-setting-tip value="Find your setting here"/><!-- #new v8.8.4 -->
 		</MiscStrings>
 	</Native-Langue>
 </NotepadPlus>
