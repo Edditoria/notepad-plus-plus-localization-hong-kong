@@ -1316,6 +1316,7 @@
 					<Item id="6909" name="冇揀字嘅話，就揀浮標下面個字詞"/><!-- #new v8.4.5 -->
 					<Item id="6910" name="最少字數以自動剔選「限揀選範圍」"/><!-- #new v8.5.8 -->
 					<Item id="6913" name="根據目前份文件填上資料夾路徑"/><!-- #new v8.7.5 -->
+					<Item id="6916" name=": Max Characters to Auto-Fill Find Field from Selection"/><!-- #new #next -->
 				</Searching>
 
 				<RecentFilesHistory title="最近用過嘅檔案記錄">
@@ -1989,7 +1990,8 @@ Click on &quot;?&quot; button on right to open website with User Manual."/><!-- 
 			<!-- 唔好翻譯「(&quot;Non-printing characters custom color&quot;)」 -->
 			<npcCustomColor-tip value="Go to Style Configurator to change the default custom color for selected whitespace and non-printing characters (&quot;Non-printing characters custom color&quot;)."/><!-- #new v8.5 #review commit aaab190 -->
 			<npcIncludeCcUniEol-tip value="非打印字元套用埋 C0、C1 同埋 Unicode EOL 字元（下一行、行分隔同埋段落分隔符號）"/><!-- #new v8.5.3 -->
-			<searchingInSelThresh-tip value="當「搵」對話框打開嗰陣，「限揀選範圍」選項會因應你揀咗幾多個字呢，嚟決定自動剔選，最大數值係 1024，set 做 0 就唔會再自動剔選。"/><!-- #new v8.5.8 -->
+			<searchingInSelThresh-tip value="當「搵」對話框打開嗰陣，「限揀選範圍」選項會因應你揀咗幾多個字呢，嚟決定自動剔選，最大數值係 1024，set 做 0 就唔會再自動剔選。"/><!-- #new v8.5.8 --><!-- #review #next -->
+			<searchingFillFindWhat-tip value="Maximun number of selected characters in edit zone to fill automatically the &quot;Find what&quot; field when the Ctrl-F is triggered. The maximum value is $INT_REPLACE$, which is the maximum size of &quot;Find what&quot; field, limited by the system."/><!-- #new #next -->
 			<verticalEdge-tip value="填上十進位數字用嚟 mark 條跨行嘅垂直線，想劃多啲線嘅話，用空格分隔多組數字就得，多啲嚟密啲手。"/><!-- #new v8.6.5 -->
 			<fileSaveAsCopySaveButton-tip value="撳住 Shift 掣嚟撳呢個 Save 掣，可以順便打開埋個 copy。"/><!-- #new v8.7.0 -->
 			<autoIndentBasic-tip value="撳 Enter 掣開新一行嗰陣，確保而家新一行同上一行嘅縮排相同。"/><!-- #new v8.7.0 -->
