@@ -42,7 +42,7 @@
 					<Item subMenuId="edit-onSelection" name="處理揀選範圍(&amp;O)"/>
 					<Item subMenuId="edit-multiSelectALL" name="多重選擇：全部"/><!-- #new v8.6.0 -->
 					<Item subMenuId="edit-multiSelectNext" name="多重選擇：下個"/><!-- #new v8.6.0 -->
-					<Item subMenuId="edit-readonlyInNotepad++" name="Read-Only in Notepad++"/><!-- #new #next -->
+					<Item subMenuId="edit-readonlyInNotepad++" name="喺 Notepad++ set 做唯讀"/><!-- #new #next -->
 					<Item subMenuId="search-changeHistory" name="修改紀錄"/><!-- #new v8.5.5 -->
 					<Item subMenuId="search-markAll" name="成份文件咁做標記(&amp;A)"/>
 					<Item subMenuId="search-markOne" name="標記一次(&amp;O)"/><!-- #new v7.9.6 -->
@@ -215,9 +215,9 @@
 					<Item id="42027" name="文字方向：左至右"/>
 
 					<!-- type: Edit menu (cont'd) -->
-					<Item id="42028" name="喺 Notepad++ set 做唯讀"/><!-- #review #next -->
-					<Item id="42102" name="Read-Only for All Documents"/><!-- #new #next -->
-					<Item id="42103" name="Clear Read-Only for All Documents"/><!-- #new #next -->
+					<Item id="42028" name="將呢份文件 set 做唯讀"/>
+					<Item id="42102" name="將所有文件 set 做唯讀"/><!-- #new #next -->
+					<Item id="42103" name="將所有文件取消唯讀"/><!-- #new #next -->
 					<Item id="42029" name="抄低個檔案路徑"/>
 					<Item id="42030" name="抄低個檔名"/>
 					<Item id="42031" name="抄低個資料夾路徑"/>
@@ -481,8 +481,8 @@
 					<Item id="11007" name="副檔名 Z 至 A"/><!-- #new v8.3.2 -->
 					<Item id="11008" name="內容長度短至長"/><!-- #new v8.3.2 -->
 					<Item id="11009" name="內容長度長至短"/><!-- #new v8.3.2 -->
-					<Item id="11010" name="Modified Time Ascending"/><!-- #new #next -->
-					<Item id="11011" name="Modified Time Descending"/><!-- #new #next -->
+					<Item id="11010" name="修改時間：由遠至近"/><!-- #new #next -->
+					<Item id="11011" name="修改時間：由近至遠"/><!-- #new #next -->
 				</Commands>
 			</Main>
 			<TabBar>
@@ -1695,8 +1695,8 @@ Reload 會放棄你喺 Notepad++ 改過嘅嘢，咁仲繼唔繼續呢？"/>
 又或者，你可以先將 Notepad++ 降級去 v8.5.2，回復舊有嘅資料用著先：
 Notepad++ 將你舊嗰份「shortcuts.xml」備份咗去「shortcuts.xml.v8.5.2.backup」。
 將「shortcuts.xml.v8.5.2.backup」改名做「shortcuts.xml」，咁就可以回復你啲舊指令嘞。"/><!-- #new v8.5.3 -->
-			<FullReadOnlySavingForbidden title="Save failed" message="Cannot save file.
-The Notepad++ full read-only saving forbidden mode prevented the file from being saved."/><!-- #new #next -->
+			<FullReadOnlySavingForbidden title="Save 唔到" message="Save 唔到。
+Notepad++ 嘅「全唯讀下禁止 saving 模式」唔畀 save。"/><!-- #new #next -->
 			<NotEnoughRoom4Saving title="Save 唔到" message="Save 唔到。
 似乎係磁碟唔夠位，留意返你嘅檔案係冇save到嘅。"/><!-- #new v8.5.8 -->
 			<FileInaccessibleUserSession title="檔案讀唔到" message="你想 save 嘅工作階段有檔案讀唔到，包括：
@@ -1738,7 +1738,7 @@ $STR_REPLACE$
 			<ColumnPath name="路徑"/>
 			<ColumnType name="類型"/>
 			<ColumnSize name="Size"/>
-			<ColumnDateTime name="Modified time"/><!-- #new #next -->
+			<ColumnDateTime name="修改時間"/><!-- #new #next -->
 			<NbDocsTotal name="文件數量："/><!-- #new v7.9.2 -->
 			<MenuCopyName name="抄低檔名"/><!-- #new v8.1.3 -->
 			<MenuCopyPath name="抄低路徑"/><!-- #new v8.1.3 -->
